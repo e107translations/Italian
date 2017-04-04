@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/03/30 05:11:35
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LANDT_01", "anno");
 define("LANDT_02", "mese");
@@ -23,3 +29,7 @@ define("LANDT_08s", "min");
 define("LANDT_09", "sec");
 define("LANDT_09s", "secs");
 define("LANDT_AGO", "fa");
+define("LANDT_10", "Proprio Ora");
+
+
+?>

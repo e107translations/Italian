@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/03/30 05:12:32
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LAN_EMAIL_1", "Da:");
 define("LAN_EMAIL_2", "Indirizzo IP del mittente:");
@@ -25,3 +31,7 @@ define("LAN_EMAIL_187", "Indirizzo email per inviare a");
 define("LAN_EMAIL_188", "Ho pensato che potrebbe essere interessato a questa storia di notizie da");
 define("LAN_EMAIL_189", "Ho pensato che si potrebbe essere interessati a questo articolo da");
 define("LAN_EMAIL_190", "Inserire il codice visibile");
+define("LAN_SOCIAL_LINK_CHK", "Clicca sul link");
+
+
+?>

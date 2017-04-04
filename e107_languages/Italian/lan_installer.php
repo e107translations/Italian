@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/03/30 05:22:02
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LANINS_001", "Installazione di e107");
 define("LANINS_002", "Passo");
@@ -52,11 +58,11 @@ define("LANINS_044", "Creato correttamente il database.");
 define("LANINS_045", "Fare clic sul pulsante per procedere alla fase successiva.");
 define("LANINS_046", "5");
 define("LANINS_047", "Dettagli amministratore");
+define("LANINS_048", "Estensione Exif");
 define("LANINS_049", "Le due password inserite non sono uguali. Si prega di tornare indietro e riprovare.");
 define("LANINS_050", "Estensione XML");
 define("LANINS_051", "Installato");
 define("LANINS_052", "Non installato");
-define("LANINS_053", "e107 V2. x richiede l'estensione XML di PHP da installare. Si prega di contattare il tuo host o leggere le informazioni a [x] prima di continuare");
 define("LANINS_055", "Installare conferma");
 define("LANINS_056", "6");
 define("LANINS_057", "e107 ha ora tutte le informazioni di cui ha bisogno completare l'installazione.
@@ -66,13 +72,6 @@ define("LANINS_058", "7");
 define("LANINS_060", "Impossibile leggere il codice sql datafile assicurarsi il file [b]core_sql.php[/b] esiste nella directory sql [/b] [b] / e107_core /.");
 define("LANINS_061", "e107 è riuscito a creare tutte le tabelle di database necessari.
 Si prega di cancellare il database e risolvere eventuali problemi prima di riprovare.");
-define("LANINS_062", "[b] Benvenuti nel nuovo sito Web! [/b] e107 ha installato con successo e ora è pronto per accettare il contenuto.
-
-La sezione di amministrazione è [link=e107_admin/admin.php]located qui [link], fare clic per andare lì adesso. Sarà necessario effettuare il login utilizzando il nome e la password che hai inserito durante il processo di installazione.
-
-[b] Homepage di e107 supporto [/b]: [link = http://e107.org] http://e107.org [/link], troverete le FAQ e la documentazione qui.
-Forum: [link = http://e107.org/e107_plugins/forum/forum.php] http://e107.org/e107_plugins/forum/forum.php [/link] comunità di sviluppatori di Plugin: [link = http://www.e107coders.org] http://e107coders.org [/link] [b] Download [/ b] plugin: [link = http://plugins.e107.org] http://plugins.e107.org [/link] temi: [link = http://themes.e107.org] http://themes.e107.org [/link] Grazie per aver cercato di e107, speriamo che soddisfa le esigenze del sito Web.
-(È possibile eliminare questo messaggio dalla tua sezione admin).");
 define("LANINS_069", "e107 è stato installato con successo!
 
 Per motivi di sicurezza è ora necessario impostare le autorizzazioni di file sul file [b]e107_config.php[/b] a 644.
@@ -120,3 +119,17 @@ define("LANINS_126", "Per motivi di sicurezza è ora necessario impostare le aut
 define("LANINS_127", "Il database [x] esiste già. Sovrascriverlo? (tutti i dati esistenti saranno persi)");
 define("LANINS_128", "Sovrascrivere");
 define("LANINS_129", "Database non trovato.");
+define("LANINS_134", "Installazione");
+define("LANINS_135", "di");
+define("LANINS_136", "Cancella il database esistente");
+define("LANINS_137", "Trovato un database");
+define("LANINS_141", "Please fill in the form below with your MySQL details. If you do not know this information, please contact your hosting provider. You may hover over each field for additional information.");
+define("LANINS_142", "Rinomina e107.htaccess in .htaccess");
+define("LANINS_144", "Per cortesia copia ed incolla i contenuti di [b]e107.htaccess[/b]
+nel tuo [b].htaccess[/b] 
+Si prega di fare attenzione a non sovrascrivere i dati presenti nel file.");
+define("LANINS_145", "e107 v2x richiede la versione PHP [x] installata.
+Per cortesia contatta il tuo hosting o visualizza le informazioni su [x] prima di continuare.");
+
+
+?>

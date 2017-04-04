@@ -102,3 +102,5 @@ define("LAN_WROTE", "ha scritto");
 define("LAN_RE_ORDER", "Ri-ordinare");
 define("LAN_ENTER_USRNAME_EMAIL", "Inserisci il tuo username o email");
 define("LAN_PWD_REQUIRED", "Password è obbligatoria");
+define("LAN_CLOSE", "Chiudi");
+define("LAN_WEBSITE", "Sito Web");
