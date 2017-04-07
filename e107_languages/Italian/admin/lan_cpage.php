@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:12:40
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("CUSLAN_9", "Testo");
 define("CUSLAN_11", "Meta-descrizione");
@@ -40,3 +46,7 @@ define("CUSLAN_75", "Menu-id mancante rilevato:");
 define("CUSLAN_76", "Menu con percorso n.");
 define("CUSLAN_77", "cancellato");
 define("CUSLAN_78", "Non poteva eliminare il menu con il percorso");
+define("CUSLAN_79", "E' necessario inserire un titolo della pagina o il nome del menù");
+
+
+?>

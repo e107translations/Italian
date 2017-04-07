@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 21:17:39
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("COMLAN_0", "[bloccato da admin]");
 define("COMLAN_1", "Sbloccare");
@@ -56,6 +62,8 @@ define("COMLAN_337", "Aggiornato con successo.");
 define("COMLAN_400", "approvato");
 define("COMLAN_401", "bloccato");
 define("COMLAN_402", "in sospeso");
+define("COMLAN_403", "Lascia un messaggio...");
+define("COMLAN_404", "Approva");
 define("COMLAN_TYPE_1", "Notizie");
 define("COMLAN_TYPE_2", "Scarica");
 define("COMLAN_TYPE_3", "Domande frequenti");
@@ -65,3 +73,8 @@ define("COMLAN_TYPE_6", "bugtrack");
 define("COMLAN_TYPE_7", "idee");
 define("COMLAN_TYPE_8", "UserProfile");
 define("COMLAN_TYPE_PAGE", "Contenuto");
+define("COMLAN_500", "[Autenticati] per lasciare un messaggio");
+define("COMLAN_501", "Non risulti ancora registrato [premi qui per la registrazione]");
+
+
+?>

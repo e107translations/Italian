@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:10:21
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("BANLAN_2", "No divieti nell'elenco.");
 define("BANLAN_3", "Divieti esistenti");
@@ -21,7 +27,7 @@ define("BANLAN_17", "Data di divieto");
 define("BANLAN_18", "Scadenza del divieto");
 define("BANLAN_19", "Note");
 define("BANLAN_20", "Tipo");
-define("BANLAN_22", "Unknown");
+define("BANLAN_22", "Sconosciuto");
 define("BANLAN_23", "giorno/i");
 define("BANLAN_24", "ore");
 define("BANLAN_25", "Aggiungere al Banlist");
@@ -50,7 +56,7 @@ define("BANLAN_48", "Cancellate - NUM--le voci dell'elenco scaduto divieto");
 define("BANLAN_49", "Importazione CSV: sbilanciato citazioni in linea");
 define("BANLAN_50", "Importazione CSV: errore scrittura banlist record riga");
 define("BANLAN_51", "Importazione CSV: successo, - NUM-- linee importate da file");
-define("BANLAN_52", "Whitelist");
+define("BANLAN_52", "Lista Bianca");
 define("BANLAN_53", "Aggiungere alla Whitelist");
 define("BANLAN_54", "Nessuna voce in whitelist");
 define("BANLAN_55", "Data di inserimento");
@@ -91,15 +97,15 @@ define("BANLAN_90", "Eliminazione file di registro errori");
 define("BANLAN_91", "Formato data/ora di registro divieto");
 define("BANLAN_92", "Vedere la pagina funzione strftime php.net");
 define("BANLAN_93", "");
-define("BANLAN_100", "Unknown");
+define("BANLAN_100", "Sconosciuto");
 define("BANLAN_101", "Manuale");
 define("BANLAN_102", "Inondazione");
 define("BANLAN_103", "Numero di passaggi");
 define("BANLAN_104", "Errore di login");
 define("BANLAN_105", "Importati");
 define("BANLAN_106", "Utente");
-define("BANLAN_107", "Unknown");
-define("BANLAN_108", "Unknown");
+define("BANLAN_107", "Sconosciuto");
+define("BANLAN_108", "Sconosciuto");
 define("BANLAN_109", "Vecchio");
 define("BANLAN_110", "Molto probabilmente un divieto che è stato imposto prima e107 è stato aggiornato da 0.7. x");
 define("BANLAN_111", "Inserito da un admin");
@@ -117,3 +123,6 @@ define("BANLAN_122", "Lista nera");
 define("BANLAN_123", "Aggiungi alla lista nera");
 define("BANLAN_124", "Scade il");
 define("BANLAN_125", "Utilizzare il mio IP");
+
+
+?>

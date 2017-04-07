@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:08:31
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("ADMSLAN_6", "è l'amministratore del sito principale e non può essere eliminato.");
 define("ADMSLAN_13", "Amministratori esistenti");
@@ -18,8 +24,10 @@ define("ADMSLAN_56", "Amministratore del sito");
 define("ADMSLAN_58", "Amministratore del sito principale");
 define("ADMSLAN_59", "Rimuovere lo Status di Admin");
 define("ADMSLAN_61", "Amministratore eliminato");
-define("ADMSLAN_62", "Plugin Manager");
+define("ADMSLAN_62", "Gestore Plugin");
 define("ADMSLAN_71", "Clicca qui per visualizzare i privilegi");
 define("ADMSLAN_72", "ID admin:..--ID-- nome: - nome - nuove autorizzazioni:");
 define("ADMSLAN_73", "ID admin:..--ID-- nome: - il nome...");
-define("ADMSLAN_74", "Generale");
+
+
+?>

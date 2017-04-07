@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LANDT_01", "anno");
 define("LANDT_02", "mese");
 define("LANDT_03", "settimana");
@@ -24,10 +23,10 @@ define("LANDT_04s", "giorni");
 define("LANDT_05s", "ore");
 define("LANDT_06s", "minuti");
 define("LANDT_07s", "secondi");
-define("LANDT_08", "min");
-define("LANDT_08s", "min");
-define("LANDT_09", "sec");
-define("LANDT_09s", "secs");
+define("LANDT_08", "minuto");
+define("LANDT_08s", "minuti");
+define("LANDT_09", "secondo");
+define("LANDT_09s", "secondi");
 define("LANDT_AGO", "fa");
 define("LANDT_10", "Proprio Ora");
 

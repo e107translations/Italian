@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:11:49
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("CACLAN_1", "Stato del sistema di cache");
 define("CACLAN_2", "Imposta cache status");
@@ -17,7 +23,7 @@ define("CACLAN_14", "Cache di sistema contiene informazioni di configurazione di
 define("CACLAN_16", "Cache di sistema vuota");
 define("CACLAN_17", "Attualmente contiene");
 define("CACLAN_18", "file");
-define("CACLAN_19", "file");
+define("CACLAN_19", "files");
 define("CACLAN_20", "Cache della struttura di DB");
 define("CACLAN_21", "Cache della struttura di database contiene informazioni di sistema sulla struttura di tabelle di database, bisogno di varie routine di nucleo. Nessun contenuto effettivo sarà contenuto qui.");
 define("CACLAN_22", "Cache delle miniature");
@@ -26,3 +32,9 @@ define("CACLAN_24", "Cache della struttura di DB vuoto");
 define("CACLAN_25", "Svuotare la Cache delle miniature");
 define("CACLAN_26", "Svuotare tutte le Cache");
 define("CACLAN_27", "Cache del Browser vuota");
+define("CACLAN_28", "cache JS/CSS");
+define("CACLAN_29", "Consolidare e memorizzare nella cache del file javascript e nei file di fogli di stile a cascata.");
+define("CACLAN_30", "Cancella la Cache JS/CSS");
+
+
+?>

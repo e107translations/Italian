@@ -60,3 +60,52 @@ define("TPVLAN_58", "Questo tema viene fornito con contenuto di esempio pre-inst
 define("TPVLAN_59", "Si prega di essere consapevoli del fatto che la volontà del contenuto di esempio [b] sovrascriva [/b] il tuo contenuto corrente con il seguente");
 define("TPVLAN_60", "[x] record nella tabella [y]");
 define("TPVLAN_61", "Vuoi sostituire [b] [/b] il tuo contenuto corrente con il contenuto esempio predefinito fornito dal tema?");
+define("TPVLAN_62", "Cerca il Tema");
+define("TPVLAN_63", "Converti");
+
+define("TPVLAN_64", "Questo Wizard crea il meta file theme.xml utile al tuo tema.");
+define("TPVLAN_65", "Prima di iniziare : ");
+define("TPVLAN_66", "Assicurati che la directory dei temi sia scrivibile");
+define("TPVLAN_67", "Seleziona la cartella del tema per iniziare.");
+define("TPVLAN_68", "Seleziona la tua cartella dei temi");
+define("TPVLAN_69", "Disponibile per il Download");
+define("TPVLAN_70", "Preview/Live-demo : ");
+define("TPVLAN_71", "Non Specificato");
+define("TPVLAN_72", "Impostare le pagine che dovrebbe utilizzare automaticamente il layout. Una per riga.");
+define("TPVLAN_73", "Attiva i Menu");
+define("TPVLAN_74", "Attiva il Seguente:");
+define("TPVLAN_75", "Prezzo");
+define("TPVLAN_76", "Free");
+define("TPVLAN_77", "Consigliato!");
+define("TPVLAN_78", "Requisiti");
+define("TPVLAN_79", "cURL is currently required to use this feature. Contact your webhosting provider to enable cURL");
+define("TPVLAN_80", "Non ho rilevato temi, con i tuoi criteri di ricerca");
+
+// convert
+define("TPVLAN_CONV_1", "Passo 1");
+define("TPVLAN_CONV_2", "Passo 2");
+define("TPVLAN_CONV_3", "Il nome del tuo tema. (Must be written in English)");
+define("TPVLAN_CONV_4", "If you have a language file, enter the LAN_XXX value for the theme's name");
+define("TPVLAN_CONV_5", "La versione del tuo tema. Format: x.x");
+define("TPVLAN_CONV_6", "Data Creazione del tuo tema");
+define("TPVLAN_CONV_7", "Compatible with this version of e107");
+define("TPVLAN_CONV_8", "Author Name");
+define("TPVLAN_CONV_9", "Author Website Url");
+define("TPVLAN_CONV_10", "A short one-line description of the plugin. (!@#$%^&* characters not permitted)(Must be written in English)");
+define("TPVLAN_CONV_11", "Keyword/Tag for this theme (Must be written in English)");
+define("TPVLAN_CONV_12", "A full description of the theme (Must be written in English)");
+define("TPVLAN_CONV_13", "What category of theme is this?");
+define("TPVLAN_CONV_14", "Enable this stylesheet as a selectable option in the Theme Manager.");
+define("TPVLAN_CONV_15", "Give this stylesheet a name");
+define("TPVLAN_CONV_16", "URL to a live-demo of this theme.");
+
+//marketplace
+define("TPVLAN_81","Downloading..."); 
+define("TPVLAN_82","Download Complete!");
+define("TPVLAN_83","Automated download not possible!");
+define("TPVLAN_84","[Please Download Manually]");
+define("TPVLAN_85","Connecting...");
+define("TPVLAN_86","Imppssibile sostituire il tema del sito.");
+// define("TPVLAN_87","Rendering Theme Config"); //XXX Debug info
+define("TPVLAN_88","Convertitore");
+define("TPVLAN_89", "Apply dashboard preferences to all administrators");

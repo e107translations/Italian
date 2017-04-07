@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 13:06:40
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Impostazioni utente");
 define("MAX_AVWIDTH", "Dimensione massima avatar (LXA) è");
@@ -25,7 +31,6 @@ define("LAN_USET_17", "Visualizzare nome già utilizzato. Scegli un altro");
 define("LAN_USET_18", "Dati utente modificato da admin:..--ID..., nome di login: - LOGNAME...");
 define("LAN_USET_20", "È necessario modificare la password dell'utente anche se si stanno cambiando il loro indirizzo e-mail o nome di accesso");
 define("LAN_USET_21", "Immettere nuovamente la password, la preghiamo di confermare le modifiche:");
-define("LAN_USET_22", "Password non valida!");
 define("LAN_USET_23", "Lasciare vuoto per mantenere la password esistente");
 define("LAN_USET_24", "Nuova password:");
 define("LAN_USET_25", "Digitare nuovamente la nuova password:");
@@ -77,3 +82,6 @@ define("LAN_435", "File XML User Protocol");
 define("LAN_CUSTOMTITLE", "Titolo personalizzato");
 define("LAN_USET_5", "Sottoscritto");
 define("LAN_USET_6", "Iscriviti alla nostra mailing-elenchi e/o sezioni del presente sito.");
+
+
+?>

@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 12:44:08
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Caricare");
 define("LAN_UL_001", "Indirizzo email non valido");
@@ -42,3 +48,6 @@ define("LAN_418", "Dimensione file massima assoluta:");
 define("DOWLAN_11", "Categoria");
 define("LAN_419", "Tipi di file consentiti");
 define("LAN_420", "i campi sono obbligatori");
+
+
+?>

@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 12:49:18
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LAN_USER_01", "Nome visualizzato");
 define("LAN_USER_02", "Nome di login");
@@ -60,7 +66,6 @@ define("LAN_USER_66", "Visite al sito dal registrazione");
 define("LAN_USER_67", "Chatbox post");
 define("LAN_USER_68", "Commento Pubblicato");
 define("LAN_USER_69", "Messaggi nel forum");
-define("LAN_USER_70", "Visualizza");
 define("LAN_USER_71", "Firma:");
 define("LAN_USER_72", "Avatar:");
 define("LAN_USER_73", "scelta di contenuto/mailing list");
@@ -77,3 +82,13 @@ define("LAN_USER_83", "Nascondi indirizzo email?:");
 define("LAN_USER_84", "Ciò impedirà il tuo indirizzo email venga visualizzato sul sito");
 define("LAN_USER_85", "Se si desidera modificare il nome utente, è necessario chiedere un amministratore del sito");
 define("LAN_USER_86", "Dimensione massima avatar è--larghezza-- x-- altezza - pixel");
+define("LAN_USER_87", "Autenticati per valutare questo utente");
+define("LAN_XUP_ERRM_01", "Registrazione  fallita. Questa funzionalità è disattivata.");
+define("LAN_XUP_ERRM_02", "Registrazione fallita. Fornitore di hosting errato.");
+define("LAN_XUP_ERRM_03", "Accesso fallito. Fornitore di hosting errato");
+define("LAN_XUP_ERRM_04", "Registrazione fallita. Il nome utente risulta già registrato");
+define("LAN_XUP_ERRM_05", "Registrazione fallita. L'Utente è già registrato. Utilizzata il login di accesso");
+define("LAN_XUP_ERRM_06", "Accesso fallito! Non è  stata rilevato un indirizzo di posta elettronica.Non è possibile proseguire la registrazione senza indicare un account di posta.");
+
+
+?>

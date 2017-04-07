@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LANINS_001", "Installazione di e107");
 define("LANINS_002", "Passo");
 define("LANINS_003", "1");
@@ -84,19 +83,18 @@ define("LANINS_071", "Installazione completa");
 define("LANINS_072", "Nome utente admin");
 define("LANINS_073", "Questo è il nome che verrà utilizzato per effettuare il login nel sito. Se si desidera utilizzare questo come nome visualizzato anche");
 define("LANINS_074", "Nome visualizzato admin");
-define("LANINS_076", "Admin Password");
+define("LANINS_076", "Password Amministratore");
 define("LANINS_077", "Si prega di digitare la password di amministratore che si desidera utilizzare qui");
 define("LANINS_078", "Conferma Password di admin");
 define("LANINS_079", "Si prega di digitare la password di admin per conferma");
-define("LANINS_080", "Admin Email");
+define("LANINS_080", "Email Amministratore");
 define("LANINS_081", "Inserisci il tuo indirizzo e-mail");
 define("LANINS_083", "MySQL ha riportato l'errore:");
 define("LANINS_084", "Il programma di installazione non ha potuto stabilire una connessione al database");
 define("LANINS_085", "Il programma di installazione non è in grado di selezionare database:");
 define("LANINS_086", "Admin Username, Password di Admin e Admin Email sono [b] [/b] campi obbligatori. Si prega di tornare all'ultima pagina e garantire che le informazioni sono state inserite correttamente.");
 define("LANINS_105", "Un inizio di nome o il prefisso di database con alcune cifre seguito da 'e' o 'E' non è accettabile");
-define("LANINS_106", "AVVISO - e107 Impossibile scrivere la directory e/o i file elencati. Mentre questo non fermerà l'installazione di e107, vorrà dire che alcune funzionalità non sono disponibili.
-				Sarà necessario modificare le autorizzazioni file per utilizzare queste funzionalità");
+define("LANINS_106", "AVVISO - e107 Impossibile scrivere la directory e/o i file elencati. Mentre questo non fermerà l'installazione di e107, vorrà dire che alcune funzionalità non sono disponibili.Sarà necessario modificare le autorizzazioni file per utilizzare queste funzionalità");
 define("LANINS_107", "Nome del sito Web");
 define("LANINS_108", "Il mio sito Web");
 define("LANINS_109", "Tema del sito");
@@ -123,7 +121,7 @@ define("LANINS_134", "Installazione");
 define("LANINS_135", "di");
 define("LANINS_136", "Cancella il database esistente");
 define("LANINS_137", "Trovato un database");
-define("LANINS_141", "Please fill in the form below with your MySQL details. If you do not know this information, please contact your hosting provider. You may hover over each field for additional information.");
+define("LANINS_141", "Si prega di compilare il modulo con i tuoi dati di MySQL. Se non si conoscono queste informazioni, si prega di contattare il proprio fornitore di hosting. Si può passare il mouse sopra ogni campo per ulteriori informazioni.");
 define("LANINS_142", "Rinomina e107.htaccess in .htaccess");
 define("LANINS_144", "Per cortesia copia ed incolla i contenuti di [b]e107.htaccess[/b]
 nel tuo [b].htaccess[/b] 

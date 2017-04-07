@@ -1,15 +1,21 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 12:41:30
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Registro");
 define("LAN_EMAIL_01", "Caro");
 define("LAN_EMAIL_04", "Si prega di tenere questa email per vostra informazione.");
 define("LAN_EMAIL_05", "La password è criptata e non può essere recuperata se hai spostato o dimenticarlo. Tuttavia è possibile richiedere una nuova password, in questo caso.");
 define("LAN_EMAIL_06", "Grazie per la tua registrazione.");
-define("LAN_SIGNUP_1", "Min.");
+define("LAN_SIGNUP_1", "Minimo.");
 define("LAN_SIGNUP_2", "i caratteri.");
 define("LAN_SIGNUP_3", "Codice di verifica non riuscita.");
 define("LAN_SIGNUP_4", "La password deve essere almeno");
@@ -17,7 +23,7 @@ define("LAN_SIGNUP_5", "caratteri di lunghezza.");
 define("LAN_SIGNUP_8", "Grazie!");
 define("LAN_SIGNUP_9", "Impossibile continuare.");
 define("LAN_SIGNUP_11", ".");
-define("LAN_SIGNUP_12", "si prega di tenere il tuo username e la password scritta in un luogo sicuro come se perso che non possono essere recuperati.");
+define("LAN_SIGNUP_12", "si prega di tenere la tua username e la tua password scritta in un luogo sicuro per qualsiasi evenienza.");
 define("LAN_SIGNUP_13", "Può ora accedere dalla finestra di dialogo, o da [qui].");
 define("LAN_SIGNUP_14", "qui");
 define("LAN_SIGNUP_15", "Si prega di contattare l'amministratore del sito principale");
@@ -30,7 +36,6 @@ define("LAN_SIGNUP_23", "effettuare il login.");
 define("LAN_SIGNUP_24", "Grazie per esserti registrato a");
 define("LAN_SIGNUP_25", "Caricare il tuo avatar");
 define("LAN_SIGNUP_26", "Caricare la vostra fotografia");
-define("LAN_SIGNUP_27", "Visualizza");
 define("LAN_SIGNUP_30", "Se non si desidera visualizzare il tuo indirizzo email su questo sito, si prega di selezionare 'Sì' per l'opzione 'Nascondi indirizzo di e-mail?'.");
 define("LAN_SIGNUP_34", "Si prega di notare: qualsiasi immagine caricata su questo server che è ritenuto inadeguato da parte degli amministratori verrà immediatamente cancellati.");
 define("LAN_SIGNUP_36", "Errore durante la creazione di tue informazioni utente, si prega di contattare l'amministratore del sito");
@@ -48,7 +53,6 @@ define("LAN_SIGNUP_48", "Nome utente o Email");
 define("LAN_SIGNUP_49", "Se ti sei registrato con il torto indirizzo email, come pure di riempimento nella casella in alto, digitare un nuovo indirizzo email e la password qui:");
 define("LAN_SIGNUP_50", "Nuova Email");
 define("LAN_SIGNUP_51", "Vecchia Password");
-define("LAN_SIGNUP_52", "Password non corretta");
 define("LAN_SIGNUP_53", "campo fallito il test di convalida");
 define("LAN_SIGNUP_54", "Clicca qui per compilare i tuoi dati per registrarti");
 define("LAN_SIGNUP_58", "Anteprima di Signup");
@@ -101,3 +105,14 @@ define("LAN_SIGNUP_109", "È tra maiuscole e minuscole e non deve contenere spaz
 define("LAN_SIGNUP_110", "Il tuo nome completo");
 define("LAN_SIGNUP_111", "Immettere un URL alla tua immagine o scegli un avatar esistente.");
 define("LAN_SIGNUP_112", "Sei attualmente loggato come amministratore principale.");
+define("LAN_SIGNUP_113", "Sottoscrizione(i)");
+define("LAN_SIGNUP_114", "La registrazione utenti é attualmente disabilitata");
+define("LAN_SIGNUP_115", "Anteprima della email di attivazione");
+define("LAN_SIGNUP_116", "Anteprima dopo l'Invio del Form");
+define("LAN_SIGNUP_117", "Invia una Attivazione di Test");
+define("LAN_SIGNUP_118", "A [x]");
+define("LAN_SIGNUP_119", "Non inviare email");
+define("LAN_SIGNUP_120", "Oppure");
+
+
+?>

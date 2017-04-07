@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:16:49
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LAN_CRON_M_02", "Aggiornamento");
 define("LAN_CRON_2", "Funzione");
@@ -37,7 +43,6 @@ define("LAN_CRON_20_3", "Consigliato per mantenere il sistema aggiornato.");
 define("LAN_CRON_20_4", "Aggiornare questo repository Git");
 define("LAN_CRON_20_5", "Aggiornare l'installazione di e107 con i file più recenti da github.");
 define("LAN_CRON_20_6", "Consigliato solo per gli sviluppatori.");
-define("LAN_CRON_20_7", "Attenzione!");
 define("LAN_CRON_20_8", "Può causare instabilità del sito!");
 define("LAN_CRON_30", "Ogni minuto");
 define("LAN_CRON_31", "Ogni minuto");
@@ -56,6 +61,15 @@ define("LAN_CRON_50", "Minute (s):");
 define("LAN_CRON_51", "Ora (e):");
 define("LAN_CRON_52", "Negli ultimi giorni:");
 define("LAN_CRON_53", "Mesi:");
-define("LAN_CRON_54", "Weekday(s):");
+define("LAN_CRON_54", "Giorno(i) della Settimana:");
+define("LAN_CRON_60", "Vai a cPanel");
+define("LAN_CRON_61", "Genera una nuova cron password ");
+define("LAN_CRON_62", "Esegui la funzione config[b][x][/b]");
+define("LAN_CRON_63", "La funzione Config [b][x][/b] Non Trovata.");
+define("LAN_CRON_64", "Un amministratore può automatizzare le attività utilizzando Task Schedule e107. [Br] Nella scheda Gestione, è possibile modificare, eliminare ed eseguire compiti. [Br] Quando si modifica un compito si possono settare minuti, ore, giorni, mese o giorno della settimana in cui si desidera eseguire le attività. Utilizzare * per eseguire per ciascun periodo. Utilizzare la proprietà Active su Abilitato Task [br] Nota:.. Si consiglia di non eliminare i processi standard di [br]");
 define("LAN_CRON_BACKUP", "Backup");
 define("LAN_CRON_LOGGING", "Registrazione");
+define("LAN_CRON_RUNNING", "In Esecuzione");
+
+
+?>

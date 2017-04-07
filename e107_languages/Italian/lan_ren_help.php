@@ -9,30 +9,29 @@
 |        $Author: admin $
 +---------------------------------------------------------------+
 */
-
 define("LANHELP_1", "Nero");
 define("LANHELP_2", "Blu");
-define("LANHELP_3", "Brown");
+define("LANHELP_3", "Marrone");
 define("LANHELP_4", "Ciano");
 define("LANHELP_5", "Blu scuro");
 define("LANHELP_6", "Rosso scuro");
 define("LANHELP_7", "Verde");
-define("LANHELP_8", "Indigo");
-define("LANHELP_9", "Oliva");
-define("LANHELP_10", "Orange");
+define("LANHELP_8", "Indaco");
+define("LANHELP_9", "Olivastro");
+define("LANHELP_10", "Arancione");
 define("LANHELP_11", "Rosso");
 define("LANHELP_12", "Viola");
 define("LANHELP_13", "Bianco");
 define("LANHELP_14", "Giallo");
-define("LANHELP_15", "Piccoli");
+define("LANHELP_15", "Minuscolo");
 define("LANHELP_16", "Piccolo");
 define("LANHELP_17", "Normale");
 define("LANHELP_18", "Grande");
 define("LANHELP_19", "Più grande");
 define("LANHELP_20", "Massiccia");
-define("LANHELP_21", "Fare clic per aprire la finestra di dialogo colore...");
-define("LANHELP_22", "Fare clic per aprire la finestra di dialogo dimensioni...");
-define("LANHELP_23", "Inserire link: \n [link]http://mysite.com[/link] o [link=http://yoursite.com]Visit My Site [/link]");
+define("LANHELP_21", "Fare clic per aprire la finestra dei colori...");
+define("LANHELP_22", "Fare clic per aprire la finestra delle dimensioni...");
+define("LANHELP_23", "Inserire link: \n [link]http://mysite.com[/link] o [link=http://yoursite.com]Visita il mio sito Web [/link]");
 define("LANHELP_24", "Grassetto testo: \n [b] questo testo è grassetto [/b] ',' font-weight: bold; Larghezza: 20px");
 define("LANHELP_25", "Corsivo testo: \n [i] questo testo è corsivo [/i] ',' font-style: italic; Larghezza: 20px");
 define("LANHELP_26", "Sottolineatura testo: \n [u] questo testo è sottolineato [/u] ',' text-decoration: underline; Larghezza: 20px");

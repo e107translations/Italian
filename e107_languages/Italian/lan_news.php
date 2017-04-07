@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 12:27:34
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Notizie");
 define("LAN_NEWS_1", "Notizie specifiche solo per i soci");
@@ -28,5 +34,10 @@ define("LAN_NEWS_85", "Torna alla panoramica delle categorie");
 define("LAN_NEWS_86", "Notizie più vecchie");
 define("LAN_NEWS_87", "News più recenti");
 define("LAN_NEWS_462", "Nessun elemento di novità per mese specificato");
-define("LAN_NEWS_100", "Il");
+define("LAN_NEWS_463", "Non ci sono news per la categoria specificata - si prega di ricontrollare  a breve.");
+define("LAN_NEWS_100", "In");
 define("LAN_NEWS_307", "Totale messaggi in questa categoria:");
+define("LAN_NEWS_308", "Stai cercando una delle Notizie sottoelencate?");
+
+
+?>

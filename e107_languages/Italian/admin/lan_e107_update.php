@@ -1,12 +1,19 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:25:00
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LAN_UPDATE_2", "Azione");
 define("LAN_UPDATE_3", "Non necessaria");
 define("LAN_UPDATE_4", "Aggiornare da [x] [y]");
+define("LAN_UPDATE_5", "Aggiorna la struttura core del Database");
 define("LAN_UPDATE_7", "Eseguito [x]");
 define("LAN_UPDATE_12", "Una delle vostre tabelle contiene voci duplicate.");
 define("LAN_UPDATE_13", "Aggiungere impostazioni di base mancanti o aggiuntivi");
@@ -40,3 +47,6 @@ define("LAN_UPDATE_56", "Aggiornamento del sistema");
 define("LAN_UPDATE_57", "Prima di continuare, si prega di eliminare manualmente le seguenti cartelle obsoleti dal sistema:");
 define("LAN_UPDATE_CAPTION_PLUGIN", "Aggiornamenti plugin");
 define("LAN_UPDATE_CAPTION_CORE", "Aggiornamenti di base");
+
+
+?>

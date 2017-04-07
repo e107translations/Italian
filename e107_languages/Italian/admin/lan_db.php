@@ -1,19 +1,23 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:24:35
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 define("DBLAN_1", "Impostazioni di base di backup nel database.");
 define("DBLAN_4", "Selezionare questa opzione per controllare la validità del database e107");
 define("DBLAN_5", "Verifica validità database");
 define("DBLAN_6", "Selezionare questa opzione per ottimizzare il database di e107");
 define("DBLAN_7", "Ottimizzare il database SQL");
 define("DBLAN_8", "Selezionare questa opzione per il backup delle impostazioni di base");
-define("DBLAN_9", "Backup core");
+define("DBLAN_9", "Backup Struttura");
 define("DBLAN_10", "Utilità database");
-define("DBLAN_11", "Database MySQL");
-define("DBLAN_12", "ottimizzato");
+define("DBLAN_11", "Database MySQL [x] ottimizzato");
 define("DBLAN_15", "Selezionare per verificare eventuali aggiornamenti disponibili db");
 define("DBLAN_16", "Controlla aggiornamenti");
 define("DBLAN_17", "Nome di pref.");
@@ -22,7 +26,7 @@ define("DBLAN_19", "Selezionare questa opzione per aprire l'editor delle prefere
 define("DBLAN_20", "Editor delle preferenze");
 define("DBLAN_22", "Visualizzazione di plug e scansione");
 define("DBLAN_23", "Scansione completata");
-define("DBLAN_25", "Directory");
+define("DBLAN_25", "Cartella");
 define("DBLAN_26", "Componenti aggiuntivi inclusi");
 define("DBLAN_27", "Installato");
 define("DBLAN_28", "Selezionare scansione plugin directory per le modifiche");
@@ -102,3 +106,18 @@ define("DBLAN_107", "[cartella] non è scrivibile");
 define("DBLAN_108", "Data di creazione:");
 define("DBLAN_109", "Copiati:");
 define("DBLAN_110", "Non poteva copiare:");
+define("DBLAN_111", "Le tabelle sembrano okay!");
+define("DBLAN_112", "Sincronizza con Github");
+define("DBLAN_113", "Sovrascrivi i Files");
+define("DBLAN_114", "Solo modalità Sviluppatore");
+define("DBLAN_115", "Sovrascrivi i files locali con la versione aggiornata in github");
+define("DBLAN_116", "Questo scaricherà il file .zip  più aggiornato dal repository github");
+define("DBLAN_117", "e poi decomprimerlo, sovrascrivendo i file esistenti che trova sul server. 
+Si prenderanno in considerazione eventuali cartelle personalizzate che sono stati impostati in e107_config.php");
+define("DBLAN_118", "Impossibile scaricare il file .zip");
+define("DBLAN_119", "Backup");
+define("DBLAN_120", "Inizio Backup.....");
+define("DBLAN_121", "Muovi [x] su [y].");
+
+
+?>

@@ -1,9 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 16:27:29
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 define("LAN_EURL_NAME", "Gestire gli URL del sito");
 define("LAN_EURL_NAME_CONFIG", "Profili");
 define("LAN_EURL_NAME_ALIASES", "Alias");
@@ -23,6 +28,8 @@ define("LAN_EURL_FORM_HELP_ALIAS_0", "Valore predefinito è");
 define("LAN_EURL_FORM_HELP_ALIAS_1", "Alias di quando in");
 define("LAN_EURL_FORM_HELP_EXAMPLE", "URL di base");
 define("LAN_EURL_ERR_ALIAS_MODULE", "Alias '%1\$s' non può essere salvata - c'è un profilo di URL di sistema con lo stesso nome. Si prega di scegliere un altro valore di alias per il profilo di sistema URL '%2\$s'");
+define("LAN_EURL_SURL_UPD", "  Gli URLs Personalizzati sono stati aggiornati");
+define("LAN_EURL_SURL_NUPD", "  Gli URLs Personalizzati NON Sono stati aggiornati");
 define("LAN_EURL_SETTINGS_PATHINFO", "Rimuovere il nome del file dall'URL");
 define("LAN_EURL_SETTINGS_MAINMODULE", "Spazio dei nomi radice di associare");
 define("LAN_EURL_SETTINGS_MAINMODULE_HELP", "Scegliere quale area del sito sarà collegato con il tuo URL del sito di base. Esempio: Quando la notizia è la radice dello spazio dei nomi http://yoursite.com/News-Item-Title sarà associato con notizie (pagina vista elemento sarà risolto)");
@@ -46,7 +53,7 @@ define("LAN_EURL_MENU_CONFIG", "Profili di URL");
 define("LAN_EURL_MENU_ALIASES", "Alias");
 define("LAN_EURL_MENU_SETTINGS", "Impostazioni");
 define("LAN_EURL_MENU_HELP", "Guida");
-define("LAN_EURL_MENU_REDIRECTS", "Reindirizzamenti");
+define("LAN_EURL_MENU_PROFILES", "Profili");
 define("LAN_EURL_UC", "In costruzione");
 define("LAN_EURL_CORE_MAIN", "Sito Root Namespace - alias non in uso.");
 define("LAN_EURL_FRIENDLY", "Amichevole");
@@ -80,3 +87,9 @@ define("LAN_EURL_SYSTEM_REWRITE_LABEL", "Sistema amichevole URL");
 define("LAN_EURL_SYSTEM_REWRITE_DESCR", "Gli URL per le pagine come non trovato, accesso negato, ecc.");
 define("LAN_EURL_CORE_INDEX", "Prima pagina");
 define("LAN_EURL_CORE_INDEX_INFO", "Su pagina non può avere un alias.");
+define("LAN_EURL_REBUILD", "Ricostruisci");
+define("LAN_EURL_REGULAR_EXPRESSION", "Espressine regolare");
+define("LAN_EURL_KEY", "Chiave");
+
+
+?>

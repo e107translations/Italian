@@ -229,3 +229,4 @@ define("EPL_ADLAN_229", "Aggiornamento");
 define("LAN_UPGRADE_SUCCESSFUL", "Aggiornamento con successo");
 define("LAN_INSTALL_SUCCESSFUL", "Installazione riuscita");
 define("LAN_INSTALL_FAIL", "Installazione non riuscita");
+define ("EPL_ADLAN_240","Removing Table:");
