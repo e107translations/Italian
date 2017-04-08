@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 23:37:27
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("NWSLAN_4", "News - Notizie esistenti");
 define("NWSLAN_6", "Categoria");
@@ -81,7 +87,6 @@ define("NWSLAN_123", "Pubblicato");
 define("NWSLAN_127", "Modello predefinito");
 define("NWSLAN_128", "Impostare una stringa da utilizzare nell'URL di pagine di notizie. Questo funzionerà solo corretto. htaccess regole e <a href='%s'>config eURL</a><br>Risolto URL basato sul valore corrente:");
 define("LAN_NEWS_23", "Scegliere un'immagine o un video per questa notizia");
-define("LAN_NEWS_27", "Riepilogo");
 define("LAN_NEWS_28", "Appiccicoso");
 define("LAN_NEWS_29", "Selezionare se la notizia sarà appiccicoso");
 define("LAN_NEWS_30", "Se selezionato, notizia apparirà sopra tutti gli altri");
@@ -112,8 +117,8 @@ define("LAN_NEWS_68", "Elemento inoltrato");
 define("LAN_NEWS_69", "Area predefinita");
 define("LAN_NEWS_70", "Area predefinita - titolo");
 define("LAN_NEWS_71", "Area predefinita - titolo/riepilogo");
-define("LAN_NEWS_72", "Sidebar - Othernews");
-define("LAN_NEWS_73", "Sidebar - Othernews 2");
+define("LAN_NEWS_72", "Barra Laterale - Altre news");
+define("LAN_NEWS_73", "Barra Laterale- Altre News2");
 define("LAN_NEWS_74", "Carosello");
 define("LAN_NEWS_75", "Featurebox");
 define("LAN_NEWS_87", "es. blogsearch.google.com/ping/RPC2");
@@ -124,3 +129,23 @@ define("LAN_NEWS_91", "Limite di visualizzazione elenco per pagina");
 define("LAN_NEWS_92", "es. News.php?all o news.php?cat.1 o news.php?tag=xxx");
 define("LAN_NEWS_93", "Elenco-visualizzare il contenuto");
 define("LAN_NEWS_94", "Gli elementi assegnati a questi modelli verranno visualizzati nell'elenco.");
+define("LAN_NEWS_95", "Un'altra notizia sta usando il SEF URL: [x]");
+define("LAN_NEWS_96", "Approva");
+define("LAN_NEWS_97", "Menù Griglia News");
+define("LAN_NEWS_98", "Servizi Ping");
+define("LAN_NEWS_99", "Si accettano solo immagini più grandi di");
+define("LAN_NEWS_100", "Tutte le taglie");
+define("LAN_NEWS_101", "Invia News");
+define("LAN_NEWS_102", "Apri in una nuova tabella");
+define("LAN_NEWS_103", "Notifica per Email");
+define("LAN_NEWS_104", "Attivare una notifica via email quando si invia questo modulo.");
+define("LAN_NEWS_105", "Notifica Email attivato!");
+define("LAN_NEWS_106", "Gli articoli delle News devono includere 'tutti'  per le notifiche email di lavoro");
+define("LAN_NEWS_107", "Controlla lo stato del Ping");
+define("LAN_NEWS_108", "L'URL Personalizzato é diverso dal Titolo della notizia");
+define("LAN_NEWS_109", "Attivare una notifica via email quando si invia questo modulo.");
+define("LAN_NEWS_110", "Scadenza Cache News");
+define("LAN_NEWS_111", "Tempo in minuti. Si applica solo quando cache di sistema è attivata.");
+
+
+?>

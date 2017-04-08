@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 23:56:32
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("TPVLAN_1", "Si sta guardando un anteprima del <b>' '. PREVIEWTHEMENAME.''</b> tema. Non è stato impostato come tema principale per il tuo sito, è stato attivato per fornire un'anteprima di come appare il tema.<br>Per impostare questo tema come il tema del sito, <a href=''.e_ADMIN.'theme.php?choose'>tornare al gestore di tema</a> e seleziona 'Imposta come tema sito'.<br>Per visualizzare in anteprima altri temi si prega di <a href=''.e_ADMIN.'theme.php'>cliccare qui</a>");
 define("TPVLAN_2", "Anteprima del tema");
@@ -62,14 +68,13 @@ define("TPVLAN_60", "[x] record nella tabella [y]");
 define("TPVLAN_61", "Vuoi sostituire [b] [/b] il tuo contenuto corrente con il contenuto esempio predefinito fornito dal tema?");
 define("TPVLAN_62", "Cerca il Tema");
 define("TPVLAN_63", "Converti");
-
 define("TPVLAN_64", "Questo Wizard crea il meta file theme.xml utile al tuo tema.");
-define("TPVLAN_65", "Prima di iniziare : ");
+define("TPVLAN_65", "Prima di iniziare :");
 define("TPVLAN_66", "Assicurati che la directory dei temi sia scrivibile");
 define("TPVLAN_67", "Seleziona la cartella del tema per iniziare.");
 define("TPVLAN_68", "Seleziona la tua cartella dei temi");
 define("TPVLAN_69", "Disponibile per il Download");
-define("TPVLAN_70", "Preview/Live-demo : ");
+define("TPVLAN_70", "Preview/Live-demo :");
 define("TPVLAN_71", "Non Specificato");
 define("TPVLAN_72", "Impostare le pagine che dovrebbe utilizzare automaticamente il layout. Una per riga.");
 define("TPVLAN_73", "Attiva i Menu");
@@ -80,8 +85,6 @@ define("TPVLAN_77", "Consigliato!");
 define("TPVLAN_78", "Requisiti");
 define("TPVLAN_79", "cURL is currently required to use this feature. Contact your webhosting provider to enable cURL");
 define("TPVLAN_80", "Non ho rilevato temi, con i tuoi criteri di ricerca");
-
-// convert
 define("TPVLAN_CONV_1", "Passo 1");
 define("TPVLAN_CONV_2", "Passo 2");
 define("TPVLAN_CONV_3", "Il nome del tuo tema. (Must be written in English)");
@@ -98,14 +101,16 @@ define("TPVLAN_CONV_13", "What category of theme is this?");
 define("TPVLAN_CONV_14", "Enable this stylesheet as a selectable option in the Theme Manager.");
 define("TPVLAN_CONV_15", "Give this stylesheet a name");
 define("TPVLAN_CONV_16", "URL to a live-demo of this theme.");
-
-//marketplace
-define("TPVLAN_81","Downloading..."); 
-define("TPVLAN_82","Download Complete!");
-define("TPVLAN_83","Automated download not possible!");
-define("TPVLAN_84","[Please Download Manually]");
-define("TPVLAN_85","Connecting...");
-define("TPVLAN_86","Imppssibile sostituire il tema del sito.");
-// define("TPVLAN_87","Rendering Theme Config"); //XXX Debug info
-define("TPVLAN_88","Convertitore");
+define("TPVLAN_81", "Downloading...");
+define("TPVLAN_82", "Download Complete!");
+define("TPVLAN_83", "Automated download not possible!");
+define("TPVLAN_84", "[Please Download Manually]");
+define("TPVLAN_85", "Connecting...");
+define("TPVLAN_86", "Imppssibile sostituire il tema del sito.");
+define("TPVLAN_88", "Convertitore");
 define("TPVLAN_89", "Apply dashboard preferences to all administrators");
+define("TPVLAN_91", "Creare un nuovo Tema basato su");
+define("TPVLAN_92", "Nuova Cartella Tema");
+
+
+?>

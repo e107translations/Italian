@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 23:56:00
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("UPLLAN_1", "Upload rimosso dall'elenco.");
 define("UPLLAN_2", "Impostazioni salvate nel database");
@@ -44,5 +50,8 @@ define("UPLLAN_63", "Record spostato ai download. [x]");
 define("UPLLAN_64", "Il gestore di Download");
 define("UPLLAN_66", "Scarica percorso errore");
 define("UPLLAN_68", "Errore SQL:");
-define("UPLLAN_69", "");
-define("UPLLAN_70", "");
+define("UPLLAN_69", "Importato");
+define("UPLLAN_70", "Inviato a [x]");
+
+
+?>

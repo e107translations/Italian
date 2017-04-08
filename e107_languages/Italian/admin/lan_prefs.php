@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 23:49:21
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("PRFLAN_1", "Informazioni sul sito");
 define("PRFLAN_2", "Nome del sito");
@@ -233,3 +239,24 @@ define("PRFLAN_254", "E-mail & contatti");
 define("PRFLAN_255", "Caricamento di file");
 define("PRFLAN_256", "Opzioni avanzate");
 define("PRFLAN_257", "Framework JavaScript");
+define("PRFLAN_258", "Modulo di Contatto visibilità");
+define("PRFLAN_259", "Registrati & Accedi");
+define("PRFLAN_260", "Accedi soltanto");
+define("PRFLAN_261", "Opzioni Campo");
+define("PRFLAN_262", "Password nella email di Conferma");
+define("PRFLAN_263", "Dovrebbe essere unico per questo sito");
+define("PRFLAN_264", "La Pagina iniziale é la login page (login.php)");
+define("PRFLAN_265", "La pagina iniziale è la pagina Splash (membersonly.php)");
+define("PRFLAN_266", "Quando disconnesso, a quale pagina l'utente sarà indirizzato?");
+define("PRFLAN_267", "Metodo Emailing");
+define("PRFLAN_268", "Modifica Inline Pagina Iniziale");
+define("PRFLAN_269", "Gli amministratori con questo Classe Utente (e delle autorizzazioni di amministratore appropriate) saranno in grado di modificare l'HTML direttamente tramite l'area frontend.");
+define("PRFLAN_270", "Filtri Contatti Modulo");
+define("PRFLAN_271", "Ignorare l'invio di moduli che contengono queste parole o frasi. Uno per riga.");
+define("PRFLAN_272", "Durate delle Sessioni");
+define("PRFLAN_273", "Durata in secondi.  0 = fino a quando il browser non viene chiuso.");
+define("PRFLAN_274", "Modulo di contatto sarà visibile soltanto a questo gruppo UserClass");
+define("PRFLAN_275", "Visualizza questa pagina utilizzando HTTPS (SSL) per modificare questa opzione");
+
+
+?>

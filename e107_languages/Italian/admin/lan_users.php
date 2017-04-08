@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/08 00:04:26
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("USRLAN_1", "Opzioni salvate.");
 define("USRLAN_3", "ora elencati un amministratore - impostare autorizzazioni si prega di raggiungere la");
@@ -20,7 +26,7 @@ define("USRLAN_16", "Conferma eliminazione");
 define("USRLAN_17", "Conferma eliminazione utente");
 define("USRLAN_30", "Divieto di");
 define("USRLAN_32", "Attivare");
-define("USRLAN_33", "Unban");
+define("USRLAN_33", "Sblocca");
 define("USRLAN_34", "Rimuovere lo status di admin");
 define("USRLAN_35", "Fare admin");
 define("USRLAN_36", "Classe set");
@@ -81,7 +87,7 @@ define("USRLAN_128", "Username (nome utente)");
 define("USRLAN_129", "Vero nome");
 define("USRLAN_130", "Abilitare il rilevamento utente online");
 define("USRLAN_131", "È necessario attivare questa opzione per utilizzare utente online opzioni, come online.php, menu online e forum online info di rilevamento");
-define("USRLAN_132", "Enable");
+define("USRLAN_132", "Abilita");
 define("USRLAN_133", "Utente di forza per aggiornare le impostazioni");
 define("USRLAN_134", "Abilitando questa opzione automaticamente invierà all'utente per le impostazioni utente se un utente necessari campo non viene compilato.");
 define("USRLAN_135", "Nessun indirizzo IP trovato in informazioni di utente; IP non è vietato");
@@ -119,7 +125,7 @@ define("USRLAN_169", "Totale-- COUNT - rimbalzato email cancellati");
 define("USRLAN_170", "Nome utente casuale");
 define("USRLAN_171", "Password casuale");
 define("USRLAN_172", "Account utente è stato creato con il seguente:");
-define("USRLAN_175", "");
+define("USRLAN_175", "Sessione");
 define("USRLAN_179", "Utente bannato:");
 define("USRLAN_180", "Indirizzo IP {IP} appare sulla lista bianca; IP non è vietato.");
 define("USRLAN_181", "Scegliere l'opzione per lo stato di utente e l'invio di email di conferma all'utente");
@@ -136,22 +142,21 @@ define("USRLAN_191", "Amministratore può imporre restrizioni durante questo per
 define("USRLAN_192", "");
 define("USRLAN_193", "Nulla è cambiato - non salvate");
 define("USRLAN_194", "Firma può essere modificato da");
-define("USRLAN_195", "");
-define("USRLAN_197", "Fonte");
+define("USRLAN_195", "Ultimo Post");
 define("USRLAN_198", "Nome del campo");
 define("USRLAN_199", "Funzionamento");
 define("USRLAN_200", "Valore");
 define("USRLAN_201", "Numero di commenti");
 define("USRLAN_202", "Numero di visite al sito");
 define("USRLAN_203", "Numero di membri di giorni");
-define("USRLAN_204", "Core");
+define("USRLAN_204", "Nucleo");
 define("USRLAN_206", "Calcolo corrente");
 define("USRLAN_207", "Tipo");
 define("USRLAN_208", "Nome di rango");
 define("USRLAN_209", "Soglia inferiore");
 define("USRLAN_210", "Prefisso di lang");
 define("USRLAN_211", "Immagine di rango");
-define("USRLAN_212", "User Rank");
+define("USRLAN_212", "Rank Utente");
 define("USRLAN_214", "Aggiungere nuovo rango");
 define("USRLAN_216", "-Seleziona immagine-");
 define("USRLAN_219", "Più di 30 giorni");
@@ -159,7 +164,14 @@ define("LAN_MAINADMIN", "Amministratore principale");
 define("LAN_NOTVERIFIED", "Non verificato");
 define("LAN_BANNED", "Vietato");
 define("LAN_BOUNCED", "Rimbalzato");
-define("USRLAN_220", "Tutti i Userclasses");
+define("LAN_UI_1_HOUR", "1 ora");
+define("LAN_UI_3_HOURS", "3 ore");
+define("LAN_UI_6_HOURS", "6 ore");
+define("LAN_UI_12_HOURS", "12 ore");
+define("LAN_UI_24_HOURS", "24 ore");
+define("LAN_UI_48_HOURS", "48 ore");
+define("LAN_UI_3_DAYS", "3 giorni");
+define("USRLAN_220", "Tutti le Classi Utente");
 define("USRLAN_221", "Modificare admin perms");
 define("USRLAN_222", "Stai per eliminare [x] ([y]) con ID #[z]. Sei sicuro?");
 define("USRLAN_223", "Utente non trovato.");
@@ -190,14 +202,18 @@ define("USRLAN_247", "Noi");
 define("USRLAN_248", "Noi");
 define("USRLAN_249", "Noi");
 define("USRLAN_250", "Noi");
+define("USRLAN_251", "Lasciare vuoto per non cambiare nulla.");
+define("USRLAN_252", "Reinvia la mail di attivazione per gli utenti non ancora attivati.");
+define("USRLAN_253", "Più vecchio di ");
+define("USRLAN_254", "Resetta tutte le password");
+define("USRLAN_255", "Notifica utente");
+define("USRLAN_256", "Caro");
 define("UCSLAN_1", "L'invio di e-mail di notifica a");
 define("UCSLAN_2", "Privilegi di aggiornamento");
-define("UCSLAN_3", "Caro");
 define("UCSLAN_4", "I privilegi sono stati aggiornati al");
 define("UCSLAN_5", "È ora possibile accedere per le seguenti aree");
 define("UCSLAN_6", "Classe set per utente");
 define("UCSLAN_7", "Set di classi");
-define("UCSLAN_8", "Notifica utente");
 define("UCSLAN_9", "Corsi di aggiornamento.");
 define("UCSLAN_10", "Distinti saluti,");
 define("UCSLAN_11", "L'appartenenza alla classe utente ID-- UID - cambiato - classi...");
@@ -211,3 +227,6 @@ define("USFLAN_7", "Informazioni utente");
 define("USRLAN_AS_1", "Login come [x]");
 define("USRLAN_AS_2", "Logout da [account x]");
 define("USRLAN_AS_3", "Si è già connessi un altro account utente. Si prega di logout prima.");
+
+
+?>

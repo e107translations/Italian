@@ -1,11 +1,17 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 23:16:45
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("CORE_DATE_ORDER", "DMY");
-define("LAN_MAILOUT_01", "Dal nome");
+define("LAN_MAILOUT_01", "Da Nome");
 define("LAN_MAILOUT_02", "Da E-mail");
 define("LAN_MAILOUT_03", "A");
 define("LAN_MAILOUT_04", "CC");
@@ -19,7 +25,7 @@ define("LAN_MAILOUT_11", "Inserire variabili");
 define("LAN_MAILOUT_12", "Tutti gli utenti");
 define("LAN_MAILOUT_13", "Tutti gli utenti non verificati");
 define("LAN_MAILOUT_14", "Nome visualizzato");
-define("LAN_MAILOUT_15", "Mailout");
+define("LAN_MAILOUT_15", "Mail in uscita");
 define("LAN_MAILOUT_16", "Nome utente");
 define("LAN_MAILOUT_17", "Link signup");
 define("LAN_MAILOUT_18", "ID utente");
@@ -27,7 +33,7 @@ define("LAN_MAILOUT_19", "Nessun indirizzo e-mail di destinazione specificato");
 define("LAN_MAILOUT_20", "Sendmail-percorso");
 define("LAN_MAILOUT_21", "Voci di e-mail di massa");
 define("LAN_MAILOUT_22", "Attualmente non sono presenti voci salvate");
-define("LAN_MAILOUT_23", "userclass:");
+define("LAN_MAILOUT_23", "Classe Utente:");
 define("LAN_MAILOUT_24", "email(s) sono pronti per essere inviati");
 define("LAN_MAILOUT_25", "Controlli di mailing di massa");
 define("LAN_MAILOUT_26", "Mailing di massa di sospendere ogni");
@@ -44,7 +50,6 @@ define("LAN_MAILOUT_38", "Annulla");
 define("LAN_MAILOUT_39", "Invio tramite e-mail");
 define("LAN_MAILOUT_40", "È necessario rinominare <b>e107.htaccess</b> in <b>. htaccess</b> in");
 define("LAN_MAILOUT_41", "prima di inviare posta elettronica da questa pagina.");
-define("LAN_MAILOUT_42", "Avviso");
 define("LAN_MAILOUT_43", "Nome utente");
 define("LAN_MAILOUT_44", "Login utente");
 define("LAN_MAILOUT_45", "E-mail utente");
@@ -53,9 +58,9 @@ define("LAN_MAILOUT_47", "contiene");
 define("LAN_MAILOUT_48", "è uguale a");
 define("LAN_MAILOUT_51", "Oggetto");
 define("LAN_MAILOUT_52", "Ultimo mod");
-define("LAN_MAILOUT_53", "Admins");
+define("LAN_MAILOUT_53", "Amminstratori");
 define("LAN_MAILOUT_54", "Auto");
-define("LAN_MAILOUT_55", "Userclass");
+define("LAN_MAILOUT_55", "Classe Utente");
 define("LAN_MAILOUT_56", "Ultima visita (gg-mm-aa)");
 define("LAN_MAILOUT_57", "Inviare e-mail di massa SMTP in blocchi");
 define("LAN_MAILOUT_67", "L'email potrebbe non essere inviato. Si prega di rivedere le impostazioni SMTP, o selezionare un altro metodo di spedizione e riprovare.");
@@ -86,7 +91,6 @@ define("LAN_MAILOUT_92", "SSL");
 define("LAN_MAILOUT_93", "TLS");
 define("LAN_MAILOUT_94", "(Utilizzare SSL per gmail/googlemail)");
 define("LAN_MAILOUT_95", "Utilizzare VERP per mailing di massa");
-define("LAN_MAILOUT_96", "nessuno");
 define("LAN_MAILOUT_97", "Mailer risultati");
 define("LAN_MAILOUT_98", "Voci orfane");
 define("LAN_MAILOUT_99", "Confermare la riprova mailing");
@@ -111,7 +115,7 @@ define("LAN_MAILOUT_117", "completare");
 define("LAN_MAILOUT_118", "Fare clic su procedere ' per iniziare a inviare messaggi di posta elettronica. Fare clic su Annulla per interrompere l'esecuzione. Una volta completata, selezionare un'altra pagina. Cal non inviati messaggi di posta elettronica essere visualizzato tramite la schermata di 'Stato mailing'");
 define("LAN_MAILOUT_119", "Solo, registrazione con errori");
 define("LAN_MAILOUT_120", "Tipo di account");
-define("LAN_MAILOUT_121", "Standard POP3");
+define("LAN_MAILOUT_121", "POP3 Standard ");
 define("LAN_MAILOUT_122", "POP3, TLS disabilitato");
 define("LAN_MAILOUT_123", "POP3 con TLS");
 define("LAN_MAILOUT_124", "IMAP");
@@ -123,9 +127,8 @@ define("LAN_MAILOUT_129", "Data di scadenza");
 define("LAN_MAILOUT_130", "Data di creazione");
 define("LAN_MAILOUT_131", "L'invio ha iniziato");
 define("LAN_MAILOUT_132", "L'invio completo");
-define("LAN_MAILOUT_133", "Fonte");
 define("LAN_MAILOUT_134", "Priorità");
-define("LAN_MAILOUT_136", "Mailout Status");
+define("LAN_MAILOUT_136", "Stato Posta in uscita");
 define("LAN_MAILOUT_137", "Posta Ref");
 define("LAN_MAILOUT_138", "Stato di e-mail");
 define("LAN_MAILOUT_139", "Data attivo");
@@ -244,9 +247,18 @@ define("LAN_MAILOUT_254", "Visualizzazione e-mail basato su modelli");
 define("LAN_MAILOUT_255", "Basato su modelli E-mail, ID:");
 define("LAN_MAILOUT_256", "Ritorno");
 define("LAN_MAILOUT_257", "Modello generato");
-define("LAN_MAILOUT_259", "");
 define("LAN_SEND", "Invia");
 define("LAN_HOLD", "Tenere premuto");
 define("LAN_MAILOUT_260", "Tipo di utente");
-define("LAN_BASIC", "Base");
-define("LAN_ADVANCED", "Avanzate");
+define("LAN_MAILOUT_261", "Porta SMTP");
+define("LAN_MAILOUT_262", "Anteprima Template");
+define("LAN_MAILOUT_263", "Destinatari Totali");
+define("LAN_MAILOUT_264", "Includi Media");
+define("LAN_MAILOUT_265", "In Sopeso");
+define("LAN_MAILOUT_266", "Max Attiva");
+define("LAN_MAILOUT_267", "Generare Chiave Privata/Pubblica");
+define("LAN_MAILOUT_268", "Soltanto Modalità Sviluppatore");
+define("LAN_MAILOUT_269", "Invia Dopo");
+
+
+?>

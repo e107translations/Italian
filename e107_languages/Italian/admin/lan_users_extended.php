@@ -1,13 +1,19 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/07 23:54:49
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("EXTLAN_1", "Nome");
 define("EXTLAN_2", "Anteprima");
 define("EXTLAN_3", "Valori");
-define("EXTLAN_4", "Req'd");
+define("EXTLAN_4", "Richiesti");
 define("EXTLAN_5", "Applicabile");
 define("EXTLAN_6", "Accesso in lettura");
 define("EXTLAN_7", "Accesso in scrittura");
@@ -64,7 +70,6 @@ define("EXTLAN_57", "Attivato");
 define("EXTLAN_58", "Non attivato");
 define("EXTLAN_59", "Attivare");
 define("EXTLAN_60", "Disattivare");
-define("EXTLAN_61", "Nessuno");
 define("EXTLAN_62", "Tabella");
 define("EXTLAN_63", "Campo Id");
 define("EXTLAN_64", "Valore visualizzato");
@@ -84,6 +89,12 @@ define("EXTLAN_77", "Categoria non eliminato - deve prima eliminare campi nella 
 define("EXTLAN_78", "Impossibile trovare il file - FILE--necessari per creare la tabella dati");
 define("EXTLAN_79", "Etichetta");
 define("EXTLAN_80", "Errore di convalida - interrotta.");
+define("EXTLAN_81", "Aggiungi Campo Personalizzato");
+define("EXTLAN_82", "Valore");
+define("EXTLAN_83", "Segnapossto");
+define("EXTLAN_84", "Tip di Aiuto");
+define("EXTLAN_86", "Colonna utente esteso eliminata dalla tabella");
+define("EXTLAN_87", "Ordina valori");
 define("EXTLAN_HELP_1", "<b><i>Parametri:</i></b><br>-il formato del campo<br>MaxLength - lunghezza massima del campo<br><br>classe - classe css di campo<br>stile - stringa di stile css<br><br>regex - regex codice di convalida<br>regexfail - testo di errore di convalida");
 define("EXTLAN_HELP_2", "Immettere il testo per le opzioni nella casella 'Valori' - un solo apparecchio per opzione. Aggiungere nuove caselle necessarie");
 define("EXTLAN_HELP_3", "Immettere il testo per le opzioni nella casella 'Valori' - un solo apparecchio per opzione. Aggiungere nuove caselle necessarie");
@@ -93,3 +104,6 @@ define("EXTLAN_HELP_6", "Consente di immettere un valore numerico");
 define("EXTLAN_HELP_7", "Richiedi utente di immettere una data");
 define("EXTLAN_HELP_8", "Consente di selezionare da lingue installate");
 define("EXTLAN_HELP_9", "Specificare un elenco predefinito. Il campo valore seleziona il tipo di elenco - al momento solo 'timezones' è una voce valida");
+
+
+?>

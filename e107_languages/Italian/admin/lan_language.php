@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LANG_LAN_00", "[x] non può essere creato (già esistente).");
 define("LANG_LAN_01", "[x] è stato eliminato (se esistente) e creato.");
 define("LANG_LAN_02", "[x] non poteva essere cancellato.");
@@ -63,7 +62,7 @@ define("LANG_LAN_143", "File di Lingua specifico");
 define("LANG_LAN_144", "Deve essere riattivato");
 define("LANG_LAN_148", "Modalità Normale");
 define("LANG_LAN_149", "Valore");
-define("LANG_LAN_150", "[B] Ricerca in tutto il Nucleo prima di commentare qualsiasi Riga da qualsiasi file di lingua. [/b]");
+define("LANG_LAN_150", "[b] Ricerca in tutto il Nucleo prima di commentare qualsiasi Riga da qualsiasi file di lingua. [/b]");
 
 
 ?>

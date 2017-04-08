@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/08 01:00:25
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("EPL_ADLAN_0", "Installare");
 define("EPL_ADLAN_1", "Disinstallare");
@@ -102,13 +108,11 @@ define("EPL_ADLAN_100", "Clicca qui per installare alcuni");
 define("EPL_ADLAN_101", "Nessun plugin installati - [x].");
 define("EPL_ADLAN_102", "Questa procedura guidata sarà costruire un'area di admin per il vostro plugin e generare un file di metadati di plugin. Prima di iniziare:");
 define("EPL_ADLAN_103", "Creare una nuova cartella scrivibile nella directory [x] per esempio. [b] myplugin [/b]");
-define("EPL_ADLAN_104", "Se il vostro plugin utilizzerà tabelle sql, creare un nuovo file in questa cartella e il nome stesso come directory ma con [b]_sql.php[/b] come un sufix eg. [b]myplugin_sql.php[/b]");
-define("EPL_ADLAN_105", "Creare una tabella in phpMyAdmin e incollare un dump sql di esso nel file e salvare. (per un esempio, vedere [i]e107_plugins/_blank/_blank_sql.php[/i])");
+define("EPL_ADLAN_105", "Creare una tabella in phpMyAdmin e incollare un dump sql di esso nel file e salvare. per un esempio, vedere [b]e107_plugins/_blank/_blank_sql.php[/b]");
 define("EPL_ADLAN_106", "Selezionare la cartella del vostro plugin per iniziare.");
 define("EPL_ADLAN_107", "Creare un file xml e admin-area per:");
 define("EPL_ADLAN_108", "Verifica i file di lingua:");
 define("EPL_ADLAN_109", "Informazioni di base.");
-define("EPL_ADLAN_111", "Generare");
 define("EPL_ADLAN_112", "Scrivi una recensione su tutti i campi e modificare se necessario.");
 define("EPL_ADLAN_113", "Esaminare tutte le schede prima di cliccare su 'Genera'.");
 define("EPL_ADLAN_114", "Builder plugin");
@@ -226,7 +230,39 @@ define("EPL_ADLAN_226", "File di lingua plugin Check");
 define("EPL_ADLAN_227", "Rileva modifiche");
 define("EPL_ADLAN_228", "Cartelle plugin vengono analizzate ogni minuti [x] per le modifiche. Fare clic sul pulsante qui sotto per eseguire la scansione ora.");
 define("EPL_ADLAN_229", "Aggiornamento");
+define("EPL_ADLAN_230", "Download ed Installazione");
+define("EPL_ADLAN_231", "Rimuovi le Icone dal Media-Manager");
+define("EPL_ADLAN_232", "Crea i File");
+define("TPVLAN_81", "Downloading.........");
+define("TPVLAN_82", "Download Competato!");
+define("EPL_ADLAN_233", "Aggiungi Link");
+define("EPL_ADLAN_234", "Rimuovi Link");
+define("EPL_ADLAN_235", "Non è possibile il Download Automatico.");
+define("EPL_ADLAN_236", "Si prega di Scaricare Manualmente");
+define("EPL_ADLAN_237", "Download");
+define("EPL_ADLAN_238", "Intallazione Completa!");
+define("EPL_ADLAN_239", "Aggiungi Tabella");
+define("EPL_ADLAN_240", "rimuovi Tabella:");
+define("EPL_ADLAN_241", "Aggiungi Preferenze:");
+define("EPL_ADLAN_242", "Rimuovi Preferenze:");
+define("EPL_ADLAN_243", "Aggiorna Preferenze");
+define("EPL_ADLAN_244", "Sono consentite solo 5 Categorie  di Media durante l'installazione.");
+define("EPL_ADLAN_245", "Aggiungi Categoria Media [x]");
+define("EPL_ADLAN_246", "Eliminazione di tutti i Media Categorie di proprietà di: [x]");
+define("EPL_ADLAN_249", "Aggiungi Campo Esteso:");
+define("EPL_ADLAN_250", "Rimuovi Campoo Esteso:");
+define("EPL_ADLAN_251", "Campi Estesi non modificati:");
+define("EPL_ADLAN_252", "Permesso:");
+define("EPL_ADLAN_253", "Completato");
+define("LAN_RELEASED", "Rilasciato");
+define("LAN_REPAIR_PLUGIN_SETTINGS", "Impostazioni del Plugin riparazione");
+define("LAN_SYNC_WITH_GIT_REPO", "Sincronizza con il Repostory GIT");
+define("LAN_ADDONS", "Aggiunte");
 define("LAN_UPGRADE_SUCCESSFUL", "Aggiornamento con successo");
 define("LAN_INSTALL_SUCCESSFUL", "Installazione riuscita");
 define("LAN_INSTALL_FAIL", "Installazione non riuscita");
-define ("EPL_ADLAN_240","Removing Table:");
+define("LAN_UNINSTALL_FAIL", "Impossibile disinstallare");
+define("LAN_PLUGIN_IS_USED", "[x] plugin utilizzato da:");
+
+
+?>
