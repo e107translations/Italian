@@ -147,6 +147,7 @@ define("LAN_INSTALLED", "Installato");
 define("LAN_LAST_UPDATED", "Ultimo Aggiornamento");
 define("LAN_UPDATE_AVAILABLE", "Disponibile Aggiornamento");
 define("LAN_ADD", "Aggiungere");
+define("LAN_REMOVE", "Rimuovi");
 define("LAN_ADD_MORE", "Aggiungi Altro");
 define("LAN_MULTIPLE_CHOICE", "Scelta Multipla");
 define("LAN_SAVE", "Salva");
@@ -366,6 +367,7 @@ define("LAN_SYSTEM_USER", "Utente di Sistema");
 define("LAN_ENGINE", "Motore");
 define("LAN_SOURCE", "Sorgente");
 define("LAN_ERROR_CONNECTION", "Impossibile connettersi per gli aggiornamenti. Si prega di verificare firewall e / o la connessione Internet.");
+define("LAN_UI_X_CANT_EQUAL_Y", "[x] non può essere lo stesso [y]");
 
 
 ?>

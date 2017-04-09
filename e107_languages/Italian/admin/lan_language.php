@@ -13,7 +13,7 @@ define("LANG_LAN_00", "[x] non può essere creato (già esistente).");
 define("LANG_LAN_01", "[x] è stato eliminato (se esistente) e creato.");
 define("LANG_LAN_02", "[x] non poteva essere cancellato.");
 define("LANG_LAN_03", "Tabelle");
-define("LANG_LAN_04", "Riga(Righe) Deprecato(e)");
+define("LANG_LAN_04", "Riga(e) Deprecata(e)");
 define("LANG_LAN_05", "Non installato");
 define("LANG_LAN_06", "Creare tabelle");
 define("LANG_LAN_07", "Eliminare tabelle esistenti?");

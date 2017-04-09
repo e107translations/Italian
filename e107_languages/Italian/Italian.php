@@ -45,8 +45,6 @@ define("LAN_DEFAULT", "Impostazione predefinita");
 define("LAN_MORE", "Più...");
 define("LAN_LESS", "...Meno");
 define("LAN_READ_MORE", "Per saperne di più...");
-define("LAN_CONTINUE_READING", "Leggi Tutto...");
-define("LAN_SHARE_THIS_STORY", "Condividi Questa News");
 define("LAN_GOPAGE", "Vai alla pagina");
 define("LAN_GOTOPAGEX", "Vai alla pagina [x]");
 define("LAN_GO", "Vai");

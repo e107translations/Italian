@@ -9,7 +9,11 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
+define("CUSLAN_1", "Panoramica");
+define("CUSLAN_2", "Titolo Pagina");
+define("CUSLAN_3", "Articoli per Pagina");
+define("CUSLAN_4", "Campi Personalizzati");
+define("CUSLAN_5", "(Nuovo Lavoro)");
 define("CUSLAN_9", "Testo");
 define("CUSLAN_11", "Meta-descrizione");
 define("CUSLAN_12", "Creare Menu di pagina");

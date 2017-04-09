@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("TPVLAN_1", "Si sta guardando un anteprima del <b>' '. PREVIEWTHEMENAME.''</b> tema. Non è stato impostato come tema principale per il tuo sito, è stato attivato per fornire un'anteprima di come appare il tema.<br>Per impostare questo tema come il tema del sito, <a href=''.e_ADMIN.'theme.php?choose'>tornare al gestore di tema</a> e seleziona 'Imposta come tema sito'.<br>Per visualizzare in anteprima altri temi si prega di <a href=''.e_ADMIN.'theme.php'>cliccare qui</a>");
 define("TPVLAN_2", "Anteprima del tema");
 define("TPVLAN_3", "Ha cambiato il tema del sito.");
@@ -111,6 +110,7 @@ define("TPVLAN_88", "Convertitore");
 define("TPVLAN_89", "Apply dashboard preferences to all administrators");
 define("TPVLAN_91", "Creare un nuovo Tema basato su");
 define("TPVLAN_92", "Nuova Cartella Tema");
+define("TPVLAN_93", "Selezione");
 
 
 ?>
