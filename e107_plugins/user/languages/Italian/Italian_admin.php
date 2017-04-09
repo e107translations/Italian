@@ -1,12 +1,18 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/09 01:58:13
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LAN_DL_OPTIONS", "Opzioni");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Generale");
-define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Reporting");
+define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Segnalazione");
 define("LAN_DL_DOWNLOAD_OPT_AGREE", "Accordi");
 define("LAN_DL_UPLOAD", "Caricare");
 define("LAN_DL_USE_PHP", "Utilizzare PHP");
@@ -36,7 +42,7 @@ define("DOWLAN_23", "Tipi di file");
 define("DOWLAN_24", "Download dell'aggiornamento");
 define("DOWLAN_25", "Invia Download");
 define("DOWLAN_27", "Scarica");
-define("DOWLAN_28", "Nessuno");
+define("DOWLAN_29", "Richiesto");
 define("DOWLAN_31", "Categorie");
 define("DOWLAN_32", "Download");
 define("DOWLAN_33", "Sei sicuro di che voler eliminare questo download?");
@@ -49,7 +55,7 @@ define("DOWLAN_62", "Ascendente");
 define("DOWLAN_63", "Discendente");
 define("DOWLAN_64", "Opzioni di aggiornamento");
 define("DOWLAN_65", "Opzioni di aggiornamento");
-define("DOWLAN_66", "Filesize");
+define("DOWLAN_66", "Grandezza File");
 define("DOWLAN_68", "File mancante!");
 define("DOWLAN_100", "Attivare Download accordo");
 define("DOWLAN_101", "Testo dell'accordo");
@@ -64,7 +70,7 @@ define("DOWLAN_109", "ogni");
 define("DOWLAN_110", "giorni");
 define("DOWLAN_111", "KB");
 define("DOWLAN_112", "Limiti");
-define("DOWLAN_113", "Userclass");
+define("DOWLAN_113", "Classe Utente");
 define("DOWLAN_114", "Aggiungere nuovo limite");
 define("DOWLAN_115", "Limiti di aggiornamento");
 define("DOWLAN_122", "Inattivo");
@@ -141,3 +147,6 @@ define("DOWLAN_HELP_7", "Aiuto per specchio");
 define("DOWLAN_HELP_8", "Aiuto per elenco di caricamento");
 define("DOWLAN_HELP_9", "Aiuto per i tipi di caricamento");
 define("DOWLAN_HELP_10", "Aiuto per opzioni di caricamento");
+
+
+?>
