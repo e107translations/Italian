@@ -4,7 +4,7 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/09 01:52:30
+|        Last Modified: 2017/04/10 23:44:38
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
@@ -23,7 +23,7 @@ define("BANNERLAN_28", "Impressioni di sinistra");
 define("BANNERLAN_30", "Illimitato");
 define("BANNERLAN_31", "Non applicabile");
 define("BANNERLAN_35", "Indirizzi IP di clickthrough");
-define("BANNERLAN_39", "Non è stata assegnata un'immagine al banner");
+define("BANNERLAN_39", "Non è stata assegnata nessuna immagine a questo banner.");
 
 
 ?>
