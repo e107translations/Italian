@@ -1,14 +1,19 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/11 00:26:10
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 define("LAN_PM", "Messaggio riservato");
 define("LAN_PM_1", "Invia messaggio privato");
 define("LAN_PM_2", "A");
 define("LAN_PM_3", "Anteprima");
-define("LAN_PM_4", "Userclass");
+define("LAN_PM_4", "Classe Utente");
 define("LAN_PM_5", "Oggetto");
 define("LAN_PM_6", "Messaggio");
 define("LAN_PM_7", "EMote");
@@ -28,8 +33,6 @@ define("LAN_PM_21", "Aggiungendo questo PM supererà la tua offerta massima dime
 define("LAN_PM_22", "Caricamento di file non riuscito");
 define("LAN_PM_23", "Non è consentito inviare allegati");
 define("LAN_PM_24", "L'eliminazione di PM");
-define("LAN_PM_25", "Posta in arrivo");
-define("LAN_PM_26", "Posta in uscita");
 define("LAN_PM_27", "Da leggere");
 define("LAN_PM_28", "N/A");
 define("LAN_PM_29", "Messaggio inviato");
@@ -60,7 +63,7 @@ define("LAN_PM_54", "Citazione originale");
 define("LAN_PM_55", "Invia risposta");
 define("LAN_PM_56", "Non è consentito per rispondere a questo messaggio");
 define("LAN_PM_57", "Messaggio non trovato");
-define("LAN_PM_58", "Re:");
+define("LAN_PM_58", "Re :");
 define("LAN_PM_59", "Vai alla pagina:");
 define("LAN_PM_60", "Non è consentito di visualizzare questo messaggio");
 define("LAN_PM_61", "Nessun soggetto");
@@ -85,3 +88,10 @@ define("LAN_PM_107", "Messaggio privato inviato a {UNAME} è stato letto il");
 define("LAN_PM_108", "Messaggio inviato il:");
 define("LAN_PM_109", "Nuovi messaggi");
 define("LAN_PM_111", "Lettura");
+define("LAN_PM_112", "Utenti");
+define("LAN_PM_113", "Leggi Mesaggio");
+define("LAN_PM_114", "Non ti  permesso inviare a questo utente");
+define("LAN_PM_115", "Utente  inesistente");
+
+
+?>

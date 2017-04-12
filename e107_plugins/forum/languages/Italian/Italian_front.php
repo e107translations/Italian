@@ -1,9 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/11 17:46:58
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 define("e_PAGETITLE", "Cose da fare");
 define("LAN_FORUM_0002", "Argomenti");
 define("LAN_FORUM_0003", "Risposte");
@@ -94,6 +99,8 @@ define("LAN_FORUM_1015", "[utente cancellato]");
 define("LAN_FORUM_1016", "Sondaggio");
 define("LAN_FORUM_1017", "Vai a");
 define("LAN_FORUM_1018", "Nuovo argomento");
+define("LAN_FORUM_1020", "Modifca");
+define("LAN_FORUM_1021", "Nessuna Risposta");
 define("LAN_FORUM_2001", "Argomento precedente");
 define("LAN_FORUM_2002", "Argomento successivo");
 define("LAN_FORUM_2003", "Moderatore");
@@ -132,7 +139,7 @@ define("LAN_FORUM_2037", "Post eliminato il");
 define("LAN_FORUM_2038", "Motivo");
 define("LAN_FORUM_2041", "Citazione");
 define("LAN_FORUM_2042", "Spostare");
-define("LAN_FORUM_2043", "Split");
+define("LAN_FORUM_2043", "Dividi");
 define("LAN_FORUM_2044", "Posta elettronica");
 define("LAN_FORUM_2045", "Stampa");
 define("LAN_FORUM_2046", "Relazione");
@@ -165,12 +172,17 @@ define("LAN_FORUM_3028", "Aggiungere sondaggio");
 define("LAN_FORUM_3038", "Normale");
 define("LAN_FORUM_3039", "Disattivare emoticons per questo post");
 define("LAN_FORUM_3040", "Abilitare la posta elettronica (e-mail inviata quando viene inviata risposta) di rilevamento");
+define("LAN_FORUM_3041", "Abilta/ Disabilita tracciatura di questo Argomento");
+define("LAN_FORUM_3042", "Nuovo Argomento/Oggetto");
 define("LAN_FORUM_3043", "Grazie");
 define("LAN_FORUM_3045", "Il sondaggio è stato inviato con successo.");
 define("LAN_FORUM_3046", "Clicca qui per visualizzare il tuo sondaggio");
 define("LAN_FORUM_3047", "Il tuo messaggio è stato inviato con successo.");
 define("LAN_FORUM_3048", "Clicca qui per visualizzare il tuo messaggio");
 define("LAN_FORUM_3049", "La risposta è stata inviata con successo.");
+define("LAN_FORUM_3050", "Punto di divisione");
+define("LAN_FORUM_3051", "Nuova posizione");
+define("LAN_FORUM_3052", "Dividi la Discussione");
 define("LAN_FORUM_4001", "Post non letti esiste");
 define("LAN_FORUM_4002", "Messaggi non letti");
 define("LAN_FORUM_4003", "Nuovo post sul tema popolare");
@@ -223,3 +235,35 @@ define("LAN_FORUM_7006", "Risultato");
 define("LAN_FORUM_7007", "Trovato nel thread");
 define("LAN_FORUM_7008", "NON TROVATO");
 define("LAN_FORUM_7009", "Nessun file caricato trovato");
+define("LAN_FORUM_8001", "Un nuovo  messaggio è stato inviato da [x] nell'argomento [y] su [z]");
+define("LAN_FORUM_8002", "Premi sul seguente link per visualizzare il post completo ...");
+define("LAN_FORUM_8003", "Le notifiche Email di questo argomento sono abilitate");
+define("LAN_FORUM_8004", "Le notifiche Email di questo argomento sono disabilitate");
+define("LAN_FORUM_8005", "Stai tracciando questo argomento.");
+define("LAN_FORUM_8006", "Non stai tracciando l'argomento");
+define("LAN_FORUM_8007", "Rendi Importante");
+define("LAN_FORUM_8008", "Rimuovi Importante");
+define("LAN_FORUM_8009", "Blocca");
+define("LAN_FORUM_8010", "Sblocca");
+define("LAN_FORUM_8011", "Stato delle Chiavi");
+define("LAN_FORUM_8012", "Visualizzabile da");
+define("LAN_FORUM_8013", "Opzioni");
+define("LAN_FORUM_8014", "Questo messaggio, ed ogni messaggio qui sotto verranno spostati in una nuova discussione / argomento.");
+define("LAN_FORUM_8015", "Attenzione");
+define("LAN_FORUM_8016", "(Corrente)");
+define("LAN_FORUM_8017", "C'è stato un problema nel disattivare la tracciatura");
+define("LAN_FORUM_8018", "C'è stato un problema");
+define("LAN_FORUM_8019", "Impossibile eliminare l'argomento");
+define("LAN_FORUM_8020", "Argomenti cancellati");
+define("LAN_FORUM_8021", "Messaggi cancellati");
+define("LAN_FORUM_8022", "Impossibile eliminare il messaggio");
+define("LAN_FORUM_8023", "Chiusura della Discussione Fallita");
+define("LAN_FORUM_8024", "Apertura Discussione Fallita");
+define("LAN_FORUM_8025", "Discussione Appiccicosa Fallita");
+define("LAN_FORUM_8026", "Rimozione Discussione da appiccicosa fallita");
+define("LAN_FORUM_8027", "Nessuna azione selezionata");
+define("LAN_FORUM_8028", "Ritorna");
+define("LAN_FORUM_8029", "Nuovo argomento creato!");
+
+
+?>

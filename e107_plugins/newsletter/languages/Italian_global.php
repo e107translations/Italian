@@ -1,8 +1,17 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/12 15:08:03
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_NEWSLETTER_NAME", "Newsletter");
+define("LAN_PLUGIN_NEWSLETTER_NAME", "NewsLetter");
 define("LAN_PLUGIN_NEWSLETTER_DESCRIPTION", "Consente di configurare e inviare newsletter in modo facile e veloce.");
+
+
+?>

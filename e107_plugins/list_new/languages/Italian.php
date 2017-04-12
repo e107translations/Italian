@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/11 00:16:40
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LIST_MENU_1", "aggiunte recenti");
 define("LIST_MENU_2", "da");
@@ -53,3 +59,8 @@ define("LIST_FORUM_4", "risposte:");
 define("LIST_FORUM_5", "lastpost:");
 define("LIST_FORUM_6", "formica");
 define("LIST_LAN_1", "Nessun elemento in");
+define("LIST_DOWNLOAD_1", "Downloads");
+define("LIST_DOWNLOAD_2", "Nessun Downloads");
+
+
+?>

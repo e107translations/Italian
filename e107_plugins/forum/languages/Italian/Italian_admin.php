@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/11 00:52:49
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("FORLAN_2", "Per favore selezionare questa opzione per eliminare completamente i messaggi potati o renderli inattivi (non cancellate ma non visibile nei forum)");
 define("FORLAN_7", "Opzioni Forum");
@@ -28,6 +34,7 @@ define("FORLAN_56", "Numero di messaggi di un thread prima che esso venga contra
 define("FORLAN_57", "Post per pagina");
 define("FORLAN_58", "Numero di post visualizzati per pagina");
 define("FORLAN_60", "Ciò eliminerà tutte le discussioni che non hanno ricevuto una risposta del numero di giorni che si immette.<br><b>Si prega di essere attenti a usare questa funzione!</b>");
+define("FORLAN_63", "Visualizza Livello");
 define("FORLAN_65", "Titolo del forum");
 define("FORLAN_66", "Non installato");
 define("FORLAN_70", "Abilitare file / immagine allegati");
@@ -102,3 +109,24 @@ define("FORLAN_184", "Autorizzazione di creazione di thread");
 define("FORLAN_185", "Indica chi può creare nuove discussioni");
 define("FORLAN_186", "Thread per pagina");
 define("FORLAN_187", "Numero di thread visualizzati per pagina");
+define("FORLAN_189", "Premi il pulsante 'Cancella' per elminare il report<br /><br /> Premi il pulsnate 'Visualizza' per vedere il Messaggio/Conversazione");
+define("FORLAN_200", "Traccia l'argomento");
+define("FORLAN_201", "Abilitalo per permettere ai tuoi utenti di tracciare gli argomenti.");
+define("FORLAN_202", "Notifica email degli argomenti tracciati");
+define("FORLAN_203", "Abilita questa opzione per permettere ai tuoi utenti di ricevere notifiche a mezzo email quando altri utenti rispondono ai messaggi d'interesse.");
+define("FORLAN_204", "Utente-Anonimo");
+define("FORLAN_205", "Autorizzare Messaggio ");
+define("FORLAN_206", "Permessi di creazione Argomenti");
+define("FORLAN_207", "Forum e Argomenti");
+define("FORLAN_208", "Forum Soltanto");
+define("FORLAN_209", "Argomento");
+define("FORLAN_210", "Pubblicazione");
+define("FORLAN_211", "Inviato da");
+define("FORLAN_212", "Allegati");
+define("FORLAN_213", "Invia");
+define("FORLAN_214", "Lascia in bianco per autogenerare il titolo");
+define("FORLAN_215", "Non Installato");
+define("FORLAN_216", "(Nuovo Genitore)");
+
+
+?>

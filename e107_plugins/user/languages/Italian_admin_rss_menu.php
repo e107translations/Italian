@@ -4,7 +4,7 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 01:06:42
+|        Last Modified: 2017/04/09 15:00:43
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
@@ -38,9 +38,9 @@ define("RSS_PLUGIN_LAN_11", "Il feed rss della categoria di scaricamento:");
 define("RSS_LAN_ADMINMENU_1", "Opzioni di RSS");
 define("RSS_LAN_ADMINMENU_2", "Profilo");
 define("RSS_LAN_ADMINMENU_4", "Importazione");
-define("RSS_LAN_ERROR_1", "Non si tratta di un feed rss valido<br>[Ritorna alla lista degli RSS Feed]");
+define("RSS_LAN_ERROR_1", "Non si tratta di un feed rss valido[br][br][Ritorna alla Lista dei Feed RSS]");
 define("RSS_LAN_ERROR_2", "Il file e107_config.php o i file di lingua contengono spazi o ï» ¿caratteri prima il <? caratteri. Se si desidera avere un valido feed RSS, è necessario rimuovere questo con un editor di testo non-utf8.");
-define("RSS_LAN_ERROR_3", "Nessun feed rss sono presenti ancora[br]si prega di utilizzare la funzionalità di importazione per importare i feed rss disponibili o creare un rss feed manualmente.");
+define("RSS_LAN_ERROR_3", "Non sono ancora presenti feed rss [br]si prega di utilizzare la funzionalità di importazione per importare i feed rss disponibili o creare un rss feed manualmente.");
 define("RSS_LAN_ERROR_4", "Nessun feed rss sono ancora disponibili");
 define("RSS_LAN_ERROR_5", "Non esiste questa voce rss");
 define("RSS_LAN_ERROR_6", "Non ci sono nessun feed rss per importare");

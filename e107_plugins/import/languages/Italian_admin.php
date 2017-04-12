@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2017/04/11 14:04:19
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("LAN_CONVERT_03", "Si deve iniziare con un database pulito di E107, diverso dall'utente principale admin (ID = 1)");
 define("LAN_CONVERT_04", "Campo o i campi lasciati vuoti, si prega di tornare indietro e immettere nuovamente i valori.");
@@ -58,3 +64,24 @@ define("LAN_CONVERT_53", "Il sito URL di Drupal base (ad esempio, http://mydrupa
 define("LAN_CONVERT_54", "URL di Base Drupal");
 define("LAN_CONVERT_55", "Il percorso URL di base (cioè, directory) dell'installazione Drupal (ad es., / drupal /).");
 define("LAN_CONVERT_56", "Percorso di Base Drupal");
+define("LAN_CONVERT_57", "Nessun errore");
+define("LAN_CONVERT_58", "Non puoi sostituire i Dati dell'amminstratore principale");
+define("LAN_CONVERT_59", "Campo non valido inviato");
+define("LAN_CONVERT_60", "Campo obbligatorio non impostato");
+define("LAN_CONVERT_61", "L'Utente è già presente");
+define("LAN_CONVERT_62", "Caratteri non validi nel nome utente o nella login");
+define("LAN_CONVERT_63", "Errore di salvataggio del campo utente esteso");
+define("LAN_CONVERT_64", "Seleziona");
+define("LAN_CONVERT_65", "Pagine");
+define("LAN_CONVERT_66", "Caratteri Pagina");
+define("LAN_CONVERT_67", "Links");
+define("LAN_CONVERT_68", "Media");
+define("LAN_CONVERT_69", "Forum");
+define("LAN_CONVERT_70", "Messaggi/ Argomenti Forum");
+define("LAN_CONVERT_71", "Messaggi Forum");
+define("LAN_CONVERT_72", "Traccia il Forum");
+define("LAN_CONVERT_73", "Classi Utente");
+define("LAN_CONVERT_74", "Categorei Novità");
+
+
+?>

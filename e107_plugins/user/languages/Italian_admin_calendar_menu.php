@@ -49,61 +49,61 @@ define('EC_ADLAN_A09', "CalendarIO PRINCIPALE");
 define('EC_ADLAN_A10', "Configurazione"); //FIXME Use Generic
 define('EC_ADLAN_A11', "Categorie"); //FIXME Use Generic
 define('EC_ADLAN_A12', "Calendario");
-//define('EC_ADLAN_A13', "Edit"); //FIXME Use Generic
-//define('EC_ADLAN_A14', "New");
-//define('EC_ADLAN_A15', "Delete"); //FIXME Use Generic
-//define('EC_ADLAN_A16', "Confirm"); //FIXME Use Generic
+//define('EC_ADLAN_A13', "Modifica"); //FIXME Use Generic
+//define('EC_ADLAN_A14', "Nuovo");
+//define('EC_ADLAN_A15', "Cancella"); //FIXME Use Generic
+//define('EC_ADLAN_A16', "Conferma"); //FIXME Use Generic
 define('EC_ADLAN_A17', "Procedere");
 define('EC_ADLAN_A18', "Azione");
 define('EC_ADLAN_A19', "Amministrare le Categorie");
 define('EC_ADLAN_A20', "Categorie Caledario");
 define('EC_ADLAN_A21', "Nome Categoria");
 define('EC_ADLAN_A22', "Aggiungi un campo da utilizzare in forum messaggi o siti esterni");	
-//define('EC_ADLAN_A23', "Create category"); //FIXME Use Generic
-//define('EC_ADLAN_A24', "Edit category"); //FIXME Use Generic
-//define('EC_ADLAN_A25', "Save"); //FIXME Use Generic
-//define('EC_ADLAN_A26', "Category created"); //FIXME Use Generic
-//define('EC_ADLAN_A27', "Unable to create category");
-//define('EC_ADLAN_A28', "Changes Saved"); //FIXME Use Generic
-//define('EC_ADLAN_A29', "Unable to save changes"); //FIXME Use Generic
+//define('EC_ADLAN_A23', "Crea categoria"); //FIXME Use Generic
+//define('EC_ADLAN_A24', "Modifica categoria"); //FIXME Use Generic
+//define('EC_ADLAN_A25', "Salva"); //FIXME Use Generic
+//define('EC_ADLAN_A26', "Categoria creata"); //FIXME Use Generic
+//define('EC_ADLAN_A27', "Impossibile creare la categoria");
+//define('EC_ADLAN_A28', "Modifiche salvate"); //FIXME Use Generic
+//define('EC_ADLAN_A29', "Impossibile salvare le modifiche"); //FIXME Use Generic
 
-//define('EC_ADLAN_A30', "Category Deleted"); //FIXME Use Generic
-//define('EC_ADLAN_A31', "Tick the confirm box to delete");
-//define('EC_ADLAN_A32', "Unable to delete this category"); //FIXME Use Generic
+//define('EC_ADLAN_A30', "Categora Cancellata"); //FIXME Use Generic
+//define('EC_ADLAN_A31', "Seleziona per confermare la cancellazione");
+//define('EC_ADLAN_A32', "Impossibile cancellare questa categoria"); //FIXME Use Generic
 define('EC_ADLAN_A33', "Non definito");
-define('EC_ADLAN_A34', "Calendar Classe Amministratore  Class");
+define('EC_ADLAN_A34', "Classe Calendario Classe Amministratore");
 //define('EC_ADLAN_A35', "");
-define('EC_ADLAN_A59', "Category is in use. Can not delete.");
+define('EC_ADLAN_A59', "La Categoria è in uso e non Può essere cancellata.");
 
-define('EC_ADLAN_A80', "Visible to");               
-define('EC_ADLAN_A81', "Allow subscription");
-define('EC_ADLAN_A82', "Forced notification class");
-define('EC_ADLAN_A83', "Days ahead to notify of event");
-define('EC_ADLAN_A84', "Advanced message");
-define('EC_ADLAN_A85', "Message on the day");
-define('EC_ADLAN_A86', "Send email");
-define('EC_ADLAN_A87', "None");
-define('EC_ADLAN_A88', "Only advanced");
-define('EC_ADLAN_A89', "Only on the day");
-define('EC_ADLAN_A90', "Advanced and on the day");
-define('EC_ADLAN_A91', "Email Subject");
-define('EC_ADLAN_A92', "Email from (name)");
-define('EC_ADLAN_A93', "Email from email address");
-define('EC_ADLAN_A94', "Add new event class");
-define('EC_ADLAN_A95', "Enable manual subscriptions");
-define('EC_ADLAN_A96', "Disabling this removes the subscriptions button and overrides the category manual subscription setting.");
+define('EC_ADLAN_A80', "Visibile a");               
+define('EC_ADLAN_A81', "Permetti sottoscrizione");
+define('EC_ADLAN_A82', "Forza la classe di notifica");
+define('EC_ADLAN_A83', "Giorni in anticipo per informare dell'evento");
+define('EC_ADLAN_A84', "Messaggio avanzato");
+define('EC_ADLAN_A85', "Messaggio del giorno dell'evento");
+define('EC_ADLAN_A86', "Invia email");
+define('EC_ADLAN_A87', "Nessuno");
+define('EC_ADLAN_A88', "Solo avanzato");
+define('EC_ADLAN_A89', "Solo nel giorno dell'evento");
+define('EC_ADLAN_A90', "Avanzato e il giorno dell'evento");
+define('EC_ADLAN_A91', "Oggetto Email");
+define('EC_ADLAN_A92', "Email da(name)");
+define('EC_ADLAN_A93', "Email da indirizzo email");
+define('EC_ADLAN_A94', "Aggiungi una nuova classe evento");
+define('EC_ADLAN_A95', "Abilita sottoscrizioni manuali");
+define('EC_ADLAN_A96', "La disattivazione rimuove il tasto sottoscerizione e sostituisce l'impostazione di sottoscrizione manuale della categoria.");
 
 
-define('EC_ADLAN_A100', "Forthcoming Events");
-define('EC_ADLAN_A101', "Days to look forward:");
-define('EC_ADLAN_A102', "Number of events to display:");
-define('EC_ADLAN_A103', "Include recurring events:");
-define('EC_ADLAN_A104', "Title is link to events list:");
-define('EC_ADLAN_A105', "Configure Forthcoming Events Menu");
-define('EC_ADLAN_A106', "Menu has to be enabled on the 'Menu' page");
-define('EC_ADLAN_A107', "Hide menu if no events to show");
-define('EC_ADLAN_A108', "Menu Heading");
-define('EC_ADLAN_A109', "Forthcoming Events preferences updated");
+define('EC_ADLAN_A100', "Prossimi eventi");
+define('EC_ADLAN_A101', "Giorni di anticipo da visualizzare:");
+define('EC_ADLAN_A102', "Numero eventi da visualizzare:");
+define('EC_ADLAN_A103', "Includere eventi ricorrenti:");
+define('EC_ADLAN_A104', "Il titolo è il link alla lista eventi:");
+define('EC_ADLAN_A105', "Configurare i prossimi Eventi Menù");
+define('EC_ADLAN_A106', "Il Menù deve essere abilitato alla pagina Menù");
+define('EC_ADLAN_A107', "Nascondi il menù se non vi sono eventi da visualizzare");
+define('EC_ADLAN_A108', "Intestazione Menù");
+define('EC_ADLAN_A109', "Le preferenze degli Eventi Imminenti sono stati aggiornati");
 
 define('EC_ADLAN_A110', "Only on previous day");
 define('EC_ADLAN_A111', "Advanced and previous day");

@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Caricare");
 define("LAN_UL_001", "Indirizzo email non valido");
 define("LAN_UL_002", "Non si dispone delle autorizzazioni corrette per caricare i file su questo server.");
