@@ -22,7 +22,7 @@ define("ONLINE_EL9", "il");
 define("ONLINE_EL10", "Nome del membro");
 define("ONLINE_EL11", "Visualizzazione della pagina");
 define("ONLINE_EL12", "Rispondendo a");
-define("ONLINE_EL13", "Cose da fare");
+define("ONLINE_EL13", "Forum");
 define("ONLINE_EL14", "Discussione");
 define("ONLINE_EL15", "Pagina");
 define("ONLINE_EL16", "Informazioni non disponibili");
