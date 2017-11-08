@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("EPL_ADLAN_0", "Installare");
 define("EPL_ADLAN_1", "Disinstallare");
 define("EPL_ADLAN_2", "Sei sicuro che si desidera disinstallare questo plugin?");
@@ -249,6 +248,7 @@ define("EPL_ADLAN_243", "Aggiorna Preferenze");
 define("EPL_ADLAN_244", "Sono consentite solo 5 Categorie  di Media durante l'installazione.");
 define("EPL_ADLAN_245", "Aggiungi Categoria Media [x]");
 define("EPL_ADLAN_246", "Eliminazione di tutti i Media Categorie di proprietà di: [x]");
+define("EPL_ADLAN_247", "Aggiornamernti Installati");
 define("EPL_ADLAN_249", "Aggiungi Campo Esteso:");
 define("EPL_ADLAN_250", "Rimuovi Campoo Esteso:");
 define("EPL_ADLAN_251", "Campi Estesi non modificati:");

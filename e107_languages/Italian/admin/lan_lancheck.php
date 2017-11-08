@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_CHECK_2", "Verificare");
 define("LAN_CHECK_3", "Verifica della");
 define("LAN_CHECK_4", "File mancante!");
@@ -26,6 +25,10 @@ define("LAN_CHECK_26", "Fronte");
 define("LAN_CHECK_PAGE_TITLE", "Lingue");
 define("LAN_CHECK_27", "Numero di language pack errori trovati");
 define("LAN_CHECK_28", "Identico");
+define("LAN_CHECK_29", "Stringa identica (solo avviso)");
+define("LAN_CHECK_30", "BBcode  mancanti");
+define("LAN_CHECK_31", "Caratteri mancanti [e/oppure]");
+define("LAN_CHECK_32", "Tags HTML mancanti");
 define("LANG_LAN_23", "Creare Language-Pack (zip)");
 define("LANG_LAN_30", "Data di rilascio");
 define("LANG_LAN_31", "Compatibilità");

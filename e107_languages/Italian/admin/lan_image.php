@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_IMA_M_01", "Biblioteca multimediale");
 define("LAN_IMA_M_02", "Upload/importazione media");
 define("LAN_IMA_M_03", "Categorie di media");
@@ -182,6 +181,8 @@ define("IMALAN_176", "C'è stato un problema sul prelevamento del file");
 define("IMALAN_177", "Premi qui per ulteriori informazioni e per inserire la tua APIKey");
 define("IMALAN_178", "Cartella Avatars (selezionabile dall'utente)");
 define("IMALAN_179", "Cartella Avatars (privata)");
+define("IMALAN_180", "0 byte trovati in:");
+define("IMALAN_181", "Per cortesia rimuovi prima di procedere.");
 
 
 ?>

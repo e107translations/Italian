@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("BANLAN_2", "No divieti nell'elenco.");
 define("BANLAN_3", "Divieti esistenti");
 define("BANLAN_5", "Immettere IP, indirizzo email o host");
@@ -123,6 +122,7 @@ define("BANLAN_122", "Lista nera");
 define("BANLAN_123", "Aggiungi alla lista nera");
 define("BANLAN_124", "Scade il");
 define("BANLAN_125", "Utilizzare il mio IP");
+define("BANLAN_126", "IP / Email");
 
 
 ?>

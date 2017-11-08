@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("PRFLAN_1", "Informazioni sul sito");
 define("PRFLAN_2", "Nome del sito");
 define("PRFLAN_3", "URL del sito");
@@ -257,6 +256,7 @@ define("PRFLAN_272", "Durate delle Sessioni");
 define("PRFLAN_273", "Durata in secondi.  0 = fino a quando il browser non viene chiuso.");
 define("PRFLAN_274", "Modulo di contatto sarà visibile soltanto a questo gruppo UserClass");
 define("PRFLAN_275", "Visualizza questa pagina utilizzando HTTPS (SSL) per modificare questa opzione");
+define("PRFLAN_276", "PHP Default (Preferito)");
 
 
 ?>

@@ -90,6 +90,11 @@ define("ADSTAT_LAN_84", "Questa procedura sovrascriverà i riepiloghi statistici
 Una volta sostituiti, i dati non possono essere recuperati. Si prega di effettuare prima un backup o di esportare copia del database.");
 define("ADSTAT_LAN_85", "[X] file di log rilevati. Premere il seguente pulsante per elaborarli.");
 define("ADSTAT_LAN_86", "Conteggi Totali");
+define("ADSTAT_LAN_87", "Ricostruire Sommario Statistiche");
+define("ADSTAT_LAN_88", "Ricostruire Statistiche");
+define("ADSTAT_LAN_89", "Ricostruire");
+define("ADSTAT_LAN_90", "Dati salvati nel database con id: [x]");
+define("ADSTAT_LAN_91", "Non posso salvare i dati nel database con id: [x]");
 
 
 ?>

@@ -111,6 +111,7 @@ define("TPVLAN_89", "Apply dashboard preferences to all administrators");
 define("TPVLAN_91", "Creare un nuovo Tema basato su");
 define("TPVLAN_92", "Nuova Cartella Tema");
 define("TPVLAN_93", "Selezione");
+define("TPVLAN_94", "Il Tema del sito è stato modificato in [x]");
 
 
 ?>

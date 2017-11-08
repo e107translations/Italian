@@ -78,7 +78,7 @@ define("LAN_EURL_PAGE_SEFNOID_DESCR", "Search engine e user friendly URL.");
 define("LAN_EURL_CORE_SEARCH", "Ricerca");
 define("LAN_EURL_SEARCH_DEFAULT_LABEL", "URL di ricerca predefinito");
 define("LAN_EURL_SEARCH_DEFAULT_DESCR", "URL diretto legacy.");
-define("LAN_EURL_SEARCH_REWRITE_LABEL", "Friendly URL");
+define("LAN_EURL_SEARCH_REWRITE_LABEL", "URL Amichevole");
 define("LAN_EURL_SEARCH_REWRITE_DESCR", "");
 define("LAN_EURL_CORE_SYSTEM", "Sistema");
 define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "URL di sistema predefiniti");
@@ -90,6 +90,7 @@ define("LAN_EURL_CORE_INDEX_INFO", "Su pagina non può avere un alias.");
 define("LAN_EURL_REBUILD", "Ricostruisci");
 define("LAN_EURL_REGULAR_EXPRESSION", "Espressine regolare");
 define("LAN_EURL_KEY", "Chiave");
+define("LAN_EURL_TABLE", "Tabella");
 
 
 ?>

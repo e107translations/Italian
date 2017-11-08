@@ -1,4 +1,5 @@
 <?php
+
 /*
 +---------------------------------------------------------------+
 |        e107 website content management system Italian Language File
@@ -60,5 +61,4 @@ define("CONTENT", "Contenuto della pagina");
 define("REVIEW", "Recensione");
 define("OTHER", "Altra pagina:");
 
-
-?>
+//?>

@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Registro");
 define("LAN_EMAIL_01", "Caro");
 define("LAN_EMAIL_04", "Si prega di tenere questa email per vostra informazione.");
@@ -113,6 +112,7 @@ define("LAN_SIGNUP_117", "Invia una Attivazione di Test");
 define("LAN_SIGNUP_118", "A [x]");
 define("LAN_SIGNUP_119", "Non inviare email");
 define("LAN_SIGNUP_120", "Oppure");
+define("LAN_SIGNUP_121", "Utilizza un altro indirizzo email");
 
 
 ?>

@@ -63,6 +63,8 @@ define("LANG_LAN_144", "Deve essere riattivato");
 define("LANG_LAN_148", "Modalità Normale");
 define("LANG_LAN_149", "Valore");
 define("LANG_LAN_150", "[b] Ricerca in tutto il Nucleo prima di commentare qualsiasi Riga da qualsiasi file di lingua. [/b]");
+define("LANG_LAN_151", "Disponibile");
+define("LANG_LAN_152", "Gentile concessione del [team di traduzione e107]");
 
 
 ?>

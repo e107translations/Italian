@@ -124,6 +124,9 @@ define("ADLAN_170", "Queste statistiche sono  a scopo dimostrativo.");
 define("ADLAN_171", "Installa il Plugin Statistiche del sito web");
 define("ADLAN_185", "Togli la Barra laterale");
 define("ADLAN_186", "I seguenti vecchi files possono essere cancellati con serenità dal sistema.");
+define("ADLAN_187", "Impossibile creare [x]. Controllare le autorizzazioni della Directory.");
+define("ADLAN_188", "L'impostazione del fuso orario [x] non è valida. È stato ripristinato all'ora UTC. Per modificare, vai all'amministratore -> Preferenze -> Opzioni visualizzazione data.");
+define("ADLAN_189", "I seguenti plugin non sono compatibili con questa versione di e107 e dovrebbero essere disinstallati:");
 define("ADLAN_CL_2", "Utenti");
 define("ADLAN_CL_3", "Contenuto");
 define("ADLAN_CL_4", "COMS");
@@ -175,6 +178,7 @@ define("LAN_RESET", "Resetta");
 define("LAN_CLEAR", "Chiaro");
 define("LAN_ADD_ALL", "Aggiungi Tutto");
 define("LAN_CLEAR_ALL", "Cancella Tutto");
+define("LAN_CLICK_HERE", "Premi qui");
 define("LAN_UNKNOWN", "Sconosciuto");
 define("LAN_ALL", "Tutti i");
 define("LAN_IMPORT", "Importazione");
@@ -182,6 +186,7 @@ define("LAN_NOTWRITABLE", "non è scrivibile, è necessario settare i CHMOD  del
 define("LAN_NOTREADABLE", "Non Leggibile");
 define("LAN_MISSING", "Assente");
 define("LAN_UNUSED", "Non utilizzato");
+define("LAN_SESSION", "Sessione");
 define("LAN_TOOLTIP", "Suggerimento");
 define("LAN_TIME", "Tempo");
 define("LAN_EMPTY", "Non sono presenti voci nel database ancora");
@@ -216,6 +221,7 @@ define("LAN_OPTIONAL", "opzionale");
 define("LAN_INACTIVE", "Inattivo");
 define("LAN_ACTIVATE", "Attivato");
 define("LAN_ACCEPT", "Accettare");
+define("LAN_PASSWORD_WARNING", "Si consiglia altamente di [modificare la codifica delle password] nel PHP predefinito. (Gli hash delle password verranno automaticamente aggiornati durante l'accesso degli utenti.)");
 define("LAN_PENDING", "In sospeso");
 define("LAN_SUBMITTED", "Inviato");
 define("LAN_POSTED_BY_X", "Pubblicato da [x] [y]");
@@ -263,7 +269,7 @@ define("LAN_STATUS", "Stato");
 define("LAN_URL", "URL");
 define("LAN_OWNER", "Proprietario");
 define("LAN_PURCHASE", "Acquista");
-define("LAN_DOWN_THEME", "Download");
+define("LAN_DOWNLOADING", "Sto scaricando");
 define("LAN_ID", "ID");
 define("LAN_TEST", "Prova");
 define("LAN_VISIBILITY", "Visibilità");
@@ -321,6 +327,8 @@ define("LAN_UI_DELETE_WARNING", "Stai per eliminare [x] record. Si prega di conf
 define("LAN_UI_BATCH_CREATELINK", "Creare Link");
 define("LAN_UI_DELETED", "record(s) [x] cancellato(i) correttamente.");
 define("LAN_UI_DELETED_FAILED", "[x] records non trovato e non cancellato!");
+define("LAN_UI_FILE_DELETED", "[x] File cancellato correttamente");
+define("LAN_UI_FILE_DELETED_FAILED", "Impossibile cancellare [x] Per cortesia rimuovi il file manualmente");
 define("LAN_UI_BATCH_EXPORT", "Esporta");
 define("LAN_UI_USING_DATABASE_TABLE", "Tabella di database utilizzando [x]");
 define("LAN_UI_TOTAL_RECORDS", "Record di totale: [x]");
@@ -358,6 +366,7 @@ define("LAN_PERSONALIZE", "Personalizza");
 define("LAN_SETTINGS_NOT_SAVED_NO_CHANGES_MADE", "I Settings non sono stati aggiornati perché non vi sono cambiamenti");
 define("LAN_DASHBOARD_LAYOUT", "Cruscotto Grafica");
 define("LAN_UNAVAILABLE", "Non disponibile");
+define("LAN_UNINSTALL", "Disinstalla");
 define("LAN_NO_LABEL_PROVIDED", "Nessuna Etichetta indicata");
 define("LAN_NOT_FOUND", "Non trovato!");
 define("LAN_FIELD", "Campo");
@@ -375,4 +384,4 @@ define("LAN_ERROR_CONNECTION", "Impossibile connettersi per gli aggiornamenti. S
 define("LAN_UI_X_CANT_EQUAL_Y", "[x] non può essere lo stesso [y]");
 
 
-?>
+

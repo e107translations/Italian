@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_USER_01", "Nome visualizzato");
 define("LAN_USER_02", "Nome di login");
 define("LAN_USER_03", "Vero nome");
@@ -89,6 +88,12 @@ define("LAN_XUP_ERRM_03", "Accesso fallito. Fornitore di hosting errato");
 define("LAN_XUP_ERRM_04", "Registrazione fallita. Il nome utente risulta già registrato");
 define("LAN_XUP_ERRM_05", "Registrazione fallita. L'Utente è già registrato. Utilizzata il login di accesso");
 define("LAN_XUP_ERRM_06", "Accesso fallito! Non è  stata rilevato un indirizzo di posta elettronica.Non è possibile proseguire la registrazione senza indicare un account di posta.");
+define("LAN_XUP_ERRM_07", "Socialnetwork login tester");
+define("LAN_XUP_ERRM_08", "Per cortesia disconnettiti da e107 prima di testare la procedura di registrazione e login del nuovo utente");
+define("LAN_XUP_ERRM_09", "Login test solo con [x]");
+define("LAN_XUP_ERRM_10", "Registrazione / Login test con [x]");
+define("LAN_XUP_ERRM_11", "Connesso:");
+define("LAN_XUP_ERRM_12", "Prova il logout");
 
 
 ?>
