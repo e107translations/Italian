@@ -41,7 +41,7 @@ define("RL_LAN_050", "Errore di parametro - non eliminato");
 define("RL_LAN_052", "log Amminstratore");
 define("RL_LAN_053", "Registro di controllo utente");
 define("RL_LAN_054", "Nulla per eliminare o errore del database");
-define("RL_LAN_057", "-eventi più vecchi di..--vecchio-- (- NUM-- soppressi)");
+define("RL_LAN_057", "gli eventi più vecchi di [x]  ([y] inserimenti) cancellati");
 define("RL_LAN_058", "Filtro di priorità:");
 define("RL_LAN_059", "Filtro di chiamante:");
 define("RL_LAN_060", "Filtro degli indirizzi IP:");
@@ -100,6 +100,3 @@ define("RL_LAN_132", "Informativa");
 define("RL_LAN_133", "Nota");
 define("RL_LAN_134", "Attenzione");
 define("RL_LAN_135", "Fatale");
-
-
-?>

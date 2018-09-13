@@ -9,10 +9,9 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Messaggi utente");
-define("UP_LAN_0", "Tutti i messaggi del Forum per");
-define("UP_LAN_1", "Tutti i commenti per");
+define("UP_LAN_0", "Tutti i messaggi del Forum per [x]");
+define("UP_LAN_1", "Tutti i commenti per [x]");
 define("UP_LAN_2", "Discussione");
 define("UP_LAN_3", "Visualizzazioni");
 define("UP_LAN_4", "Risposte");
@@ -27,6 +26,3 @@ define("UP_LAN_12", "Ricerca");
 define("UP_LAN_14", "Messaggi nel forum");
 define("UP_LAN_15", "Re");
 define("UP_LAN_16", "Indirizzo IP");
-
-
-?>

@@ -69,9 +69,9 @@ define("LAN_USER_71", "Firma:");
 define("LAN_USER_72", "Avatar:");
 define("LAN_USER_73", "scelta di contenuto/mailing list");
 define("LAN_USER_74", "Titolo personalizzato");
-define("LAN_USER_75", "Il tuo..--qualcosa..--è necessario");
+define("LAN_USER_75", "Il tuo [x] è obbligatorio");
 define("LAN_USER_76", "Sottoscritto");
-define("LAN_USER_77", "La password deve essere almeno - COUNT - caratteri.");
+define("LAN_USER_77", "La password deve essere almeno [x] caratteri.");
 define("LAN_USER_78", "Min.");
 define("LAN_USER_79", "i caratteri.");
 define("LAN_USER_80", "il nome visualizzato sul sito");
@@ -80,7 +80,7 @@ define("LAN_USER_82", "il nome si utilizza per effettuare il login al sito");
 define("LAN_USER_83", "Nascondi indirizzo email?:");
 define("LAN_USER_84", "Ciò impedirà il tuo indirizzo email venga visualizzato sul sito");
 define("LAN_USER_85", "Se si desidera modificare il nome utente, è necessario chiedere un amministratore del sito");
-define("LAN_USER_86", "Dimensione massima avatar è--larghezza-- x-- altezza - pixel");
+define("LAN_USER_86", "Dimensione massima avatar è[x] - x [y] pixel");
 define("LAN_USER_87", "Autenticati per valutare questo utente");
 define("LAN_XUP_ERRM_01", "Registrazione  fallita. Questa funzionalità è disattivata.");
 define("LAN_XUP_ERRM_02", "Registrazione fallita. Fornitore di hosting errato.");
@@ -94,6 +94,3 @@ define("LAN_XUP_ERRM_09", "Login test solo con [x]");
 define("LAN_XUP_ERRM_10", "Registrazione / Login test con [x]");
 define("LAN_XUP_ERRM_11", "Connesso:");
 define("LAN_XUP_ERRM_12", "Prova il logout");
-
-
-?>

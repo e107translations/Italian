@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_CONVERT_03", "Si deve iniziare con un database pulito di E107, diverso dall'utente principale admin (ID = 1)");
 define("LAN_CONVERT_04", "Campo o i campi lasciati vuoti, si prega di tornare indietro e immettere nuovamente i valori.");
 define("LAN_CONVERT_05", "Esecuzione di questo script potrebbe svuotare molte delle vostre tabelle di E107 - assicuratevi di che avere un backup completo prima di continuare!");
@@ -41,8 +40,8 @@ define("LAN_CONVERT_30", "Routine di importazione informazioni");
 define("LAN_CONVERT_31", "File di dati CSV non esiste, o non valido di autorizzazioni");
 define("LAN_CONVERT_32", "Errore di lettura file di dati CSV");
 define("LAN_CONVERT_33", "Errore nella riga di dati CSV");
-define("LAN_CONVERT_34", "Errore: - ERRNUM - durante la scrittura al database utente, linea");
-define("LAN_CONVERT_35", "Importazione CSV completata. -- LINEE-- errori di lettura, gli utenti - utenti-- aggiunti, - errori-");
+define("LAN_CONVERT_34", "Errore: -[x] durante la scrittura della linea nel database utente");
+define("LAN_CONVERT_35", "Importazione CSV completata. [x]  letti, [y] utenti aggiunti, [z] errori");
 define("LAN_CONVERT_36", "Nome del file di dati CSV");
 define("LAN_CONVERT_37", "Specifica di formato non valido per il tipo di importazione");
 define("LAN_CONVERT_38", "Eliminare i dati esistenti");
@@ -53,8 +52,8 @@ define("LAN_CONVERT_42", "Errore nel file di definizione - classe richiesta non 
 define("LAN_CONVERT_43", "Errore di connessione al database di origine");
 define("LAN_CONVERT_44", "Errore di installazione di query per");
 define("LAN_CONVERT_45", "Impossibile leggere il file di codice di importazione");
-define("LAN_CONVERT_46", "Errore: - ERRNUM - durante la scrittura - DB - database, linea");
-define("LAN_CONVERT_47", "Batch - blocco-- importazione completata. -LINEE..--leggere, aggiunto - utenti--, - errori - errori");
+define("LAN_CONVERT_46", "Errore: [x] durante la scrittura  alla linea [y] del database");
+define("LAN_CONVERT_47", "Batch [w]  importazione completata. [x] letto, [y] aggiunte, [z] errori");
 define("LAN_CONVERT_48", "Messaggi nel forum");
 define("LAN_CONVERT_49", "Drupal");
 define("LAN_CONVERT_50", "Importazione di base");
@@ -81,7 +80,4 @@ define("LAN_CONVERT_70", "Messaggi/ Argomenti Forum");
 define("LAN_CONVERT_71", "Messaggi Forum");
 define("LAN_CONVERT_72", "Traccia il Forum");
 define("LAN_CONVERT_73", "Classi Utente");
-define("LAN_CONVERT_74", "Categorei Novità");
-
-
-?>
+define("LAN_CONVERT_74", "Categorie News");

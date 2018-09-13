@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("FORLAN_2", "Per favore selezionare questa opzione per eliminare completamente i messaggi potati o renderli inattivi (non cancellate ma non visibile nei forum)");
 define("FORLAN_7", "Opzioni Forum");
 define("FORLAN_8", "Forum potati.");
@@ -115,7 +114,7 @@ define("FORLAN_201", "Abilitalo per permettere ai tuoi utenti di tracciare gli a
 define("FORLAN_202", "Notifica email degli argomenti tracciati");
 define("FORLAN_203", "Abilita questa opzione per permettere ai tuoi utenti di ricevere notifiche a mezzo email quando altri utenti rispondono ai messaggi d'interesse.");
 define("FORLAN_204", "Utente-Anonimo");
-define("FORLAN_205", "Autorizzare Messaggio ");
+define("FORLAN_205", "Autorizzare Messaggio");
 define("FORLAN_206", "Permessi di creazione Argomenti");
 define("FORLAN_207", "Forum e Argomenti");
 define("FORLAN_208", "Forum Soltanto");
@@ -127,6 +126,9 @@ define("FORLAN_213", "Invia");
 define("FORLAN_214", "Lascia in bianco per autogenerare il titolo");
 define("FORLAN_215", "Non Installato");
 define("FORLAN_216", "(Nuovo Genitore)");
-
-
-?>
+define("FORLAN_217", "Sistema Predefinito");
+define("FORLAN_218", "Area Testo");
+define("FORLAN_219", "Rich Editor di Testo");
+define("FORLAN_220", "Post Editor ");
+define("FORLAN_221", "Quale editor dovrebbe essere usato per creare / modificare i post?");
+define("FORLAN_222", "Editor Risposte Veloci");

@@ -103,6 +103,7 @@ define("LAN_FILES", "File");
 define("LAN_SIZE", "Dimensioni");
 define("LAN_VERSION", "Versione");
 define("LAN_DOWNLOAD", "Scarica");
+define("LAN_DOWNLOAD_NO_PERMISSION", "File non trovato oppure non sei autorizzato ad effettuare il download di questo file!");
 define("LAN_WEBSITE", "Sito Web");
 define("LAN_COMMENTS", "Commenti");
 define("LAN_LOCATION", "Posizione");
@@ -119,6 +120,7 @@ define("LAN_RE_ORDER", "Ri-ordinare");
 define("LAN_RELATED", "Relazionato");
 define("LAN_CLOSE", "Chiudi");
 define("LAN_EXPAND", "Espandi");
+define("LAN_LIST", "Lista");
 define("LAN_ENTER_USRNAME_EMAIL", "Inserisci il tuo username o email");
 define("LAN_PWD_REQUIRED", "Password è obbligatoria");
 define("LAN_SHOW", "Mostra");
@@ -127,6 +129,3 @@ define("LAN_SUMMARY", "Sommario");
 define("LAN_REQUIRED_BLANK", "Campo obbligatorio(i) lasciato vuoto(i)");
 define("LAN_PLEASEWAIT", "Attendere");
 define("LAN_CHOOSE_FILE", "Scegli il File");
-
-
-?>

@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LANCONTACT_00", "Contattaci");
 define("LANCONTACT_01", "Dati di contatto");
 define("LANCONTACT_02", "Modulo di contatto");
@@ -31,6 +30,7 @@ define("LANCONTACT_17", "Inserisci il tuo nome");
 define("LANCONTACT_18", "Inserisci il tuo indirizzo email");
 define("LANCONTACT_19", "Inserisci l'oggetto della email");
 define("LANCONTACT_20", "Inserisi il tuo messaggio");
-
-
-?>
+define("LANCONTACT_21", "Autorizzo il sito web a memorizzare le informazioni che invio con il form al fine di gestire correttamente la mia richiesta");
+define("LANCONTACT_22", "Policy Privacy");
+define("LANCONTACT_23", "Puoi leggere le nostre policy e le regole sulla privacy qui: [x]");
+define("LANCONTACT_24", "Accordo GDPR");

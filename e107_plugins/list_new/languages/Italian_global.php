@@ -1,8 +1,14 @@
 <?php
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2018/09/13 13:56:14
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_LISTNEW_NAME", "Elenco nuovi elementi");
-define("LAN_PLUGIN_LISTNEW_DESCRIPTION", "Questo plugin consente di visualizzare un elenco e/o il menù delle aggiunte recenti in tutte le categorie di e107. Si può visualizzare l'elenco con i dati dalla tua ultima visita o Mostra un elenco generale di aggiunte più recente.");
+define("LAN_PLUGIN_LIST_NEW_NAME", "Lista dei Nuovi Articoli");
+define("LAN_PLUGIN_LIST_NEW_DESCRIPTION", "Questo plugin consente di visualizzare un elenco e / o un menu di aggiunte recenti in tutte le categorie e107. È possibile visualizzare l'elenco con i dati dall'ultima visita o visualizzare un elenco di aggiunte più recenti.");

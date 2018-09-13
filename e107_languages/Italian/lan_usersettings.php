@@ -9,9 +9,8 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Impostazioni utente");
-define("MAX_AVWIDTH", "Dimensione massima avatar (LXA) è");
+define("MAX_AVWIDTH", "Dimensione massima avatar (wxh)  è");
 define("MAX_AVHEIGHT", "x");
 define("LAN_USET_1", "Il tuo avatar è troppo larga");
 define("LAN_USET_2", "Larghezza massima consentita è");
@@ -28,7 +27,7 @@ define("LAN_USET_14", "Nome di accesso troppo a lungo. Scegli un altro");
 define("LAN_USET_15", "Nome visualizzato troppo a lungo. Scegli un altro");
 define("LAN_USET_16", "Casella di spunta per eliminare la foto esistente senza caricare un altro");
 define("LAN_USET_17", "Visualizzare nome già utilizzato. Scegli un altro");
-define("LAN_USET_18", "Dati utente modificato da admin:..--ID..., nome di login: - LOGNAME...");
+define("LAN_USET_18", "Dati utente modificato da admin: [x],  nome di login: [y]");
 define("LAN_USET_20", "È necessario modificare la password dell'utente anche se si stanno cambiando il loro indirizzo e-mail o nome di accesso");
 define("LAN_USET_21", "Immettere nuovamente la password, la preghiamo di confermare le modifiche:");
 define("LAN_USET_23", "Lasciare vuoto per mantenere la password esistente");
@@ -82,6 +81,10 @@ define("LAN_435", "File XML User Protocol");
 define("LAN_CUSTOMTITLE", "Titolo personalizzato");
 define("LAN_USET_5", "Sottoscritto");
 define("LAN_USET_6", "Iscriviti alla nostra mailing-elenchi e/o sezioni del presente sito.");
-
-
-?>
+define("LAN_USET_50", "Cancella l'Account");
+define("LAN_USET_51", "Sei Sicuro? Questa procedura non può essere annullata! Una volta completato, il tuo account e tutti i dati personali che hai inserito su questo sito verranno persi in modo permanente e non potrai più effettuare il login.");
+define("LAN_USET_52", "Un'email di conferma è stata inviata a [x]. utilizza il link indicato nell'email per eliminare definitivamente il tuo account.");
+define("LAN_USET_53", "Conferma Rimozione Account");
+define("LAN_USET_54", "Email di conferma inviata");
+define("LAN_USET_55", "Fare clic sul seguente collegamento per completare la cancellazione del  tuo account.");
+define("LAN_USET_56", "Il tuo account è stato correttamente cancellato");

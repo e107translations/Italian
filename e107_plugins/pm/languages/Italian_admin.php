@@ -58,17 +58,17 @@ define("ADLAN_PM_64", "Messaggi ricevuti");
 define("ADLAN_PM_65", "Utenti Bloccati");
 define("ADLAN_PM_66", "Nessuna attività di Manutenzione specificata");
 define("ADLAN_PM_67", "Manutenzione del DB dei Messaggi Privati iniziata");
-define("ADLAN_PM_68", "-- Conteggia-- i blocchi di utenti rimossi");
-define("ADLAN_PM_69", "--Conteggia-- bloccati da utenti  rimossi");
-define("ADLAN_PM_70", "Errore del Daatabase --NUM--: --TESTO-- rimuove blocchi utente");
+define("ADLAN_PM_68", "[x] blocchi di utenti rimossi");
+define("ADLAN_PM_69", "[x] rimossi i blocchi degli utenti cancellati");
+define("ADLAN_PM_70", "Errore del Daatabase [y]: [z] rimuove utenti bloccati");
 define("ADLAN_PM_71", "Messaggi Scaduti");
 define("ADLAN_PM_72", "Nessun timeout Messaggi privati impostato");
-define("ADLAN_PM_73", "--CONTEGGIO-- Messaggi Privati scaduti cancellati");
-define("ADLAN_PM_74", "--CONTEGGIO-- Messaggi inviati da utenti cancellati Rimossi");
-define("ADLAN_PM_75", "--COUNT-- Messaggi ricevuti da utenti cancelati Rimossi");
+define("ADLAN_PM_73", "[x] Tempo Scaduto Messaggi Privati  cancellati");
+define("ADLAN_PM_74", "Rimossi [x] Messaggi inviati da utenti cancellati");
+define("ADLAN_PM_75", "Rimossi [x] Messaggi ricevuti da utenti cancelati");
 define("ADLAN_PM_77", "(Svuota tutti i campi ed aggiorna per cancellare il limite)");
-define("ADLAN_PM_78", "Controlla Allegato");
-define("ADLAN_PM_79", "--Ofani-- Gli Allegati non utilizzati sono stati cncellati. ----MANCANTI-- memorizzata la mancanza dell'Allegato");
+define("ADLAN_PM_78", "Controlla Allegati");
+define("ADLAN_PM_79", "[x] Gli Allegati non utilizzati sono stati cncellati. [y] annoitata l'assenza dell'Allegato");
 define("ADLAN_PM_80", "Preferenza Formati aggiornata");
 define("ADLAN_PM_81", "Massimo numero di Mesaggi Privati da inviare immediatamente");
 define("ADLAN_PM_82", "Se Invii più di un messaggio gli altri vengono aggiunti a una coda e inviati utilizzando l'attività cron.");
@@ -83,6 +83,3 @@ define("ADLAN_PM_90", "Per cortesia inserisci un destinatario nel campo "A"");
 define("ADLAN_PM_91", "Prova");
 define("ADLAN_PM_92", "Prova invio Email!");
 define("ADLAN_PM_93", "Prova Email fallito!");
-
-
-?>

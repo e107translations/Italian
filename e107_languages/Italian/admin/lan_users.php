@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("USRLAN_1", "Opzioni salvate.");
 define("USRLAN_3", "ora elencati un amministratore - impostare autorizzazioni si prega di raggiungere la");
 define("USRLAN_4", "Pagina amministratore");
@@ -110,22 +109,18 @@ define("USRLAN_151", "Deselezionare il rimbalzo, richiedono l'attivazione");
 define("USRLAN_152", "Rimbalzo chiaro e attiva");
 define("USRLAN_153", "Eliminare i messaggi e-mail non-rimbalzo");
 define("USRLAN_154", "Chiaro e-mail per controllato");
-define("USRLAN_155", "Totale email {totale} trovata. {DELCOUNT} eliminati tramite opzioni.<br>Gli utenti {DELUSER} contrassegnati come 'rimbalzate' (email {FOUND})");
+define("USRLAN_155", "Totale email [w] trovate. [x]  eliminate tramite opzioni.<br>Gli utenti [y]  contrassegnati come 'respinte' (out of [z] emails)");
 define("USRLAN_156", "Indirizzo e-mail è già in uso");
-define("USRLAN_160", "Totale-- COUNT - utenti di tipo - tipo-- potato");
-define("USRLAN_161", "ID di utente--UID - nome - nome-- vietato");
-define("USRLAN_162", "ID di utente--UID - nome - nome-- unbanned");
-define("USRLAN_163", "ID utente - UID - cancellato");
-define("USRLAN_164", "ID di utente--UID - nome - nome-- (..--EMAIL...) ha fatto admin");
-define("USRLAN_165", "ID di utente--UID - nome - nome-- admin stato revocato");
-define("USRLAN_166", "ID di utente--UID - nome - nome-- approvato");
-define("USRLAN_167", "Convalida e-mail ID - ID - risentirsi per..--nome-- - email...");
-define("USRLAN_168", "Inviare nuovamente-- COUNT - email di convalida");
-define("USRLAN_169", "Totale-- COUNT - rimbalzato email cancellati");
+define("USRLAN_161", "ID di utente [x] nome [y] bannato");
+define("USRLAN_162", "ID di utente [x] nome [y] rimosso il ban");
+define("USRLAN_164", "ID di utente-[x] nome [y] ([z]) reso admin");
+define("USRLAN_165", "ID di utente [x] nome [y] revocato da admin");
+define("USRLAN_166", "ID di utente [x] nome [y] approvato");
+define("USRLAN_167", "Convalida e-mail ID [x] per [y] rispedita a [z].");
+define("USRLAN_169", "Totale [x] email respinte  cancellate");
 define("USRLAN_170", "Nome utente casuale");
 define("USRLAN_171", "Password casuale");
 define("USRLAN_172", "Account utente è stato creato con il seguente:");
-define("USRLAN_175", "Sessione");
 define("USRLAN_179", "Utente bannato:");
 define("USRLAN_180", "Indirizzo IP {IP} appare sulla lista bianca; IP non è vietato.");
 define("USRLAN_181", "Scegliere l'opzione per lo stato di utente e l'invio di email di conferma all'utente");
@@ -139,7 +134,6 @@ define("USRLAN_188", "Email inviata con successo");
 define("USRLAN_189", "Errore durante l'invio di e-mail");
 define("USRLAN_190", "Nuovo periodo di prova di utente (giorni)");
 define("USRLAN_191", "Amministratore può imporre restrizioni durante questo periodo, in alcune zone");
-define("USRLAN_192", "");
 define("USRLAN_193", "Nulla è cambiato - non salvate");
 define("USRLAN_194", "Firma può essere modificato da");
 define("USRLAN_195", "Ultimo Post");
@@ -195,8 +189,8 @@ define("USRLAN_240", "Attivare, non notificare");
 define("USRLAN_241", "Attivare, notificare (password)");
 define("USRLAN_242", "Richiede l'attivazione, notificare (password e attivazione link)");
 define("USRLAN_243", "Impostare le autorizzazioni");
-define("USRLAN_244", "Violazione di protezione (non sufficienti autorizzazioni) - amministratore - ADMIN_UID - (- Nome_Ammin-, - ADMIN_EMAIL...) provato a rimuovere lo stato admin da--UID - (- nome--, - EMAIL...)");
-define("USRLAN_245", "Violazione di protezione (non sufficienti autorizzazioni) - amministratore - ADMIN_UID - (- Nome_Ammin-, - ADMIN_EMAIL...) ha tentato di fare-- UID - (- nome--, - EMAIL-) sistema admin");
+define("USRLAN_244", "Violazione di protezione (non sufficienti autorizzazioni) - amministratore - [x] [y] [z] tentato di rimuovere dallo stato di amministratore su [u] ( [v] [z] )");
+define("USRLAN_245", "Violazione di protezione (autorizzazioni insufficenti) - Amministratore [x] ([y], [z] ha tentato di creare [u] ([v], [z]) amministratore di sistema");
 define("USRLAN_246", "Noi");
 define("USRLAN_247", "Noi");
 define("USRLAN_248", "Noi");
@@ -204,7 +198,7 @@ define("USRLAN_249", "Noi");
 define("USRLAN_250", "Noi");
 define("USRLAN_251", "Lasciare vuoto per non cambiare nulla.");
 define("USRLAN_252", "Reinvia la mail di attivazione per gli utenti non ancora attivati.");
-define("USRLAN_253", "Più vecchio di ");
+define("USRLAN_253", "Più vecchio di");
 define("USRLAN_254", "Resetta tutte le password");
 define("USRLAN_255", "Notifica utente");
 define("USRLAN_256", "Caro");
@@ -216,7 +210,7 @@ define("UCSLAN_6", "Classe set per utente");
 define("UCSLAN_7", "Set di classi");
 define("UCSLAN_9", "Corsi di aggiornamento.");
 define("UCSLAN_10", "Distinti saluti,");
-define("UCSLAN_11", "L'appartenenza alla classe utente ID-- UID - cambiato - classi...");
+define("UCSLAN_11", "L'appartenenza alla classe per utente ID [x] è stata cambiata in  [y]");
 define("UCSLAN_12", "Privilegi di membro solo");
 define("USFLAN_1", "Impossibile trovare il poster indirizzo IP - nessuna informazione è disponibile.");
 define("USFLAN_3", "Messaggi inviati dall'indirizzo IP");
@@ -227,6 +221,3 @@ define("USFLAN_7", "Informazioni utente");
 define("USRLAN_AS_1", "Login come [x]");
 define("USRLAN_AS_2", "Logout da [account x]");
 define("USRLAN_AS_3", "Si è già connessi un altro account utente. Si prega di logout prima.");
-
-
-?>

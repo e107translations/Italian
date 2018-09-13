@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("UPLLAN_1", "Upload rimosso dall'elenco.");
 define("UPLLAN_2", "Impostazioni salvate nel database");
 define("UPLLAN_4", "Nulla è cambiato - non aggiornato");
@@ -37,7 +36,7 @@ define("UPLAN_IS", "è");
 define("UPLAN_ARE", "sono");
 define("UPLAN_COPYTODLS", "Copiare la pagina di download");
 define("UPLLAN_51", "Elenco upload");
-define("UPLLAN_52", "Questa pagina consente di creare un file per la gestione dei permessi dei file upload. Il file viene salvato come fonte..--e dovrà essere copiato - DEST..--prima che abbia effetto.");
+define("UPLLAN_52", "Questa pagina consente di creare un file per la gestione dei permessi dei file da inviare. Il file viene salvato in [x],e deve essere copiato in [y] prima che la modifica  abbia effetto");
 define("UPLLAN_54", "Estensioni di file");
 define("UPLLAN_55", "Max carica dimensione");
 define("UPLLAN_56", "Generare file");
@@ -52,6 +51,3 @@ define("UPLLAN_66", "Scarica percorso errore");
 define("UPLLAN_68", "Errore SQL:");
 define("UPLLAN_69", "Importato");
 define("UPLLAN_70", "Inviato a [x]");
-
-
-?>

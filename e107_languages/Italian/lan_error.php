@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("PAGE_NAME", "Errore");
 define("LAN_ERROR_TITLE", "Accidenti");
 define("LAN_ERROR_1", "Errore 401 - autenticazione non riuscita");
@@ -57,6 +56,7 @@ define("LAN_ERROR_43", "Sito temporaneamente non disponibile");
 define("LAN_ERROR_44", "Logo del sito");
 define("LAN_ERROR_45", "Cosa si può fare ora?");
 define("LAN_ERROR_46", "Controlla il Log per i dettagli");
-
-
-?>
+define("LAN_ERROR_47", "Errore di validazione: Il titolo delle News non può essere vuoto!");
+define("LAN_ERROR_48", "Errore di validazione: il campo URL SEF è necessario e non può essere vuoto!");
+define("LAN_ERROR_49", "Errore di validazione: il campo URL SEF è  unico - il valore inserito  è già in uso! Scegli un altro valore URL SEF.");
+define("LAN_ERROR_50", "Errore di validazione: La categoria News non può essere vuota!");

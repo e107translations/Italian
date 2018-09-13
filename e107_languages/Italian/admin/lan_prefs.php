@@ -192,8 +192,8 @@ define("PRFLAN_208", "Classe di utente che può link per gli articoli sul sito e
 define("PRFLAN_209", "Altre caratteristiche");
 define("PRFLAN_210", "Commenti/registrazione");
 define("PRFLAN_211", "Se non puoi effettuare indirizzo email opzionale necessaria per la convalida o effettua il login");
-define("PRFLAN_212", "Valore per..--campo--troppo alto - modificato - valore...");
-define("PRFLAN_213", "Valore per..--campo-- troppo basso - ha cambiato... valore...");
+define("PRFLAN_212", "Valore per [x] troppo alto - cambiato in [y]");
+define("PRFLAN_213", "Valore per. [x] troppo basso - è stato sostituito con [y]");
 define("PRFLAN_214", "Logo del sito");
 define("PRFLAN_215", "Classe che può postare < script > e tag simili");
 define("PRFLAN_216", "(Richiede HTML distacco diritti pure)");
@@ -257,6 +257,8 @@ define("PRFLAN_273", "Durata in secondi.  0 = fino a quando il browser non viene
 define("PRFLAN_274", "Modulo di contatto sarà visibile soltanto a questo gruppo UserClass");
 define("PRFLAN_275", "Visualizza questa pagina utilizzando HTTPS (SSL) per modificare questa opzione");
 define("PRFLAN_276", "PHP Default (Preferito)");
-
-
-?>
+define("PRFLAN_277", "GDPR Settings");
+define("PRFLAN_278", "URL alla pagina Privacy Policy");
+define("PRFLAN_279", "Assicurati che l'url esista!  E' preferibile un URL assoluto. Questa impostazione verrà utilizzata in tutte le aree che richiedono il consenso dell'utente (e.g. signup, contact form/menu, etc.).");
+define("PRFLAN_280", "URL al regolamento e condizioni del sito");
+define("PRFLAN_281", "Assicurati che l'url esista! È meglio utilizzare un URL assoluto. Questa impostazione verrà utilizzata in tutti i luoghi che richiedono il consenso dell'utente (ad esempio registrazione, modulo di contatto / menu, ecc.).");

@@ -51,10 +51,10 @@ define("BANLAN_44", "Utilizzare la data di scadenza da importazione");
 define("BANLAN_45", "Importazione");
 define("BANLAN_46", "File di importazione:");
 define("BANLAN_47", "Errore di caricamento file");
-define("BANLAN_48", "Cancellate - NUM--le voci dell'elenco scaduto divieto");
+define("BANLAN_48", "Cancellate [y] voci scadute della lista dei ban");
 define("BANLAN_49", "Importazione CSV: sbilanciato citazioni in linea");
 define("BANLAN_50", "Importazione CSV: errore scrittura banlist record riga");
-define("BANLAN_51", "Importazione CSV: successo, - NUM-- linee importate da file");
+define("BANLAN_51", "Importazione CSV: successo, [y] linee importate dal file");
 define("BANLAN_52", "Lista Bianca");
 define("BANLAN_53", "Aggiungere alla Whitelist");
 define("BANLAN_54", "Nessuna voce in whitelist");
@@ -89,13 +89,12 @@ define("BANLAN_83", "Data/ora");
 define("BANLAN_84", "Indirizzo IP");
 define("BANLAN_85", "Ulteriori informazioni");
 define("BANLAN_86", "Eventi relativi a divieto");
-define("BANLAN_87", "Totale - NUM--voci in elenco");
+define("BANLAN_87", "Totale [y] voci in elenco");
 define("BANLAN_88", "Log di azioni Ban vuota");
 define("BANLAN_89", "File di registro eliminati");
 define("BANLAN_90", "Eliminazione file di registro errori");
 define("BANLAN_91", "Formato data/ora di registro divieto");
 define("BANLAN_92", "Vedere la pagina funzione strftime php.net");
-define("BANLAN_93", "");
 define("BANLAN_100", "Sconosciuto");
 define("BANLAN_101", "Manuale");
 define("BANLAN_102", "Inondazione");
@@ -123,6 +122,4 @@ define("BANLAN_123", "Aggiungi alla lista nera");
 define("BANLAN_124", "Scade il");
 define("BANLAN_125", "Utilizzare il mio IP");
 define("BANLAN_126", "IP / Email");
-
-
-?>
+define("BANLAN_127", "Cancella dal database tutti [x] tentativi di autenticazione falliti.");

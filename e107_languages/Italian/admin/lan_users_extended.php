@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("EXTLAN_1", "Nome");
 define("EXTLAN_2", "Anteprima");
 define("EXTLAN_3", "Valori");
@@ -86,7 +85,7 @@ define("EXTLAN_74", "è un nome di campo riservato e non può essere utilizzato.
 define("EXTLAN_75", "Campo di errore aggiunta al database.");
 define("EXTLAN_76", "Caratteri non validi nel campo nome - solo A-Z, a-z, 0-9, permesso.");
 define("EXTLAN_77", "Categoria non eliminato - deve prima eliminare campi nella categoria:");
-define("EXTLAN_78", "Impossibile trovare il file - FILE--necessari per creare la tabella dati");
+define("EXTLAN_78", "Impossibile trovare il file [x] necessario per creare la tabella dati");
 define("EXTLAN_79", "Etichetta");
 define("EXTLAN_80", "Errore di convalida - interrotta.");
 define("EXTLAN_81", "Aggiungi Campo Personalizzato");
@@ -104,6 +103,3 @@ define("EXTLAN_HELP_6", "Consente di immettere un valore numerico");
 define("EXTLAN_HELP_7", "Richiedi utente di immettere una data");
 define("EXTLAN_HELP_8", "Consente di selezionare da lingue installate");
 define("EXTLAN_HELP_9", "Specificare un elenco predefinito. Il campo valore seleziona il tipo di elenco - al momento solo 'timezones' è una voce valida");
-
-
-?>

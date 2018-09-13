@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_LOGIN_1", "Nome utente");
 define("LAN_LOGIN_2", "Password utente");
 define("LAN_LOGIN_3", "Server protetto");
@@ -45,6 +44,4 @@ define("LAN_LOGIN_32", "Stai visualizzando questo messaggio perché sei connesso
 define("LAN_LOGIN_33", "[Ritorna alla Pagina Home]");
 define("LAN_LOGIN_34", "La registrazione utente e/o  il login sono disabilitati");
 define("LAN_LOGIN_35", "[Abilitarlo]");
-
-
-?>
+define("LAN_LOGIN_36", "L'emails inviate a [x] non vengono consegnate. Per favore [verifica che il tuo indirizzo email sia corretto].");

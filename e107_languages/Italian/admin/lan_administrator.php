@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("ADMSLAN_6", "è l'amministratore del sito principale e non può essere eliminato.");
 define("ADMSLAN_13", "Amministratori esistenti");
 define("ADMSLAN_16", "Nome admin");
@@ -26,8 +25,5 @@ define("ADMSLAN_59", "Rimuovere lo Status di Admin");
 define("ADMSLAN_61", "Amministratore eliminato");
 define("ADMSLAN_62", "Gestore Plugin");
 define("ADMSLAN_71", "Clicca qui per visualizzare i privilegi");
-define("ADMSLAN_72", "ID admin:..--ID-- nome: - nome - nuove autorizzazioni:");
-define("ADMSLAN_73", "ID admin:..--ID-- nome: - il nome...");
-
-
-?>
+define("ADMSLAN_72", "ID admin: [x] nome: [y]  nuove autorizzazioni:");
+define("ADMSLAN_73", "ID admin: [x] nome: [y]");

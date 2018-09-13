@@ -20,8 +20,5 @@ define("UC_LAN_7", "Moderatori del forum");
 define("UC_LAN_8", "Gli amministratori e Mods");
 define("UC_LAN_9", "Nuovi utenti");
 define("UC_LAN_10", "Motori di ricerca");
-define("UC_LAN_INVERT", "Non - classe...");
+define("UC_LAN_INVERT", "Non  [x]");
 define("UC_LAN_INVERTLABEL", "Tutti ma...");
-
-
-?>

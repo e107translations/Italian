@@ -9,11 +9,11 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_DL_OPTIONS", "Opzioni");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Generale");
 define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Reporting");
 define("LAN_DL_DOWNLOAD_OPT_AGREE", "Accordi");
+define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Protezione");
 define("LAN_DL_UPLOAD", "Caricare");
 define("LAN_DL_USE_PHP", "Utilizzare PHP");
 define("LAN_DL_USE_PHP_INFO", "Controllare questo invierà che tutti scaricare richieste tramite PHP");
@@ -147,6 +147,12 @@ define("DOWLAN_HELP_7", "Aiuto per specchio");
 define("DOWLAN_HELP_8", "Aiuto per elenco di caricamento");
 define("DOWLAN_HELP_9", "Aiuto per i tipi di caricamento");
 define("DOWLAN_HELP_10", "Aiuto per opzioni di caricamento");
-
-
-?>
+define("LAN_DL_SECURITY_DESCRIPTION", "I download possono utilizzare le funzionalità di protezione URL lato server per impedire il collegamento rapido e / o imporre una scadenza del collegamento. " . " Questa sezione deve essere configurata prima che il server di download sia configurato per ridurre le possibilità di interruzione dei downloader.");
+define("LAN_DL_SECURITY_MODE", "URL Modalità Protetta");
+define("LAN_DL_SECURITY_MODE_NONE", "Nessuna");
+define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX crypt md5 secure_link");
+define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Premi per rimuovere la lista delle variabili supportate da NGINX");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION", "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>NGINX secure_link_md5 expression</a>");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Stessa espressione di quella configurata sul server");
+define("LAN_DL_SECURITY_LINK_EXPIRY", "Durata validità in secondi");
+define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Numero di secondi che il link di download dovrebbe durare dopo essere stato generato. " ." Efficace solo se l 'espressione supporta il tempo di scadenza. "." Predefinito per un tempo molto lungo se questo campo è lasciato vuoto.");

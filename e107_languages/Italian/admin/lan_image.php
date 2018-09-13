@@ -18,12 +18,6 @@ define("LAN_IMA_001", "Modifica non è consentita.");
 define("LAN_IMA_002", "Non è sufficiente memoria disponibile per ruotare");
 define("LAN_IMA_003", "Ruotato");
 define("LAN_IMA_004", "Il ridimensionamento");
-define("LAN_IMA_O_001", "Notizie immagini");
-define("LAN_IMA_O_002", "Notizie [img] bbcode");
-define("LAN_IMA_O_003", "Pagina [img] bbcode");
-define("LAN_IMA_O_004", "Featurebox immagini");
-define("LAN_IMA_O_005", "Featurebox [img] bbcode");
-define("LAN_IMA_O_006", "bbcode [img]");
 define("IMALAN_1", "Abilitare la visualizzazione delle immagini");
 define("IMALAN_2", "Visualizzare le immagini, questa volontà applicano sitewide (commenti, chat ecc) alle immagini pubblicati utilizzando il bbcode [img]");
 define("IMALAN_3", "Metodo Resize");
@@ -75,6 +69,7 @@ define("IMALAN_66", "Nome del file");
 define("IMALAN_68", "Chiudere");
 define("IMALAN_69", "Cartella");
 define("IMALAN_70", "Cartella di sistema non viene trovata!");
+define("IMALAN_72", "Icone");
 define("IMALAN_73", "Qualità delle miniature");
 define("IMALAN_74", "Impostare questo più basso possibile prima di perdita di qualità è evidente. Max. 100");
 define("IMALAN_75", "Larghezza di avatar");
@@ -183,6 +178,7 @@ define("IMALAN_178", "Cartella Avatars (selezionabile dall'utente)");
 define("IMALAN_179", "Cartella Avatars (privata)");
 define("IMALAN_180", "0 byte trovati in:");
 define("IMALAN_181", "Per cortesia rimuovi prima di procedere.");
-
-
-?>
+define("IMALAN_182", "Converti in jpeg durante l'importazione");
+define("IMALAN_183", "I Files PNG e GIF verranno automaticame4nte trasformati in jpeg (escluse le icone)");
+define("IMALAN_184", "Grandezza Immagini di Default");
+define("IMALAN_185", "Altezza massima in Pixels");

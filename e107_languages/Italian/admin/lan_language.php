@@ -65,6 +65,4 @@ define("LANG_LAN_149", "Valore");
 define("LANG_LAN_150", "[b] Ricerca in tutto il Nucleo prima di commentare qualsiasi Riga da qualsiasi file di lingua. [/b]");
 define("LANG_LAN_151", "Disponibile");
 define("LANG_LAN_152", "Gentile concessione del [team di traduzione e107]");
-
-
-?>
+define("LANG_LAN_153", "Pre-release");

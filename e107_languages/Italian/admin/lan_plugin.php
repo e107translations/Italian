@@ -263,6 +263,6 @@ define("LAN_INSTALL_SUCCESSFUL", "Installazione riuscita");
 define("LAN_INSTALL_FAIL", "Installazione non riuscita");
 define("LAN_UNINSTALL_FAIL", "Impossibile disinstallare");
 define("LAN_PLUGIN_IS_USED", "[x] plugin utilizzato da:");
-
-
-?>
+define("EPL_ADLAN_254", "Questo controllerà i file di lingua dei tuoi plugins per errori e definizioni o voci duplicate..");
+define("EPL_ADLAN_255", "Sovrascrivi i Files");
+define("EPL_ADLAN_256", "Saltato [x] (già esistenti)");
