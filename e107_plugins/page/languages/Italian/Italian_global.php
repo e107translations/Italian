@@ -5,3 +5,5 @@
 // https://github.com/e107inc/multilan
 
 define("LAN_PLUGIN_PAGE_BOCHAP", "Cerca nel libro/capitolo");
+define("LAN_PLUGIN_PAGE_NAME", "Pagine");
+define("LAN_PLUGIN_DOWNLOAD_NAME", "Download");

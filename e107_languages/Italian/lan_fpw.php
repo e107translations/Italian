@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2021/03/14 00:54:03
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("PAGE_NAME", "Reimpostazione della password");
 define("LAN_02", "Siamo spiacenti, Impossibile inviare e-mail - si prega di contattare l'amministratore del sito principale.");
@@ -12,7 +18,6 @@ define("LAN_06", "Ha tentato di reimpostazione della password");
 define("LAN_07", "Qualcuno con indirizzo IP");
 define("LAN_08", "ha tentato di reimpostare la password dell'amministratore principale.");
 define("LAN_09", "Password di ripristino da");
-define("LAN_112", "Indirizzo di posta elettronica registrato su questo sito");
 define("LAN_213", "Che nome utente/indirizzo e-mail non è stato trovato nel database.");
 define("LAN_214", "Impossibile reimpostare la password");
 define("LAN_218", "Il tuo nome utente è:");
@@ -35,6 +40,7 @@ define("LAN_FPW18", "Richiesta di reimpostazione della password");
 define("LAN_FPW19", "Invio di e-mail non riuscita");
 define("LAN_FPW20", "Invio di e-mail è riuscito");
 define("LAN_FPW21", "Utente ha fatto cliccati sul collegamento Reimposta password");
+define("LAN_FPW22", "Indirizzo email registrato su questo sito web");
 define("LAN_FPW_100", "Hai dimenticato la password?");
 define("LAN_FPW_101", "Non si preoccupi. Basta inserire il tuo indirizzo email qui sotto e ti invieremo una mail di istruzioni per il recupero.");
 define("LAN_FPW_102", "Reimpostare la Password");

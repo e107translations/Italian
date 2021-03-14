@@ -19,3 +19,4 @@ define("LAN_PAGE_13", "Pagina");
 define("LAN_PAGE_14", "Altri articoli");
 define("LAN_PAGE_15", "Articoli");
 define("LAN_PAGE_16", "Non ci sono no capitoli in questo libro");
+define("LAN_PAGE_17", "Non sono permessi commenti");

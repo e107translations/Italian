@@ -15,3 +15,5 @@ define("TMCEALAN_3", "Abilitalo se desideri utilizzare il correttore interno al 
 define("TMCEALAN_4", "Visualizza Blocchi");
 define("TMCEALAN_5", "abilita la visualizzazione dei blocchi HTML durante le modifiche");
 define("TMCEALAN_6", "Classe CSS per evidenziare il Codice");
+define("TMCEALAN_7", "Usa lo stile frontend");
+define("TMCEALAN_8", "Quando abilitato, l'editor utilizzerà lo stile del tema del frontend. (se supportato) ");

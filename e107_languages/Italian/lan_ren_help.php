@@ -63,6 +63,14 @@ define("LANHELP_51", "Disattivare le righe nuove HTML per testo racchiuso: [nobr
 define("LANHELP_52", "Nuova linea (HTML): [br]");
 define("LANHELP_53", "Giustificare allineare: \n [giustificare] questo testo sarà giustificato [/ giustifica]");
 define("LANHELP_54", "Blocco di codice HTML (tag div): [blocco] il contenuto [/block]");
-
-
-?>
+define("LANHELP_55", "Formato");
+define("LANHELP_56", "Inserisci tabella");
+define("LANHELP_57", "Intestazione");
+define("LANHELP_58", "Blocco");
+define("LANHELP_59", "Quota");
+define("LANHELP_60", "Codice Blocco");
+define("LANHELP_61", "Codice In Linea");
+define("LANHELP_62", "Paragrafo");
+define("LANHELP_63", "Inserisci una Immagine dal Media Manager");
+define("LANHELP_64", "Inerisci un File dal Media Manager");
+define("LANHELP_65", "Dimensione");

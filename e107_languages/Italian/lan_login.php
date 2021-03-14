@@ -45,3 +45,4 @@ define("LAN_LOGIN_33", "[Ritorna alla Pagina Home]");
 define("LAN_LOGIN_34", "La registrazione utente e/o  il login sono disabilitati");
 define("LAN_LOGIN_35", "[Abilitarlo]");
 define("LAN_LOGIN_36", "L'emails inviate a [x] non vengono consegnate. Per favore [verifica che il tuo indirizzo email sia corretto].");
+define("LAN_LOGIN_37", "Il tuo account non è stato ancora attivato da un amministratore del sito. ");

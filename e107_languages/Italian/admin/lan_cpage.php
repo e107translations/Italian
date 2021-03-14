@@ -51,6 +51,4 @@ define("CUSLAN_76", "Menu con percorso n.");
 define("CUSLAN_77", "cancellato");
 define("CUSLAN_78", "Non poteva eliminare il menu con il percorso");
 define("CUSLAN_79", "E' necessario inserire un titolo della pagina o il nome del menù");
-
-
-?>
+define("CUSLAN_80", "Sottotitolo");

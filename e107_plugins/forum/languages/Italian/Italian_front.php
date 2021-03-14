@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-define("e_PAGETITLE", "Cose da fare");
 define("LAN_FORUM_0002", "Argomenti");
 define("LAN_FORUM_0003", "Risposte");
 define("LAN_FORUM_0004", "Ultimo messaggio");
@@ -235,6 +234,7 @@ define("LAN_FORUM_7006", "Risultato");
 define("LAN_FORUM_7007", "Trovato nel thread");
 define("LAN_FORUM_7008", "NON TROVATO");
 define("LAN_FORUM_7009", "Nessun file caricato trovato");
+define("LAN_FORUM_7010", "Nome File");
 define("LAN_FORUM_8001", "Un nuovo  messaggio è stato inviato da [x] nell'argomento [y] su [z]");
 define("LAN_FORUM_8002", "Premi sul seguente link per visualizzare il post completo ...");
 define("LAN_FORUM_8003", "Le notifiche Email di questo argomento sono abilitate");
@@ -264,6 +264,4 @@ define("LAN_FORUM_8026", "Rimozione Discussione da appiccicosa fallita");
 define("LAN_FORUM_8027", "Nessuna azione selezionata");
 define("LAN_FORUM_8028", "Ritorna");
 define("LAN_FORUM_8029", "Nuovo argomento creato!");
-
-
-?>
+define("LAN_FORUM_8030", "Impossibile eliminare il post (è necessaria l'autorizzazione del moderatore)");

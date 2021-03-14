@@ -46,3 +46,4 @@ define("LAN_UPDATE_56", "Aggiornamento del sistema");
 define("LAN_UPDATE_57", "Prima di continuare, si prega di eliminare manualmente le seguenti cartelle obsoleti dal sistema:");
 define("LAN_UPDATE_CAPTION_PLUGIN", "Aggiornamenti plugin");
 define("LAN_UPDATE_CAPTION_CORE", "Aggiornamenti di base");
+define("LAN_UPDATE_58", "Si consiglia vivamente di eseguire [File Inspector] dopo aver completato tutti gli aggiornamenti, al fine di rilevare eventuali file obsoleti che devono essere rimossi. ");

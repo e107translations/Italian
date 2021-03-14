@@ -64,8 +64,6 @@ define("LAN_SIGNUP_64", "Che non sembrano essere informazioni di utente valido")
 define("LAN_SIGNUP_65", "Ti è stato assegnato il seguente nome di login");
 define("LAN_SIGNUP_66", "Si prega di prendere nota di esso.");
 define("LAN_SIGNUP_67", "Questo verrà assegnato dal sistema dopo l'iscrizione");
-define("LAN_SIGNUP_69", "");
-define("LAN_SIGNUP_70", "");
 define("LAN_SIGNUP_71", "Hai raggiunto il limite di sito per le registrazioni di conti. Effettua il login utilizzando uno degli altri account.");
 define("LAN_SIGNUP_72", "Grazie per esserti su [nomesito]! Abbiamo appena inviato una email di conferma all'indirizzo [email]. Cliccate sul link di conferma nell'email per completa la tua registrazione e attivare il tuo account.");
 define("LAN_SIGNUP_73", "Grazie!");
@@ -113,6 +111,7 @@ define("LAN_SIGNUP_118", "A [x]");
 define("LAN_SIGNUP_119", "Non inviare email");
 define("LAN_SIGNUP_120", "Oppure");
 define("LAN_SIGNUP_121", "Utilizza un altro indirizzo email");
-
-
-?>
+define("LAN_SIGNUP_122", "Policy Privacy");
+define("LAN_SIGNUP_123", "Termini e Condizioni");
+define("LAN_SIGNUP_124", "Iscrivendoti accetti la nostra [x] e la nostra [y]. ");
+define("LAN_SIGNUP_125", "Min. [x] caratteri");

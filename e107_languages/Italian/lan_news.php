@@ -9,8 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
-define("PAGE_NAME", "Notizie");
 define("LAN_NEWS_1", "Notizie specifiche solo per i soci");
 define("LAN_NEWS_2", "Non è consentito di vedere questa notizia");
 define("LAN_NEWS_9", "Titolo è solo impostato - <b>verrà mostrato solo il titolo di notizie</b><br>");
@@ -35,9 +33,8 @@ define("LAN_NEWS_86", "Notizie più vecchie");
 define("LAN_NEWS_87", "News più recenti");
 define("LAN_NEWS_462", "Nessun elemento di novità per mese specificato");
 define("LAN_NEWS_463", "Non ci sono news per la categoria specificata - si prega di ricontrollare  a breve.");
-define("LAN_NEWS_100", "In");
+define("LAN_NEWS_464", "Non sono presenti News per il giorno indicato");
+define("LAN_NEWS_300", "Su");
 define("LAN_NEWS_307", "Totale messaggi in questa categoria:");
 define("LAN_NEWS_308", "Stai cercando una delle Notizie sottoelencate?");
-
-
-?>
+define("LAN_NEWS_309", "Tag");

@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_AUDIT_LOG_001", "Accesso di utente bandito");
 define("LAN_AUDIT_LOG_002", "Protezione dell'inondazione attivato");
 define("LAN_AUDIT_LOG_003", "Accesso dall'indirizzo IP banned");
@@ -129,6 +128,7 @@ define("LAN_AL_WELCOME_02", "Messaggio di benvenuto aggiornato");
 define("LAN_AL_WELCOME_03", "Messaggio di benvenuto eliminato");
 define("LAN_AL_WELCOME_04", "Opzioni del messaggio di benvenuto ha cambiati");
 define("LAN_AL_ADMINPW_01", "Admin password cambiata");
+define("LAN_AL_ADMINPW_02", "Password amministratore modificata ");
 define("LAN_AL_BANNER_00", "Messaggio sconosciuto relative al banner");
 define("LAN_AL_BANNER_01", "Aggiornamento del menu di banner");
 define("LAN_AL_BANNER_02", "Striscione creato");
@@ -146,20 +146,6 @@ define("LAN_AL_LANG_02", "Tabelle di lingua eliminate");
 define("LAN_AL_LANG_03", "Tabelle di lingua create");
 define("LAN_AL_LANG_04", "Zip di lingua creato");
 define("LAN_AL_META_01", "Meta tag aggiornata");
-define("LAN_AL_DOWNL_01", "Scarica opzioni modificate");
-define("LAN_AL_DOWNL_02", "Categoria creata download");
-define("LAN_AL_DOWNL_03", "Categoria aggiornata download");
-define("LAN_AL_DOWNL_04", "Scarica categoria eliminata");
-define("LAN_AL_DOWNL_05", "Scarica creato");
-define("LAN_AL_DOWNL_06", "Scarica aggiornata");
-define("LAN_AL_DOWNL_07", "Cancellato il download");
-define("LAN_AL_DOWNL_08", "Scarica categoria ordine aggiornato");
-define("LAN_AL_DOWNL_09", "Scarica limite aggiunto");
-define("LAN_AL_DOWNL_10", "Scarica limite modificato");
-define("LAN_AL_DOWNL_11", "Scarica limite cancellato");
-define("LAN_AL_DOWNL_12", "Scarica mirror aggiunto");
-define("LAN_AL_DOWNL_13", "Scarica mirror aggiornato");
-define("LAN_AL_DOWNL_14", "Scarica mirror eliminato");
 define("LAN_AL_CPAGE_01", "Pagina/menu personalizzato aggiunto");
 define("LAN_AL_CPAGE_02", "Pagina/menu personalizzato aggiornato");
 define("LAN_AL_CPAGE_03", "Pagina/menu personalizzato eliminato");

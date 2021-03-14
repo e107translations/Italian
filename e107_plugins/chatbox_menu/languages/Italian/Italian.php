@@ -25,12 +25,9 @@ define("CHATBOX_L14", "EMote");
 define("CHATBOX_L15", "Post troppo lunghi o vuoto post presentato");
 define("CHATBOX_L17", "Post duplicato");
 define("CHATBOX_L18", "Messaggi di ChatBox moderati");
-define("CHATBOX_L19", "Puoi solo pubblicare una volta ogni ". (FLOODPROTECT? FLOODTIMEOUT: 'n/a'). " secondi");
+define("CHATBOX_L19", "Puoi solo pubblicare una volta ogni [x] secondi");
 define("CHATBOX_L20", "Chatbox (tutti i messaggi)");
 define("CHATBOX_L22", "il");
 define("CHATBOX_L24", "Non si dispone delle autorizzazioni corrette per visualizzare questa pagina.");
 define("CHATBOX_L25", "[questo post è stato bloccato da admin]");
 define("LAN_CHATBOX_100", "Digita qui il tuo messaggio.");
-
-
-?>

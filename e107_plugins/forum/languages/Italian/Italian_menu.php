@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_FORUM_MENU_001", "Inviato da");
 define("LAN_FORUM_MENU_002", "Ancora nessun post");
 define("LAN_FORUM_MENU_003", "Nuova configurazione del menu messaggi del Forum salvata");
@@ -23,3 +22,4 @@ define("LAN_FORUM_MENU_012", "Tempo massimo di visualizzazione messaggi");
 define("LAN_FORUM_MENU_013", "Usa zero per un sito web poco frequentato, imposta il valore in giorni per ridurre il tempo di connessione al database in un sito molto frequentato.");
 define("LAN_FORUM_MENU_014", "Altezza Livello scorrimento (in pixel)");
 define("LAN_FORUM_MENU_015", "Lascia vuoto per nessuno scrolling");
+define("LAN_FORUM_MENU_016", "Nessuna categoria forum creata ancora! ");

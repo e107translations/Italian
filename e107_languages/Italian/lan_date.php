@@ -28,7 +28,7 @@ define("LANDT_08s", "minuti");
 define("LANDT_09", "secondo");
 define("LANDT_09s", "secondi");
 define("LANDT_AGO", "fa");
+define("LANDT_IN", "in");
 define("LANDT_10", "Proprio Ora");
-
-
-?>
+define("LANDT_XAGO", "[x] fa");
+define("LANDT_INX", "in [x]");

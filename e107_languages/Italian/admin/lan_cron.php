@@ -25,6 +25,7 @@ define("LAN_CRON_04_2", "Processo retriggers di rimbalzo.");
 define("LAN_CRON_04_3", "Necessaria solo se la riattivazione dei divieti abilitati.");
 define("LAN_CRON_05_1", "Backup del database");
 define("LAN_CRON_05_2", "Backup del database di sistema di");
+define("LAN_CRON_06_1", "Process Ban Trigger");
 define("LAN_CRON_6", "Non poteva importare Prefs");
 define("LAN_CRON_7", "Non poteva importare le impostazioni di temporizzazione");
 define("LAN_CRON_8", "Impostazioni di temporizzazione importati per");
@@ -71,3 +72,6 @@ define("LAN_CRON_64", "Un amministratore può automatizzare le attività utilizz
 define("LAN_CRON_BACKUP", "Backup");
 define("LAN_CRON_LOGGING", "Registrazione");
 define("LAN_CRON_RUNNING", "In Esecuzione");
+define("LAN_CRON_65", "Aggiorna dal template repository git.");
+define("LAN_CRON_66", "Repository git Non trovato");
+define("LAN_CRON_67", "Non è presente il repository git nela cartella del template");

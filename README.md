@@ -1,1 +1,1 @@
-e107-v2.x-Italian Language Packs
+Italian language pack updated for version 2.3.1

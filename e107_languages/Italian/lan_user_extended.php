@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("UE_LAN_1", "Casella di testo");
 define("UE_LAN_2", "Pulsanti di opzione");
 define("UE_LAN_3", "Menu a discesa");
@@ -20,6 +19,7 @@ define("UE_LAN_8", "Lingua");
 define("UE_LAN_9", "Elenco predefinito");
 define("UE_LAN_10", "Caselle di controllo");
 define("UE_LAN_13", "Stato");
+define("UE_LAN_14", "Rich Textarea (WYSIWYG)");
 define("UE_LAN_21", "Nome");
 define("UE_LAN_22", "Tipo");
 define("UE_LAN_23", "Uso");
@@ -53,6 +53,3 @@ define("UE_LAN_MALE", "Uomo");
 define("UE_LAN_FEMALE", "Donna");
 define("UE_LAN_COMMENT", "Commenti");
 define("UE_LAN_COMMENT_DESC", "Area Commenti");
-
-
-?>
