@@ -4,7 +4,7 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2018/09/12 22:59:19
+|        Last Modified: 2022/04/02 12:38:29
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
@@ -21,7 +21,7 @@ define("LAN_197", "Download");
 define("LAN_198", "Nessuna corrispondenza trovata");
 define("LAN_199", "Ricerca per:");
 define("LAN_416", "Devi essere loggato per accedere a questa pagina");
-define("LAN_417", "Le ricerche devono contenere almeno. [x]  caratteri");
+define("LAN_417", "Termini di ricerca devono essere almeno [x] caratteri.");
 define("LAN_418", "Altre pagine");
 define("LAN_SEARCH_1", "Controllare tutti i");
 define("LAN_SEARCH_2", "Deseleziona tutto");

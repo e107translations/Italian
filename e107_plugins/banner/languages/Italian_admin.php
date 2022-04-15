@@ -35,4 +35,4 @@ define("BNRLAN_47", "Selezionate tutte le campagne rese in menu separati");
 define("BNRLAN_48", "Selezionate tutte le campagne (Nessun rendering casella)");
 define("BNRLAN_50", "Locale");
 define("BNRLAN_51", "Remoto");
-define("BNRLAN_HELP_02", "Usare questo plugin per gestire la pubblicità sul tuo sito web. [br][br] Quando si crea un nuovo banner è possibile creare un nome utente e una password per il vostro cliente per accedere e controllare l'avanzamento della campagna. [br][br]È possibile attivare il menu banner utilizzando il gestore di menu ed eseguire ulteriori operazioni di configurazione da lì.");
+define("BNRLAN_HELP_02", "Usare questo plugin per gestire la pubblicità sul tuo sito web. [br][br]Quando si crea un nuovo banner è possibile creare un nome utente e una password per il vostro cliente per accedere e controllare l'avanzamento della campagna. [br][br] È possibile attivare il menu banner utilizzando il gestore di menu ed eseguire ulteriori operazioni di configurazione da lì.");

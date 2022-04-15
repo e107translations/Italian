@@ -39,7 +39,7 @@ define("LAN_413", "Descrizione");
 define("LAN_414", "Demo di lavoro");
 define("LAN_415", "Immettere l'URL al sito dove è possibile visualizzare demo");
 define("LAN_418", "Dimensione file massima assoluta:");
-define("DOWLAN_11", "Categoria");
 define("LAN_419", "Tipi di file consentiti");
 define("LAN_420", "i campi sono obbligatori");
 define("LAN_UL_039", "Invia e Carica");
+define("LAN_UL_040", "Carica il File");

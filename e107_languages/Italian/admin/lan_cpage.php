@@ -52,3 +52,5 @@ define("CUSLAN_77", "cancellato");
 define("CUSLAN_78", "Non poteva eliminare il menu con il percorso");
 define("CUSLAN_79", "E' necessario inserire un titolo della pagina o il nome del menù");
 define("CUSLAN_80", "Sottotitolo");
+define("CUSLAN_81", "Meta Immagine");
+define("CUSLAN_82", "Opzionale. Utilizzato dai social media durante la condivisione di questa pagina. ");

@@ -25,5 +25,5 @@ define("ADMSLAN_59", "Rimuovere lo Status di Admin");
 define("ADMSLAN_61", "Amministratore eliminato");
 define("ADMSLAN_62", "Gestore Plugin");
 define("ADMSLAN_71", "Clicca qui per visualizzare i privilegi");
-define("ADMSLAN_72", "ID admin: [x] nome: [y]  nuove autorizzazioni:");
-define("ADMSLAN_73", "ID admin: [x] nome: [y]");
+define("ADMSLAN_72", "ID admin:.[x] nome: [y] nuove autorizzazioni:");
+define("ADMSLAN_73", "ID admin:.[x] nome: - [y]");

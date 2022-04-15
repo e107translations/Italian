@@ -11,7 +11,7 @@
 */
 define("LAN_DL_OPTIONS", "Opzioni");
 define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Generale");
-define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Reporting");
+define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Segnalazioni");
 define("LAN_DL_DOWNLOAD_OPT_AGREE", "Accordi");
 define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Protezione");
 define("LAN_DL_UPLOAD", "Caricare");
@@ -21,7 +21,7 @@ define("LAN_DL_SUBSUB_CAT", "Visualizza sub-sub-categorie");
 define("LAN_DL_SUBSUB_CAT_INFO", "Controllare questo mostrerà la sub-sub-categorie sulla pagina principale di download");
 define("LAN_DL_SUBSUB_COUNT", "Combinare i conteggi di categoria");
 define("LAN_DL_SUBSUB_COUNT_INFO", "Sono sub-sub-categoria conteggi nei conteggi di sotto-categoria");
-define("LAN_DL_BROKENDOWNLOADSREPORTS", "Rapporto sui download interrotti ");
+define("LAN_DL_BROKENDOWNLOADSREPORTS", "Rapporti sui download guasti");
 define("DOWLAN_1", "Download è stato aggiunto al database.");
 define("DOWLAN_2", "Download aggiornato nel database.");
 define("DOWLAN_5", "Non esistono categorie scaricare definito ancora, fino a quando non si definisce alcuni che non è possibile immettere alcun download.");
@@ -148,13 +148,16 @@ define("DOWLAN_HELP_7", "Aiuto per specchio");
 define("DOWLAN_HELP_8", "Aiuto per elenco di caricamento");
 define("DOWLAN_HELP_9", "Aiuto per i tipi di caricamento");
 define("DOWLAN_HELP_10", "Aiuto per opzioni di caricamento");
-define("DOWLAN_HELP_11", "Fai clic sul pulsante 'elimina' per eliminare il report. [br] [br] Fai clic sul pulsante 'Visualizza' per gestire il download. [br] [br] Per essere avvisato di nuovi report, consulta le [impostazioni di notifica] ");
-define("LAN_DL_SECURITY_DESCRIPTION", "I download possono utilizzare le funzionalità di protezione URL lato server per impedire il collegamento rapido e / o imporre una scadenza del collegamento. " . " Questa sezione deve essere configurata prima che il server di download sia configurato per ridurre le possibilità di interruzione dei downloader.");
-define("LAN_DL_SECURITY_MODE", "URL Modalità Protetta");
-define("LAN_DL_SECURITY_MODE_NONE", "Nessuna");
-define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX crypt md5 secure_link");
-define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Premi per rimuovere la lista delle variabili supportate da NGINX");
+define("DOWLAN_HELP_11", "Fai clic sul pulsante "elimina" per eliminare il report.[br][br]Fai clic sul pulsante "visualizza" per gestire il download.[br][br]Per essere informato di eventuali nuovi report, consulta le [impostazioni di notifica] .");
+define("LAN_DL_SECURITY_DESCRIPTION", "Downloads can make use of server-side URL protection features to prevent hotlinking and/or enforce link expiry. " .
+	"This section should be configured before the download server is configured to reduce the chance of disruption to downloaders.");
+define("LAN_DL_SECURITY_MODE", "URL protection mode");
+define("LAN_DL_SECURITY_MODE_NONE", "None (Default)");
+define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX secure_link_md5");
+define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Click to toggle list of supported NGINX variables");
 define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION", "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>NGINX secure_link_md5 expression</a>");
-define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Stessa espressione di quella configurata sul server");
-define("LAN_DL_SECURITY_LINK_EXPIRY", "Durata validità in secondi");
-define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Numero di secondi che il link di download dovrebbe durare dopo essere stato generato. " ." Efficace solo se l 'espressione supporta il tempo di scadenza. "." Predefinito per un tempo molto lungo se questo campo è lasciato vuoto.");
+define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Same expression as configured on the server");
+define("LAN_DL_SECURITY_LINK_EXPIRY", "Duration of validity in seconds");
+define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Number of seconds the download link should last after being generated. " .
+	"Only effective if the expression supports expiry time. " .
+    "Defaults to a very long time if this field is left blank.");

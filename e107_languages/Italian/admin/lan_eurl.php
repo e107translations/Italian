@@ -41,8 +41,8 @@ define("LAN_EURL_SETTINGS_SEFTRTYPE_NONE", "Basta fissarlo");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHL", "dasherize-a-lettere minuscole");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHC", "Dasherize-a-cammello-Case");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_DASH", "Dasherize-con-no-modifica");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREL", "underscore_to_lower_case");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREC", "Underscore_To_Camel_Case");
+define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREL", "sottolinea_in_minuscolo");
+define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREC", "sottolinea_To_Camel_Case");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCORE", "Underscore_with_no_case_CHANGE");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSL", "Plus + separatore + a + inferiore + custodia");
 define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSC", "Plus + separatore + a + borsa + Camel");
@@ -62,7 +62,6 @@ define("LAN_EURL_REWRITE_LABEL", "Friendly URL");
 define("LAN_EURL_REWRITE_DESCR", "Search engine e user friendly URL.");
 define("LAN_EURL_CORE_NEWS", "Notizie");
 define("LAN_EURL_NEWS_REWRITEF_LABEL", "Completo URL brevi (nessuna prestazione e più amichevole)");
-define("LAN_EURL_NEWS_REWRITEF_DESCR", "");
 define("LAN_EURL_NEWS_REWRITE_LABEL", "Friendly URL senza ID (nessuna prestazione, più amichevole)");
 define("LAN_EURL_NEWS_REWRITE_DESCR", "Viene illustrato il collegamento manuale l'analisi e l'assemblaggio.");
 define("LAN_EURL_NEWS_REWRITEX_LABEL", "Friendly URL con ID (prestazioni saggio)");
@@ -79,7 +78,6 @@ define("LAN_EURL_CORE_SEARCH", "Ricerca");
 define("LAN_EURL_SEARCH_DEFAULT_LABEL", "URL di ricerca predefinito");
 define("LAN_EURL_SEARCH_DEFAULT_DESCR", "URL diretto legacy.");
 define("LAN_EURL_SEARCH_REWRITE_LABEL", "URL Amichevole");
-define("LAN_EURL_SEARCH_REWRITE_DESCR", "");
 define("LAN_EURL_CORE_SYSTEM", "Sistema");
 define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "URL di sistema predefiniti");
 define("LAN_EURL_SYSTEM_DEFAULT_DESCR", "Gli URL per le pagine come non trovato, accesso negato, ecc.");
@@ -91,6 +89,3 @@ define("LAN_EURL_REBUILD", "Ricostruisci");
 define("LAN_EURL_REGULAR_EXPRESSION", "Espressine regolare");
 define("LAN_EURL_KEY", "Chiave");
 define("LAN_EURL_TABLE", "Tabella");
-
-
-?>

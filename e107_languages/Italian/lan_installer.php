@@ -28,7 +28,12 @@ define("LANINS_018", "Garantire tutti i file elencati esistono e sono scrivibili
 define("LANINS_019", "La versione di PHP installato sul server non è in grado di eseguire e107. e107 richiede una versione PHP di almeno '. MIN_PHP_VERSION.'per funzionare correttamente. Aggiornare la versione PHP oppure contatta il tuo host per un aggiornamento.");
 define("LANINS_021", "2");
 define("LANINS_022", "Dettagli del Server MySQL");
-define("LANINS_023", "Inserisci qui il tuo impostazioni di MySQL.Se si dispone di permessi di root è possibile creare un nuovo database selezionando la casella, se non è necessario creare un database o utilizzare una già esistente. Se si dispone di un solo database utilizzare un prefisso, in modo che altri script possono condividere lo stesso database. Se non si conosce il tuo MySQL dettagli contatta il tuo host web.");
+define("LANINS_023", "Inserisci qui il tuo impostazioni di MySQL.
+
+Se si dispone di permessi di root è possibile creare un nuovo database selezionando la casella, se non è necessario creare un database o utilizzare una già esistente.
+
+Se si dispone di un solo database utilizzare un prefisso, in modo che altri script possono condividere lo stesso database.
+Se non si conosce il tuo MySQL dettagli contatta il tuo host web.");
 define("LANINS_024", "Server MySQL:");
 define("LANINS_025", "Nome utente MySQL:");
 define("LANINS_026", "Password MySQL:");
@@ -123,5 +128,5 @@ nel tuo [b].htaccess[/b]
 Si prega di fare attenzione a non sovrascrivere i dati presenti nel file.");
 define("LANINS_145", "e107 v2x richiede la versione PHP [x] installata.
 Per cortesia contatta il tuo hosting o visualizza le informazioni su [x] prima di continuare.");
-define("LANINS_146", "Template Admin-area");
+define("LANINS_146", "Template Admin-Area");
 define("LANINS_147", "Amministrazione");

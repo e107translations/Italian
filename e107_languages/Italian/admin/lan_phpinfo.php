@@ -15,5 +15,5 @@ define("PHP_LAN_3", "Su un server di produzione, è meglio disattivare la visual
 define("PHP_LAN_4", "La disattivazione di questa nasconderà la tua versione di PHP da browser.");
 define("PHP_LAN_5", "Questo è un rischio per la sicurezza e dovrebbe essere disattivato.");
 define("PHP_LAN_6", "[b] session.save_path [/ b] non è scrivibile! Questo può causare gravi problemi con il tuo sito");
-define("PHP_LAN_7", "Problemi di configurazione PHP trovati: ");
-define("PHP_LAN_8", "[x] manca e deve essere installato. ");
+define("PHP_LAN_7", "Problemi di configurazione PHP rilevati:");
+define("PHP_LAN_8", "[x] è assente e necessita di essere installato.");

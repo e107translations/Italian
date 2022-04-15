@@ -36,7 +36,7 @@ define("UPLAN_IS", "è");
 define("UPLAN_ARE", "sono");
 define("UPLAN_COPYTODLS", "Copiare la pagina di download");
 define("UPLLAN_51", "Elenco upload");
-define("UPLLAN_52", "Questa pagina consente di creare un file per la gestione dei permessi dei file da inviare. Il file viene salvato in [x],e deve essere copiato in [y] prima che la modifica  abbia effetto");
+define("UPLLAN_52", "Questa pagina consente di creare un file per la gestione dei permessi dei file upload. Il file viene salvato in [x] dovrà essere copiato in [y] prima che abbia effetto.");
 define("UPLLAN_54", "Estensioni di file");
 define("UPLLAN_55", "Max carica dimensione");
 define("UPLLAN_56", "Generare file");

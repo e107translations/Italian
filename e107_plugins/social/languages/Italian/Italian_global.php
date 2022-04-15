@@ -6,7 +6,7 @@
 
 +----------------------------------------------------------------------------+
 */
-define("LAN_SOCIAL_ADMIN_SUMM", "Aggiunge Facebook, Twitter e altri widget di social media a e107. ");
+define("LAN_SOCIAL_ADMIN_SUMM", "Aggiunge Facebook, Twitter e altri widget dei social media a e107.");
 define("LAN_PLUGIN_SOCIAL_DESCR", "Aggiunge le opzioni per sostituire il commento del motore e107 con Facebook. Aggiungi feed Twitter al tuo sito. etc.");
 define("LAN_PLUGIN_SOCIAL_SIGNIN", "Accedi con:");
 define("LAN_PLUGIN_SOCIAL_XUP_SIGNUP", "Accedi con il tuo [x] account");

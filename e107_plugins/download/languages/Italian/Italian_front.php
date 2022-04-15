@@ -4,12 +4,11 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/03/14 01:32:32
+|        Last Modified: 2022/04/12 21:34:26
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("LAN_dl_1", "(Limitato)");
 define("LAN_dl_4", "File disponibili:");
 define("LAN_dl_5", "Dimensione totale dei file:");
@@ -45,4 +44,4 @@ define("LAN_dl_74", "Download totali da questo mirror:");
 define("LAN_dl_75", "Nessuna immagine disponibile");
 define("LAN_dl_77", "Download");
 define("LAN_dl_78", "Che il download è stato disattivato o interrotto. Si prega di controllare [area Download] per una versione più recente.");
-define("LAN_dl_79", "Non disponi dei privilegi per segnalare l'errore di questo download.");
+define("LAN_dl_79", "Non disponi delle autorizzazioni corrette per segnalare questo elemento di download come corrotto.");

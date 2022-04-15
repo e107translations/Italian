@@ -1,8 +1,14 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+/*
++---------------------------------------------------------------+
+|        e107 website content management system Italian Language File
+|        Released under the terms and conditions of the
+|        GNU General Public License (http://gnu.org).
+|        Last Modified: 2022/04/12 22:53:28
+|
+|        $Author: webmaster $
++---------------------------------------------------------------+
+*/
 
 define("GSLAN_1", "Collegamento di sito");
 define("GSLAN_2", "Importare?");
@@ -33,3 +39,4 @@ define("GSLAN_36", "È inoltre possibile immettere manualmente singoli link face
 define("GSLAN_37", "Una volta che avete alcune voci, vai a [URL] e immettere il seguente URL-> <b>'. SITEURL.' Gsitemap.php</b> - se questo url non sembra giusto, per favore assicurarsi che l'url del sito sia corretto in admin-> preferenze");
 define("GSLAN_38", "Per ulteriori informazioni sul protocollo Sitemap per Google, vai a [URL].");
 define("GSLAN_39", "Nessun collegamenti nella mappa del sito - importare sitelink?");
+define("GSLAN_50", "Visibile pubblicamente");

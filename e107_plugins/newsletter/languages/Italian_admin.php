@@ -4,7 +4,7 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2018/09/13 14:12:32
+|        Last Modified: 2022/04/12 22:56:07
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
@@ -31,18 +31,16 @@ define("NLLAN_33", "Testo");
 define("NLLAN_36", "Numero della Newsletter di aggiornamento");
 define("NLLAN_37", "Creare Newsletter edizione");
 define("NLLAN_39", "Newsletter edizione salvato nel database - per l'invio, fare clic il \'Release Issue\' pulsante nel menu opzioni.");
-define("NLLAN_40", "La Posta in uscita è stata aggiunta alla coda email - pubblicazione inviata  a [x] abbonati");
-define("NLLAN_41", "Non trovati sottosxcrittori - e-mail cancellata");
+define("NLLAN_40", "Mailout aggiunto alla coda di invio delle email - questione inviata a [x] abbonati.");
+define("NLLAN_41", "Non abbonati trovati - e-mail cancellata");
 define("NLLAN_44", "Prima pagina newsletter");
 define("NLLAN_45", "Creare Newsletter");
 define("NLLAN_46", "Creare Mailing");
 define("NLLAN_47", "Opzioni newsletter");
-define("NLLAN_48", "Abbonati alla newsletter");
-define("NLLAN_49", "Newsletter:");
 define("NLLAN_54", "L'invio di");
 define("NLLAN_56", "Newsletter ID non disponibile");
 define("NLLAN_62", "Utente è vietato! (o non completamente firmato fino)");
-define("NLLAN_63", "Totale utenti abbonati");
-define("NLLAN_64", "Tornare alla pagina principale della Newsletter");
-define("NLLAN_65", "Visualizza Panoramica newsletter  ID");
-define("NLLAN_66", "La tua lista di abbonati è stata ripulita");
+define("NLLAN_63", "Totale utenti iscritti");
+define("NLLAN_64", "Tornare a frontpage Newsletter");
+define("NLLAN_65", "Gli abbonati Panoramica newsletter ID");
+define("NLLAN_66", "Vostra lista di abbonati lettera di notizie ha stato disinfettato.");

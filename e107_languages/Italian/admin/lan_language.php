@@ -63,6 +63,6 @@ define("LANG_LAN_149", "Valore");
 define("LANG_LAN_150", "[b] Ricerca in tutto il Nucleo prima di commentare qualsiasi Riga da qualsiasi file di lingua. [/b]");
 define("LANG_LAN_151", "Disponibile");
 define("LANG_LAN_152", "Gentile concessione del [team di traduzione e107]");
-define("LANG_LAN_153", "Pre-release");
+define("LANG_LAN_153", "Pre-rilascio");
 define("LANG_LAN_154", "Il Language Pack è stato creato. Ora puoi inviarlo al repository Github come indicato [qui].");
-define("LANG_LAN_155", "Richiede l'installazione di language pack aggiuntivi");
+define("LANG_LAN_155", "Richiede l'installazione di Language Pack aggiuntivi.");

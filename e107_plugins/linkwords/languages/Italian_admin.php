@@ -4,7 +4,7 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/03/14 01:51:23
+|        Last Modified: 2022/04/15 23:05:08
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
@@ -32,7 +32,7 @@ define("LWLAN_58", "Gancio di pref convertito in formato 0,8");
 define("LWLAN_59", "Attivare le funzionalità Ajax");
 define("LWLAN_64", "Sopprimere il link sulla pagina corrente");
 define("LWLAN_66", "Classe CSS personalizzata");
-define("LWLAN_67", "Max. links/tips");
+define("LWLAN_67", "Max. Links/Suggerimenti");
 define("LAN_LW_HELP_01", "  <b>Aree per consentire</b><br>molte aree di testo hanno un \'context\ associato', e linkwords verranno visualizzate solo nelle aree in corrispondenza di tale contesto.<br><br>
   <b>LinkWords Disable</b><br>LinkWords potrebbe essere disattivato su specifiche pagine o pagine corrispondenti a un modello. Inserire questi qui (stessa sintassi di menu), uno schema per ogni riga. 
   Se il modello finisce in \ '! \', ciò corrisponde a \'end di query\', e di solito è una corrispondenza esatta. In caso contrario sarà una partita qualsiasi URL contenenti la stringa specificata.<br>Si noti che linkwords non sono <i>mai</i> visualizzate nelle pagine del admin.<br><br>
@@ -44,15 +44,14 @@ define("LAN_LW_HELP_02", "Definire le parole che diventano link cliccabili, o qu
   <b><u>ToolTip</u></b><br>Questo definisce il testo per essere visualizzata quando l'utente s 's del mouse passa sopra la parola.<br><br>
   <b><u>LW ID (ID di Tooltip)</u></b><br><br>Questo definisce un ID numerico opzionale da utilizzare con l'Ajax di elaborazione. Se vuota, viene utilizzato il numero di record del database.<br><br>
   <b><u>Attivare?</u></b><br>Definisce quali opzioni sono attive.");
-define("LAN_LW_HELP_03", "Di solito è inutile che l'utente possa fare clic su un collegamento se si trova già sulla pagina a cui si collega. Quando questa opzione è disattivata, le parole di collegamento non vengono attivate in questo caso. ");
-define("LAN_LW_HELP_04", "Le linkwords possono essere disabilitate su pagine specifiche o pagine che corrispondono a uno schema. Inseriscili qui (stessa sintassi della visibilità del menu), un modello per riga. Se il pattern termina con '!', Ciò corrisponde a 'fine della query' e di solito è una corrispondenza esatta. In caso contrario, qualsiasi URL contenente la stringa specificata corrisponderà. ");
-define("LAN_LW_HELP_05", "Aggiungerà questa classe a tutti i collegamenti generati. ");
-define("LAN_LW_HELP_10", "Qui puoi definire le parole che diventano link cliccabili o che visualizzano il testo al passaggio del mouse. ");
-define("LAN_LW_HELP_11", "Questo non fa distinzione tra maiuscole e minuscole. Per la mappatura di più parole sugli stessi link e suggerimenti, separale con virgole (senza spazi) 
-");
-define("LAN_LW_HELP_12", "Definisci qui un link cliccabile. Se si tratta di un collegamento esterno, DEVE iniziare con 'http (s): //'. Se è un collegamento all'interno di questo sito, è possibile utilizzare le normali costanti {e_XXX}. ");
-define("LAN_LW_HELP_13", "Definisce le opzioni attive.");
-define("LAN_LW_HELP_14", "Definisce il testo da visualizzare quando il mouse dell'utente passa sopra la parola. ");
-define("LAN_LW_HELP_15", "Quantità massima delle stesse parole di collegamento. Deve essere un numero positivo. Utilizzato quando la stessa parola viene trovata più volte in una parte di testo. ");
-define("LAN_LW_HELP_16", "Definisce un ID numerico opzionale da utilizzare con l'elaborazione Ajax. Deve essere un numero postivo. Se vuoto, viene utilizzato il numero di record del database ");
-define("LAN_LW_HELP_17", "Quando attivato, il collegamento viene aperto in una nuova scheda / finestra del browser ");
+define("LAN_LW_HELP_03", "Di solito è inutile che l'utente sia in grado di fare clic su un link se si trova già nella pagina. Quando questa opzione è disattivata, i links non vengono attivati.");
+define("LAN_LW_HELP_04", "I links possono essere disabilitati su pagine specifiche o pagine che corrispondono a una regola. Inseriscili qui (stessa sintassi della visibilità del menu), una regola per riga. Se il modello termina con '!', corrisponde a 'fine query' e di solito è una corrispondenza esatta. In caso contrario, qualsiasi URL contenente la stringa specificata corrisponderà.");
+define("LAN_LW_HELP_05", "Aggiungerà questa classe a tutti i links generati.");
+define("LAN_LW_HELP_10", "Qui puoi definire le parole che diventano link cliccabili o che visualizzano il testo al passaggio del mouse");
+define("LAN_LW_HELP_11", "Questo non fa distinzione tra maiuscole e minuscole. Per più parole mappate agli stessi link e descrizioni comandi, separale con virgole (senza spazi)");
+define("LAN_LW_HELP_12", "Definisci qui un link cliccabile. Se è un link esterno, DEVE iniziare con 'http(s)://'. Se si tratta di un collegamento all'interno di questo sito, possono essere utilizzate le normali costanti {e_XXX}.");
+define("LAN_LW_HELP_13", "Definisce quali opzioni sono attive.");
+define("LAN_LW_HELP_14", "Definisce il testo da visualizzare quando il mouse dell'utente passa sopra la parola.");
+define("LAN_LW_HELP_15", "Quantità massima delle stesse linkword. Deve essere un numero positivo. Usato quando la stessa parola viene trovata più volte in un pezzo di testo.");
+define("LAN_LW_HELP_16", "Questo definisce un ID numerico opzionale da utilizzare con l'elaborazione Ajax. Deve essere un numero positivo. Se vuoto, viene utilizzato il numero del record del database");
+define("LAN_LW_HELP_17", "Quando è attivato, il collegamento viene aperto in una nuova scheda/finestra del browser");

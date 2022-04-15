@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("FC_LAN_1", "Ispezione File");
 define("FC_LAN_5", "File di base");
 define("FC_LAN_6", "Fail di integrità solo");
@@ -67,6 +66,7 @@ define("FR_LAN_26", "Attenzione! Noto insicurezza rilevato!");
 define("FR_LAN_27", "Ci sono i file sul vostro server che sono noti per essere sfruttabili e devono essere rimossi immediatamente.");
 define("FR_LAN_28", "Noti file non sicuri");
 define("FR_LAN_32", "È necessario eseguire una scansione prima!");
+define("FR_LAN_33", "Inizio");
 define("FS_LAN_1", "Creare Snapshot");
 define("FS_LAN_2", "Percorso assoluto della directory radice per creare immagine da");
 define("FS_LAN_3", "Creare snapshot per plugin: (il vostro plugin saranno elencati quando un file scrivibile e_inspect.php esiste nella directory radice plugins).");
@@ -79,6 +79,3 @@ define("FS_LAN_9", "Istantanea");
 define("FS_LAN_10", "Instantanea creata");
 define("FS_LAN_11", "L'immagine istantanea è stata creata correttamente.");
 define("FS_LAN_12", "Tornare alla principale pagina");
-
-
-?>

@@ -9,13 +9,11 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
-define("UCSLAN_10", "Classe non cancellato - è una classe principale, o viene utilizzato nella definizione di un'altra classe, come classe di uno dei genitori o modifica");
 define("UCSLAN_30", "Nome breve visualizzato nei selettori");
 define("UCSLAN_31", "Informazioni sull'applicabilità di classe");
 define("UCSLAN_32", "Gli utenti in questa classe possono aggiungere/rimuovere se stessi dalla classe viene modificato");
 define("UCSLAN_33", "Determina quali utenti possono visualizzare questa classe in elenchi a discesa");
-define("UCSLAN_36", "Se la parte superiore dell'albero è 'Nessuno', autorizzazioni aumentano verso la parte superiore dell'albero<br>Se la parte superiore dell'albero è 'Tutti', autorizzazioni aumentano come si va giù l'albero");
+define("UCSLAN_36", "Se la parte superiore dell'albero è 'Nessuno', autorizzazioni aumentano verso la parte superiore dell'albero<br />Se la parte superiore dell'albero è 'Tutti', autorizzazioni aumentano come si va giù l'albero");
 define("UCSLAN_37", "È necessario immettere un nome per la classe");
 define("UCSLAN_38", "Classe utente iniziale");
 define("UCSLAN_39", "Non ci sono lezioni che possono essere impostate");
@@ -26,7 +24,7 @@ define("UCSLAN_45", "Punto in cui le classi impostano:");
 define("UCSLAN_46", "(ignorato se nessuna verifica)");
 define("UCSLAN_47", "Iscrizione iniziale");
 define("UCSLAN_48", "Verifica tramite email o admin");
-define("UCSLAN_49", "Queste classi sono impostate per qualsiasi utente appena firmato - appartenenza sia immediatamente, o una volta il loro sito è stata verificata");
+define("UCSLAN_49", "Queste classi sono impostate per qualsiasi utente appena iscritto - appena l'iscrizione sarà verificata l'utente viene inserito nel gruppo definito.");
 define("UCSLAN_53", "Attenzione! Solo utilizzare queste opzioni se hai capito quello che fanno");
 define("UCSLAN_54", "Impostare una gerarchia di utente predefinito");
 define("UCSLAN_55", "Deselezionare la gerarchia utente");
@@ -58,6 +56,3 @@ define("UCSLAN_88", "Bot di ricerca identificati");
 define("UCSLAN_89", "Checked classi sono membri del gruppo");
 define("UCSLAN_90", "Non è possibile modificare determinate classi di utente di sistema!");
 define("UCSLAN_91", "Struttura Classe");
-
-
-?>

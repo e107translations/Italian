@@ -4,7 +4,7 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2021/03/14 00:54:03
+|        Last Modified: 2022/04/02 12:27:02
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
@@ -40,7 +40,7 @@ define("LAN_FPW18", "Richiesta di reimpostazione della password");
 define("LAN_FPW19", "Invio di e-mail non riuscita");
 define("LAN_FPW20", "Invio di e-mail è riuscito");
 define("LAN_FPW21", "Utente ha fatto cliccati sul collegamento Reimposta password");
-define("LAN_FPW22", "Indirizzo email registrato su questo sito web");
+define("LAN_FPW22", "Email registrata su questo sito");
 define("LAN_FPW_100", "Hai dimenticato la password?");
 define("LAN_FPW_101", "Non si preoccupi. Basta inserire il tuo indirizzo email qui sotto e ti invieremo una mail di istruzioni per il recupero.");
 define("LAN_FPW_102", "Reimpostare la Password");

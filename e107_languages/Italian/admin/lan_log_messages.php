@@ -4,11 +4,12 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2018/09/12 23:38:13
+|        Last Modified: 2022/04/12 21:44:50
 |
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
+
 define("LAN_AUDIT_LOG_001", "Accesso di utente bandito");
 define("LAN_AUDIT_LOG_002", "Protezione dell'inondazione attivato");
 define("LAN_AUDIT_LOG_003", "Accesso dall'indirizzo IP banned");
@@ -128,7 +129,7 @@ define("LAN_AL_WELCOME_02", "Messaggio di benvenuto aggiornato");
 define("LAN_AL_WELCOME_03", "Messaggio di benvenuto eliminato");
 define("LAN_AL_WELCOME_04", "Opzioni del messaggio di benvenuto ha cambiati");
 define("LAN_AL_ADMINPW_01", "Admin password cambiata");
-define("LAN_AL_ADMINPW_02", "Password amministratore modificata ");
+define("LAN_AL_ADMINPW_02", "Password Admin ricostruita");
 define("LAN_AL_BANNER_00", "Messaggio sconosciuto relative al banner");
 define("LAN_AL_BANNER_01", "Aggiornamento del menu di banner");
 define("LAN_AL_BANNER_02", "Striscione creato");
@@ -217,6 +218,6 @@ define("LAN_AL_ADMINUI_02", "Interfaccia utente di Amministrazione DB aggiorname
 define("LAN_AL_ADMINUI_03", "Interfaccia utente di Amministrazione DB tabella Elimina: [x]");
 define("LAN_AL_ADMINUI_04", "Interfaccia utente di Amministrazione DB errore: [x]");
 define("LAN_AL_BACKUP", "Backup del database");
-define("LAN_AL_MEDIA_01", "Invio Multimedia");
-define("LAN_AL_USET_100", "Amminstratore connesso come altro utente");
-define("LAN_AL_USET_101", "Amminstratore disconnesso come altro utente");
+define("LAN_AL_MEDIA_01", "Upload Media");
+define("LAN_AL_USET_100", "L'amministratore è autenticato come altro utente");
+define("LAN_AL_USET_101", "L'amministratore si è disconnesso come altro utente");

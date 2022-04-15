@@ -9,10 +9,8 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("NWSLAN_4", "News - Notizie esistenti");
 define("NWSLAN_6", "Categoria");
-define("NWSLAN_10", "Nessuna categoria di notizie");
 define("NWSLAN_13", "Corpo");
 define("NWSLAN_14", "Esteso");
 define("NWSLAN_18", "Sono consentiti i commenti essere inviato a questa notizia");
@@ -86,24 +84,18 @@ define("NWSLAN_121", "Nulla trovati per %s");
 define("NWSLAN_123", "Pubblicato");
 define("NWSLAN_127", "Modello predefinito");
 define("NWSLAN_128", "Impostare una stringa da utilizzare nell'URL di pagine di notizie. Questo funzionerà solo corretto. htaccess regole e <a href='%s'>config eURL</a><br>Risolto URL basato sul valore corrente:");
-define("LAN_NEWS_23", "Scegliere un'immagine o un video per questa notizia");
 define("LAN_NEWS_28", "Appiccicoso");
 define("LAN_NEWS_29", "Selezionare se la notizia sarà appiccicoso");
 define("LAN_NEWS_30", "Se selezionato, notizia apparirà sopra tutti gli altri");
 define("LAN_NEWS_32", "Data timbro");
 define("LAN_NEWS_33", "Impostare l'indicatore di data per l'elemento corrente di notizie");
-define("LAN_NEWS_34", "Trackback");
-define("LAN_NEWS_35", "Aggiungere gli URL di trackback");
 define("LAN_NEWS_37", "Un URL per riga)");
 define("LAN_NEWS_49", "Tipo di rendering");
 define("LAN_NEWS_51", "Modifica dell'autore notizia può essere effettuata:");
 define("LAN_NEWS_52", "Informazioni generali");
 define("LAN_NEWS_53", "Opzioni avanzate");
-define("LAN_NEWS_54", "rimanere in modalità di modifica");
 define("LAN_NEWS_55", "Manutenzione");
-define("LAN_NEWS_56", "Ricalcolare i conteggi di commento");
 define("LAN_NEWS_57", "Procedere");
-define("LAN_NEWS_58", "Aggiornamento completo - - aggiornamento - conteggi commento aggiornati,..--eliminato: non consentiti commenti eliminati");
 define("LAN_NEWS_59", "Manutenzione di notizie");
 define("LAN_NEWS_60", "Commento totale");
 define("LAN_NEWS_61", "Eliminare anche i commenti non consentiti");
@@ -111,7 +103,6 @@ define("LAN_NEWS_62", "Errore di accesso al database, o nessun elemento di novit
 define("LAN_NEWS_63", "Creare la categoria");
 define("LAN_NEWS_64", "Vecchio presentato");
 define("LAN_NEWS_65", "Si prega di scegliere stringa SEF URL univoca per questa categoria");
-define("LAN_NEWS_66", "");
 define("LAN_NEWS_67", "Chiudere");
 define("LAN_NEWS_68", "Elemento inoltrato");
 define("LAN_NEWS_69", "Area predefinita");
@@ -121,7 +112,6 @@ define("LAN_NEWS_72", "Barra Laterale - Altre news");
 define("LAN_NEWS_73", "Barra Laterale- Altre News2");
 define("LAN_NEWS_74", "Carosello");
 define("LAN_NEWS_75", "Featurebox");
-define("LAN_NEWS_87", "es. blogsearch.google.com/ping/RPC2");
 define("LAN_NEWS_88", "Determina come dovrebbe apparire la pagina delle news predefinito.");
 define("LAN_NEWS_89", "Notificare questi servizi quando si creare/aggiornare le notizie.");
 define("LAN_NEWS_90", "Uno per riga.");
@@ -146,6 +136,4 @@ define("LAN_NEWS_108", "L'URL Personalizzato é diverso dal Titolo della notizia
 define("LAN_NEWS_109", "Attivare una notifica via email quando si invia questo modulo.");
 define("LAN_NEWS_110", "Scadenza Cache News");
 define("LAN_NEWS_111", "Tempo in minuti. Si applica solo quando cache di sistema è attivata.");
-
-
-?>
+define("LAN_NEWS_112", "Seleziona il formato dell'URL. Conteggio record (ad es. pagina=20, pagina=40, pagina=60 ecc.) o numero di pagina (ad es. pagina=1, pagina=2, pagina=3 ecc.). Attenzione: se modificati, alcuni URL delle news dovranno essere reindicizzati dai motori di ricerca.");
