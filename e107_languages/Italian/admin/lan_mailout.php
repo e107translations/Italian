@@ -241,7 +241,7 @@ define("LAN_MAILOUT_254", "Visualizzazione e-mail basato su modelli");
 define("LAN_MAILOUT_255", "Basato su modelli E-mail, ID:");
 define("LAN_MAILOUT_256", "Ritorno");
 define("LAN_MAILOUT_257", "Modello generato");
-define("LAN_MAILOUT_259", "Nessun "indirizzo email mittente" selezionato in Preferenze");
+define("LAN_MAILOUT_259", "Nessun indirizzo email mittente selezionato in Preferenze");
 define("LAN_SEND", "Invia");
 define("LAN_HOLD", "Tenere premuto");
 define("LAN_MAILOUT_260", "Tipo di utente");

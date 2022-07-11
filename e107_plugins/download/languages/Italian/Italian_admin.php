@@ -148,7 +148,7 @@ define("DOWLAN_HELP_7", "Aiuto per specchio");
 define("DOWLAN_HELP_8", "Aiuto per elenco di caricamento");
 define("DOWLAN_HELP_9", "Aiuto per i tipi di caricamento");
 define("DOWLAN_HELP_10", "Aiuto per opzioni di caricamento");
-define("DOWLAN_HELP_11", "Fai clic sul pulsante "elimina" per eliminare il report.[br][br]Fai clic sul pulsante "visualizza" per gestire il download.[br][br]Per essere informato di eventuali nuovi report, consulta le [impostazioni di notifica] .");
+define("DOWLAN_HELP_11", "Fai clic sul pulsante 'elimina' per eliminare il report.[br][br]Fai clic sul pulsante 'visualizza' per gestire il download.[br][br]Per essere informato di eventuali nuovi report, consulta le [impostazioni di notifica] .");
 define("LAN_DL_SECURITY_DESCRIPTION", "Downloads can make use of server-side URL protection features to prevent hotlinking and/or enforce link expiry. " .
 	"This section should be configured before the download server is configured to reduce the chance of disruption to downloaders.");
 define("LAN_DL_SECURITY_MODE", "URL protection mode");
