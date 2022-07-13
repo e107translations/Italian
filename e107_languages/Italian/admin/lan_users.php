@@ -108,7 +108,7 @@ define("USRLAN_151", "Deselezionare il rimbalzo, richiedono l'attivazione");
 define("USRLAN_152", "Rimbalzo chiaro e attiva");
 define("USRLAN_153", "Eliminare i messaggi e-mail non-rimbalzo");
 define("USRLAN_154", "Chiaro e-mail per controllato");
-define("USRLAN_155", "Totale [w] email trovate. [x] eliminati tramite le opzioni.[br][y] utenti contrassegnati come "rimbalzati" (su [z] email)");
+define("USRLAN_155", "Totale [w] email trovate. [x] eliminati tramite le opzioni.[br][y] utenti contrassegnati come 'rimbalzati' (su [z] email)");
 define("USRLAN_156", "Indirizzo e-mail è già in uso");
 define("USRLAN_161", "Utente ID [x] nome [y] bloccato");
 define("USRLAN_162", "Utente ID [x] nome [y] sbloccato");
