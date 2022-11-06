@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("GSLAN_1", "Collegamento di sito");
 define("GSLAN_2", "Importare?");
 define("GSLAN_7", "Importare collegamenti");
@@ -36,7 +35,9 @@ define("GSLAN_33", "GSiteMap istruzioni");
 define("GSLAN_34", "In primo luogo, creare i collegamenti che si desidera avere elencati nella sitemap. È possibile importare la maggior parte dei tuoi link facendo clic sul pulsante 'Importa' sulla destra");
 define("GSLAN_35", "Se hai scelto di importare il tuo link, fare clic su 'Import' e quindi controllare i link che si desidera importare");
 define("GSLAN_36", "È inoltre possibile immettere manualmente singoli link facendo clic su 'Crea nuova voce'.");
-define("GSLAN_37", "Una volta che avete alcune voci, vai a [URL] e immettere il seguente URL-> <b>'. SITEURL.' Gsitemap.php</b> - se questo url non sembra giusto, per favore assicurarsi che l'url del sito sia corretto in admin-> preferenze");
 define("GSLAN_38", "Per ulteriori informazioni sul protocollo Sitemap per Google, vai a [URL].");
 define("GSLAN_39", "Nessun collegamenti nella mappa del sito - importare sitelink?");
 define("GSLAN_50", "Visibile pubblicamente");
+define("GSLAN_51", "Auto-generato da [x]");
+define("GSLAN_52", "Dopo aver inserito alcune voci, vai su [URL] e inserisci uno dei seguenti URL nella sezione Sitemap. [SITEMAP_URLS] (se uno di questi URL ti sembra errato, assicurati che l'URL del tuo sito sia corretto in [preferenze]. )");
+define("GSLAN_53", "Istruzioni");

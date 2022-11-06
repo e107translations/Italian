@@ -9,7 +9,6 @@
 |        $Author: webmaster $
 +---------------------------------------------------------------+
 */
-
 define("NA_LAN_1", "L'Amministratore ha aggiornato la propria password");
 define("NA_LAN_2", "L'Ammnistratore ha creato un nuovo utentee");
 define("NA_LAN_3", "L'Amministratore ha attivato un nuovo utente");
@@ -39,6 +38,4 @@ define("NM_LAN_3", "Indirizzo Email =>");
 define("NF_LAN_1", "File eventi");
 define("NF_LAN_2", "File caricato dall'utente");
 define("LAN_NOTIFY_01", "Eventi");
-
-
-?>
+define("NU_LAN_10", "IP utente cambiato");

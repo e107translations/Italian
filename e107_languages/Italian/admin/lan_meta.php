@@ -17,3 +17,5 @@ define("METLAN_4", "Tags Personalizzati (in [x] tags)");
 define("METLAN_5", "Tags Personalizzati (dopo [x])");
 define("METLAN_6", "Tags Personalizzati (prima [x])");
 define("METLAN_7", "Eventuali metadati o tag HTML personalizzati inseriti qui (come tag <script> o tags di Google Analytics) verranno inclusi in ogni pagina del sito Web nelle aree predisposte");
+define("METLAN_8", "Limite Caratteri Titolo SEO");
+define("METLAN_9", "Limite Caratteri Descrizione SEO");
