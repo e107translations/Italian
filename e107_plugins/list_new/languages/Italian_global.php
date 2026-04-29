@@ -1,14 +1,12 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/15 23:06:16
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+* Copyright (c) e107 Inc 2009 - e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+* $Id$
+*
+* 'List new items' global language defines
 */
 
-define("LAN_PLUGIN_LIST_NEW_NAME", "Elenco Nuovi Articoli");
-define("LAN_PLUGIN_LIST_NEW_DESCRIPTION", "Questo plugin ti consente di visualizzare un elenco e/o un menu di aggiunte recenti in tutte le categorie e107. Puoi visualizzare l'elenco con i dati dall'ultima visita o visualizzare un elenco generale delle ultime aggiunte.");
+return [
+    'LAN_PLUGIN_LIST_NEW_NAME' => "Elenca Nuovi Elementi",
+    'LAN_PLUGIN_LIST_NEW_DESCRIPTION' => "Questo plugin consente di visualizzare un elenco e/o un menu delle aggiunte recenti in tutte le categorie di e107. È possibile visualizzare l'elenco con i dati dalla tua ultima visita o visualizzare un elenco generale delle ultime aggiunte.",
+];

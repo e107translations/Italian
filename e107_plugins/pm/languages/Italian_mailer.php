@@ -1,15 +1,14 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/15 23:09:06
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
+ * e107 website system
+ */
 
-define("LAN_EC_PM_04", "Gestore di PM");
-define("LAN_EC_PM_05", "Elabora grandi invii di Messaggi Privati "PMs"");
-define("LAN_EC_PM_06", "Avvia l'elaborazione in blocco di Messaggi Privati "PM" per [y] destinatari");
+return [
+    'LAN_EC_PM_01' => "",
+    'LAN_EC_PM_02' => "",
+    'LAN_EC_PM_03' => "",
+    'LAN_EC_PM_04' => "Gestore PM",
+    'LAN_EC_PM_05' => "Processa invii massivi di PM",
+    'LAN_EC_PM_06' => "Avvia elaborazione massiva PM per [y] destinatari",
+    'LAN_EC_PM_07' => "",
+];

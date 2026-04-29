@@ -4,16 +4,18 @@
 |        e107 website content management system Italian Language File
 |        Released under the terms and conditions of the
 |        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 00:36:15
 |
-|        $Author: webmaster $
+|        Traduzione Italiana
 +---------------------------------------------------------------+
 */
-define("TMCEALAN_1", "Incollare come testo di default");
-define("TMCEALAN_2", "Controllo ortografico dal Browser");
-define("TMCEALAN_3", "Abilitalo se desideri utilizzare il correttore interno al browser");
-define("TMCEALAN_4", "Visualizza Blocchi");
-define("TMCEALAN_5", "abilita la visualizzazione dei blocchi HTML durante le modifiche");
-define("TMCEALAN_6", "Classe CSS per evidenziazione del codice.");
-define("TMCEALAN_7", "Utilizza lo stile di Frontend");
-define("TMCEALAN_8", "Quando abilitato, l'editor utilizzerà lo stile del tema frontend. (se supportato)");
+
+return [
+    'TMCEALAN_1' => "Incolla come testo predefinito",
+    'TMCEALAN_2' => "Controllo ortografico del browser",
+    'TMCEALAN_3' => "Abilita se desideri utilizzare il correttore ortografico interno del browser.",
+    'TMCEALAN_4' => "Blocchi Visuali",
+    'TMCEALAN_5' => "Abilita per rendere visibili i blocchi HTML durante la modifica.",
+    'TMCEALAN_6' => "Classe CSS Code-Highlight.",
+    'TMCEALAN_7' => "Usa stile del frontend",
+    'TMCEALAN_8' => "Se abilitato, l'editor utilizzerà lo stile del tema del frontend (ove supportato).",
+];

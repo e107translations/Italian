@@ -1,57 +1,63 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/15 23:05:08
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
+ * e107 website system
+ *
+ * Copyright (C) 2008-2010 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Linkwords plugin - language file (only needed for admin)
+ *
+ */
 
-define("LWLAN_4", "Senza parole di collegamento definite ancora.");
-define("LWLAN_5", "Parole");
-define("LWLAN_6", "Link");
-define("LWLAN_7", "Attivo?");
-define("LWLAN_21", "Parola di autolink (o elenco delimitato da virgole di parole)");
-define("LWLAN_26", "Aree in cui attivare linkwords");
-define("LWLAN_28", "Pagine in cui disattivare linkwords");
-define("LWLAN_33", "Aree di titolo");
-define("LWLAN_34", "Riepiloghi di elemento");
-define("LWLAN_35", "Corpo del testo");
-define("LWLAN_36", "Descrizioni (link, ecc)");
-define("LWLAN_40", "Titoli immessi dall'utente (ad es. forum)");
-define("LWLAN_41", "Testo immesso dall'utente corpo (ad es. forum)");
-define("LWLAN_50", "ToolTip");
-define("LWLAN_52", "Linkword solo");
-define("LWLAN_53", "Descrizione comandi solo");
-define("LWLAN_54", "Linkword e Tooltip");
-define("LWLAN_55", "Apri il link in una nuova finestra");
-define("LWLAN_58", "Gancio di pref convertito in formato 0,8");
-define("LWLAN_59", "Attivare le funzionalità Ajax");
-define("LWLAN_64", "Sopprimere il link sulla pagina corrente");
-define("LWLAN_66", "Classe CSS personalizzata");
-define("LWLAN_67", "Max. Links/Suggerimenti");
-define("LAN_LW_HELP_01", "  <b>Aree per consentire</b><br>molte aree di testo hanno un \'context\ associato', e linkwords verranno visualizzate solo nelle aree in corrispondenza di tale contesto.<br><br>
-  <b>LinkWords Disable</b><br>LinkWords potrebbe essere disattivato su specifiche pagine o pagine corrispondenti a un modello. Inserire questi qui (stessa sintassi di menu), uno schema per ogni riga. 
-  Se il modello finisce in \ '! \', ciò corrisponde a \'end di query\', e di solito è una corrispondenza esatta. In caso contrario sarà una partita qualsiasi URL contenenti la stringa specificata.<br>Si noti che linkwords non sono <i>mai</i> visualizzate nelle pagine del admin.<br><br>
-  <b>Attivare le funzionalità Ajax</b><br>Le descrizioni comandi è possono utilizzare Ajax per ottenere informazioni per la visualizzazione. Questo di solito richiede qualche codifica personalizzata.<br><br>
-  <b>Sopprimere il link sulla pagina corrente</b><br>Di solito suo inutile per l'utente sia in grado di fare clic su un link se si \ ' 're già presenti nella pagina. Spuntate questa casella per rimuovere l'opzione,<br>");
-define("LAN_LW_HELP_02", "Definire le parole che diventano link cliccabili, o quale visualizzare il testo su mouseover, qui<br><br>
-  <b><u>Parola di collegamento</u></b><br>Si tratta di case-insensitive. Più parole mappatura al link stesso e le descrizioni comandi, separarli con virgole (senza spazi)<br><br>
-  <b><u>Link</u></b><br>Definire un link cliccabile qui. Se relativo un collegamento esterno, [i] [/i] deve iniziare \'http://\'. Se è un link all'interno di questo sito, le costanti di normale {e_XXX} possono essere utilizzate.<br><br>
-  <b><u>ToolTip</u></b><br>Questo definisce il testo per essere visualizzata quando l'utente s 's del mouse passa sopra la parola.<br><br>
-  <b><u>LW ID (ID di Tooltip)</u></b><br><br>Questo definisce un ID numerico opzionale da utilizzare con l'Ajax di elaborazione. Se vuota, viene utilizzato il numero di record del database.<br><br>
-  <b><u>Attivare?</u></b><br>Definisce quali opzioni sono attive.");
-define("LAN_LW_HELP_03", "Di solito è inutile che l'utente sia in grado di fare clic su un link se si trova già nella pagina. Quando questa opzione è disattivata, i links non vengono attivati.");
-define("LAN_LW_HELP_04", "I links possono essere disabilitati su pagine specifiche o pagine che corrispondono a una regola. Inseriscili qui (stessa sintassi della visibilità del menu), una regola per riga. Se il modello termina con '!', corrisponde a 'fine query' e di solito è una corrispondenza esatta. In caso contrario, qualsiasi URL contenente la stringa specificata corrisponderà.");
-define("LAN_LW_HELP_05", "Aggiungerà questa classe a tutti i links generati.");
-define("LAN_LW_HELP_10", "Qui puoi definire le parole che diventano link cliccabili o che visualizzano il testo al passaggio del mouse");
-define("LAN_LW_HELP_11", "Questo non fa distinzione tra maiuscole e minuscole. Per più parole mappate agli stessi link e descrizioni comandi, separale con virgole (senza spazi)");
-define("LAN_LW_HELP_12", "Definisci qui un link cliccabile. Se è un link esterno, DEVE iniziare con 'http(s)://'. Se si tratta di un collegamento all'interno di questo sito, possono essere utilizzate le normali costanti {e_XXX}.");
-define("LAN_LW_HELP_13", "Definisce quali opzioni sono attive.");
-define("LAN_LW_HELP_14", "Definisce il testo da visualizzare quando il mouse dell'utente passa sopra la parola.");
-define("LAN_LW_HELP_15", "Quantità massima delle stesse linkword. Deve essere un numero positivo. Usato quando la stessa parola viene trovata più volte in un pezzo di testo.");
-define("LAN_LW_HELP_16", "Questo definisce un ID numerico opzionale da utilizzare con l'elaborazione Ajax. Deve essere un numero positivo. Se vuoto, viene utilizzato il numero del record del database");
-define("LAN_LW_HELP_17", "Quando è attivato, il collegamento viene aperto in una nuova scheda/finestra del browser");
+return [
+    'LWLAN_4' => "Nessuna parola collegata definita.",
+    'LWLAN_5' => "Parole",
+    'LWLAN_6' => "Link",
+    'LWLAN_7' => "Attivo?",
+    'LWLAN_21' => "Parola da collegare automaticamente (o lista di parole separate da virgola)",
+    'LWLAN_26' => "Aree in cui abilitare le parole collegate",
+    'LWLAN_28' => "Pagine su cui disabilitare le parole collegate",
+    'LWLAN_33' => "Aree Titolo",
+    'LWLAN_34' => "Riassunti elementi",
+    'LWLAN_35' => "Corpo del testo",
+    'LWLAN_36' => "Descrizioni (link ecc.)",
+    'LWLAN_40' => "Titoli inseriti dall'utente (es. forum)",
+    'LWLAN_41' => "Testo del corpo inserito dall'utente (es. forum)",
+    'LWLAN_50' => "Tooltip",
+    'LWLAN_52' => "ID Linkword (ID Tooltip)",
+    'LWLAN_53' => "Inserisci l'ID della Linkword. Se vuoto, verrà utilizzato l'ID del database",
+    'LWLAN_54' => "Abilita funzionalità Ajax",
+    'LWLAN_55' => "Sopprimi link sulla pagina corrente",
+    'LWLAN_56' => "Abilita/Disabilita le Linkwords",
+
+    'LAN_LW_HELP_01' => "<b>Aree in cui abilitare le parole collegate</b><br />
+  Molte aree del sito hanno diversi 'tipi' di testo. Qui puoi definire in quali tipi di testo le parole collegate saranno attive.<br /><br />
+
+  <b>Pagine su cui disabilitare le parole collegate</b><br />
+  Qui puoi definire le pagine (o pattern di pagine) su cui le parole collegate non verranno visualizzate. Inserisci un pattern per riga.<br />
+  Se il pattern termina con '!', corrisponde alla 'fine della query' ed è solitamente una corrispondenza esatta. Altrimenti, qualsiasi URL contenente la stringa specificata corrisponderà.<br />
+  Nota che le parole collegate non vengono <i>mai</i> visualizzate nelle pagine di amministrazione.<br /><br />
+
+  <b>Abilita funzionalità Ajax</b><br />
+  I tooltip possono utilizzare Ajax per recuperare informazioni da visualizzare. Questo solitamente richiede del codice personalizzato.<br /><br />
+
+  <b>Sopprimi link sulla pagina corrente</b><br />
+  Di solito è inutile che l'utente possa cliccare su un link se si trova già in quella pagina. Spunta questa casella per rimuovere l'opzione.<br />",
+
+    'LAN_LW_HELP_02' => "Definisci qui le parole che diventano link cliccabili, o che visualizzano del testo al passaggio del mouse (mouseover)<br /><br />
+  <b><u>Parola da collegare</u></b><br />
+  Non fa distinzione tra maiuscole e minuscole. Per mappare più parole sugli stessi link e tooltip, separale con virgole (senza spazi)<br /><br />
+
+  <b><u>Link</u></b><br />
+  Definisci qui un link cliccabile. Se è un link esterno, [i]deve[/i] iniziare con 'http://'. Se è un link interno a questo sito, possono essere utilizzate le normali costanti {e_XXX}.<br /><br />
+
+  <b><u>Tooltip</u></b><br />
+  Questo definisce il testo da visualizzare quando il mouse dell'utente passa sopra la parola.<br /><br />
+
+  <b><u>ID LW (ID Tooltip)</u></b><br /><br />
+  Questo definisce un ID numerico opzionale da utilizzare con l'elaborazione Ajax. Se lasciato vuoto, viene utilizzato il numero di record del database.<br /><br />
+
+  <b><u>Attivare?</u></b><br />
+  Definisce quali linkwords sono attive.",
+];

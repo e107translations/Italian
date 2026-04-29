@@ -1,267 +1,105 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/08 01:00:25
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
 */
-define("EPL_ADLAN_0", "Installare");
-define("EPL_ADLAN_1", "Disinstallare");
-define("EPL_ADLAN_2", "Sei sicuro che si desidera disinstallare questo plugin?");
-define("EPL_ADLAN_3", "Confermare la disinstallazione");
-define("EPL_ADLAN_4", "Disinstallare annullato.");
-define("EPL_ADLAN_5", "Procedura di installazione verrà create nuove voci di preferenza.");
-define("EPL_ADLAN_6", "... poi clicca qui per iniziare la procedura di installazione");
-define("EPL_ADLAN_7", "Tabelle di database aggiornate con successo.");
-define("EPL_ADLAN_8", "Impostazioni delle preferenze creati con successo.");
-define("EPL_ADLAN_9", "Comandi di SQL non riuscita. Verificare che tutte le modifiche di aggiornamento sono ok.");
-define("EPL_ADLAN_10", "Nome");
-define("EPL_ADLAN_11", "Versione");
-define("EPL_ADLAN_13", "Compatibile");
-define("EPL_ADLAN_14", "Descrizione");
-define("EPL_ADLAN_15", "Leggere il file Leggimi per ulteriori informazioni");
-define("EPL_ADLAN_16", "Informazioni di plugin");
-define("EPL_ADLAN_17", "Più informazioni...");
-define("EPL_ADLAN_18", "Impossibile creare correttamente le tabelle per questo plugin.");
-define("EPL_ADLAN_19", "Tabelle di database create con successo.");
-define("EPL_ADLAN_21", "Plugin è già installato.");
-define("EPL_ADLAN_22", "Installato");
-define("EPL_ADLAN_23", "Non installato");
-define("EPL_ADLAN_24", "Aggiornamento disponibile");
-define("EPL_ADLAN_25", "Nessuna installazione necessaria");
-define("EPL_ADLAN_26", "... poi clicca qui per iniziare la procedura di disinstallazione");
-define("EPL_ADLAN_27", "Impossibile eliminare con successo");
-define("EPL_ADLAN_28", "Tabelle di database eliminate correttamente.");
-define("EPL_ADLAN_29", "Impostazioni delle preferenze eliminati correttamente.");
-define("EPL_ADLAN_30", "si prega di eliminarlo manualmente.");
-define("EPL_ADLAN_31", "Per favore ora eliminare la cartella");
-define("EPL_ADLAN_32", "e tutti i file al suo interno per completare il processo di disinstallazione.");
-define("EPL_ADLAN_33", "Plugin installati correttamente.");
-define("EPL_ADLAN_34", "Plugin aggiornato correttamente.");
-define("EPL_ADLAN_35", "Impostazioni di parser aggiunte con successo.");
-define("EPL_ADLAN_36", "Parser codice insert non riuscita, non formattato correttamente.");
-define("EPL_ADLAN_37", "Caricare plugin (formato. zip)");
-define("EPL_ADLAN_38", "Caricare Plugin");
-define("EPL_ADLAN_39", "Il file potrebbe non essere caricato come la cartella '.e_PLUGIN.' non dispone di autorizzazioni corrette - cambiare i permessi di scrittura e caricare nuovamente il file.");
-define("EPL_ADLAN_40", "Messaggio di admin");
-define("EPL_ADLAN_41", "Tale file non sembra essere un valido archivio. zip o. tar.");
-define("EPL_ADLAN_42", "È verificato un errore, Impossibile scompattare il file");
-define("EPL_ADLAN_43", "Il tuo plugin è stato caricato e aggiungere all'elenco di plugin disinstallato.");
-define("EPL_ADLAN_44", "Estrazione e upload plugin automatico è disabilitato come upload cartella plugins non è consentito al momento - se si desidera essere in grado di fare questo, si prega di modificare le autorizzazioni sulla cartella '.e_PLUGIN.' per consentire l'upload.");
-define("EPL_ADLAN_45", "La voce di menu è stata caricata e decompressa, per attivare Vai alla <a href=''.e_ADMIN.'menus.php'>tua pagina di menu</a>.");
-define("EPL_ADLAN_46", "PCLZIP estrarre errore:");
-define("EPL_ADLAN_47", "PCLTAR Estratto di errore:");
-define("EPL_ADLAN_48", "Codice:");
-define("EPL_ADLAN_49", "Tabelle non eliminate durante il processo di disinstallazione di richiesta");
-define("EPL_WEBSITE", "Sito Web");
-define("EPL_NOINSTALL", "Nessuna installazione necessaria, basta attivare dalla schermata di menu. Per disinstallare, eliminare la");
-define("EPL_DIRECTORY", "Directory.");
-define("EPL_NOINSTALL_1", "Nessuna installazione necessaria, rimuovere Elimina la");
-define("EPL_UPGRADE", "Aggiornamento");
-define("EPL_ADLAN_50", "Commenti eliminati con successo");
-define("EPL_ADLAN_53", "Cartella non scrivibile");
-define("EPL_ADLAN_54", "Si prega di selezionare le opzioni per disinstallare il plugin:");
-define("EPL_ADLAN_55", "Disinstallare il plugin");
-define("EPL_ADLAN_57", "Eliminare tabelle plugin");
-define("EPL_ADLAN_58", "Se le tabelle non vengono rimossi, il plugin può essere reinstallato senza perdita di dati.  La creazione di tabelle durante la reinstallazione non riuscirà. Tabelle dovranno essere eliminati manualmente per rimuovere.");
-define("EPL_ADLAN_59", "Eliminare i file di plugin");
-define("EPL_ADLAN_60", "e107 tenterà di rimuovere tutti i file correlati a plugin.");
-define("EPL_ADLAN_62", "Annullare la disinstallazione");
-define("EPL_ADLAN_63", "Disinstallare:");
-define("EPL_ADLAN_64", "Cartella");
-define("EPL_ADLAN_70", "Plugin richiesto non installato:");
-define("EPL_ADLAN_71", "Necessaria di versione più recente del plugin:");
-define("EPL_ADLAN_72", "Versione:");
-define("EPL_ADLAN_73", "Estensione PHP necessaria non caricato:");
-define("EPL_ADLAN_74", "Versione più recente di PHP richiesto:");
-define("EPL_ADLAN_75", "Versione più recente di MySQL richiesto:");
-define("EPL_ADLAN_76", "Errore nel plugin");
-define("EPL_ADLAN_77", "Impossibile trovare il plugin");
-define("EPL_ADLAN_78", "Eliminare le classi utente creato da plugin:");
-define("EPL_ADLAN_79", "Eliminare solo questi se non li hanno utilizzati per altri scopi.");
-define("EPL_ADLAN_80", "Eliminare i campi utente estesa creati da plugin:");
-define("EPL_ADLAN_81", "XHTML");
-define("EPL_ADLAN_82", "Icona");
-define("EPL_ADLAN_83", "Note");
-define("EPL_ADLAN_84", "Installazione selezionata");
-define("EPL_ADLAN_85", "Disinstallare selezionato");
-define("EPL_ADLAN_86", "Tutti i file rimossi da");
-define("EPL_ADLAN_87", "Eliminazione di file non riuscita");
-define("EPL_ADLAN_88", "Fatto per v2");
-define("EPL_ADLAN_89", "Ricerca Online");
-define("EPL_ADLAN_90", "per utilizzare questa funzionalità è attualmente necessaria ricciolo. Contattare il provider di hosting Web per abilitare cURL");
-define("EPL_ADLAN_91", "In primo piano");
-define("EPL_ADLAN_92", "Acquista");
-define("EPL_ADLAN_93", "Gratis");
-define("EPL_ADLAN_94", "Collegamento...");
-define("EPL_ADLAN_95", "Impossibile continuare");
-define("EPL_ADLAN_96", "es. http://website.com/some-plugin.zip");
-define("EPL_ADLAN_97", "C'era un problema di estrazione del file. zip al tuo plugin directory.");
-define("EPL_ADLAN_98", "File sconosciuto:");
-define("EPL_ADLAN_99", "Messaggi di errore sopra di questa linea");
-define("EPL_ADLAN_100", "Clicca qui per installare alcuni");
-define("EPL_ADLAN_101", "Nessun plugin installati - [x].");
-define("EPL_ADLAN_102", "Questa procedura guidata sarà costruire un'area di admin per il vostro plugin e generare un file di metadati di plugin. Prima di iniziare:");
-define("EPL_ADLAN_103", "Creare una nuova cartella scrivibile nella directory [x] per esempio. [b] myplugin [/b]");
-define("EPL_ADLAN_105", "Creare una tabella in phpMyAdmin e incollare un dump sql di esso nel file e salvare. per un esempio, vedere [b]e107_plugins/_blank/_blank_sql.php[/b]");
-define("EPL_ADLAN_106", "Selezionare la cartella del vostro plugin per iniziare.");
-define("EPL_ADLAN_107", "Creare un file xml e admin-area per:");
-define("EPL_ADLAN_108", "Verifica i file di lingua:");
-define("EPL_ADLAN_109", "Informazioni di base.");
-define("EPL_ADLAN_112", "Scrivi una recensione su tutti i campi e modificare se necessario.");
-define("EPL_ADLAN_113", "Esaminare tutte le schede prima di cliccare su 'Genera'.");
-define("EPL_ADLAN_114", "Builder plugin");
-define("EPL_ADLAN_115", "Passo 2");
-define("EPL_ADLAN_116", "Casella di testo");
-define("EPL_ADLAN_117", "Casella di testo (numero)");
-define("EPL_ADLAN_118", "Casella di testo (url)");
-define("EPL_ADLAN_119", "Area di testo");
-define("EPL_ADLAN_120", "Area in formato RTF");
-define("EPL_ADLAN_121", "Vero/falso");
-define("EPL_ADLAN_122", "Funzione personalizzata");
-define("EPL_ADLAN_123", "Immagine");
-define("EPL_ADLAN_124", "A discesa");
-define("EPL_ADLAN_125", "A discesa (userclasses)");
-define("EPL_ADLAN_126", "A discesa (lingue)");
-define("EPL_ADLAN_127", "Icona");
-define("EPL_ADLAN_128", "File");
-define("EPL_ADLAN_129", "Nome di preferenza");
-define("EPL_ADLAN_130", "Valore predefinito");
-define("EPL_ADLAN_131", "Tipo di campo...");
-define("EPL_ADLAN_132", "[x] è stato generato");
-define("EPL_ADLAN_133", "[x] è mancante!");
-define("EPL_ADLAN_134", "Si prega di creare [b] [/b] [x] nella cartella plugin con il seguente contenuto: [y]");
-define("EPL_ADLAN_135", "Il nome del vostro plugin. (Deve essere scritto in inglese)");
-define("EPL_ADLAN_136", "Se si dispone di un file di lingua, immettere il valore LAN_XXX per il nome del plugin");
-define("EPL_ADLAN_137", "Data di creazione del vostro plugin");
-define("EPL_ADLAN_138", "La versione del vostro plugin. Formato: x. x");
-define("EPL_ADLAN_139", "Compatibile con questa versione di e107");
-define("EPL_ADLAN_140", "Nome dell'autore");
-define("EPL_ADLAN_141", "URL del sito Web autore");
-define("EPL_ADLAN_142", "Una breve descrizione di una riga del plugin");
-define("EPL_ADLAN_143", "(Deve essere scritto in inglese)");
-define("EPL_ADLAN_144", "Tag di parole chiave per questo plugin");
-define("EPL_ADLAN_145", "Una descrizione completa del plugin");
-define("EPL_ADLAN_146", "Quale categoria di plugin è questo?");
-define("EPL_ADLAN_147", "Impostazioni");
-define("EPL_ADLAN_148", "utenti");
-define("EPL_ADLAN_149", "contenuto");
-define("EPL_ADLAN_150", "strumenti");
-define("EPL_ADLAN_151", "il gestore");
-define("EPL_ADLAN_152", "misc");
-define("EPL_ADLAN_153", "dal menu");
-define("EPL_ADLAN_154", "circa");
-define("EPL_ADLAN_155", "Salvato:");
-define("EPL_ADLAN_156", "Non poteva salvare:");
-define("EPL_ADLAN_157", "Area principale");
-define("EPL_ADLAN_158", "Categorie");
-define("EPL_ADLAN_159", "Altri 1");
-define("EPL_ADLAN_160", "Altri 2");
-define("EPL_ADLAN_161", "Altri 3");
-define("EPL_ADLAN_162", "Altri 4");
-define("EPL_ADLAN_163", "Escludere questa tabella");
-define("EPL_ADLAN_164", "Campo");
-define("EPL_ADLAN_165", "Didascalia");
-define("EPL_ADLAN_166", "Tipo");
-define("EPL_ADLAN_167", "Dati");
-define("EPL_ADLAN_168", "Larghezza");
-define("EPL_ADLAN_169", "Batch");
-define("EPL_ADLAN_170", "Filtro");
-define("EPL_ADLAN_171", "Inline");
-define("EPL_ADLAN_172", "Convalidare");
-define("EPL_ADLAN_173", "Visualizzazione");
-define("EPL_ADLAN_174", "HelpTip");
-define("EPL_ADLAN_175", "ReadParms");
-define("EPL_ADLAN_176", "WriteParms");
-define("EPL_ADLAN_177", "Campo è obbligatorio per il completamento");
-define("EPL_ADLAN_178", "Visualizzata per impostazione predefinita");
-define("EPL_ADLAN_179", "Casella di testo");
-define("EPL_ADLAN_180", "Nascosta");
-define("EPL_ADLAN_181", "Vero/falso");
-define("EPL_ADLAN_182", "Casella di testo (numero)");
-define("EPL_ADLAN_183", "A discesa");
-define("EPL_ADLAN_184", "A discesa (userclasses)");
-define("EPL_ADLAN_186", "Funzione personalizzata");
-define("EPL_ADLAN_187", "Nascosta");
-define("EPL_ADLAN_188", "Utente");
-define("EPL_ADLAN_189", "Casella di testo");
-define("EPL_ADLAN_190", "A discesa");
-define("EPL_ADLAN_191", "Funzione personalizzata");
-define("EPL_ADLAN_192", "Nascosta");
-define("EPL_ADLAN_193", "Casella di testo");
-define("EPL_ADLAN_194", "Casella di testo (url)");
-define("EPL_ADLAN_195", "Casella di testo (e-mail)");
-define("EPL_ADLAN_196", "Casella di testo (ip)");
-define("EPL_ADLAN_197", "Casella di testo (numero)");
-define("EPL_ADLAN_198", "Casella di testo (password)");
-define("EPL_ADLAN_199", "Casella di testo (parole chiave)");
-define("EPL_ADLAN_200", "A discesa");
-define("EPL_ADLAN_201", "A discesa (userclasses)");
-define("EPL_ADLAN_202", "A discesa (lingue)");
-define("EPL_ADLAN_203", "Icona");
-define("EPL_ADLAN_204", "Immagine");
-define("EPL_ADLAN_205", "File");
-define("EPL_ADLAN_206", "Funzione personalizzata");
-define("EPL_ADLAN_207", "Nascosta");
-define("EPL_ADLAN_208", "Area di testo");
-define("EPL_ADLAN_209", "Area in formato RTF");
-define("EPL_ADLAN_210", "Casella di testo");
-define("EPL_ADLAN_211", "Casella di testo (parole chiave)");
-define("EPL_ADLAN_212", "Funzione personalizzata");
-define("EPL_ADLAN_213", "Immagine (stringa)");
-define("EPL_ADLAN_214", "Immagini (matrice)");
-define("EPL_ADLAN_215", "Nascosta");
-define("EPL_ADLAN_216", "Clicca qui");
-define("EPL_ADLAN_217", "[x] di vist vostra area di amministrazione generato");
-define("EPL_ADLAN_218", "Non poteva scrivere a [x]");
-define("EPL_ADLAN_219", "Nessun file sono stato creato. Copia e incolla il codice qui sotto nel vostro file.");
-define("EPL_ADLAN_220", "Trovare i plugin");
-define("EPL_ADLAN_221", "Controllo File di lingua");
-define("EPL_ADLAN_222", "Plugin file");
-define("EPL_ADLAN_223", "Usato");
-define("EPL_ADLAN_224", "Inutilizzati");
-define("EPL_ADLAN_225", "Sicuri");
-define("EPL_ADLAN_226", "File di lingua plugin Check");
-define("EPL_ADLAN_227", "Rileva modifiche");
-define("EPL_ADLAN_228", "Cartelle plugin vengono analizzate ogni minuti [x] per le modifiche. Fare clic sul pulsante qui sotto per eseguire la scansione ora.");
-define("EPL_ADLAN_229", "Aggiornamento");
-define("EPL_ADLAN_230", "Download ed Installazione");
-define("EPL_ADLAN_231", "Rimuovi le Icone dal Media-Manager");
-define("EPL_ADLAN_232", "Crea i File");
-define("EPL_ADLAN_233", "Aggiungi Link");
-define("EPL_ADLAN_234", "Rimuovi Link");
-define("EPL_ADLAN_235", "Non è possibile il Download Automatico.");
-define("EPL_ADLAN_236", "Si prega di Scaricare Manualmente");
-define("EPL_ADLAN_237", "Download");
-define("EPL_ADLAN_238", "Intallazione Completa!");
-define("EPL_ADLAN_239", "Aggiungi Tabella");
-define("EPL_ADLAN_240", "rimuovi Tabella:");
-define("EPL_ADLAN_241", "Aggiungi Preferenze:");
-define("EPL_ADLAN_242", "Rimuovi Preferenze:");
-define("EPL_ADLAN_243", "Aggiorna Preferenze");
-define("EPL_ADLAN_244", "Sono consentite solo 5 Categorie  di Media durante l'installazione.");
-define("EPL_ADLAN_245", "Aggiungi Categoria Media [x]");
-define("EPL_ADLAN_246", "Eliminazione di tutti i Media Categorie di proprietà di: [x]");
-define("EPL_ADLAN_247", "Aggiornamernti Installati");
-define("EPL_ADLAN_249", "Aggiungi Campo Esteso:");
-define("EPL_ADLAN_250", "Rimuovi Campoo Esteso:");
-define("EPL_ADLAN_251", "Campi Estesi non modificati:");
-define("EPL_ADLAN_252", "Permesso:");
-define("EPL_ADLAN_253", "Completato");
-define("LAN_RELEASED", "Rilasciato");
-define("LAN_REPAIR_PLUGIN_SETTINGS", "Impostazioni del Plugin riparazione");
-define("LAN_SYNC_WITH_GIT_REPO", "Sincronizza con il Repostory GIT");
-define("LAN_ADDONS", "Aggiunte");
-define("LAN_UPGRADE_SUCCESSFUL", "Aggiornamento con successo");
-define("LAN_INSTALL_SUCCESSFUL", "Installazione riuscita");
-define("LAN_INSTALL_FAIL", "Installazione non riuscita");
-define("LAN_UNINSTALL_FAIL", "Impossibile disinstallare");
-define("LAN_PLUGIN_IS_USED", "[x] plugin utilizzato da:");
-define("EPL_ADLAN_254", "Questo controllerà i file di lingua del tuo plug-in per errori e definizioni LAN assenti o duplicate.");
-define("EPL_ADLAN_255", "Sovrascrivi i Files");
-define("EPL_ADLAN_256", "Saltato [x] (esiste già)");
-define("EPL_ADLAN_257", "Sola Lettura");
+
+return [
+    'EPL_ADLAN_0' => "Installa",
+    'EPL_ADLAN_1' => "Disinstalla",
+    'EPL_ADLAN_2' => "Sei sicuro di voler disinstallare questo plugin?",
+    'EPL_ADLAN_3' => "Conferma disinstallazione",
+    'EPL_ADLAN_4' => "Disinstallazione annullata.",
+    'EPL_ADLAN_5' => "La procedura di installazione creerà nuove voci di preferenza.",
+    'EPL_ADLAN_6' => "... quindi clicca qui per iniziare la procedura di installazione",
+    'EPL_ADLAN_7' => "Tabelle del database aggiornate con successo.",
+    'EPL_ADLAN_8' => "Impostazioni delle preferenze create con successo.",
+    'EPL_ADLAN_9' => "Comandi SQL falliti. Controlla che tutte le modifiche di aggiornamento siano corrette.",
+    'EPL_ADLAN_10' => "Nome",
+    'EPL_ADLAN_11' => "Versione",
+    'EPL_ADLAN_13' => "Compatibile",
+    'EPL_ADLAN_14' => "Descrizione",
+    'EPL_ADLAN_15' => "Leggi il file README per maggiori informazioni",
+    'EPL_ADLAN_16' => "Informazioni Plugin",
+    'EPL_ADLAN_17' => "Altre info...",
+    'EPL_ADLAN_18' => "Impossibile creare correttamente le tabelle per questo plugin.",
+    'EPL_ADLAN_19' => "Tabelle del database create con successo.",
+    'EPL_ADLAN_21' => "Il plugin è già installato.",
+    'EPL_ADLAN_22' => "Installato",
+    'EPL_ADLAN_23' => "Non installato",
+    'EPL_ADLAN_24' => "Aggiornamento disponibile",
+    'EPL_ADLAN_25' => "Nessuna installazione richiesta",
+    'EPL_ADLAN_26' => "... quindi clicca qui per iniziare la procedura di disinstallazione",
+    'EPL_ADLAN_27' => "Impossibile eliminare con successo",
+    'EPL_ADLAN_28' => "Tabelle del database eliminate con successo.",
+    'EPL_ADLAN_29' => "Impostazioni delle preferenze eliminate con successo.",
+    'EPL_ADLAN_30' => "per favore eliminalo manualmente.",
+    'EPL_ADLAN_31' => "Ora elimina la cartella",
+    'EPL_ADLAN_32' => "e tutti i file al suo interno per completare il processo di disinstallazione.",
+    'EPL_ADLAN_33' => "Plugin installato con successo.",
+    'EPL_ADLAN_34' => "Plugin aggiornato con successo.",
+    'EPL_ADLAN_35' => "Impostazioni del parser aggiunte con successo.",
+    'EPL_ADLAN_36' => "Inserimento del codice del parser fallito, formattato in modo errato.",
+    'EPL_ADLAN_37' => "Carica plugin (formato .zip)",
+    'EPL_ADLAN_38' => "Carica Plugin",
+    'EPL_ADLAN_39' => "Il file non può essere caricato poiché la cartella \".e_PLUGIN.\" non ha i permessi corretti - per favore cambia i permessi di scrittura e ricarica il file.",
+    'EPL_ADLAN_40' => "Messaggio Admin",
+    'EPL_ADLAN_41' => "Quel file non sembra essere un archivio .zip o .tar valido.",
+    'EPL_ADLAN_42' => "Si è verificato un errore, impossibile decomprimere il file",
+    'EPL_ADLAN_43' => "Il tuo plugin è stato caricato e aggiunto alla lista dei plugin non installati.",
+    'EPL_ADLAN_44' => "Il caricamento automatico e l'estrazione del plugin sono disabilitati poiché il caricamento nella cartella dei plugin non è consentito al momento - se desideri farlo, cambia i permessi sulla cartella \".e_PLUGIN.\" per consentire i caricamenti.",
+    'EPL_ADLAN_45' => "La voce del menu è stata caricata e decompressa, per attivarla vai alla <a href='\".e_ADMIN.\"menus.php'>tua pagina dei menu</a>.",
+    'EPL_ADLAN_46' => "Errore estrazione PCLZIP:",
+    'EPL_ADLAN_47' => "Errore estrazione PCLTAR:",
+    'EPL_ADLAN_48' => "codice:",
+    'EPL_ADLAN_49' => "Tabelle non eliminate durante il processo di disinstallazione su richiesta",
+    'EPL_WEBSITE' => "Sito Web",
+    'EPL_NOINSTALL' => "Nessuna installazione richiesta, basta attivare dalla schermata dei menu. Per disinstallare, elimina la directory",
+    'EPL_DIRECTORY' => "directory.",
+    'EPL_NOINSTALL_1' => "Nessuna installazione richiesta, per rimuovere elimina la",
+    'EPL_UPGRADE' => "Aggiorna a:",
+    'EPL_ADLAN_50' => "Commenti eliminati con successo",
+    'EPL_ADLAN_53' => "Directory non scrivibile",
+    'EPL_ADLAN_54' => "Seleziona le opzioni per la disinstallazione del plugin:",
+    'EPL_ADLAN_55' => "Disinstalla plugin",
+    'EPL_ADLAN_57' => "Elimina tabelle plugin",
+    'EPL_ADLAN_58' => "Se le tabelle non vengono rimosse, il plugin può essere reinstallato senza perdita di dati. La creazione delle tabelle durante la reinstallazione fallirà. Le tabelle dovranno essere eliminate manualmente per la rimozione completa.",
+    'EPL_ADLAN_59' => "Elimina file plugin",
+    'EPL_ADLAN_60' => "e107 cercherà di rimuovere tutti i file relativi al plugin.",
+    'EPL_ADLAN_62' => "Annulla disinstallazione",
+    'EPL_ADLAN_63' => "Disinstalla:",
+    'EPL_ADLAN_64' => "Cartella",
+    'EPL_ADLAN_70' => "Plugin richiesto non installato:",
+    'EPL_ADLAN_71' => "Richiesta versione plugin più recente:",
+    'EPL_ADLAN_72' => "Versione:",
+    'EPL_ADLAN_73' => "Estensione PHP richiesta non caricata:",
+    'EPL_ADLAN_74' => "Richiesta versione PHP più recente:",
+    'EPL_ADLAN_75' => "Richiesta versione MySQL più recente:",
+    'EPL_ADLAN_76' => "Errore in plugin.xml",
+    'EPL_ADLAN_77' => "Impossibile trovare plugin.xml",
+    'EPL_ADLAN_78' => "Elimina Classi Utente create dal plugin:",
+    'EPL_ADLAN_79' => "Eliminale solo se non le hai utilizzate per altri scopi.",
+    'EPL_ADLAN_80' => "Elimina campi utente estesi creati dal plugin:",
+    'EPL_ADLAN_81' => "Xhtml",
+    'EPL_ADLAN_82' => "Icona",
+    'EPL_ADLAN_83' => "Note",
+    'EPL_ADLAN_84' => "Installa Selezionati",
+    'EPL_ADLAN_85' => "Disinstalla Selezionati",
+    'EPL_ADLAN_86' => "Tutti i file rimossi da",
+    'EPL_ADLAN_87' => "Eliminazione file fallita",
+    'EPL_ADLAN_88' => "Realizzato per v2",
+    'EPL_ADLAN_89' => "Cerca Online",
+    'EPL_ADLAN_90' => "cURL è attualmente richiesto per utilizzare questa funzione. Contatta il tuo fornitore di web hosting per abilitare cURL",
+    'EPL_ADLAN_91' => "In primo piano",
+    'EPL_ADLAN_92' => "Acquista",
+    'EPL_ADLAN_93' => "Gratis",
+    'EPL_ADLAN_94' => "Connessione in corso...",
+    'LAN_RELEASED' => "Rilasciato",
+    'LAN_REPAIR_PLUGIN_SETTINGS' => "Ripara impostazioni plugin",
+    'LAN_SYNC_WITH_GIT_REPO' => "Sincronizza con Repository Git",
+    'LAN_ADDONS' => "Addon",
+    'LAN_UPGRADE_SUCCESSFUL' => "Aggiornamento riuscito",
+    'LAN_INSTALL_SUCCESSFUL' => "Installazione riuscita",
+];

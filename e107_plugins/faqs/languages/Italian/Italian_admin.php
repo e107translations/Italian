@@ -1,50 +1,48 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 00:07:46
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+* "FAQ plugin" admin-area language definitions
 */
 
-define("LANA_FAQ_QUESTION", "Domanda");
-define("LANA_FAQ_QUESTIONS", "Domande");
-define("LANA_FAQ_ANSWER", "Risposta");
-define("LANA_FAQ_UNANSWERED", "Senza Risposta");
-define("LANA_FAQ_COMMENT", "Commento");
-define("LANA_FAQ_ULOGINNAME", "Login utente");
-define("LANA_FAQ_TAGS", "Tag");
-define("LANA_FAQ_TAGS_HELP", "Lista di tag separati da virgola");
-define("LANA_FAQ_METAD", "Meta Descrizione");
-define("LANA_FAQ_METAK", "Meta Keywords");
-define("LANA_FAQ_PREF_1", "Consentire l'invio delle domande frequenti di:");
-define("LANA_FAQ_PREF_2", "'Domanda' è limitata a");
-define("LANA_FAQ_PREF_3", "Utilizzare Layout classico");
-define("LANA_FAQ_PREF_4", "'Fai una Domanda' limiti per ogni utente");
-define("LANA_FAQ_PREF_5", "'Fai una Domanda' limiti numero di caratteri");
-define("LANA_FAQ_PREF_6", "'Fai una Domanda' Limitata a");
-define("LANA_FAQ_PREF_7", "INserita Domanda già conosciuta");
-define("LANA_FAQ_PREF_8", "Tipo di Lista");
-define("LANA_FAQ_PREF_9", "Lista non Ordinata");
-define("LANA_FAQ_PREF_10", "Lista Ordinata");
-define("LANA_FAQ_PREF_11", "Titolo Pagina");
-define("LANA_FAQ_PREF_12", "'Nuove' FAQs non sono altro che");
-define("LANA_FAQ_PREF_13", "Visualizza Tutte le FAQ");
-define("LANA_FAQ_PREF_14", "Visualizza Data");
-define("LANA_FAQ_PREF_15", "Visualizza Bottoni Social");
-define("LANA_FAQ_PREF_16", "Ordine Specificato");
-define("LANA_FAQ_PREF_17", "Tutte le lingue");
-define("LANA_FAQ_PREF_HELP_1", "0 = Nessun Limite");
-define("LANA_FAQ_PREF_HELP_2", "Lascia vuoto per default");
-define("LANA_FAQ_CRON_1", "Elenco Domande senza risposta");
-define("LANA_FAQ_CRON_2", "Invia report delle domande senza risposta a mezzo email a [x]");
-define("LANA_FAQ_CRON_3", "[x] Domande senza risposta a [y]");
-define("LANA_FAQ_CRON_4", "Effettua il login al sito per rivedere e rispondere a queste domande utilizzando il link qui sotto.");
-define("LANA_FAQ_CRON_5", "Le [x] domande più recenti sono visualizzate sotto");
-define("LANA_FAQ_CRON_6", "[x] Domande senza risposte sono di [y]");
-
-
-?>
+return [
+    'LANA_FAQ_QUESTION' => "Domanda",
+    'LANA_FAQ_QUESTIONS' => "Domande",
+    'LANA_FAQ_ANSWER' => "Risposta",
+    'LANA_FAQ_UNANSWERED' => "Senza risposta",
+    'LANA_FAQ_COMMENT' => "Classe Commenti",
+    'LANA_FAQ_ULOGINNAME' => "Login utente",
+    'LANA_FAQ_TAGS' => "Tag",
+    'LANA_FAQ_TAGS_HELP' => "Elenco tag separati da virgola",
+    'LANA_FAQ_METAK' => "Meta Keywords",
+    'LANA_FAQ_PREF_1' => "Permetti l'invio di FAQ da parte di:",
+    'LANA_FAQ_PREF_2' => "'Fai una Domanda' è limitato a",
+    'LANA_FAQ_PREF_3' => "Usa Layout Classico",
+    'LANA_FAQ_PREF_4' => "Limite 'Fai una Domanda' per utente",
+    'LANA_FAQ_PREF_5' => "Limite caratteri 'Fai una Domanda'",
+    'LANA_FAQ_PREF_6' => "'Fai una Domanda' limitato a",
+    'LANA_FAQ_PREF_7' => "Conferma Ricezione Domande Inviate",
+    'LANA_FAQ_PREF_8' => "Tipo Elenco",
+    'LANA_FAQ_PREF_9' => "Elenco Non Ordinato",
+    'LANA_FAQ_PREF_10' => "Elenco Ordinato",
+    'LANA_FAQ_PREF_11' => "Titolo Pagina",
+    'LANA_FAQ_PREF_12' => "Le 'Nuove' FAQ non hanno più di",
+    'LANA_FAQ_PREF_13' => "Visualizza totale FAQ",
+    'LANA_FAQ_PREF_14' => "Visualizza Data/Ora",
+    'LANA_FAQ_PREF_15' => "Visualizza pulsanti Social",
+    'LANA_FAQ_PREF_16' => "Ordine Specificato",
+    'LANA_FAQ_PREF_17' => "Tutte le Lingue",
+    'LANA_FAQ_PREF_18' => "Crescente per ID",
+    'LANA_FAQ_PREF_19' => "Decrescente per ID",
+    'LANA_FAQ_PREF_20' => "Crescente per Data",
+    'LANA_FAQ_PREF_21' => "Decrescente per Data",
+    'LANA_FAQ_PREF_22' => "Gestisci Domande",
+    'LANA_FAQ_PREF_23' => "Gestisci Categorie",
+    'LANA_FAQ_PREF_24' => "Fai una Domanda: lunghezza minima caratteri",
+    'LANA_FAQ_PREF_HELP_1' => "0 = nessun limite",
+    'LANA_FAQ_PREF_HELP_2' => "Lascia vuoto per usare il valore predefinito",
+    'LANA_FAQ_CRON_1' => "Report Domande Senza Risposta",
+    'LANA_FAQ_CRON_2' => "Invia un report delle domande senza risposta a [x].",
+    'LANA_FAQ_CRON_3' => "[x] Domande senza risposta su [y]",
+    'LANA_FAQ_CRON_4' => "Accedi al sito per revisionare e rispondere a queste domande usando il link qui sotto.",
+    'LANA_FAQ_CRON_5' => "Le [x] domande più recenti sono visualizzate di seguito.",
+    'LANA_FAQ_CRON_6' => "[x] Domanda senza risposta al [y].",
+];

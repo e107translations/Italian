@@ -1,34 +1,30 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 12:43:36
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ */
 
-define("PAGE_NAME", "Invia News");
-define("LAN_134", "Il tuo elemento è stato inviato per la revisione da uno degli amministratori del sito.");
-define("LAN_135", "Notizia:");
-define("LAN_136", "Invia notizia");
-define("NWSLAN_10", "Nessuna categoria di notizie");
-define("NWSLAN_11", "Non hai accesso in questa area o non ti sei autenticato.");
-define("NWSLAN_12", "Accesso Negato");
-define("SUBNEWSLAN_1", "È necessario includere un title.\\n");
-define("SUBNEWSLAN_2", "È necessario includere alcuni testo nell'elemento notizie. \\n");
-define("SUBNEWSLAN_3", "L'allegato deve essere un file gif o png, jpg");
-define("SUBNEWSLAN_4", "File troppo grande");
-define("SUBNEWSLAN_5", "File di immagine");
-define("SUBNEWSLAN_6", "(jpg, gif o png)");
-define("SUBNEWSLAN_7", "È necessario dare il vostro nome e indirizzo email");
-define("SUBNEWSLAN_8", "Immagine di caricamento di errore");
-define("SUBNEWSLAN_9", "Parole chiave");
-define("SUBNEWSLAN_11", "Meta Descrizioni");
-define("SUBNEWSLAN_12", "Utilizzato da Facebook");
-define("SUBNEWSLAN_13", "URLs Media");
-
-
-?>
+return [
+    'PAGE_NAME' => "Invia Notizia",
+    'LAN_134' => "Il tuo elemento è stato inviato per la revisione da parte di uno degli amministratori del sito.",
+    'LAN_135' => "Notizia",
+    'LAN_136' => "Invia Notizia",
+    'NWSLAN_10' => "Nessuna categoria news",
+    'NWSLAN_11' => "Non hai accesso a questa area o non sei attualmente loggato.",
+    'NWSLAN_12' => "Accesso Negato.",
+    'SUBNEWSLAN_1' => "Devi includere un titolo.\\\\n",
+    'SUBNEWSLAN_2' => "Devi includere del testo nella notizia.\\\\n",
+    'SUBNEWSLAN_3' => "L'allegato deve essere un file jpg, gif o png",
+    'SUBNEWSLAN_4' => "File troppo grande",
+    'SUBNEWSLAN_5' => "File Immagine",
+    'SUBNEWSLAN_6' => "(jpg, gif o png)",
+    'SUBNEWSLAN_7' => "Devi fornire il tuo nome e indirizzo email",
+    'SUBNEWSLAN_8' => "Errore durante il caricamento dell'immagine",
+    'SUBNEWSLAN_9' => "Parole chiave",
+    'SUBNEWSLAN_12' => "Utilizzato da Facebook ecc.",
+    'SUBNEWSLAN_13' => "URL Media",
+];

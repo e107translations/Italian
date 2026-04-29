@@ -1,135 +1,62 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 00:52:49
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("FORLAN_2", "Per favore selezionare questa opzione per eliminare completamente i messaggi potati o renderli inattivi (non cancellate ma non visibile nei forum)");
-define("FORLAN_7", "Opzioni Forum");
-define("FORLAN_8", "Forum potati.");
-define("FORLAN_9", "Non potare richiesto.");
-define("FORLAN_23", "Visualizzabile da");
-define("FORLAN_24", "Indica chi può visualizzare il forum");
-define("FORLAN_29", "Ancora nessun forum.");
-define("FORLAN_30", "Forum esistenti");
-define("FORLAN_34", "Scegliere userclass per i moderatori di questo forum");
-define("FORLAN_44", "Racchiudere le tabelle");
-define("FORLAN_45", "Selezionare questa casella per rendere il forum all'interno del tema tavolo");
-define("FORLAN_47", "Abilitare la notifica e-mail");
-define("FORLAN_48", "Selezionare questa casella per consentire agli utenti di avere la possibilità di ricevere un'e-mail quando qualcuno risponde al loro posto");
-define("FORLAN_49", "Attivare sondaggi per");
-define("FORLAN_50", "Selezionare userclass ha permesso di creare sondaggi nel forum");
-define("FORLAN_51", "Abilitare il rilevamento");
-define("FORLAN_52", "Selezionare questa casella per consentire agli utenti di tenere traccia di discussioni e inviato via email quando il thread è risposto a");
-define("FORLAN_53", "Prefisso di e-mail");
-define("FORLAN_54", "Il testo che immesso verrà prefisso oggetto su qualsiasi e-mail inviate attraverso il forum");
-define("FORLAN_55", "Soglia di discussione popolare");
-define("FORLAN_56", "Numero di messaggi di un thread prima che esso venga contrassegnato come popolare");
-define("FORLAN_57", "Post per pagina");
-define("FORLAN_58", "Numero di post visualizzati per pagina");
-define("FORLAN_60", "Ciò eliminerà tutte le discussioni che non hanno ricevuto una risposta del numero di giorni che si immette.<br><b>Si prega di essere attenti a usare questa funzione!</b>");
-define("FORLAN_63", "Visualizza Livello");
-define("FORLAN_65", "Titolo del forum");
-define("FORLAN_66", "Non installato");
-define("FORLAN_70", "Abilitare file / immagine allegati");
-define("FORLAN_71", "Consentire agli utenti di caricare file o immagine con loro post sul forum,");
-define("FORLAN_75", "Genitori");
-define("FORLAN_76", "Forum Front Page");
-define("FORLAN_77", "Creare forum");
-define("FORLAN_78", "Ordine di cose da fare");
-define("FORLAN_83", "Creare i genitori");
-define("FORLAN_87", "Potare gli argomenti con nessun risposte in questo numero di giorni:");
-define("FORLAN_89", "Eliminare completamente i messaggi");
-define("FORLAN_90", "Rendere inattivi i messaggi");
-define("FORLAN_91", "Post (s) reso inattivo");
-define("FORLAN_92", "thread eliminato");
-define("FORLAN_93", "risposta (risposte) cancellato");
-define("FORLAN_112", "Abilitare il Redirect");
-define("FORLAN_113", "Selezionare questa casella per rendere il browser reindirizzare alla pagina del forum dopo aver risposto");
-define("FORLAN_116", "Post segnalati");
-define("FORLAN_121", "Nessun post segnalati");
-define("FORLAN_122", "Clicca qui per email admin quando qualcuno segnala un post sul forum");
-define("WMGLAN_1", "Regole per gli ospiti");
-define("WMGLAN_2", "Regole per i membri");
-define("WMGLAN_3", "Regole per gli amministratori");
-define("WMGLAN_5", "Regole del Forum set");
-define("WMGLAN_6", "Attivare?");
-define("FORLAN_126", "Visualizza le descrizioni comandi");
-define("FORLAN_127", "Spunta qui per visualizzare una descrizione comandi contenente il primo post del thread quando il mouse passa sopra il nome del thread.");
-define("FORLAN_128", "Lunghezza di tooltip");
-define("FORLAN_129", "Questo determinerà il numero di caratteri da visualizzare nella descrizione comandi.");
-define("FORLAN_130", "Clicca qui");
-define("FORLAN_131", "per impostare la dimensione massima del file, tipi ecc consentiti");
-define("FORLAN_132", "Sottolineare le discussioni in rilievo");
-define("FORLAN_133", "Dare maggiore enfasi ai appiccicoso thread (thread separato sezioni e intestazioni)");
-define("FORLAN_134", "Larghezza massima dell'immagine caricata");
-define("FORLAN_135", "Lasciare vuoto per disabilitare il ridimensionamento automatico delle immagini");
-define("FORLAN_136", "Creare link per l'immagine full size");
-define("FORLAN_137", "L'attivazione di questa verrà ridimensionare immagini più grandi e anche creare un collegamento all'immagine originale full-size. Se disabilitato, immagine originale verrà eliminato");
-define("FORLAN_138", "Potare questi forum");
-define("FORLAN_139", "Per utilizzare questa impostazione è necessario barrare la casella 'Abilita registrazione immagine' nella pagina <a href=''.e_ADMIN.'image.php'>Immagini</a>");
-define("FORLAN_140", "Vista");
-define("FORLAN_142", "Permesso post");
-define("FORLAN_143", "Indica chi può postare sul forum");
-define("FORLAN_145", "Configurare il Sub-Forum");
-define("FORLAN_146", "Ancora nessun Sub-Forum");
-define("FORLAN_152", "Post");
-define("FORLAN_153", "Strumenti");
-define("FORLAN_155", "Categorie del forum");
-define("FORLAN_156", "Seleziona Forum (s) per eseguire l'azione su");
-define("FORLAN_158", "Ricalcolare le informazioni lastpost forum");
-define("FORLAN_159", "Selezionare questa opzione per ricalcolare lastpost info");
-define("FORLAN_160", "Selezionare questa opzione per eseguire questa operazione sul forum solo, non i thread");
-define("FORLAN_161", "Ricalcolare il messaggio / risposta conteggi");
-define("FORLAN_162", "Selezionare questa opzione per ricalcolare forum thread/risposta conteggi");
-define("FORLAN_163", "Ricalcolare il numero di utenti forum post");
-define("FORLAN_164", "Selezionare questa opzione per ricalcolare il numero di utenti forum");
-define("FORLAN_166", "Strumenti del forum");
-define("FORLAN_167", "Conta di aggiornamento per il forum");
-define("FORLAN_168", "Info lastpost aggiornato per il forum");
-define("FORLAN_169", "Conteggi di forum utente aggiornati");
-define("FORLAN_170", "Rapporti");
-define("FORLAN_171", "Segnalare il post nel forum");
-define("FORLAN_172", "Elimina questo rapporto");
-define("FORLAN_173", "Titolo del thread");
-define("FORLAN_174", "Segnalato da utente");
-define("FORLAN_175", "Relazione presentata");
-define("FORLAN_177", "e-mail notifica ON per impostazione predefinita");
-define("FORLAN_178", "Selezionare questa casella per consentire rendono che la casella di controllo notifica email essere su per impostazione predefinita");
-define("FORLAN_179", "Aggiunta di un * all'inizio del forum nome farà questo forum un contenitore per sub-forum solo. Il tema del forum deve anche supportare questa opzione.");
-define("FORLAN_182", "anche ricalcolare risposte per tutte le discussioni in forum selezionato");
-define("FORLAN_183", "(questa funzione non è consentita quando si seleziona 'tutti i forum' a causa del numero di query che genererà)");
-define("FORLAN_184", "Autorizzazione di creazione di thread");
-define("FORLAN_185", "Indica chi può creare nuove discussioni");
-define("FORLAN_186", "Thread per pagina");
-define("FORLAN_187", "Numero di thread visualizzati per pagina");
-define("FORLAN_189", "Fai clic sul pulsante "elimina" per eliminare il rapporto.[br][br]Fai clic sul pulsante "visualizza" per visualizzare l'argomento/thread.[br][br]Per essere informato di eventuali nuovi rapporti, consulta la [notifica impostazioni].");
-define("FORLAN_200", "Traccia l'argomento");
-define("FORLAN_201", "Abilitalo per permettere ai tuoi utenti di tracciare gli argomenti.");
-define("FORLAN_202", "Notifica email degli argomenti tracciati");
-define("FORLAN_203", "Abilita questa opzione per permettere ai tuoi utenti di ricevere notifiche a mezzo email quando altri utenti rispondono ai messaggi d'interesse.");
-define("FORLAN_204", "Utente-Anonimo");
-define("FORLAN_205", "Autorizzare Messaggio");
-define("FORLAN_206", "Permessi di creazione Argomenti");
-define("FORLAN_207", "Forum e Argomenti");
-define("FORLAN_208", "Forum Soltanto");
-define("FORLAN_209", "Argomento");
-define("FORLAN_210", "Pubblicazione");
-define("FORLAN_211", "Inviato da");
-define("FORLAN_212", "Allegati");
-define("FORLAN_213", "Invia");
-define("FORLAN_214", "Lascia in bianco per autogenerare il titolo");
-define("FORLAN_215", "Non Installato");
-define("FORLAN_216", "(Nuovo Genitore)");
-define("FORLAN_217", "Default del Sistema");
-define("FORLAN_218", "Area Testo");
-define("FORLAN_219", "Editor di Testo");
-define("FORLAN_220", "Post Editor");
-define("FORLAN_221", "Quale editor dovrebbe essere utilizzato per creare/modificare i post?");
-define("FORLAN_222", "Editor di risposte rapide");
-define("FORLAN_223", "Usa solo testo normale (nessun codice bbcode o html consentito!)");
+
+return [
+    'FORLAN_2'  => "Elimina i messaggi segnalati?",
+    'FORLAN_7'  => "Configurazione Forum",
+    'FORLAN_8'  => "Forum aggiornato.",
+    'FORLAN_9'  => "Forum creato.",
+    'FORLAN_10' => "Forum eliminato.",
+    'FORLAN_11' => "Sposta messaggi",
+    'FORLAN_12' => "Sposta discussione",
+    'FORLAN_13' => "Risposte",
+    'FORLAN_14' => "Visualizzazioni",
+    'FORLAN_15' => "Ultimo messaggio",
+    'FORLAN_16' => "Discussioni",
+    'FORLAN_17' => "Messaggi",
+    'FORLAN_18' => "Autore",
+    'FORLAN_19' => "Titolo",
+    'FORLAN_20' => "Descrizione",
+    'FORLAN_21' => "Ordina",
+    'FORLAN_22' => "Sondaggio",
+    'FORLAN_24' => "Permessi",
+    'FORLAN_25' => "Classi utenti",
+    'FORLAN_26' => "Genitore",
+    'FORLAN_27' => "Sottotitolo",
+    'FORLAN_28' => "Nessun genitore",
+    'FORLAN_29' => "Non ci sono forum definiti",
+    'FORLAN_30' => "Immagine del forum",
+    'FORLAN_32' => "Dettagli del Forum",
+    'FORLAN_34' => "Soggetto",
+    'FORLAN_35' => "Sposta in",
+    'FORLAN_37' => "Discussione spostata",
+    'FORLAN_38' => "Messaggio spostato",
+    'FORLAN_39' => "Non ci sono forum di destinazione validi",
+    'FORLAN_40' => "Nessuna discussione selezionata",
+    'FORLAN_44' => "Moderatori",
+    'FORLAN_45' => "Aggiungi moderatore",
+    'FORLAN_46' => "Rimuovi moderatore",
+    'FORLAN_47' => "Moderatore rimosso",
+    'FORLAN_48' => "Moderatore aggiunto",
+    'FORLAN_49' => "Seleziona Forum",
+    'FORLAN_50' => "Preferenze",
+    'FORLAN_51' => "Pagine del Forum",
+    'FORLAN_52' => "Limita la lunghezza della riga dell'oggetto",
+    'FORLAN_53' => "Le righe dell'oggetto più lunghe del valore impostato verranno tagliate.",
+    'FORLAN_54' => "Numero di messaggi per pagina",
+    'FORLAN_55' => "Numero di discussioni per pagina",
+    'FORLAN_56' => "Icone personalizzate del forum",
+    'FORLAN_57' => "Carica un'immagine per il forum",
+    'FORLAN_58' => "Nessuna immagine caricata.",
+    'FORLAN_59' => "Usa icone standard",
+    'FORLAN_60' => "Mostra avatar nei messaggi",
+    'FORLAN_61' => "Classifiche utente",
+    'FORLAN_62' => "Titoli personalizzati",
+    'FORLAN_63' => "Numero di messaggi necessari per salire di grado",
+    'FORLAN_64' => "Icona di grado",
+    'FORLAN_65' => "Grado",
+    'FORLAN_66' => "Nessun grado definito",
+    'FORLAN_67' => "Grado aggiunto",
+    'FORLAN_68' => "Grado eliminato",
+    'FORLAN_69' => "Grado aggiornato",
+    'FORLAN_70' => "ID",
+];

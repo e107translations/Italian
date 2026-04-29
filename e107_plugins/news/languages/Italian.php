@@ -1,17 +1,15 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/12 22:54:25
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
+/**
+ * Copyright (C) e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ * $Id$
+ * * News menu language file
+ */
+	
 
-define("TD_MENU_L1", "Altre notizie");
-define("TD_MENU_L2", "Altre notizie");
-define("LAN_NEWSCAT_MENU_TITLE", "Categorie News");
-define("LAN_NEWSLATEST_MENU_TITLE", "Ultime notizie");
-define("LAN_NEWSARCHIVE_MENU_TITLE", "Archivio News");
+return [
+    'TD_MENU_L1' => "Altre News",
+    'TD_MENU_L2' => "Altre News",
+    'LAN_NEWSCAT_MENU_TITLE' => "Categorie News",
+    'LAN_NEWSLATEST_MENU_TITLE' => "Ultime News",
+    'LAN_NEWSARCHIVE_MENU_TITLE' => "Archivio News",
+];

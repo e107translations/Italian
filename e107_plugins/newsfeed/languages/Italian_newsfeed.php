@@ -1,13 +1,20 @@
 <?php
+/*
+ * e107 website system
+ *
+ * Copyright (C) 2008-2009 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Plugin - newsfeeds
+ */
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("NFLAN_29", "Newsfeed disponibili");
-define("NFLAN_31", "Torna alla lista di newsfeed");
-define("NFLAN_33", "Data di pubblicazione:");
-define("NFLAN_34", "non noto");
-define("NFLAN_38", "Notizie");
-define("NFLAN_39", "Dettagli");
-define("NFLAN_48", "Impossibile salvare i dati non elaborati nel database.");
+return [
+    'NFLAN_29' => "Newsfeed disponibili",
+    'NFLAN_31' => "Torna alla lista newsfeed",
+    'NFLAN_33' => "Data di pubblicazione:",
+    'NFLAN_34' => "sconosciuta",
+    'NFLAN_38' => "Titoli",
+    'NFLAN_39' => "Dettagli",
+    'NFLAN_48' => "Impossibile salvare i dati grezzi nel database.",
+];

@@ -1,39 +1,55 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 21:42:24
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("LCLAN_19", "Collegamento di tipo aperto");
-define("LCLAN_20", "Si apre nella stessa finestra");
-define("LCLAN_23", "Si apre in una nuova finestra");
-define("LCLAN_24", "Si apre in mini-finestra 600 x 400");
-define("LCLAN_78", "Mostra la descrizione come suggerimento di schermo");
-define("LCLAN_79", "Descrizione verrà mostrato quando il mouse passa sopra il link");
-define("LCLAN_80", "Attivare espansione sotto-menu");
-define("LCLAN_81", "Sotto-menu verranno visualizzato solo dopo aver cliccato loro padre. (Padre di link è disabilitato)");
-define("LCLAN_105", "Funzione");
-define("LCLAN_106", "Di proprietà di");
-define("LCLAN_107", "Consentono di eseguire l'override URL con un URL di Search-Engine-Friendly creati dinamicamente");
-define("LCLAN_108", "Alcune selezioni omessi - non è possibile impostare Link come un Sublink della sua Sublink.");
-define("LCLAN_109", "Si prega di scegliere un genitore");
-define("LCLAN_110", "Si prega di scegliere un modulo di generazione");
-define("LCLAN_111", "Dati del modulo non valido generatore");
-define("LCLAN_112", "1- Principale");
-define("LCLAN_113", "2 -Barra Laterale");
-define("LCLAN_114", "3 -Piè di Pagina");
-define("LCLAN_115", "Alt");
-define("LCLAN_116", "(Non assegnato)");
-define("LINKLAN_1", "Si apre in finestra 800 x 600");
-define("LINKLAN_4", "Generatore di Sublink");
-define("LINKLAN_5", "Generare Sublinks");
-define("LINKLAN_6", "Creare sublinks da");
-define("LINKLAN_7", "Creare sublinks sotto quale collegamento?");
-define("LINKLAN_8", "Categorie News");
-define("LINKLAN_9", "Categorie download");
-define("LINKLAN_10", "Codice abbreviato per il Tema");
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Language file - Site Links Admin
+ *
+ */
+
+// define("LCLAN_1", "Options Saved");
+// define("LCLAN_2", "Saving link to database.");
+// define("LCLAN_3", "Updating link in database.");
+// define("LCLAN_4", "Link deleted.");
+// define("LCLAN_6", "Order updated.");
+// define("LCLAN_8", "Site Navigation Links");
+// define("LCLAN_12", "Link Rendertype");
+// define("LCLAN_13", "Render");
+//define("LCLAN_15", "Link Name");//LAN_NAME
+// define("LCLAN_16", "Link URL");
+// define("LCLAN_17", "Link Description");
+// define("LCLAN_18", "Link Button / Icon");
+
+return [
+    'LCLAN_19' => "Tipo di apertura link", //
+    'LCLAN_20' => "Apre nella stessa finestra", //
+    'LCLAN_23' => "Apre in una nuova finestra", //
+    'LCLAN_24' => "Apre in una mini-finestra 600x400", //
+    'LCLAN_78' => "Mostra descrizione come suggerimento (Screen-Tip)", //
+    'LCLAN_79' => "La descrizione verrà mostrata quando il mouse passa sopra il link", //
+    'LCLAN_80' => "Attiva sotto-menu espandibili", //
+    'LCLAN_81' => "I sotto-menu verranno visualizzati solo dopo aver cliccato sul link genitore (Il link genitore è disabilitato)", //
+    'LCLAN_105' => "Funzione", //
+    'LCLAN_106' => "Proprietà di", //
+    'LCLAN_107' => "Abilita per sovrascrivere l'URL con un URL Search-Engine-Friendly (SEF) creato dinamicamente", //
+    'LCLAN_108' => "Alcune selezioni sono state omesse - non puoi impostare un link come sotto-link di un suo stesso sotto-link.", //
+    'LCLAN_109' => "Scegli un genitore", //
+    'LCLAN_110' => "Scegli un modulo generatore", //
+    'LCLAN_111' => "Dati del modulo generatore non validi", //
+    'LCLAN_112' => "1 - Principale", //
+    'LCLAN_113' => "2 - Sidebar",
+    'LCLAN_114' => "3 - Piè di pagina (Footer)",
+    'LCLAN_115' => "Alt",
+    'LCLAN_116' => "(Non assegnato)",
+    'LINKLAN_1' => "Si apre in una finestra 800x600",
+    'LINKLAN_4' => "Generatore Sottolink",
+    'LINKLAN_5' => "Genera Sottolink",
+    'LINKLAN_6' => "Crea sottolink da",
+    'LINKLAN_7' => "Sotto quale link creare i sottolink?",
+    'LINKLAN_8' => "Categorie News",
+    'LINKLAN_9' => "Categorie Download",
+    'LINKLAN_10' => "Shortcodes del Tema",
+];

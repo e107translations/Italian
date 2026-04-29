@@ -1,47 +1,39 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/12 21:34:26
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("LAN_dl_1", "(Limitato)");
-define("LAN_dl_4", "File disponibili:");
-define("LAN_dl_5", "Dimensione totale dei file:");
-define("LAN_dl_6", "I file scaricati:");
-define("LAN_dl_8", "Ottieni");
-define("LAN_dl_9", "Tornare alla lista delle categorie");
-define("LAN_dl_13", "Non valutato");
-define("LAN_dl_14", "Questo download di tasso");
-define("LAN_dl_16", "Download (s) da");
-define("LAN_dl_29", "Di DL");
-define("LAN_dl_30", "Autore e-mail");
-define("LAN_dl_31", "Sito Web autore");
-define("LAN_dl_36", "Nuovi download");
-define("LAN_dl_40", "Cliccare qui per gli screenshot");
-define("LAN_dl_43", "Voto");
-define("LAN_dl_44", "voti");
-define("LAN_dl_45", "Rapporto rotto-Scarica");
-define("LAN_dl_46", "Clicca qui per scaricare");
-define("LAN_dl_47", "Post è stato segnalato");
-define("LAN_dl_48", "Il download è stato segnalato all'amministratore.<br>Grazie.");
-define("LAN_dl_49", "Clicca qui per tornare a scaricare");
-define("LAN_dl_53", "Fare clic per visualizzare il download");
-define("LAN_dl_54", "Amministratore verrà resi consapevole di questo download, si prega di lasciare un messaggio se lo ritieni necessario.");
-define("LAN_dl_55", "Non utilizzare questo modulo per contattare l'amministratore per qualsiasi altro motivo.");
-define("LAN_dl_62", "È stato impedito di scaricare questo file; è stato superato la quota di download");
-define("LAN_dl_63", "Non si dispone delle autorizzazioni corrette per scaricare questo file.");
-define("LAN_dl_66", "Selezionare download mirror");
-define("LAN_dl_67", "Selezionare specchio...");
-define("LAN_dl_68", "Specchio Host");
-define("LAN_dl_72", "Richiesta di file:");
-define("LAN_dl_73", "Download da questo mirror:");
-define("LAN_dl_74", "Download totali da questo mirror:");
-define("LAN_dl_75", "Nessuna immagine disponibile");
-define("LAN_dl_77", "Download");
-define("LAN_dl_78", "Che il download è stato disattivato o interrotto. Si prega di controllare [area Download] per una versione più recente.");
-define("LAN_dl_79", "Non disponi delle autorizzazioni corrette per segnalare questo elemento di download come corrotto.");
+return [
+    'LAN_dl_1' => "(Accesso ristretto)",
+    'LAN_dl_4' => "File disponibili:",
+    'LAN_dl_5' => "Dimensione totale dei file:",
+    'LAN_dl_6' => "File scaricati:",
+    'LAN_dl_8' => "Scarica",
+    'LAN_dl_9' => "Torna all'elenco categorie",
+    'LAN_dl_13' => "Non valutato",
+    'LAN_dl_14' => "Valuta questo download",
+    'LAN_dl_16' => "download da",
+    'LAN_dl_29' => "DL",
+    'LAN_dl_30' => "Email autore",
+    'LAN_dl_31' => "Sito autore",
+    'LAN_dl_36' => "Nuovi download",
+    'LAN_dl_40' => "Clicca qui per lo screenshot",
+    'LAN_dl_43' => "voto",
+    'LAN_dl_44' => "voti",
+    'LAN_dl_45' => "Segnala download non funzionante",
+    'LAN_dl_46' => "clicca qui per scaricare",
+    'LAN_dl_47' => "La segnalazione è stata inviata",
+    'LAN_dl_48' => "Il download è stato segnalato all'amministratore. Grazie.",
+    'LAN_dl_49' => "Clicca qui per tornare al download",
+    'LAN_dl_53' => "Clicca per visualizzare il download",
+    'LAN_dl_54' => "Un amministratore verrà informato; lascia un messaggio se lo ritieni necessario.",
+    'LAN_dl_55' => "Non usare questo modulo per contattare l'amministratore per altri motivi.",
+    'LAN_dl_62' => "Il download è stato bloccato; hai superato la tua quota di download",
+    'LAN_dl_63' => "Non hai i permessi necessari per scaricare questo file.",
+    'LAN_dl_66' => "Seleziona mirror per il download",
+    'LAN_dl_67' => "Seleziona mirror...",
+    'LAN_dl_68' => "Host del Mirror",
+    'LAN_dl_72' => "Richiesta file:",
+    'LAN_dl_73' => "Download da questo mirror:",
+    'LAN_dl_74' => "Download totali da questo mirror:",
+    'LAN_dl_75' => "nessuna immagine disponibile",
+    'LAN_dl_77' => "Download",
+    'LAN_dl_78' => "Questo download è stato disabilitato o rimosso. Controlla nell'[area download] per una versione più recente.",
+    'LAN_dl_79' => "Non hai i permessi necessari per segnalare questo download come non funzionante.",
+];

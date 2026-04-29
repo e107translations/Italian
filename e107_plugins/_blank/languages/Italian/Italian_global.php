@@ -1,9 +1,10 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Utilizzare sempre il formato LAN_PLUGIN_{CARTELLA}_{TIPO} per prevenire conflitti. In questo caso "_BLANK" è la cartella.
+// Questo file deve contenere i LAN utilizzati nel file plugin.xml.
 
-define("LAN_PLUGIN__BLANK_NAME", "Plugin in bianco");
-define("LAN_PLUGIN__BLANK_DIZ", "Un Plugin vuoto per aiutarti a iniziare lo sviluppo di plugin. Maggiori dettagli possono essere aggiunti qui.");
-define("LAN_PLUGIN__BLANK_LINK", "Collegamento vuoto");
+return [
+    'LAN_PLUGIN__BLANK_NAME' => "Plugin Vuoto",
+    'LAN_PLUGIN__BLANK_DIZ'  => "Un plugin vuoto per aiutarti a iniziare con lo sviluppo di plugin. Ulteriori dettagli possono essere aggiunti qui.",
+    'LAN_PLUGIN__BLANK_LINK' => "Link Vuoto",
+];

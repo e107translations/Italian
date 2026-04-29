@@ -1,71 +1,76 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 01:06:42
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("RSS_LAN05", "Numero di elementi (0 = inattivo)");
-define("RSS_MENU_L1", "può essere sindacata utilizzando i feed rss.");
-define("RSS_MENU_L2", "Feed RSS");
-define("RSS_MENU_L3", "Nostre notizie");
-define("RSS_MENU_L4", "I nostri commenti");
-define("RSS_MENU_L5", "Discussioni sul nostro forum");
-define("RSS_MENU_L6", "I nostri messaggi nel forum");
-define("RSS_MENU_L7", "I nostri post chatbox");
-define("RSS_MENU_L8", "I nostri rapporti bugtracker");
-define("RSS_MENU_L9", "I nostri download");
-define("RSS_NEWS", "Notizie");
-define("RSS_COM", "Commenti");
-define("RSS_ART", "Articoli");
-define("RSS_REV", "Recensioni");
-define("RSS_FT", "Discussioni del forum");
-define("RSS_FP", "Messaggi nel forum");
-define("RSS_FSP", "Post specifico sul forum");
-define("RSS_BUG", "Bugtracker");
-define("RSS_FOR", "Cose da fare");
-define("RSS_DL", "Download");
-define("RSS_PLUGIN_LAN_6", "Link dei feed");
-define("RSS_PLUGIN_LAN_7", "Il feed rss delle notizie");
-define("RSS_PLUGIN_LAN_8", "Il feed rss dei download");
-define("RSS_PLUGIN_LAN_9", "Il feed rss dei commenti");
-define("RSS_PLUGIN_LAN_10", "Rss feed di Notizie Categoria:");
-define("RSS_PLUGIN_LAN_11", "Il feed rss della categoria di scaricamento:");
-define("RSS_LAN_ADMINMENU_1", "Opzioni di RSS");
-define("RSS_LAN_ADMINMENU_2", "Profilo");
-define("RSS_LAN_ADMINMENU_4", "Importazione");
-define("RSS_LAN_ERROR_1", "Non si tratta di un feed rss valido<br>[Ritorna alla lista degli RSS Feed]");
-define("RSS_LAN_ERROR_2", "Il file e107_config.php o i file di lingua contengono spazi o ï» ¿caratteri prima il <? caratteri. Se si desidera avere un valido feed RSS, è necessario rimuovere questo con un editor di testo non-utf8.");
-define("RSS_LAN_ERROR_3", "Nessun feed rss sono presenti ancora[br]si prega di utilizzare la funzionalità di importazione per importare i feed rss disponibili o creare un rss feed manualmente.");
-define("RSS_LAN_ERROR_4", "Nessun feed rss sono ancora disponibili");
-define("RSS_LAN_ERROR_5", "Non esiste questa voce rss");
-define("RSS_LAN_ERROR_6", "Non ci sono nessun feed rss per importare");
-define("RSS_LAN_ERROR_7", "Alcuni campi obbligatori sono mancanti.");
-define("RSS_LAN_ADMIN_1", "Feed RSS esistente");
-define("RSS_LAN_ADMIN_10", "feed RSS creare voce");
-define("RSS_LAN_ADMIN_11", "feed RSS feed di importazione");
-define("RSS_LAN_ADMIN_12", "Id di argomento");
-define("RSS_LAN_ADMIN_13", "Includere elementi di altre notizie nella sezione Notizie?");
-define("RSS_LAN_ADMIN_15", "Barrare la casella collegamenti a contrassegnarle per l'importazione...");
-define("RSS_LAN_ADMIN_16", "importare?");
-define("RSS_LAN_ADMIN_17", "importare collegamenti barrati");
-define("RSS_LAN_ADMIN_18", "feed RSS importati.");
-define("RSS_LAN_ADMIN_19", "Utilizzare il riepilogo delle novità come descrizione nella sezione Notizie?");
-define("RSS_LAN_ADMIN_21", "attivo e visibile in elenco di feed rss");
-define("RSS_LAN_ADMIN_22", "attivo e non è visibile nell'elenco di feed rss");
-define("RSS_LAN_ADMIN_23", "inattivo");
-define("RSS_LAN_ADMIN_26", "Controllare tutti i");
-define("RSS_LAN_ADMIN_27", "Deseleziona tutto");
-define("RSS_LAN_ADMIN_31", "limiti di voci RSS aggiornato");
-define("RSS_LAN_ADMIN_32", "");
-define("RSS_LAN_ADMIN_33", "Visualizza immagine nella sezione Notizie?");
-define("RSS_LAN_0", "RSS");
-define("RSS_LAN_2", "@nospam.com");
-define("RSS_LAN_3", "noauthor@nospam.com");
+ * e107 website system
+ *
+ * Copyright (C) 2008-2016 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ * * e107 website system - Language File.
+ */
 
 
-?>
+return [
+    'RSS_LAN05' => "Numero di elementi (0=inattivo)",
+    'RSS_MENU_L1' => "può essere distribuito utilizzando questi feed rss.",
+    'RSS_MENU_L2' => "Feed RSS",
+    'RSS_MENU_L3' => "Le nostre news",
+    'RSS_MENU_L4' => "I nostri commenti",
+    'RSS_MENU_L5' => "Le nostre discussioni del forum",
+    'RSS_MENU_L6' => "I nostri post del forum",
+    'RSS_MENU_L7' => "I nostri messaggi della chatbox",
+    'RSS_MENU_L8' => "I nostri report del bugtracker",
+    'RSS_MENU_L9' => "I nostri download",
+    'RSS_NEWS' => "News",
+    'RSS_COM' => "Commenti",
+    'RSS_ART' => "Articoli",
+    'RSS_REV' => "Recensioni",
+    'RSS_FT' => "Discussioni del Forum",
+    'RSS_FP' => "Post del Forum",
+    'RSS_FSP' => "Post Specifico del Forum",
+    'RSS_BUG' => "Bugtracker",
+    'RSS_FOR' => "Forum",
+    'RSS_DL' => "Download",
+    'RSS_PLUGIN_LAN_6' => "Link del Feed",
+    'RSS_PLUGIN_LAN_7' => "Il feed rss delle news",
+    'RSS_PLUGIN_LAN_8' => "Il feed rss dei download",
+    'RSS_PLUGIN_LAN_9' => "Il feed rss dei commenti",
+    'RSS_PLUGIN_LAN_10' => "Il feed rss della categoria news:",
+    'RSS_PLUGIN_LAN_11' => "Il feed rss della categoria download:",
+    'RSS_LAN_ADMINMENU_1' => "Opzioni RSS",
+    'RSS_LAN_ADMINMENU_2' => "Elenco",
+    'RSS_LAN_ADMINMENU_4' => "Importa",
+    'RSS_LAN_ERROR_1' => "Questo non è un feed rss valido. [Torna all'elenco dei feed rss]",
+    'RSS_LAN_ERROR_2' => "Il tuo file e107_config.php o i tuoi file di lingua contengono spazi o caratteri ï»¿﻿ prima dei caratteri &lt;?. Dovresti rimuoverli con un editor di testo non-utf8 se desideri avere un feed RSS valido.",
+    'RSS_LAN_ERROR_3' => "Non sono ancora presenti feed rss[br]usa la funzione di importazione per importare i feed rss disponibili o crea un feed rss manualmente.",
+    'RSS_LAN_ERROR_4' => "Non sono ancora disponibili feed rss",
+    'RSS_LAN_ERROR_5' => "Questa voce rss non esiste",
+    'RSS_LAN_ERROR_6' => "Non ci sono feed rss da importare",
+    'RSS_LAN_ERROR_7' => "Mancano alcuni campi obbligatori.",
+    'RSS_LAN_ADMIN_1' => "Feed RSS esistenti",
+    'RSS_LAN_ADMIN_10' => "crea voce feed rss",
+    'RSS_LAN_ADMIN_11' => "importa feed rss",
+    'RSS_LAN_ADMIN_12' => "ID Argomento",
+    'RSS_LAN_ADMIN_13' => "Includere elementi di Altre-news nel Feed delle News?",
+    'RSS_LAN_ADMIN_15' => "Spunta i link per contrassegnarli per l'importazione...",
+    'RSS_LAN_ADMIN_16' => "importare?",
+    'RSS_LAN_ADMIN_17' => "importa link spuntati",
+    'RSS_LAN_ADMIN_18' => "feed rss importato/i.",
+    'RSS_LAN_ADMIN_19' => "Usare il riassunto delle News come descrizione nel Feed delle News?",
+    'RSS_LAN_ADMIN_21' => "attivo e visibile nell'elenco dei feed rss",
+    'RSS_LAN_ADMIN_22' => "attivo e non visibile nell'elenco dei feed rss",
+    'RSS_LAN_ADMIN_23' => "inattivo",
+    'RSS_LAN_ADMIN_26' => "Seleziona Tutti",
+    'RSS_LAN_ADMIN_27' => "Deseleziona Tutti",
+    'RSS_LAN_ADMIN_31' => "limiti voci rss aggiornati",
+    'RSS_LAN_ADMIN_33' => "Mostrare immagine nel Feed delle News?",
+    'RSS_LAN_0' => "RSS",
+    'RSS_LAN_2' => "@nospam.com",
+    'RSS_LAN_3' => "noauthor@nospam.com",
+    'LAN_AL_RSS_01' => "Feed RSS eliminato",
+    'LAN_AL_RSS_02' => "Feed RSS creato",
+    'LAN_AL_RSS_03' => "Feed RSS aggiornato",
+    'LAN_AL_RSS_04' => "Feed RSS importato",
+    'LAN_AL_RSS_05' => "Limiti RSS aggiornati",
+    'LAN_AL_RSS_06' => "Impostazioni RSS aggiornate",
+    'LAN_AL_RSS_07' => "",
+];

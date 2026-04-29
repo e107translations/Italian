@@ -1,83 +1,83 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 01:30:33
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("LAN_GALLERY_ADMIN_01", "[X] è attivo. Basta importare e assegnare immagini alle categorie della galleria utilizzando il [y]");
-define("LAN_GALLERY_ADMIN_03", "Menù Slideshow");
-define("LAN_GALLERY_ADMIN_04", "Massima Larghezza Immagine");
-define("LAN_GALLERY_ADMIN_05", "Le Immagini si ridimensioneranno automaticamente alla larghezza indicata");
-define("LAN_GALLERY_ADMIN_06", "Masima Altezza Immagine");
-define("LAN_GALLERY_ADMIN_07", "Le Immagini si ridimensioneranno automaticamente all'altezza indicata");
-define("LAN_GALLERY_ADMIN_08", "Visualizza il link al \"download\"");
-define("LAN_GALLERY_ADMIN_09", "L'opzione di Download sarà visualizzata nella finestra del titolo");
-define("LAN_GALLERY_ADMIN_10", "Categoria Slideshow");
-define("LAN_GALLERY_ADMIN_11", "Le Immagini di questa categoria verranno utilizzate nel menù scorrevole");
-define("LAN_GALLERY_ADMIN_12", "Durata Slide");
-define("LAN_GALLERY_ADMIN_13", "la Durata (in secondi) di tutto il giro.");
-define("LAN_GALLERY_ADMIN_14", "Auto avvia lo Slideshow");
-define("LAN_GALLERY_ADMIN_15", "Se abilitato la rotazione inizierà automaticamente al caricamento della pagina.");
-define("LAN_GALLERY_ADMIN_16", "Frequenza slideshow");
-define("LAN_GALLERY_ADMIN_17", "Se l'auto avvio è abilitato.");
-define("LAN_GALLERY_ADMIN_18", "Effetto Slide");
-define("LAN_GALLERY_ADMIN_19", "Tipo di Effetto");
-define("LAN_GALLERY_ADMIN_20", "Immagini per pagina");
-define("LAN_GALLERY_ADMIN_21", "Numero di Immagini da visualizzare per pagina");
-define("LAN_GALLERY_ADMIN_22", "Ordina le Immagini per");
-define("LAN_GALLERY_ADMIN_23", "Media ID ASC");
-define("LAN_GALLERY_ADMIN_24", "Media ID DESC");
-define("LAN_GALLERY_ADMIN_25", "Nome Media ASC");
-define("LAN_GALLERY_ADMIN_26", "Nome Media DESC");
-define("LAN_GALLERY_ADMIN_27", "Titolo Media ASC");
-define("LAN_GALLERY_ADMIN_28", "Titolo media DESC");
-define("LAN_GALLERY_ADMIN_29", "Slide Sinistra");
-define("LAN_GALLERY_ADMIN_30", "Slide in Basso");
-define("LAN_GALLERY_ADMIN_31", "Dissolvenza");
-define("LAN_GALLERY_ADMIN_32", "Settaggi PrettyPhoto");
-define("LAN_GALLERY_ADMIN_33", "Velocità Animazione");
-define("LAN_GALLERY_ADMIN_34", "Tempo di Intervallo dello Slideshow:");
-define("LAN_GALLERY_ADMIN_35", "Slideshow: Avvio automatico");
-define("LAN_GALLERY_ADMIN_36", "Opacità");
-define("LAN_GALLERY_ADMIN_37", "Valore compreso tra 0 e 1");
-define("LAN_GALLERY_ADMIN_38", "Titolo Visualizzato");
-define("LAN_GALLERY_ADMIN_39", "Permetti ridimensionamento");
-define("LAN_GALLERY_ADMIN_40", "Ridimensiona le foto grandi all'interno dello spazio viewport");
-define("LAN_GALLERY_ADMIN_41", "Larghezza di Default");
-define("LAN_GALLERY_ADMIN_42", "Altezza di Default");
-define("LAN_GALLERY_ADMIN_43", "Etichetta separatore contatore");
-define("LAN_GALLERY_ADMIN_44", "Il contatore del separatore della galleria 1\" di \" 2");
-define("LAN_GALLERY_ADMIN_46", "Padding orizzontale");
-define("LAN_GALLERY_ADMIN_47", "Padding su tutti i lati");
-define("LAN_GALLERY_ADMIN_48", "Nascondi il flash");
-define("LAN_GALLERY_ADMIN_49", "Nascondi tutti gli oggetti flash della pagina. Setta a Vero se l'oggetto flash appare sopra PrettyPhoto");
-define("LAN_GALLERY_ADMIN_50", "Wmode");
-define("LAN_GALLERY_ADMIN_51", "Setta il flash con l'attributo wmode");
-define("LAN_GALLERY_ADMIN_52", "Autostart dei video");
-define("LAN_GALLERY_ADMIN_53", "Chiudi Modale");
-define("LAN_GALLERY_ADMIN_54", "Se è settato a vero, solo il bottone di chiusura può chiudere la finestra.");
-define("LAN_GALLERY_ADMIN_55", "Deep-linking	(inserire collegamento di un sito esterno)");
-define("LAN_GALLERY_ADMIN_56", "Permetti a PrettyPhoto di aggiornare l'URLche consente il deep-linking.");
-define("LAN_GALLERY_ADMIN_57", "Copre la Galleria");
-define("LAN_GALLERY_ADMIN_58", "Se è settato a vero, la galleria sarà coperta a tutto schermo dall'immagine al passaggio del mouse.");
-define("LAN_GALLERY_ADMIN_59", "Scorciatoie della Tastiera");
-define("LAN_GALLERY_ADMIN_60", "Setta a falso se apri i form all'interno di PrettyPhoto.");
-define("LAN_GALLERY_ADMIN_61", "IE6 Fallback");
-define("LAN_GALLERY_ADMIN_62", "veloce");
-define("LAN_GALLERY_ADMIN_63", "lento");
-define("LAN_GALLERY_ADMIN_64", "normale");
-define("LAN_GALLERY_ADMIN_65", "Arrotondato chiaro");
-define("LAN_GALLERY_ADMIN_66", "Arrotondato scuro");
-define("LAN_GALLERY_ADMIN_67", "Area Chiara");
-define("LAN_GALLERY_ADMIN_68", "Area Scura");
-define("LAN_GALLERY_ADMIN_69", "Facebook");
-define("LAN_GALLERY_ADMIN_70", "Carica PrettyPhoto globalmente");
-define("LAN_GALLERY_ADMIN_71", "PrettyPhoto attributo (hook)");
+ * e107 website system
+ *
+ * Copyright (C) 2008-2016 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Language file for "gallery" plugin.
+ */
 
 
-?>
+return [
+    'LAN_GALLERY_ADMIN_01' => "[x] è attivo. È sufficiente importare e assegnare le immagini alle categorie della galleria usando il [y]",
+    'LAN_GALLERY_ADMIN_03' => "Menu Slideshow",
+    'LAN_GALLERY_ADMIN_04' => "Larghezza Max Immagine",
+    'LAN_GALLERY_ADMIN_05' => "Le immagini saranno ridimensionate automaticamente se superano la larghezza indicata qui",
+    'LAN_GALLERY_ADMIN_06' => "Altezza Max Immagine",
+    'LAN_GALLERY_ADMIN_07' => "Le immagini saranno ridimensionate automaticamente se superano l'altezza indicata qui",
+    'LAN_GALLERY_ADMIN_08' => "Mostra link 'download'",
+    'LAN_GALLERY_ADMIN_09' => "Un'opzione di download verrà mostrata accanto alla didascalia del popup",
+    'LAN_GALLERY_ADMIN_10' => "Categoria Slideshow",
+    'LAN_GALLERY_ADMIN_11' => "Le immagini di questa categoria verranno utilizzate nel menu a scorrimento.",
+    'LAN_GALLERY_ADMIN_12' => "Durata scorrimento",
+    'LAN_GALLERY_ADMIN_13' => "La durata (in secondi) di un salto completo.",
+    'LAN_GALLERY_ADMIN_14' => "Avvio automatico slideshow",
+    'LAN_GALLERY_ADMIN_15' => "Se abilitato, la rotazione delle immagini inizia automaticamente al caricamento della pagina.",
+    'LAN_GALLERY_ADMIN_16' => "Frequenza scorrimento",
+    'LAN_GALLERY_ADMIN_17' => "Quando l'avvio automatico è abilitato, questo valore indica quanto tempo una diapositiva rimane ferma prima del salto successivo.",
+    'LAN_GALLERY_ADMIN_18' => "Effetto scorrimento",
+    'LAN_GALLERY_ADMIN_19' => "Tipo di effetto.",
+    'LAN_GALLERY_ADMIN_20' => "Immagini per pagina",
+    'LAN_GALLERY_ADMIN_21' => "Numero di immagini da mostrare per pagina",
+    'LAN_GALLERY_ADMIN_22' => "Ordina immagini per",
+    'LAN_GALLERY_ADMIN_23' => "Media ID Crescente",
+    'LAN_GALLERY_ADMIN_24' => "Media ID Decrescente",
+    'LAN_GALLERY_ADMIN_25' => "Nome Media Crescente",
+    'LAN_GALLERY_ADMIN_26' => "Nome Media Decrescente",
+    'LAN_GALLERY_ADMIN_27' => "Didascalia Media Crescente",
+    'LAN_GALLERY_ADMIN_28' => "Didascalia Media Decrescente",
+    'LAN_GALLERY_ADMIN_29' => "scorrimento a sinistra",
+    'LAN_GALLERY_ADMIN_30' => "scorrimento verso il basso",
+    'LAN_GALLERY_ADMIN_31' => "dissolvenza",
+    'LAN_GALLERY_ADMIN_32' => "Impostazioni prettyPhoto",
+    'LAN_GALLERY_ADMIN_33' => "Velocità animazione",
+    'LAN_GALLERY_ADMIN_34' => "Slideshow: Tempo di intervallo",
+    'LAN_GALLERY_ADMIN_35' => "Slideshow: Autoplay",
+    'LAN_GALLERY_ADMIN_36' => "Opacità",
+    'LAN_GALLERY_ADMIN_37' => "Valore compreso tra 0 e 1.",
+    'LAN_GALLERY_ADMIN_38' => "Mostra titolo",
+    'LAN_GALLERY_ADMIN_39' => "Permetti ridimensionamento",
+    'LAN_GALLERY_ADMIN_40' => "Ridimensiona le foto più grandi dell'area di visualizzazione.",
+    'LAN_GALLERY_ADMIN_41' => "Larghezza predefinita",
+    'LAN_GALLERY_ADMIN_42' => "Altezza predefinita",
+    'LAN_GALLERY_ADMIN_43' => "Etichetta separatore contatore",
+    'LAN_GALLERY_ADMIN_44' => "Il separatore per il contatore della galleria 1 'di' 2",
+    'LAN_GALLERY_ADMIN_46' => "Padding orizzontale",
+    'LAN_GALLERY_ADMIN_47' => "Lo spazio su ciascun lato dell'immagine.",
+    'LAN_GALLERY_ADMIN_48' => "Nascondi flash",
+    'LAN_GALLERY_ADMIN_49' => "Nasconde tutti gli oggetti flash nella pagina; impostare su TRUE se il flash appare sopra prettyPhoto.",
+    'LAN_GALLERY_ADMIN_50' => "Wmode",
+    'LAN_GALLERY_ADMIN_51' => "Imposta l'attributo wmode del flash.",
+    'LAN_GALLERY_ADMIN_52' => "Autoplay video",
+    'LAN_GALLERY_ADMIN_53' => "Chiusura modale",
+    'LAN_GALLERY_ADMIN_54' => "Se impostato su vero, solo il pulsante di chiusura chiuderà la finestra.",
+    'LAN_GALLERY_ADMIN_55' => "Deep-linking",
+    'LAN_GALLERY_ADMIN_56' => "Permette a prettyPhoto di aggiornare l'url per abilitare i link diretti.",
+    'LAN_GALLERY_ADMIN_57' => "Galleria in sovrapposizione",
+    'LAN_GALLERY_ADMIN_58' => "Se impostato su vero, una galleria si sovrapporrà all'immagine a schermo intero al passaggio del mouse.",
+    'LAN_GALLERY_ADMIN_59' => "Scorciatoie da tastiera",
+    'LAN_GALLERY_ADMIN_60' => "Impostare su falso se si aprono moduli all'interno di prettyPhoto.",
+    'LAN_GALLERY_ADMIN_61' => "Ripiego per IE6",
+    'LAN_GALLERY_ADMIN_62' => "veloce",
+    'LAN_GALLERY_ADMIN_63' => "lento",
+    'LAN_GALLERY_ADMIN_64' => "normale",
+    'LAN_GALLERY_ADMIN_65' => "Arrotondato chiaro",
+    'LAN_GALLERY_ADMIN_66' => "Arrotondato scuro",
+    'LAN_GALLERY_ADMIN_67' => "Quadrato chiaro",
+    'LAN_GALLERY_ADMIN_68' => "Quadrato scuro",
+    'LAN_GALLERY_ADMIN_69' => "Facebook",
+    'LAN_GALLERY_ADMIN_70' => "Carica prettyPhoto globalmente",
+    'LAN_GALLERY_ADMIN_71' => "Attributo prettyPhoto (hook)",
+];

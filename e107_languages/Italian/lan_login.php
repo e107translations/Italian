@@ -1,48 +1,39 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 12:25:24
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("LAN_LOGIN_1", "Nome utente");
-define("LAN_LOGIN_2", "Password utente");
-define("LAN_LOGIN_3", "Server protetto");
-define("LAN_LOGIN_4", "Si prega di accedere");
-define("LAN_LOGIN_5", "Fai clic qui per iscriverti");
-define("LAN_LOGIN_6", "Non accettare nuovi membri in questo momento");
-define("LAN_LOGIN_7", "Inserire il codice visibile");
-define("LAN_LOGIN_8", "Ricordati di Me");
-define("LAN_LOGIN_9", "Accedi");
-define("LAN_LOGIN_10", "Clicca per il login");
-define("LAN_LOGIN_11", "Registrati come nuovo utente");
-define("LAN_LOGIN_12", "Hai dimenticato la Password");
-define("LAN_LOGIN_13", "Inserisci il testo nell'immagine");
-define("LAN_LOGIN_14", "Utente ha tentato di effettuare il login con nome utente non riconosciuto");
-define("LAN_LOGIN_15", "Utente ha tentato di effettuare il login con password non corretta");
-define("LAN_LOGIN_16", "Utente ha tentato di effettuare il login con username e password che era già in uso");
-define("LAN_LOGIN_17", "Utente password (con hash)");
-define("LAN_LOGIN_18", "Auto-ban: più di [x] login falliti");
-define("LAN_LOGIN_19", "> 10 tentativi di accesso non");
-define("LAN_LOGIN_20", "Hai lasciato vuoto il campo o i campi richiesti");
-define("LAN_LOGIN_21", "Accesso non valido. I dati immessi non corrispondono ad un utente registrato. Controlla se hai il BLOC MAIUSC attivato come account di accesso in questo sito sono case sensitive");
-define("LAN_LOGIN_22", "Non è stato attivato il tuo account. Dovresti aver ricevuto un'email con le istruzioni confermare il tuo account. In caso contrario, clicca [qui].");
-define("LAN_LOGIN_23", "Codice errato inserito.");
-define("LAN_LOGIN_24", "La combinazione nome utente/password è già in uso.");
-define("LAN_LOGIN_25", "Vietato l'utente ha tentato di effettuare il login");
-define("LAN_LOGIN_26", "Errore di login - motivo sconosciuto");
-define("LAN_LOGIN_27", "Utente ha tentato di fare il login prima di rispondere alla email di conferma");
-define("LAN_LOGIN_28", "Posta elettronica");
-define("LAN_LOGIN_29", "Nome utente o Email");
-define("LAN_LOGIN_30", "Errore di aggiunta nuovo utente alt_auth a DB");
-define("LAN_LOGIN_31", "Le credenziali non potrebbero essere aggiunti al sistema");
-define("LAN_LOGIN_32", "Stai visualizzando questo messaggio perché sei connesso come amministratore principale.");
-define("LAN_LOGIN_33", "[Ritorna alla Pagina Home]");
-define("LAN_LOGIN_34", "La registrazione utente e/o  il login sono disabilitati");
-define("LAN_LOGIN_35", "[Abilitarlo]");
-define("LAN_LOGIN_36", "Le email a [x] stanno tornando indietro. Per favore [verifica che il tuo indirizzo email sia corretto]. ");
-define("LAN_LOGIN_37", " Il tuo account non è stato ancora attivato da un amministratore del sito");
+
+
+return [
+    'LAN_LOGIN_1' => "Nome utente",
+    'LAN_LOGIN_2' => "Password utente",
+    'LAN_LOGIN_3' => "Server protetto",
+    'LAN_LOGIN_4' => "Per favore effettua l'accesso",
+    'LAN_LOGIN_5' => "Clicca qui per registrarti",
+    'LAN_LOGIN_6' => "Al momento non si accettano nuovi membri",
+    'LAN_LOGIN_7' => "Inserisci codice visibile",
+    'LAN_LOGIN_8' => "Ricordami",
+    'LAN_LOGIN_9' => "Accedi",
+    'LAN_LOGIN_10' => "Clicca per accedere",
+    'LAN_LOGIN_11' => "Registrati come Nuovo Utente",
+    'LAN_LOGIN_12' => "Password Dimenticata",
+    'LAN_LOGIN_13' => "Per favore inserisci il testo nell'immagine",
+    'LAN_LOGIN_14' => "L'utente ha tentato di accedere con un nome utente non riconosciuto",
+    'LAN_LOGIN_15' => "L'utente ha tentato di accedere con una password errata",
+    'LAN_LOGIN_16' => "L'utente ha tentato di accedere con una combinazione nome utente/password già in uso",
+    'LAN_LOGIN_17' => "Password utente (hash)",
+    'LAN_LOGIN_18' => "Auto-ban: Più di [x] tentativi di accesso falliti",
+    'LAN_LOGIN_19' => "> 10 tentativi di accesso falliti",
+    'LAN_LOGIN_20' => "Hai lasciato vuoti i campi obbligatori",
+    'LAN_LOGIN_21' => "I tuoi dati di accesso non corrispondono a nessun utente registrato. Controlla se hai il tasto CAPS-LOCK attivato, poiché gli accessi su questo sito sono sensibili alle maiuscole.",
+    'LAN_LOGIN_22' => "Non hai attivato il tuo account. Dovresti aver ricevuto un'email con le istruzioni su come procedere. In caso contrario, clicca [qui].",
+    'LAN_LOGIN_23' => "Codice inserito errato.",
+    'LAN_LOGIN_24' => "Questo utente è già loggato e non può accedere da un'altra sessione.",
+    'LAN_LOGIN_25' => "Utente bannato ha tentato l'accesso",
+    'LAN_LOGIN_26' => "Accesso fallito - motivo sconosciuto",
+    'LAN_LOGIN_27' => "L'utente ha tentato di accedere prima di rispondere all'email di conferma",
+    'LAN_LOGIN_28' => "Email",
+    'LAN_LOGIN_29' => "Nome utente o Email",
+    'LAN_LOGIN_30' => "Errore nell'aggiunta del nuovo utente alt_auth al database",
+    'LAN_LOGIN_31' => "Le tue credenziali non possono essere aggiunte al sistema",
+    'LAN_LOGIN_32' => "Stai visualizzando questo messaggio perché sei attualmente loggato come Amministratore Principale.",
+    'LAN_LOGIN_33' => "[Torna alla homepage]",
+    'LAN_LOGIN_34' => "La registrazione dell'utente e/o l'accesso sono attualmente disabilitati.",
+];

@@ -1,31 +1,29 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/11/07 23:26:01
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("POLLAN_3", "Domanda del sondaggio");
-define("POLLAN_4", "Opzioni di sondaggio");
-define("POLLAN_12", "Visualizza risultati");
-define("POLLAN_13", "dopo il voto");
-define("POLLAN_14", "facendo clic su Visualizza risultati link - commenti devono essere accesi per poter utilizzare questa opzione");
-define("POLLAN_15", "Permettono di votare in questo sondaggio");
-define("POLLAN_16", "Metodo di archiviazione di voto");
-define("POLLAN_17", "biscotto");
-define("POLLAN_19", "ID utente (solo i membri possono votare)");
-define("POLLAN_28", "Sondaggi precedenti");
-define("POLLAN_31", "Voti");
-define("POLLAN_40", "Clicca qui per vedere i risultati");
-define("POLLAN_41", "Questo sondaggio è limitato ai soli membri");
-define("POLLAN_42", "Questo sondaggio è limitato ai soli amministratori");
-define("POLLAN_43", "Non si dispone delle autorizzazioni necessarie per votare in questo sondaggio");
-define("POLLAN_50", "Attivo da [x] a [y]");
-define("LAN_FORUM_3029", "Se non si desidera aggiungere un sondaggio al tuo argomento, lasciare i campi vuoti.");
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ */
 
-
-?>
+return [
+    'POLLAN_3' => "Domanda del Sondaggio",
+    'POLLAN_4' => "Risposte del Sondaggio",
+    'POLLAN_12' => "Mostra risultati",
+    'POLLAN_13' => "dopo il voto",
+    'POLLAN_14' => "cliccando sul link visualizza risultati - i commenti devono essere attivati per usare questa opzione",
+    'POLLAN_15' => "Consenti di votare in questo sondaggio",
+    'POLLAN_16' => "Metodo di archiviazione voti",
+    'POLLAN_17' => "Cookie",
+    'POLLAN_19' => "ID Utente (solo i membri possono votare)",
+    'POLLAN_28' => "Tutti i sondaggi precedenti",
+    'POLLAN_31' => "Voti",
+    'POLLAN_40' => "Clicca qui per vedere i risultati",
+    'POLLAN_41' => "Questo sondaggio è riservato ai soli membri",
+    'POLLAN_42' => "Questo sondaggio è riservato ai soli amministratori",
+    'POLLAN_43' => "Non hai i permessi necessari per votare in questo sondaggio",
+    'POLLAN_50' => "Attivo dal [x] al [y]",
+    'LAN_FORUM_3029' => "Se non desideri aggiungere un sondaggio al tuo argomento, lascia i campi vuoti.",
+];

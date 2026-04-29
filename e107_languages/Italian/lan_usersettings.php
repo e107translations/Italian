@@ -1,61 +1,59 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 13:06:40
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
++----------------------------------------------------------------------------+
 */
-define("PAGE_NAME", "Impostazioni utente");
-define("MAX_AVWIDTH", "Dimensione massima avatar (wxh) è");
-define("MAX_AVHEIGHT", "x");
-define("LAN_USET_1", "Il tuo avatar è troppo larga");
-define("LAN_USET_2", "Larghezza massima consentita è");
-define("LAN_USET_3", "Il tuo avatar è troppo alto");
-define("LAN_USET_4", "Altezza massima consentita è");
-define("LAN_USET_7", "Varie");
-define("LAN_USET_8", "Firma utente");
-define("LAN_USET_9", "Alcuni dei campi obbligatori (contrassegnati con un *) mancano dalle tue impostazioni.");
-define("LAN_USET_10", "Si prega di aggiornare le impostazioni di ora, per poter procedere.");
-define("LAN_USET_11", "Nome utente non può essere accettato come valido, si prega di scegliere un nome utente diverso");
-define("LAN_USET_12", "Quel nome di visualizzazione è troppo breve. Scegli un altro");
-define("LAN_USET_13", "Caratteri non validi nel nome utente. Scegli un altro");
-define("LAN_USET_14", "Nome di accesso troppo a lungo. Scegli un altro");
-define("LAN_USET_15", "Nome visualizzato troppo a lungo. Scegli un altro");
-define("LAN_USET_16", "Casella di spunta per eliminare la foto esistente senza caricare un altro");
-define("LAN_USET_17", "Visualizzare nome già utilizzato. Scegli un altro");
-define("LAN_USET_18", "Dati utente modificati da admin:.[x], nome di login: [x]");
-define("LAN_USET_20", "È necessario modificare la password dell'utente anche se si stanno cambiando il loro indirizzo e-mail o nome di accesso");
-define("LAN_USET_21", "Immettere nuovamente la password, la preghiamo di confermare le modifiche:");
-define("LAN_USET_23", "Lasciare vuoto per mantenere la password esistente");
-define("LAN_USET_24", "Nuova password:");
-define("LAN_USET_25", "Digitare nuovamente la nuova password:");
-define("LAN_USET_26", "Caricare il tuo avatar");
-define("LAN_USET_27", "Caricare la vostra fotografia");
-define("LAN_USET_28", "Questo sarà indicato sulla pagina del tuo profilo");
-define("LAN_USET_30", "Che cos'è?");
-define("LAN_USET_31", "Informazioni di registrazione");
-define("LAN_USET_32", "Si prega di notare: qualsiasi immagine caricata su questo server che è ritenuto inadeguato da parte degli amministratori verrà immediatamente cancellati.");
-define("LAN_USET_33", "Scegli avatar sito memorizzato");
-define("LAN_USET_34", "Avatar remoto uso");
-define("LAN_USET_35", "Si prega di digitare l'indirizzo completo di immagine");
-define("LAN_USET_36", "Fare clic sul pulsante per vedere avatar archiviati su questo sito");
-define("LAN_USET_37", "Salvare le impostazioni");
-define("LAN_USET_38", "Scegli avatar");
-define("LAN_USET_39", "Aggiornare le impostazioni utente");
-define("LAN_USET_40", "Le due password non corrispondono");
-define("LAN_USET_41", "Impostazioni aggiornamento e salvati in database.");
-define("LAN_USET_42", "Mancata corrispondenza su chiave di convalida");
-define("LAN_USET_43", "Errore durante l'aggiornamento dati utente");
-define("LAN_USET_5", "Sottoscritto");
-define("LAN_USET_6", "Iscriviti alla nostra mailing-elenchi e/o sezioni del presente sito.");
-define("LAN_USET_50", "Cancella l'Account");
-define("LAN_USET_51", "Sei sicuro? Questa procedura non può essere annullata! Una volta completato, il tuo account e tutti i dati personali che hai inserito su questo sito andranno persi definitivamente e non potrai più effettuare il login.");
-define("LAN_USET_52", "Une email di conferma è stata inviata a [x]. Fare clic sul collegamento presente nella email per eliminare definitivamente il proprio account.");
-define("LAN_USET_53", "Conferma di Rimozione dell'Account");
-define("LAN_USET_54", "l'Email di conferma è stata inviata");
-define("LAN_USET_55", "Per cortesia premi il collegamento seguente per completare l'eliminazione del proprio account.");
-define("LAN_USET_56", "Il tuo account è stato correttamente cancellato");
+
+return [
+    'PAGE_NAME' => "Impostazioni Utente",
+    'MAX_AVWIDTH' => "La dimensione massima dell'avatar (lxax) è",
+    'MAX_AVHEIGHT' => "x",
+    'LAN_USET_1' => "Il tuo avatar è troppo largo",
+    'LAN_USET_2' => "La larghezza massima consentita è",
+    'LAN_USET_3' => "Il tuo avatar è troppo alto",
+    'LAN_USET_4' => "L'altezza massima consentita è",
+    'LAN_USET_7' => "Varie",
+    'LAN_USET_8' => "Firma utente",
+    'LAN_USET_9' => "Alcuni campi obbligatori (contrassegnati con *) mancano nelle tue impostazioni.",
+    'LAN_USET_10' => "Per favore, aggiorna le tue impostazioni ora per procedere.",
+    'LAN_USET_11' => "Quel nome utente non può essere accettato, per favore scegline uno diverso",
+    'LAN_USET_12' => "Quel nome visualizzato è troppo corto. Per favore scegline un altro",
+    'LAN_USET_13' => "Caratteri non validi nel nome utente. Per favore scegline un altro",
+    'LAN_USET_14' => "Nome di login troppo lungo. Per favore scegline un altro",
+    'LAN_USET_15' => "Nome visualizzato troppo lungo. Per favore scegline un altro",
+    'LAN_USET_16' => "Spunta la casella per eliminare la foto esistente senza caricarne un'altra",
+    'LAN_USET_17' => "Nome visualizzato già in uso. Per favore scegline un altro",
+    'LAN_USET_18' => "Dati utente modificati dall'admin: [x], nome login: [y]",
+    'LAN_USET_20' => "Devi anche cambiare la password dell'utente se stai modificando il nome di login o l'indirizzo email",
+    'LAN_USET_21' => "Per favore, convalida le modifiche inserendo nuovamente la tua password:",
+    'LAN_USET_23' => "Lascia vuoto per mantenere la password attuale",
+    'LAN_USET_24' => "Nuova password:",
+    'LAN_USET_25' => "Re-inserisci nuova password:",
+    'LAN_USET_26' => "Carica il tuo avatar",
+    'LAN_USET_27' => "Carica la tua fotografia",
+    'LAN_USET_28' => "Questa sarà mostrata sulla tua pagina profilo",
+    'LAN_USET_30' => "cos'è questo?",
+    'LAN_USET_31' => "Informazioni di registrazione",
+    'LAN_USET_32' => "Nota: Qualsiasi immagine caricata su questo server ritenuta inappropriata dagli amministratori sarà eliminata immediatamente.",
+    'LAN_USET_33' => "Scegli un avatar memorizzato nel sito",
+    'LAN_USET_34' => "Usa un avatar remoto",
+    'LAN_USET_35' => "Per favore digita l'indirizzo completo dell'immagine",
+    'LAN_USET_36' => "Clicca sul pulsante per vedere gli avatar memorizzati su questo sito",
+    'LAN_USET_37' => "Salva impostazioni",
+    'LAN_USET_38' => "Scegli avatar",
+    'LAN_USET_39' => "Aggiorna impostazioni utente",
+    'LAN_USET_40' => "Le due password non corrispondono",
+    'LAN_USET_41' => "Impostazioni aggiornate e salvate nel database.",
+    'LAN_USET_42' => "Mancata corrispondenza sulla chiave di convalida",
+    'LAN_USET_43' => "Errore nell'aggiornamento dei dati utente",
+    'LAN_USET_5' => "Iscritto a",
+    'LAN_USET_6' => "Iscriviti alle nostre mailing-list e/o sezioni di questo sito.",
+    'LAN_USET_50' => "Elimina Account",
+    'LAN_USET_51' => "Sei sicuro? Questa procedura non può essere annullata! Una volta completata, il tuo account e tutti i dati personali inseriti su questo sito andranno persi permanentemente e non potrai più accedere.",
+    'LAN_USET_52' => "Un'email di conferma è stata inviata a [x]. Per favore clicca sul link nell'email per eliminare permanentemente il tuo account.",
+    'LAN_USET_53' => "Conferma Rimozione Account",
+    'LAN_USET_54' => "Email di Conferma Inviata",
+    'LAN_USET_55' => "Per favore clicca sul seguente link per completare l'eliminazione del tuo account.",
+    'LAN_USET_56' => "Il tuo account è stato eliminato con successo.",
+];

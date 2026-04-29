@@ -1,26 +1,30 @@
 <?php
+/*
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("FOOTLAN_1", "Sito");
-define("FOOTLAN_2", "Responsabile amministrazione");
-define("FOOTLAN_3", "Versione");
-define("FOOTLAN_4", "compilazione");
-define("FOOTLAN_5", "Tema di admin");
-define("FOOTLAN_6", "da");
-define("FOOTLAN_7", "Info");
-define("FOOTLAN_8", "Data di installazione");
-define("FOOTLAN_9", "Server");
-define("FOOTLAN_10", "host");
-define("FOOTLAN_11", "Versione di PHP");
-define("FOOTLAN_12", "MySQL");
-define("FOOTLAN_13", "Info sito");
-define("FOOTLAN_14", "Mostra documenti");
-define("FOOTLAN_15", "Documentazione");
-define("FOOTLAN_16", "Database");
-define("FOOTLAN_17", "Set di caratteri");
-define("FOOTLAN_18", "Tema del sito");
-define("FOOTLAN_19", "Ora del server");
-define("FOOTLAN_20", "Livello di protezione");
+return [
+    'FOOTLAN_1' => "Sito",
+    'FOOTLAN_2' => "Amministratore Capo",
+    'FOOTLAN_3' => "Versione",
+    'FOOTLAN_4' => "build",
+    'FOOTLAN_5' => "Tema Admin",
+    'FOOTLAN_6' => "da",
+    'FOOTLAN_7' => "Info",
+    'FOOTLAN_8' => "Data installazione",
+    'FOOTLAN_9' => "Server",
+    'FOOTLAN_10' => "host",
+    'FOOTLAN_11' => "Versione PHP",
+    'FOOTLAN_12' => "MySQL",
+    'FOOTLAN_13' => "Info Sito",
+    'FOOTLAN_14' => "Mostra Docs",
+    'FOOTLAN_15' => "Documentazione",
+    'FOOTLAN_16' => "Database",
+    'FOOTLAN_17' => "Charset",
+    'FOOTLAN_18' => "Tema Sito",
+    'FOOTLAN_19' => "Ora del Server",
+    'FOOTLAN_20' => "Livello di sicurezza",
+];

@@ -1,21 +1,21 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/12 22:03:13
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
 */
-define("METLAN_00", "Meta tag");
-define("METLAN_1", "Ulteriori modifiche del meta");
-define("METLAN_2", "ad es.< meta='' name='revisit-after' content='30 days'>");
-define("METLAN_3", "Utilizzare notizie titolo e riassunto come meta-descrizione sulle pagine di notizie.");
-define("METLAN_4", "Tags Personalizzati (in [x] tags)");
-define("METLAN_5", "Tags Personalizzati (dopo [x])");
-define("METLAN_6", "Tags Personalizzati (prima [x])");
-define("METLAN_7", "Eventuali metadati o tag HTML personalizzati inseriti qui (come tag <script> o tags di Google Analytics) verranno inclusi in ogni pagina del sito Web nelle aree predisposte");
-define("METLAN_8", "Limite Caratteri Titolo SEO");
-define("METLAN_9", "Limite Caratteri Descrizione SEO");
+
+
+return [
+    'METLAN_00' => "Meta Tag e Tag Personalizzati",
+    'METLAN_1' => "Meta tag aggiuntivi",
+    'METLAN_2' => "es. < meta name='revisit-after' content='30 days' />",
+    'METLAN_3' => "Usa il titolo e il riassunto delle news come meta-description nelle pagine delle news.",
+    'METLAN_4' => "Tag personalizzati (all'interno dei tag [x])",
+    'METLAN_5' => "Tag personalizzati (dopo [x])",
+    'METLAN_6' => "Tag personalizzati (prima di [x])",
+    'METLAN_7' => "Qualsiasi meta dato o tag HTML personalizzato inserito qui (come i tag <script> o il codice di Google Analytics) verrà incluso in ogni pagina del sito nelle aree designate.",
+    'METLAN_8' => "Limite caratteri Titolo SEO",
+    'METLAN_9' => "Limite caratteri Descrizione SEO",
+];

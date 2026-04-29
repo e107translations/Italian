@@ -1,34 +1,37 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("EMOLAN_1", "Emote attivazione");
-define("EMOLAN_3", "EMote");
-define("EMOLAN_4", "Attivare le emoticon?");
-define("EMOLAN_5", "Immagine");
-define("EMOLAN_6", "Emote codice");
-define("EMOLAN_7", "separare più voci con spazi");
-define("EMOLAN_11", "Attiva pacchetto");
-define("EMOLAN_13", "Pacchetti installati");
-define("EMOLAN_17", "Che hai un emoticon pack presente che contiene spazi nel nome, che non sono ammessi!");
-define("EMOLAN_18", "Si prega di rinominare le istanze elencate di seguito così non contengono spazi");
-define("EMOLAN_20", "Posizione");
-define("EMOLAN_21", "Errore di lettura del Pack");
-define("EMOLAN_22", "Nuove emoticon pack trovato");
-define("EMOLAN_23", "Emote nuovo pacchetto xml trovato");
-define("EMOLAN_24", "Nuove emoticon pack php trovato");
-define("EMOLAN_26", "Rianalizzare pack");
-define("EMOLAN_27", "Errore durante l'elaborazione pack");
-define("EMOLAN_28", "Generare XML");
-define("EMOLAN_29", "File XML generato");
-define("EMOLAN_30", "Errore durante la scrittura di file XML");
-define("EMOLAN_PAGE_TITLE", "Emoticon");
-define("EMOLAN_31", "File totale [x] trovati");
-define("EMOLAN_32", "Pack sconosciuto rilevato");
-define("EMOLAN_33", "Formato di File XML non supportati");
-define("EMOLAN_34", "File mancanti per pack");
-define("EMOLAN_35", "-eliminati nel database");
-define("EMOLAN_37", "Emote non impostato");
-define("EMOLAN_38", "Emote vuoto valore");
+/*
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
+*/
+return [
+    'EMOLAN_1' => "Attivazione Emoticon",
+    'EMOLAN_3' => "Emoticon",
+    'EMOLAN_4' => "Attivare le emoticon?",
+    'EMOLAN_5' => "Immagine",
+    'EMOLAN_6' => "Codice Emoticon",
+    'EMOLAN_7' => "separa più voci con spazi",
+    'EMOLAN_11' => "Attiva pacchetto",
+    'EMOLAN_13' => "Pacchetti installati",
+    'EMOLAN_17' => "È presente un pacchetto di emoticon che contiene spazi nel nome, il che non è consentito!",
+    'EMOLAN_18' => "Rinomina le istanze elencate di seguito in modo che non contengano più spazi",
+    'EMOLAN_20' => "Posizione",
+    'EMOLAN_21' => "Errore Lettura Pacchetto",
+    'EMOLAN_22' => "Trovato nuovo pacchetto emoticon",
+    'EMOLAN_23' => "Trovato nuovo pacchetto emoticon XML",
+    'EMOLAN_24' => "Trovato nuovo pacchetto emoticon PHP",
+    'EMOLAN_26' => "Riscansiona pacchetto",
+    'EMOLAN_27' => "Errore durante l'elaborazione del pacchetto",
+    'EMOLAN_28' => "Genera XML",
+    'EMOLAN_29' => "File XML generato",
+    'EMOLAN_30' => "Errore durante la scrittura del file XML",
+    'EMOLAN_PAGE_TITLE' => "Emoticon",
+    'EMOLAN_31' => "Trovati in totale [x] file",
+    'EMOLAN_32' => "Rilevato pacchetto sconosciuto",
+    'EMOLAN_33' => "Formato file XML non supportato",
+    'EMOLAN_34' => "File mancanti per il pacchetto",
+    'EMOLAN_35' => "- eliminato nel database",
+    'EMOLAN_37' => "Emoticon non impostata",
+    'EMOLAN_38' => "Valore emoticon vuoto",
+];

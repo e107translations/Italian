@@ -1,91 +1,93 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 16:27:29
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
 */
-define("LAN_EURL_NAME", "Gestire gli URL del sito");
-define("LAN_EURL_NAME_CONFIG", "Profili");
-define("LAN_EURL_NAME_ALIASES", "Alias");
-define("LAN_EURL_NAME_SETTINGS", "Impostazioni generali");
-define("LAN_EURL_NAME_HELP", "Guida");
-define("LAN_EURL_EMPTY", "L'elenco è vuoto");
-define("LAN_EURL_LEGEND_CONFIG", "Scegliere il profilo di URL per ogni area del sito");
-define("LAN_EURL_LEGEND_ALIASES", "Configurare gli alias URL di Base per ogni profilo di URL");
-define("LAN_EURL_DEFAULT", "Impostazione predefinita");
-define("LAN_EURL_PROFILE", "Profilo");
-define("LAN_EURL_INFOALT", "Info");
-define("LAN_EURL_PROFILE_INFO", "Informazioni del profilo non è disponibile");
-define("LAN_EURL_LOCATION", "Percorso del profilo");
-define("LAN_EURL_LOCATION_NONE", "File di configurazione non è disponibile");
-define("LAN_EURL_FORM_HELP_DEFAULT", "Alias quando nella lingua predefinita.");
-define("LAN_EURL_FORM_HELP_ALIAS_0", "Valore predefinito è");
-define("LAN_EURL_FORM_HELP_ALIAS_1", "Alias di quando in");
-define("LAN_EURL_FORM_HELP_EXAMPLE", "URL di base");
-define("LAN_EURL_ERR_ALIAS_MODULE", "Alias '%1\$s' non può essere salvata - c'è un profilo di URL di sistema con lo stesso nome. Si prega di scegliere un altro valore di alias per il profilo di sistema URL '%2\$s'");
-define("LAN_EURL_SURL_UPD", "  Gli URLs Personalizzati sono stati aggiornati");
-define("LAN_EURL_SURL_NUPD", "  Gli URLs Personalizzati NON Sono stati aggiornati");
-define("LAN_EURL_SETTINGS_PATHINFO", "Rimuovere il nome del file dall'URL");
-define("LAN_EURL_SETTINGS_MAINMODULE", "Spazio dei nomi radice di associare");
-define("LAN_EURL_SETTINGS_MAINMODULE_HELP", "Scegliere quale area del sito sarà collegato con il tuo URL del sito di base. Esempio: Quando la notizia è la radice dello spazio dei nomi http://yoursite.com/News-Item-Title sarà associato con notizie (pagina vista elemento sarà risolto)");
-define("LAN_EURL_SETTINGS_REDIRECT", "Reindirizzare a sistema non trovato pagina");
-define("LAN_EURL_SETTINGS_REDIRECT_HELP", "Se impostata su falsa, non trovato pagina sarà diretto il rendering (senza redirect del browser)");
-define("LAN_EURL_SETTINGS_SEFTRANSLATE", "Tipo di creazione automatica SEF string");
-define("LAN_EURL_SETTINGS_SEFTRANSLATE_HELP", "Scegliere come sarà assemblato stringa SEF quando viene automaticamente generata da un valore di titolo (ad es. in Notizie, pagine personalizzate, ecc.)");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_NONE", "Basta fissarlo");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHL", "dasherize-a-lettere minuscole");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_DASHC", "Dasherize-a-cammello-Case");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_DASH", "Dasherize-con-no-modifica");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREL", "sottolinea_in_minuscolo");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREC", "sottolinea_To_Camel_Case");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCORE", "Underscore_with_no_case_CHANGE");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSL", "Plus + separatore + a + inferiore + custodia");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUSC", "Plus + separatore + a + borsa + Camel");
-define("LAN_EURL_SETTINGS_SEFTRTYPE_PLUS", "Plus + separatore + con + no + maiuscole + cambio");
-define("LAN_EURL_MODREWR_DESCR", "Rimuove nome di voce script file (index) dall'URL. Avrai bisogno di mod_rewrite installato e in esecuzione sul server (Apache Web Server). Dopo l'attivazione di questa impostazione Vai alla cartella principale del sito, rinominare htaccess. txt in. htaccess e modifgy <em>'RewriteBase'</em> direttiva se necessario.");
-define("LAN_EURL_MENU", "URL del sito");
-define("LAN_EURL_MENU_CONFIG", "Profili di URL");
-define("LAN_EURL_MENU_ALIASES", "Alias");
-define("LAN_EURL_MENU_SETTINGS", "Impostazioni");
-define("LAN_EURL_MENU_HELP", "Guida");
-define("LAN_EURL_MENU_PROFILES", "Profili");
-define("LAN_EURL_UC", "In costruzione");
-define("LAN_EURL_CORE_MAIN", "Sito Root Namespace - alias non in uso.");
-define("LAN_EURL_FRIENDLY", "Amichevole");
-define("LAN_EURL_LEGACY", "URL diretto legacy.");
-define("LAN_EURL_REWRITE_LABEL", "Friendly URL");
-define("LAN_EURL_REWRITE_DESCR", "Search engine e user friendly URL.");
-define("LAN_EURL_CORE_NEWS", "Notizie");
-define("LAN_EURL_NEWS_REWRITEF_LABEL", "Completo URL brevi (nessuna prestazione e più amichevole)");
-define("LAN_EURL_NEWS_REWRITE_LABEL", "Friendly URL senza ID (nessuna prestazione, più amichevole)");
-define("LAN_EURL_NEWS_REWRITE_DESCR", "Viene illustrato il collegamento manuale l'analisi e l'assemblaggio.");
-define("LAN_EURL_NEWS_REWRITEX_LABEL", "Friendly URL con ID (prestazioni saggio)");
-define("LAN_EURL_NEWS_REWRITEX_DESCR", "Di seguito viene illustrato l'analisi e l'assemblaggio automatizzato di collegamento basato su regole di rotta predefinita.");
-define("LAN_EURL_CORE_USER", "Utenti");
-define("LAN_EURL_USER_REWRITE_LABEL", "Friendly URL");
-define("LAN_EURL_USER_REWRITE_DESCR", "Search engine e user friendly URL.");
-define("LAN_EURL_CORE_PAGE", "Pagine personalizzate");
-define("LAN_EURL_PAGE_SEF_LABEL", "Friendly URL con ID (prestazioni)");
-define("LAN_EURL_PAGE_SEF_DESCR", "Search engine e user friendly URL.");
-define("LAN_EURL_PAGE_SEFNOID_LABEL", "Friendly URL senza ID (nessuna prestazione, più amichevole)");
-define("LAN_EURL_PAGE_SEFNOID_DESCR", "Search engine e user friendly URL.");
-define("LAN_EURL_CORE_SEARCH", "Ricerca");
-define("LAN_EURL_SEARCH_DEFAULT_LABEL", "URL di ricerca predefinito");
-define("LAN_EURL_SEARCH_DEFAULT_DESCR", "URL diretto legacy.");
-define("LAN_EURL_SEARCH_REWRITE_LABEL", "URL Amichevole");
-define("LAN_EURL_CORE_SYSTEM", "Sistema");
-define("LAN_EURL_SYSTEM_DEFAULT_LABEL", "URL di sistema predefiniti");
-define("LAN_EURL_SYSTEM_DEFAULT_DESCR", "Gli URL per le pagine come non trovato, accesso negato, ecc.");
-define("LAN_EURL_SYSTEM_REWRITE_LABEL", "Sistema amichevole URL");
-define("LAN_EURL_SYSTEM_REWRITE_DESCR", "Gli URL per le pagine come non trovato, accesso negato, ecc.");
-define("LAN_EURL_CORE_INDEX", "Prima pagina");
-define("LAN_EURL_CORE_INDEX_INFO", "Su pagina non può avere un alias.");
-define("LAN_EURL_REBUILD", "Ricostruisci");
-define("LAN_EURL_REGULAR_EXPRESSION", "Espressine regolare");
-define("LAN_EURL_KEY", "Chiave");
-define("LAN_EURL_TABLE", "Tabella");
+
+
+return [
+    'LAN_EURL_NAME' => "Gestisci URL del Sito",
+    'LAN_EURL_NAME_CONFIG' => "Profili",
+    'LAN_EURL_NAME_ALIASES' => "Alias",
+    'LAN_EURL_NAME_SETTINGS' => "Impostazioni generali",
+    'LAN_EURL_NAME_HELP' => "Aiuto",
+    'LAN_EURL_EMPTY' => "L'elenco è vuoto",
+    'LAN_EURL_LEGEND_CONFIG' => "Scegli il profilo URL per area del sito",
+    'LAN_EURL_LEGEND_ALIASES' => "Configura gli alias dell'URL di base per profilo URL",
+    'LAN_EURL_DEFAULT' => "Predefinito",
+    'LAN_EURL_PROFILE' => "Profilo",
+    'LAN_EURL_INFOALT' => "Info",
+    'LAN_EURL_PROFILE_INFO' => "Informazioni sul profilo non disponibili",
+    'LAN_EURL_LOCATION' => "Posizione del Profilo",
+    'LAN_EURL_LOCATION_NONE' => "File di configurazione non disponibile",
+    'LAN_EURL_FORM_HELP_DEFAULT' => "Alias quando nella lingua predefinita.",
+    'LAN_EURL_FORM_HELP_ALIAS_0' => "Il valore predefinito è",
+    'LAN_EURL_FORM_HELP_ALIAS_1' => "Alias quando in",
+    'LAN_EURL_FORM_HELP_EXAMPLE' => "URL di base",
+    'LAN_EURL_ERR_ALIAS_MODULE' => "L'alias &quot;%1\$s&quot; non può essere salvato - esiste un profilo URL di sistema con lo stesso nome. Scegli un altro valore di alias per il profilo URL di sistema &quot;%2\$s&quot;",
+    'LAN_EURL_SURL_UPD' => "&nbsp; Gli URL SEF sono stati aggiornati.",
+    'LAN_EURL_SURL_NUPD' => "&nbsp; Gli URL SEF NON sono stati aggiornati.",
+    'LAN_EURL_SETTINGS_PATHINFO' => "Rimuovi il nome del file dall'URL",
+    'LAN_EURL_SETTINGS_MAINMODULE' => "Associa namespace Root",
+    'LAN_EURL_SETTINGS_MAINMODULE_HELP' => "Scegli quale area del sito sarà collegata all'URL di base del tuo sito. Esempio: Quando News è il tuo namespace radice, https://tuosito.com/Titolo-News sarà associato alle news.",
+    'LAN_EURL_SETTINGS_REDIRECT' => "Reindirizza alla pagina di errore di sistema",
+    'LAN_EURL_SETTINGS_REDIRECT_HELP' => "Se impostato su falso, la pagina non trovata verrà visualizzata direttamente (senza reindirizzamento del browser)",
+    'LAN_EURL_SETTINGS_SEFTRANSLATE' => "Tipo di creazione automatica stringa SEF",
+    'LAN_EURL_SETTINGS_SEFTRANSLATE_HELP' => "Scegli come verrà assemblata la stringa SEF quando viene creata automaticamente da un titolo (es. nelle news, pagine personalizzate, ecc.)",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_NONE' => "Solo messa in sicurezza",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_DASHL' => "trattini-tutto-minuscolo",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_DASHC' => "Trattini-In-Camel-Case",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_DASH' => "Trattini-senza-CAMBIO-case",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREL' => "underscore_tutto_minuscolo",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCOREC' => "Underscore_In_Camel_Case",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_UNDERSCORE' => "Underscore_senza_CAMBIO_case",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_PLUSL' => "più+separatore+tutto+minuscolo",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_PLUSC' => "Più+Separatore+In+Camel+Case",
+    'LAN_EURL_SETTINGS_SEFTRTYPE_PLUS' => "Più+separatore+senza+CAMBIO+case",
+    'LAN_EURL_MODREWR_DESCR' => "Rimuove il nome del file script (index.php/) dai tuoi URL. È necessario che mod_rewrite sia installato e attivo sul server (Apache). Dopo aver abilitato questa impostazione, vai nella cartella principale del sito, rinomina htaccess.txt in .htaccess e modifica la direttiva <em>&quot;RewriteBase&quot;</em> se necessario.",
+    'LAN_EURL_MENU' => "URL del Sito",
+    'LAN_EURL_MENU_CONFIG' => "Configurazioni",
+    'LAN_EURL_MENU_ALIASES' => "Alias dei Profili",
+    'LAN_EURL_MENU_SETTINGS' => "Impostazioni",
+    'LAN_EURL_MENU_HELP' => "Aiuto",
+    'LAN_EURL_MENU_PROFILES' => "Profili",
+    'LAN_EURL_UC' => "In Costruzione",
+    'LAN_EURL_CORE_MAIN' => "Namespace Root del Sito - alias non in uso.",
+    'LAN_EURL_FRIENDLY' => "Friendly",
+    'LAN_EURL_LEGACY' => "URL diretti legacy.",
+    'LAN_EURL_REWRITE_LABEL' => "URL Friendly",
+    'LAN_EURL_REWRITE_DESCR' => "URL ottimizzati per i motori di ricerca e per l'utente.",
+    'LAN_EURL_CORE_NEWS' => "News",
+    'LAN_EURL_NEWS_REWRITEF_LABEL' => "URL Friendly Completi (nessuna performance, massima leggibilità)",
+    'LAN_EURL_NEWS_REWRITEF_DESCR' => "",
+    'LAN_EURL_NEWS_REWRITE_LABEL' => "URL Friendly senza ID (nessuna performance, più leggibili)",
+    'LAN_EURL_NEWS_REWRITE_DESCR' => "Dimostra il parsing e l'assemblaggio manuale dei link.",
+    'LAN_EURL_NEWS_REWRITEX_LABEL' => "URL Friendly con ID (ottimizzato per le performance)",
+    'LAN_EURL_NEWS_REWRITEX_DESCR' => "Dimostra il parsing e l'assemblaggio automatico basato su regole di routing predefinite.",
+    'LAN_EURL_CORE_USER' => "Utenti",
+    'LAN_EURL_USER_REWRITE_LABEL' => "URL Friendly",
+    'LAN_EURL_USER_REWRITE_DESCR' => "URL ottimizzati per motori di ricerca e utenti.",
+    'LAN_EURL_CORE_PAGE' => "Pagine Personalizzate",
+    'LAN_EURL_PAGE_SEF_LABEL' => "URL Friendly con ID (performance)",
+    'LAN_EURL_PAGE_SEF_DESCR' => "URL ottimizzati per motori di ricerca e utenti.",
+    'LAN_EURL_PAGE_SEFNOID_LABEL' => "URL Friendly senza ID (nessuna performance, più leggibili)",
+    'LAN_EURL_PAGE_SEFNOID_DESCR' => "URL ottimizzati per motori di ricerca e utenti.",
+    'LAN_EURL_CORE_SEARCH' => "Ricerca",
+    'LAN_EURL_SEARCH_DEFAULT_LABEL' => "URL di Ricerca Predefinito",
+    'LAN_EURL_SEARCH_DEFAULT_DESCR' => "URL diretto legacy.",
+    'LAN_EURL_SEARCH_REWRITE_LABEL' => "URL Friendly",
+    'LAN_EURL_SEARCH_REWRITE_DESCR' => "",
+    'LAN_EURL_CORE_SYSTEM' => "Sistema",
+    'LAN_EURL_SYSTEM_DEFAULT_LABEL' => "URL di Sistema Predefiniti",
+    'LAN_EURL_SYSTEM_DEFAULT_DESCR' => "URL per pagine come Non Trovato, Accesso negato, ecc.",
+    'LAN_EURL_SYSTEM_REWRITE_LABEL' => "URL di Sistema Friendly",
+    'LAN_EURL_SYSTEM_REWRITE_DESCR' => "URL per pagine come Non Trovato, Accesso negato, ecc.",
+    'LAN_EURL_CORE_INDEX' => "Prima Pagina",
+    'LAN_EURL_CORE_INDEX_INFO' => "La Prima Pagina non può avere un alias.",
+    'LAN_EURL_REBUILD' => "Ricostruisci",
+    'LAN_EURL_REGULAR_EXPRESSION' => "Espressione Regolare",
+    'LAN_EURL_KEY' => "Chiave",
+    'LAN_EURL_TABLE' => "Tabella",
+];

@@ -1,10 +1,16 @@
 <?php
+/*
+ * e107 website system
+ *
+ * Copyright (C) 2008-2016 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ * * e107 website system - Language File.
+ */
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_RSS_NAME", "RSS");
-define("LAN_PLUGIN_RSS_DESCRIPTION", "I feed RSS dal tuo sito.");
-define("LAN_PLUGIN_RSS_SUBSCRIBE", "Abbonarsi");
-define("LAN_PLUGIN_RSS_SUBSCRIBE_TO", "Abbonarsi a [x]");
+return [
+    'LAN_PLUGIN_RSS_NAME'           => "RSS",
+    'LAN_PLUGIN_RSS_DESCRIPTION'    => "Feed RSS dal tuo sito.",
+    'LAN_PLUGIN_RSS_SUBSCRIBE'      => "Iscriviti",
+    'LAN_PLUGIN_RSS_SUBSCRIBE_TO'   => "Iscriviti a [x]",
+];

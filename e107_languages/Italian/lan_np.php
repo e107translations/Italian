@@ -1,19 +1,22 @@
 <?php
+/*
+ * Copyright e107 Inc e107.org, Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Nexptrev Shortcode Language File
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("NP_1", "Pagina precedente");
-define("NP_2", "Pagina successiva");
-define("LAN_NP_FIRST", "prima");
-define("LAN_NP_URLFIRST", "Vai alla prima pagina");
-define("LAN_NP_PREVIOUS", "precedente");
-define("LAN_NP_URLPREVIOUS", "Vai alla pagina precedente");
-define("LAN_NP_NEXT", "successivo");
-define("LAN_NP_URLNEXT", "Vai alla pagina successiva");
-define("LAN_NP_LAST", "Ultimo");
-define("LAN_NP_URLLAST", "Vai all'ultima pagina");
-define("LAN_NP_GOTO", "Vai alla pagina [x]");
-define("LAN_NP_URLCURRENT", "Attualmente hanno visto");
-define("NP_CAPTION", "Pagina [x] [y]");
+return [
+    'NP_1' => "Pagina precedente",
+    'NP_2' => "Pagina successiva",
+    'LAN_NP_FIRST' => "prima",
+    'LAN_NP_URLFIRST' => "Vai alla prima pagina",
+    'LAN_NP_PREVIOUS' => "precedente",
+    'LAN_NP_URLPREVIOUS' => "Vai alla pagina precedente",
+    'LAN_NP_NEXT' => "successiva",
+    'LAN_NP_URLNEXT' => "Vai alla pagina successiva",
+    'LAN_NP_LAST' => "ultima",
+    'LAN_NP_URLLAST' => "Vai all'ultima pagina",
+    'LAN_NP_GOTO' => "Vai alla pagina [x]",
+    'LAN_NP_URLCURRENT' => "Attualmente visualizzata",
+    'NP_CAPTION' => "Pagina [x] di [y]",
+];

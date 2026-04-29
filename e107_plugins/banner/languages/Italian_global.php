@@ -1,8 +1,10 @@
 <?php
+/*
+ * e107 website system
+ * Traduzione Italiana
+ */
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_PLUGIN_BANNER_NAME", "Banner");
-define("LAN_PLUGIN_BANNER_DESCRIPTION", "Aggiungi banner pubblicitari al tuo sito e107");
+return [
+    'LAN_PLUGIN_BANNER_NAME' => "Banner",
+    'LAN_PLUGIN_BANNER_DESCRIPTION' => "Aggiunge banner pubblicitari al tuo sito web e107",
+];

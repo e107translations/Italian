@@ -1,12 +1,19 @@
 <?php
-
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("PAGE_NAME", "Solo per i membri");
-define("LAN_MEMBERS_0", "area riservata");
-define("LAN_MEMBERS_1", "Si tratta di un'area riservata.");
-define("LAN_MEMBERS_2", "Per l'accesso si prega di [login]");
-define("LAN_MEMBERS_3", "o [registrati] come membro.");
-define("LAN_MEMBERS_4", "Clicca qui per tornare alla prima pagina.");
+/*
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
+|
+|     $Source: /cvs_backup/e107_0.8/e107_languages/English/lan_membersonly.php,v $
+|     $Revision$
+|     $Date$
+|     $Author$
++----------------------------------------------------------------------------+
+*/
+return [
+    'PAGE_NAME' => "Solo Membri",
+    'LAN_MEMBERS_0' => "area riservata",
+    'LAN_MEMBERS_1' => "Questa è un'area riservata.",
+    'LAN_MEMBERS_2' => "Per l'accesso per favore [log in]",
+    'LAN_MEMBERS_3' => "o [register] come membro.",
+    'LAN_MEMBERS_4' => "Clicca qui per tornare alla home page.",
+];

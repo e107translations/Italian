@@ -1,30 +1,53 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/11 00:21:02
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("NFLAN_11", "Percorso immagine");
-define("NFLAN_12", "Attivazione");
-define("NFLAN_13", "Nulla (inattivo)");
-define("NFLAN_14", "Solo nel menu");
-define("NFLAN_18", "Intervallo di aggiornamento in secondi");
-define("NFLAN_19", "ad esempio 3600: newsfeed verrà aggiornata ogni ora");
-define("NFLAN_20", "Solo la pagina principale di newsfeed");
-define("NFLAN_21", "Nella pagina sia menu e newsfeed");
-define("NFLAN_26", "Intervallo di aggiornamento");
-define("NFLAN_43", "Guida di newsfeed");
-define("NFLAN_42", "[h=4]Titolo feed:[/h]
-	Il nome che identifica il feed può essere inserito a tuo piacimento.<br>
-	[h=4]URL al FEED RSS:[/h] L'indirizzo URL del feed rss da dove desideri prelevare le notizie. <br>[h=4]Percorso Immagine[/h]Se il feed contiene un'immagine definita in esso, immettere 'default' per utilizzarla. Per scegliere ed utilizzare una tua immagine personale inserisci l'indirizzo dell'immagine. Lascia in bianco per non utilizzare nessuna immagine<br>[h=4]Descrizione[/h] inserisci una breve descrizione del feed oppure 'default' per usare la descrizione predefinita nel feed (se presente).[br][h=4]Aggiorna Intervallo[/h]Inserisci il numero dei seondi prima che il feed rss sia aggiornato. Per esempio, 1800 per 30 Minuti, 3600 per 1 Ora86400 per 1 Giorno.[h=4]Attivazione[/h] I Feed Notizie possono essere visualizzate solo nel menù oppure nella pagina newsfeed. specifica dove i Newsfeed devono essere visualizzati. Per visualizzare i newsfeed nei menu di e107 tu puoi attivarli in [b]Newsfeeds Menu[/b] su
-[link=".e_ADMIN."menus.php]Menu Manager[/link]. [h=4]Tip[/h] There are many feed direcotries on the web, try [link=https://www.dmoz.org/Computers/Internet/On_the_Web/Syndication_and_Feeds/RSS/Directories/ external]dmoz[/link] or [link=http://www.feedster.com/ external]feedster.com[/link]");
-define("NFLAN_45", "Numero di elementi da visualizzare nel menu");
-define("NFLAN_46", "Numero di elementi da visualizzare nella pagina principale");
+ * e107 website system
+ *
+ * Copyright (C) 2008-2016 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Plugin - newsfeeds
+ */
 
+return [
+    'NFLAN_11' => "Percorso dell'immagine",
+    'NFLAN_12' => "Attivazione",
+    'NFLAN_13' => "Nessun luogo (inattivo)",
+    'NFLAN_14' => "Solo nel menu",
+    'NFLAN_18' => "Intervallo di aggiornamento in secondi",
+    'NFLAN_19' => "es. 3600: il newsfeed si aggiornerà ogni ora",
+    'NFLAN_20' => "Solo sulla pagina principale del newsfeed",
+    'NFLAN_21' => "Sia nel menu che nella pagina newsfeed",
+    'NFLAN_26' => "Intervallo di aggiornamento",
+    'NFLAN_43' => "Aiuto Newsfeed",
+    'NFLAN_42' => "[h=4]Titolo Newsfeed[/h]
+	Inserisci un nome per identificare accuratamente il newsfeed.
 
-?>
+	[h=4]URL del Feed RSS[/h]
+
+	Il fornitore RSS ti fornirà un indirizzo web (URL) per il newsfeed.
+
+	[h=4]Percorso dell'Immagine[/h]
+
+	Se il fornitore specifica un'immagine da usare, inserisci 'default' per utilizzarla oppure scegli di usare la tua immagine inserendo l'indirizzo dell'immagine. Lascia vuoto per non usare alcuna immagine.
+
+	[h=4]Descrizione[/h]
+
+	Inserisci una breve descrizione per il feed, o 'default' per usare la descrizione definita nel feed (se presente).
+
+	[h=4]Intervallo di Aggiornamento[/h]
+
+	Inserisci il numero di secondi che devono intercorrere prima che il feed venga aggiornato. 
+
+	Per esempio, 1800 = 30 Minuti, 3600 = 1 Ora, 86400 = 1 Giorno.
+
+	[h=4]Attivazione[/h]
+
+	I newsfeeds possono essere visualizzati solo nel menu o nella pagina dei newsfeed. Inserisci i dettagli su dove i feed debbano essere visualizzati. Per vedere i newsfeed nei menu di e107 dovrai attivare il [b]Menu Newsfeeds[/b] nel [link=\".e_ADMIN.\"menus.php]Gestore Menu[/link].
+
+	[h=4]Suggerimento[/h]
+
+Esistono molte directory di feed sul web, prova [link=https://www.dmoz.org/Computers/Internet/On_the_Web/Syndication_and_Feeds/RSS/Directories/ external]dmoz[/link] o [link=http://www.feedster.com/ external]feedster.com[/link]",
+    'NFLAN_45' => "Numero di elementi da mostrare nel menu",
+    'NFLAN_46' => "Numero di elementi da mostrare nella pagina principale",
+];

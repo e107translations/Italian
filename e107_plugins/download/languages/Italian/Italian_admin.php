@@ -1,163 +1,159 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/10 23:40:17
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("LAN_DL_OPTIONS", "Opzioni");
-define("LAN_DL_DOWNLOAD_OPT_GENERAL", "Generale");
-define("LAN_DL_DOWNLOAD_OPT_BROKEN", "Segnalazioni");
-define("LAN_DL_DOWNLOAD_OPT_AGREE", "Accordi");
-define("LAN_DL_DOWNLOAD_OPT_SECURITY", "Protezione");
-define("LAN_DL_UPLOAD", "Caricare");
-define("LAN_DL_USE_PHP", "Utilizzare PHP");
-define("LAN_DL_USE_PHP_INFO", "Controllare questo invierà che tutti scaricare richieste tramite PHP");
-define("LAN_DL_SUBSUB_CAT", "Visualizza sub-sub-categorie");
-define("LAN_DL_SUBSUB_CAT_INFO", "Controllare questo mostrerà la sub-sub-categorie sulla pagina principale di download");
-define("LAN_DL_SUBSUB_COUNT", "Combinare i conteggi di categoria");
-define("LAN_DL_SUBSUB_COUNT_INFO", "Sono sub-sub-categoria conteggi nei conteggi di sotto-categoria");
-define("LAN_DL_BROKENDOWNLOADSREPORTS", "Rapporti sui download guasti");
-define("DOWLAN_1", "Download è stato aggiunto al database.");
-define("DOWLAN_2", "Download aggiornato nel database.");
-define("DOWLAN_5", "Non esistono categorie scaricare definito ancora, fino a quando non si definisce alcuni che non è possibile immettere alcun download.");
-define("DOWLAN_8", "Nulla è cambiato - non salvate");
-define("DOWLAN_9", "Scarica il dettaglio:");
-define("DOWLAN_10", "Upload");
-define("DOWLAN_11", "Categoria");
-define("DOWLAN_12", "Nome");
-define("DOWLAN_13", "File");
-define("DOWLAN_15", "Autore");
-define("DOWLAN_16", "Autore E-mail");
-define("DOWLAN_17", "Sito Web autore");
-define("DOWLAN_18", "Descrizione");
-define("DOWLAN_19", "Immagine principale");
-define("DOWLAN_20", "Immagine in miniatura");
-define("DOWLAN_21", "Stato");
-define("DOWLAN_22", "Carica elenco");
-define("DOWLAN_23", "Tipi di file");
-define("DOWLAN_24", "Download dell'aggiornamento");
-define("DOWLAN_25", "Invia Download");
-define("DOWLAN_27", "Scarica");
-define("DOWLAN_29", "Richiesto");
-define("DOWLAN_31", "Categorie");
-define("DOWLAN_32", "Download");
-define("DOWLAN_33", "Sei sicuro di che voler eliminare questo download?");
-define("DOWLAN_42", "Guarda le immagini");
-define("DOWLAN_43", "Visibile a");
-define("DOWLAN_55", "Numero di download da visualizzare per pagina");
-define("DOWLAN_56", "Ordina per");
-define("DOWLAN_59", "Nome del file");
-define("DOWLAN_62", "Ascendente");
-define("DOWLAN_63", "Discendente");
-define("DOWLAN_64", "Opzioni di aggiornamento");
-define("DOWLAN_65", "Opzioni di aggiornamento");
-define("DOWLAN_66", "Filesize");
-define("DOWLAN_68", "File mancante!");
-define("DOWLAN_100", "Attivare Download accordo");
-define("DOWLAN_101", "Testo dell'accordo");
-define("DOWLAN_102", "Consentire i commenti?");
-define("DOWLAN_103", "Rimuovere da upload");
-define("DOWLAN_104", "è stato rimosso da upload pubblici");
-define("DOWLAN_105", "Torna a upload pubblici");
-define("DOWLAN_106", "Può essere scaricato da");
-define("DOWLAN_107", "Limite download totali");
-define("DOWLAN_108", "Limite larghezza di banda");
-define("DOWLAN_109", "ogni");
-define("DOWLAN_110", "giorni");
-define("DOWLAN_111", "KB");
-define("DOWLAN_112", "Limiti");
-define("DOWLAN_113", "Userclass");
-define("DOWLAN_114", "Aggiungere nuovo limite");
-define("DOWLAN_115", "Limiti di aggiornamento");
-define("DOWLAN_122", "Inattivo");
-define("DOWLAN_123", "Active - File è soggetto a limiti di download");
-define("DOWLAN_124", "Active - File non è soggetto a limiti di download");
-define("DOWLAN_125", "Scarica limiti attivi");
-define("DOWLAN_128", "Specchi");
-define("DOWLAN_129", "lasciare vuoto se non si utilizza specchi");
-define("DOWLAN_130", "Aggiungere un altro mirror");
-define("DOWLAN_131", "Selezionare file locale");
-define("DOWLAN_132", "Si prega di inserire specchio da usare, quindi indirizzo per scaricare e filesize");
-define("DOWLAN_133", "Aggiornato nel database mirror");
-define("DOWLAN_134", "Salvati nel database mirror");
-define("DOWLAN_135", "Specchio eliminato");
-define("DOWLAN_136", "immagine");
-define("DOWLAN_137", "Sei sicuro di che voler eliminare questo specchio?");
-define("DOWLAN_138", "Mirror esistenti");
-define("DOWLAN_139", "Indirizzo");
-define("DOWLAN_140", "Caricare immagini locali e107_files/downloadimages per mostrare loro qui, o Inserisci l'indirizzo completo se l'immagine è remoto");
-define("DOWLAN_141", "Posizione");
-define("DOWLAN_142", "Specchio di aggiornamento");
-define("DOWLAN_143", "Creare Mirror");
-define("DOWLAN_144", "Nessun specchi definito nella sezione di specchio.");
-define("DOWLAN_145", "Visibile per il download");
-define("DOWLAN_146", "Personalizzato messaggio Download-negazione o URL");
-define("DOWLAN_148", "Verifica per aggiornare data timbro ora corrente");
-define("DOWLAN_149", "URL");
-define("DOWLAN_151", "Rotto-Scarica rapporti disponibile per");
-define("DOWLAN_152", "Non poteva spostare file");
-define("DOWLAN_153", "Spostare file nella cartella di download");
-define("DOWLAN_154", "Se si utilizza specchi, selezionare come verranno visualizzati");
-define("DOWLAN_155", "Specchio tipo di display:");
-define("DOWLAN_156", "Visualizza elenco dei mirror, permette di scegliere il mirror");
-define("DOWLAN_157", "utilizzare casuale specchio - nessuna scelta utente");
-define("DOWLAN_160", "Specchio elenco ordine");
-define("DOWLAN_161", "Casuale");
-define("DOWLAN_164", "Età recente settimanali (in giorni)");
-define("DOWLAN_165", "Scarica manutenzione");
-define("DOWLAN_166", "Duplicati");
-define("DOWLAN_167", "Orfani");
-define("DOWLAN_168", "Manca");
-define("DOWLAN_169", "Inattivo");
-define("DOWLAN_171", "Registro");
-define("DOWLAN_172", "Nessuna voce");
-define("DOWLAN_173", "Sei sicuro di che voler cancellare questo file?");
-define("DOWLAN_174", "Nessun file orfano trovato");
-define("DOWLAN_175", "Locale");
-define("DOWLAN_176", "Esterno");
-define("DOWLAN_178", "Nessuna categoria");
-define("DOWLAN_179", "Selezionare un'opzione dal menu opzioni di manutenzione");
-define("DOWLAN_180", "Dimensione del file (disco, database)");
-define("DOWLAN_181", "Non leggibile");
-define("DOWLAN_182", "Timestamp");
-define("DOWLAN_185", "File di riferimento più volte nel database");
-define("DOWLAN_186", "File non referenziati nel database");
-define("DOWLAN_187", "Voci di database fa riferimento a file inesistenti");
-define("DOWLAN_188", "Voci di database contrassegnate come inattive");
-define("DOWLAN_189", "Interi database non associati a una categoria");
-define("DOWLAN_190", "Differenze di dimensioni tra la voce di database e il file stesso");
-define("DOWLAN_191", "Le voci di log download");
-define("DOWLAN_192", "Eseguire l'opzione selezionata");
-define("DOWLAN_193", "Selezionare l'opzione");
-define("DOWLAN_195", "Tipo di specchio");
-define("DOWLAN_196", "elenco");
-define("DOWLAN_197", "casuale");
-define("DOWLAN_199", "Inviato da");
-define("DOWLAN_HELP_1", "Guida");
-define("DOWLAN_HELP_2", "<p>Creare/modificare un download.</p><p>Immettere solo uno dei: File, URL o specchio.</p><p>Garantire si seleziona una categoria, altrimenti il tuo download non sarà visibile nella pagina download.</p>");
-define("DOWLAN_HELP_3", "Aiuto per gatto");
-define("DOWLAN_HELP_4", "Aiuto per opt");
-define("DOWLAN_HELP_5", "Utilizzare le pagine di manutenzione per trovare duplicati download, trovare i file orfani, trovare mancante voci (rotte), gestire download inattivi, dimensioni dei file di aggiornamento e visualizzare il registro di downlaod.");
-define("DOWLAN_HELP_6", "Guida per i limiti di");
-define("DOWLAN_HELP_7", "Aiuto per specchio");
-define("DOWLAN_HELP_8", "Aiuto per elenco di caricamento");
-define("DOWLAN_HELP_9", "Aiuto per i tipi di caricamento");
-define("DOWLAN_HELP_10", "Aiuto per opzioni di caricamento");
-define("DOWLAN_HELP_11", "Fai clic sul pulsante 'elimina' per eliminare il report.[br][br]Fai clic sul pulsante 'visualizza' per gestire il download.[br][br]Per essere informato di eventuali nuovi report, consulta le [impostazioni di notifica] .");
-define("LAN_DL_SECURITY_DESCRIPTION", "Downloads can make use of server-side URL protection features to prevent hotlinking and/or enforce link expiry. " .
-	"This section should be configured before the download server is configured to reduce the chance of disruption to downloaders.");
-define("LAN_DL_SECURITY_MODE", "URL protection mode");
-define("LAN_DL_SECURITY_MODE_NONE", "None (Default)");
-define("LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5", "NGINX secure_link_md5");
-define("LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE", "Click to toggle list of supported NGINX variables");
-define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION", "<a target='_blank' href='https://nginx.org/en/docs/http/ngx_http_secure_link_module.html#secure_link_md5'>NGINX secure_link_md5 expression</a>");
-define("LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP", "Same expression as configured on the server");
-define("LAN_DL_SECURITY_LINK_EXPIRY", "Duration of validity in seconds");
-define("LAN_DL_SECURITY_LINK_EXPIRY_HELP", "Number of seconds the download link should last after being generated. " .
-	"Only effective if the expression supports expiry time. " .
-    "Defaults to a very long time if this field is left blank.");
+return [
+    'LAN_DL_OPTIONS' => "Opzioni",
+    'LAN_DL_DOWNLOAD_OPT_GENERAL' => "Generali",
+    'LAN_DL_DOWNLOAD_OPT_BROKEN' => "Segnalazioni",
+    'LAN_DL_DOWNLOAD_OPT_AGREE' => "Accordi",
+    'LAN_DL_DOWNLOAD_OPT_SECURITY' => "Protezione",
+    'LAN_DL_UPLOAD' => "Caricamento",
+    'LAN_DL_USE_PHP' => "Usa PHP",
+    'LAN_DL_USE_PHP_INFO' => "Selezionando questa opzione, tutte le richieste di download passeranno attraverso PHP",
+    'LAN_DL_SUBSUB_CAT' => "Mostra sotto-sottocategorie",
+    'LAN_DL_SUBSUB_CAT_INFO' => "Mostra le sotto-sottocategorie nella pagina principale dei download",
+    'LAN_DL_SUBSUB_COUNT' => "Combina conteggi categorie",
+    'LAN_DL_SUBSUB_COUNT_INFO' => "Include il conteggio delle sotto-sottocategorie nei conteggi delle sottocategorie",
+    'LAN_DL_BROKENDOWNLOADSREPORTS' => "Segnalazioni download non funzionanti",
+    'DOWLAN_1' => "Download aggiunto al database.",
+    'DOWLAN_2' => "Download aggiornato nel database.",
+    'DOWLAN_5' => "Non sono ancora state definite categorie di download; non puoi inserire download finché non ne crei una.",
+    'DOWLAN_8' => "Nessuna modifica - non salvato",
+    'DOWLAN_9' => "Dettagli download:",
+    'DOWLAN_10' => "Caricamenti",
+    'DOWLAN_11' => "Categoria",
+    'DOWLAN_12' => "Nome",
+    'DOWLAN_13' => "File",
+    'DOWLAN_15' => "Autore",
+    'DOWLAN_16' => "Email Autore",
+    'DOWLAN_17' => "Sito Autore",
+    'DOWLAN_18' => "Descrizione",
+    'DOWLAN_19' => "Immagine principale",
+    'DOWLAN_20' => "Miniatura (Thumbnail)",
+    'DOWLAN_21' => "Stato",
+    'DOWLAN_22' => "Elenco caricamenti",
+    'DOWLAN_23' => "Tipi di file",
+    'DOWLAN_24' => "Aggiorna Download",
+    'DOWLAN_25' => "Invia Download",
+    'DOWLAN_27' => "Download",
+    'DOWLAN_29' => "Richiesto",
+    'DOWLAN_31' => "Categorie",
+    'DOWLAN_32' => "Download",
+    'DOWLAN_33' => "Sei sicuro di voler eliminare questo download?",
+    'DOWLAN_42' => "Visualizza Immagini",
+    'DOWLAN_43' => "Visibile a",
+    'DOWLAN_55' => "Numero di download da mostrare per pagina",
+    'DOWLAN_56' => "Ordina per",
+    'DOWLAN_59' => "Nome file",
+    'DOWLAN_62' => "Crescente",
+    'DOWLAN_63' => "Decrescente",
+    'DOWLAN_64' => "Aggiorna Opzioni",
+    'DOWLAN_65' => "Opzioni Aggiornate",
+    'DOWLAN_66' => "Dimensione file",
+    'DOWLAN_68' => "File mancante!",
+    'DOWLAN_100' => "Attiva Accordo di Download",
+    'DOWLAN_101' => "Testo dell'accordo",
+    'DOWLAN_102' => "Permetti commenti?",
+    'DOWLAN_103' => "Rimuovi dai caricamenti",
+    'DOWLAN_104' => "è stato rimosso dai caricamenti pubblici",
+    'DOWLAN_105' => "Torna ai caricamenti pubblici",
+    'DOWLAN_106' => "Scaricabile da",
+    'DOWLAN_107' => "Limita numero di download",
+    'DOWLAN_108' => "Limita banda di download",
+    'DOWLAN_109' => "ogni",
+    'DOWLAN_110' => "giorni",
+    'DOWLAN_111' => "kb",
+    'DOWLAN_112' => "Limiti",
+    'DOWLAN_113' => "Classe utente",
+    'DOWLAN_114' => "Aggiungi nuovo limite",
+    'DOWLAN_115' => "Aggiorna limiti",
+    'DOWLAN_116' => "Il limite per questa classe utente esiste già",
+    'DOWLAN_117' => "Limite aggiunto con successo",
+    'DOWLAN_118' => "Limite non aggiunto - errore sconosciuto",
+    'DOWLAN_119' => "Limite rimosso con successo",
+    'DOWLAN_120' => "Limite non rimosso - errore sconosciuto",
+    'DOWLAN_121' => "Limite aggiornato con successo",
+    'DOWLAN_122' => "Inattivo",
+    'DOWLAN_123' => "Attivo - Il file è soggetto ai limiti di download",
+    'DOWLAN_124' => "Attivo - Il file NON è soggetto ai limiti di download",
+    'DOWLAN_125' => "Limiti download attivi",
+    'DOWLAN_126' => "Stato attivazione aggiornato",
+    'DOWLAN_128' => "Mirror",
+    'DOWLAN_129' => "lascia vuoto se non usi i mirror",
+    'DOWLAN_130' => "Aggiungi un altro mirror",
+    'DOWLAN_131' => "Seleziona file locale",
+    'DOWLAN_132' => "Inserisci il mirror da usare, poi l'indirizzo per il download e la dimensione del file",
+    'DOWLAN_133' => "Mirror aggiornato nel database",
+    'DOWLAN_134' => "Mirror salvato nel database",
+    'DOWLAN_135' => "Mirror eliminato",
+    'DOWLAN_136' => "immagine",
+    'DOWLAN_137' => "Sei sicuro di voler eliminare questo mirror?",
+    'DOWLAN_138' => "Mirror esistenti",
+    'DOWLAN_139' => "Indirizzo",
+    'DOWLAN_140' => "Carica immagini locali in e107_files/downloadimages per vederle qui, o inserisci l'indirizzo completo se l'immagine è remota",
+    'DOWLAN_141' => "Posizione",
+    'DOWLAN_142' => "Aggiorna Mirror",
+    'DOWLAN_143' => "Crea Mirror",
+    'DOWLAN_144' => "Nessun mirror definito nella sezione mirror.",
+    'DOWLAN_145' => "Download visibile a",
+    'DOWLAN_146' => "Messaggio di negazione download o URL personalizzato",
+    'DOWLAN_148' => "Seleziona per aggiornare la data all'ora corrente",
+    'DOWLAN_149' => "URL",
+    'DOWLAN_151' => "Segnalazione download non funzionante disponibile per",
+    'DOWLAN_152' => "Impossibile spostare il file",
+    'DOWLAN_153' => "Sposta il file nella cartella download",
+    'DOWLAN_154' => "se usi i mirror, seleziona come verranno visualizzati",
+    'DOWLAN_155' => "Tipo visualizzazione mirror:",
+    'DOWLAN_156' => "mostra elenco mirror, permette all'utente di scegliere",
+    'DOWLAN_157' => "usa mirror casuale - nessuna scelta per l'utente",
+    'DOWLAN_160' => "Ordine elenco mirror",
+    'DOWLAN_161' => "Casuale",
+    'DOWLAN_164' => "Età download recenti (in giorni)",
+    'DOWLAN_165' => "Manutenzione Download",
+    'DOWLAN_166' => "Duplicati",
+    'DOWLAN_167' => "Orfani",
+    'DOWLAN_168' => "Mancanti",
+    'DOWLAN_169' => "Inattivi",
+    'DOWLAN_171' => "Log",
+    'DOWLAN_172' => "Nessuna voce",
+    'DOWLAN_173' => "Sei sicuro di voler eliminare questo file?",
+    'DOWLAN_174' => "Nessun file orfano trovato",
+    'DOWLAN_175' => "Locale",
+    'DOWLAN_176' => "Esterno",
+    'DOWLAN_178' => "Nessuna categoria",
+    'DOWLAN_179' => "Seleziona un'opzione dal menu Opzioni Manutenzione",
+    'DOWLAN_180' => "Dimensione file (database/disco)",
+    'DOWLAN_181' => "Non leggibile",
+    'DOWLAN_182' => "Data/Ora",
+    'DOWLAN_185' => "File referenziati più volte nel database",
+    'DOWLAN_186' => "File non referenziati nel database",
+    'DOWLAN_187' => "Voci del database che referenziano file inesistenti",
+    'DOWLAN_188' => "Voci del database marcate come inattive",
+    'DOWLAN_189' => "Voci del database non associate a una categoria",
+    'DOWLAN_190' => "Differenze di dimensione tra voce del database e file reale",
+    'DOWLAN_191' => "Voci del log dei download",
+    'DOWLAN_192' => "Esegui opzione selezionata",
+    'DOWLAN_193' => "Seleziona opzione",
+    'DOWLAN_195' => "Tipo mirror",
+    'DOWLAN_196' => "elenco",
+    'DOWLAN_197' => "casuale",
+    'DOWLAN_199' => "Inviato da",
+    'DOWLAN_HELP_1' => "Aiuto",
+    'DOWLAN_HELP_2' => "<p>Crea/modifica un download.</p><p>Inserisci solo uno tra: File, URL o Mirror.</p><p>Assicurati di selezionare una categoria, altrimenti il download non sarà visibile nella pagina dei download.</p>",
+    'DOWLAN_HELP_3' => "Aiuto per cat",
+    'DOWLAN_HELP_4' => "Aiuto per opt",
+    'DOWLAN_HELP_5' => "Usa le pagine di manutenzione per trovare download duplicati, file orfani, voci mancanti (rotte), gestire download inattivi, aggiornare le dimensioni dei file e visualizzare il log dei download.",
+    'DOWLAN_HELP_6' => "Aiuto per limiti",
+    'DOWLAN_HELP_7' => "Aiuto per mirror",
+    'DOWLAN_HELP_8' => "Aiuto per elenco caricamenti",
+    'DOWLAN_HELP_9' => "Aiuto per tipi di caricamento",
+    'DOWLAN_HELP_10' => "Aiuto per opzioni di caricamento",
+    'DOWLAN_HELP_11' => "Clicca sul pulsante 'elimina' per cancellare la segnalazione.[br][br]Clicca sul pulsante 'visualizza' per gestire il download.[br][br]Per essere avvisato di nuove segnalazioni, consulta le [impostazioni notifiche].",
+    'LAN_DL_SECURITY_DESCRIPTION' => "I download possono utilizzare le funzioni di protezione URL lato server per prevenire l'hotlinking e/o forzare la scadenza del link. Questa sezione deve essere configurata prima della configurazione del server di download per ridurre il rischio di interruzioni per gli utenti.",
+    'LAN_DL_SECURITY_MODE' => "Modalità protezione URL",
+    'LAN_DL_SECURITY_MODE_NONE' => "Nessuna (Predefinita)",
+    'LAN_DL_SECURITY_MODE_NGINX_SECURELINKMD5' => "NGINX secure_link_md5",
+    'LAN_DL_SECURITY_NGINX_SUPPORTED_VARIABLES_TOGGLE' => "Clicca per mostrare/nascondere l'elenco delle variabili NGINX supportate",
+    'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION' => "[Espressione NGINX secure_link_md5]",
+    'LAN_DL_SECURITY_NGINX_SECURELINKMD5_EXPRESSION_HELP' => "Stessa espressione configurata sul server",
+    'LAN_DL_SECURITY_LINK_EXPIRY' => "Durata di validità in secondi",
+    'LAN_DL_SECURITY_LINK_EXPIRY_HELP' => "Numero di secondi di validità del link dopo la generazione. Efficace solo se l'espressione supporta la scadenza. Se lasciato vuoto, la durata sarà molto lunga.",
+];

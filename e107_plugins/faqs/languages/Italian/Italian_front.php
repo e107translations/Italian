@@ -1,31 +1,23 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/10 23:58:33
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * FAQ Plugin Global Language Definitions
 */
 
-define("LAN_FAQS_TAGS", "Tag");
-define("LAN_FAQS_FILTER_ACTIVE", "Filtro attivo");
-define("LAN_FAQS_NONE_AVAILABLE", "Non ci sono attualmente nessun domande frequenti disponibili.");
-define("LAN_FAQS_ASKQUESTION_AFTER", "Grazie. Tua domanda è stata salvata e si risponderà appena possibile.");
-define("LAN_FAQS_LIMIT_REACHED", "Hai raggiunto il numero massimo di domande possibili. Potrai proseguire dopo che le domande poste avranno ottenuto risposta.");
-define("LAN_FAQS_REMOVE", "Rimuovi");
-define("LAN_FAQS_RESET", "Restta");
-define("LAN_FAQS_X_NOT_FOUND", "[x]: Non trovato tra i risultati della ricerca");
-define("LAN_FAQS_MODERATE_COMMENTS", "Moderare i commenti");
-define("LAN_FAQS_BACK_TO_CATEGORIES", "Torna alle Categorie");
-define("LAN_FAQS_FAQ", "FAQ");
-define("LAN_FAQS_ENTER_A_QUESTION_HERE", "Inerisci la tua domanda qui....");
-define("LAN_FAQS_CHAR_LIMIT", "Limiti caratteri");
-define("LAN_FAQS_PLEASE_REGISTER", "[Registrarsi] e/o autenticarsi per inviare una domanda.");
-define("LAN_FAQS_NOT_PERMITTED", "Non permesso");
-define("LAN_FAQS_YOUR_REQUESTED_FAQS", "Hai ottenuto risposte alle seguenti domande:");
-
-
-?>
+return [
+    'LAN_FAQS_001' => "Tag",
+    'LAN_FAQS_002' => "Filtra",
+    'LAN_FAQS_003' => "Al momento non ci sono FAQ disponibili.",
+    'LAN_FAQS_004' => "Grazie. La tua domanda è stata salvata e riceverà risposta il prima possibile.",
+    'LAN_FAQS_005' => "Hai raggiunto il numero massimo di nuove domande. Potrai farne altre una volta che le tue domande attuali avranno ricevuto risposta.",
+    'LAN_FAQS_006' => "Rimuovi",
+    'LAN_FAQS_007' => "Reset",
+    'LAN_FAQS_008' => "[x]: Non trovato nei risultati di ricerca.",
+    'LAN_FAQS_009' => "modera commenti",
+    'LAN_FAQS_010' => "Torna alle Categorie",
+    'LAN_FAQS_011' => "FAQ",
+    'LAN_FAQS_012' => "Inserisci la tua domanda qui...",
+    'LAN_FAQS_013' => "limite caratteri",
+    'LAN_FAQS_014' => "Per favore [registrati] o effettua il login per inviare una domanda.",
+    'LAN_FAQS_015' => "Non permesso.",
+    'LAN_FAQS_016' => "Hai richiesto risposte per le seguenti domande:",
+];

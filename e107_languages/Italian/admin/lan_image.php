@@ -1,189 +1,33 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 21:34:02
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
 */
-define("LAN_IMA_M_01", "Biblioteca multimediale");
-define("LAN_IMA_M_02", "Upload/importazione media");
-define("LAN_IMA_M_03", "Categorie di media");
-define("LAN_IMA_M_04", "Creare la categoria");
-define("LAN_IMA_M_05", "Avatar");
-define("LAN_IMA_001", "Modifica non è consentita.");
-define("LAN_IMA_002", "Non è sufficiente memoria disponibile per ruotare");
-define("LAN_IMA_003", "Ruotato");
-define("LAN_IMA_004", "Il ridimensionamento");
-define("IMALAN_1", "Abilitare la visualizzazione delle immagini");
-define("IMALAN_2", "Visualizzare le immagini, questa volontà applicano sitewide (commenti, chat ecc) alle immagini pubblicati utilizzando il bbcode [img]");
-define("IMALAN_3", "Metodo Resize");
-define("IMALAN_4", "Metodo utilizzato per ridimensionare le immagini, libreria GD1/2, o ImageMagick");
-define("IMALAN_5", "Percorso di ImageMagick (se selezionato)");
-define("IMALAN_6", "Percorso completo di utilità di conversione ImageMagick");
-define("IMALAN_7", "Impostazioni immagine");
-define("IMALAN_8", "Aggiornare le impostazioni dell'immagine");
-define("IMALAN_9", "Impostazioni dell'immagine aggiornate");
-define("IMALAN_10", "Classe di visualizzazione immagine");
-define("IMALAN_11", "Limitare gli utenti che possono visualizzare immagini (se abilitato di sopra)");
-define("IMALAN_12", "Metodo di immagine disattivata");
-define("IMALAN_13", "Cosa fare con le immagini se è disabilitata la visualizzazione dell'immagine");
-define("IMALAN_14", "Visualizza immagine URL");
-define("IMALAN_15", "Visualizza nulla");
-define("IMALAN_18", "Immagini Avatar caricato");
-define("IMALAN_20", "Non è cambiato nulla");
-define("IMALAN_21", "Utilizzato da");
-define("IMALAN_22", "Immagine non è in uso");
-define("IMALAN_23", "Avatar");
-define("IMALAN_24", "Fotografia");
-define("IMALAN_25", "Clicca qui per eliminare tutte le immagini inutilizzate");
-define("IMALAN_26", "immagini cancellate");
-define("IMALAN_28", "cancellato");
-define("IMALAN_29", "Nessuna immagine");
-define("IMALAN_36", "Convalidare l'accesso e la dimensione avatar");
-define("IMALAN_37", "Convalida di avatar");
-define("IMALAN_38", "Larghezza massima consentita");
-define("IMALAN_39", "Altezza massima consentita");
-define("IMALAN_40", "Troppo larga");
-define("IMALAN_41", "Troppo alta");
-define("IMALAN_42", "Non trovato");
-define("IMALAN_45", "Non trovato");
-define("IMALAN_46", "Troppo grande");
-define("IMALAN_47", "Totale caricato avatar");
-define("IMALAN_48", "Totale esterno avatar");
-define("IMALAN_49", "Utenti con avatar");
-define("IMALAN_50", "Totale");
-define("IMALAN_51", "Avatar per");
-define("IMALAN_52", "Percorso di ImageMagick sembra non corretto");
-define("IMALAN_53", "Percorso di ImageMagick sembra essere corretto, ma convertire file potrebbe non essere valido");
-define("IMALAN_54", "Versione GD installata:");
-define("IMALAN_55", "Non installato");
-define("IMALAN_56", "Fare clic per selezionare");
-define("IMALAN_57", "Immagine troppo grande - Clicca per ingrandire");
-define("IMALAN_62", "Motivo");
-define("IMALAN_65", "Non abbiamo trovato nulla");
-define("IMALAN_66", "Nome del file");
-define("IMALAN_68", "Chiudere");
-define("IMALAN_69", "Cartella");
-define("IMALAN_70", "Cartella di sistema non viene trovata!");
-define("IMALAN_72", "Icone");
-define("IMALAN_73", "Qualità delle miniature");
-define("IMALAN_74", "Impostare questo più basso possibile prima di perdita di qualità è evidente. Max. 100");
-define("IMALAN_75", "Larghezza di avatar");
-define("IMALAN_76", "Immagini avatar saranno vincolati a queste dimensioni (in pixel)");
-define("IMALAN_77", "Altezza di avatar");
-define("IMALAN_78", "Generale");
-define("IMALAN_79", "Ridimensionamento immagine dimensioni");
-define("IMALAN_80", "Attivazione di filigrana");
-define("IMALAN_81", "Tutte le immagini con una larghezza o un'altezza maggiore di questo valore saranno dato una filigrana durante il ridimensionamento.");
-define("IMALAN_82", "Testo della filigrana");
-define("IMALAN_83", "Testo della filigrana opzionale");
-define("IMALAN_84", "Font di filigrana");
-define("IMALAN_85", "Carattere facoltativo filigrana. Caricare altri font ttf nella cartella /fonts nella directory di tema.");
-define("IMALAN_86", "Dimensione della filigrana");
-define("IMALAN_87", "Dimensione del carattere in pts");
-define("IMALAN_88", "Posizione della filigrana");
-define("IMALAN_89", "Watermark");
-define("IMALAN_90", "Margine di filigrana");
-define("IMALAN_91", "La distanza che filigrana apparirà dal bordo dell'immagine.");
-define("IMALAN_92", "Filigrana colore");
-define("IMALAN_93", "Ad esempio il colore della filigrana. 000000");
-define("IMALAN_94", "Filigrana-colore dell'ombra");
-define("IMALAN_95", "Ombra per esempio il colore della filigrana. FFFFFF");
-define("IMALAN_96", "Opacità di filigrana");
-define("IMALAN_97", "Immettere un numero compreso tra 1 e 100");
-define("IMALAN_98", "YouTube account predefinito");
-define("IMALAN_99", "Utilizzato dal browser Media-Manager Youtube. Immettere il nome dell'account. es. e107inc");
-define("IMALAN_100", "Visualizza video correlati");
-define("IMALAN_101", "Visualizza Video informazioni");
-define("IMALAN_102", "Visualizza chiuso-didascalie per impostazione predefinita");
-define("IMALAN_103", "Utilizzare modesto Branding");
-define("IMALAN_104", "Rendere il bbcode YouTube reattivo");
-define("IMALAN_105", "Ridimensionare le immagini durante l'importazione di media");
-define("IMALAN_106", "Lasciare vuoto per disabilitare");
-define("IMALAN_107", "Non poteva generato il percorso da caricare i dati");
-define("IMALAN_108", "Non poteva spostare file da [x] [y]");
-define("IMALAN_109", "Non poteva ottenere il percorso");
-define("IMALAN_110", "Percorso");
-define("IMALAN_111", "Non poteva rilevare mime-type([x]). Caricamento non riuscito.");
-define("IMALAN_112", "Impossibile creare la cartella ([x]).");
-define("IMALAN_113", "Scansione per i nuovi media (immagini, video, file) nella cartella:");
-define("IMALAN_114", "Nessun media trovati! Si prega di caricare alcuni file.");
-define("IMALAN_115", "Titolo (uso interno)");
-define("IMALAN_116", "Didascalia (visto dal pubblico)");
-define("IMALAN_118", "Tipo MIME");
-define("IMALAN_119", "Dimensione del file");
-define("IMALAN_120", "Dimensioni");
-define("IMALAN_121", "Anteprima");
-define("IMALAN_122", "[x] non poteva essere rinominato. Verifica file perms.");
-define("IMALAN_123", "Importazione nella categoria:");
-define("IMALAN_124", "Importare file selezionati");
-define("IMALAN_125", "Eliminare i file selezionati");
-define("IMALAN_126", "Si prega di controllare almeno un file.");
-define("IMALAN_127", "Non poteva ottenere info file da:");
-define("IMALAN_128", "Importazione di file multimediali:");
-define("IMALAN_129", "Stai per eliminare tutti i [x] records e <strong>TUTTI I FILES CORRISPONDENTI</strong>! Conferma per continuare!");
-define("IMALAN_130", "Pagina Precedente");
-define("IMALAN_131", "Pagina Prossima");
-define("IMALAN_132", "Tags/Keywords");
-define("IMALAN_133", "Inferiore Destra");
-define("IMALAN_134", "Inferiore Sinistra");
-define("IMALAN_135", "Superiore Destra");
-define("IMALAN_136", "Superiore Sinistra");
-define("IMALAN_137", "Centro");
-define("IMALAN_138", "Destra");
-define("IMALAN_139", "Sinistra");
-define("IMALAN_140", "Superiore");
-define("IMALAN_141", "Inferiore");
-define("IMALAN_142", "Titolo");
-define("IMALAN_143", "Immagini");
-define("IMALAN_144", "File");
-define("IMALAN_145", "<h4>Dal tuo computer</h4>");
-define("IMALAN_146", "No HTML5 support.");
-define("IMALAN_147", "<h4>Dallo spazio remoto</h4>");
-define("IMALAN_148", "Immagine/File URL");
-define("IMALAN_149", "Start Invio");
-define("IMALAN_150", "Invia il File");
-define("IMALAN_151", "Scegli dalla Libreira");
-define("IMALAN_152", "Aspetto");
-define("IMALAN_153", "Immagine in uso");
-define("IMALAN_154", "Non usato");
-define("IMALAN_155", "Avatar Pre-selection Folder");
-define("IMALAN_156", "Cancella tutte le immagini non utilizzate");
-define("IMALAN_157", "Flusso di Testo");
-define("IMALAN_158", "Margine-Sinistro");
-define("IMALAN_159", "Margine-Destro");
-define("IMALAN_160", "Margine-Superiore");
-define("IMALAN_161", "Margine-Inferiore");
-define("IMALAN_162", "Visualizza [x] - [y] di [z] immagini.");
-define("IMALAN_163", "Video");
-define("IMALAN_164", "Icone eliminate dal Media Manager");
-define("IMALAN_165", "Nessuna immagine");
-define("IMALAN_166", "Invia le immagini o i files");
-define("IMALAN_167", "Scegli il file");
-define("IMALAN_168", "Premi sull'avatar per cambiarlo");
-define("IMALAN_169", "Nessun Avatars Disponibile");
-define("IMALAN_170", "Scegli questo avatar");
-define("IMALAN_171", "Notizia Solo per Admin: Cartella");
-define("IMALAN_172", "è vuoto. Carica alcune immagini avatar di default in questa cartella per permettere agli utenti di sceglierlo.");
-define("IMALAN_173", "Media senza proprietario.");
-define("IMALAN_174", "La ricerca dei video Youtube richiede una chiave API V3 (gratuita) YouTube. [Br] Questo tasto non è necessario a meno che non si desidera eseguire una parola chiave, playlist o un canale di ricerca. [Br] L'Inserimento di un video URL di YouTube direttamente nella casella sopra continuerà a funzionare senza avere una chiave API. [br] [x]");
-define("IMALAN_175", "Cerca su Youtube. Incolla qualsiasi URL di Youtube qui per uno specifico video/playlista/canale");
-define("IMALAN_176", "C'è stato un problema sul prelevamento del file");
-define("IMALAN_177", "Premi qui per ulteriori informazioni e per inserire la tua APIKey");
-define("IMALAN_178", "Cartella Avatars (selezionabile dall'utente)");
-define("IMALAN_179", "Cartella Avatars (privata)");
-define("IMALAN_180", "0 byte trovati in:");
-define("IMALAN_181", "Per cortesia rimuovi prima di procedere.");
-define("IMALAN_182", "Converti in jpeg durante l'importazione");
-define("IMALAN_183", "i files PNG e GIF sarà automaticamente convertito nel formato jpeg (icone escluse)");
-define("IMALAN_184", "Dimensioni immagini predefinite");
-define("IMALAN_185", "Altezza massima in pixels");
-define("IMALAN_186", "Inserisci del testo per filtrare i risultati");
-define("IMALAN_187", "Converti in webp durante l'importazione");
-define("IMALAN_188", "Converti in webp durante il rendering");
-define("IMALAN_189", "i files JPEG, PNG e GIF saranno automaticamente convertiti nel formato webp (icone escluse)");
-define("IMALAN_190", "L'importazione di questo tipo di file non è consentita.");
+// Menu
+
+return [
+    'LAN_IMA_M_01' => "Libreria Media",
+    'LAN_IMA_M_02' => "Caricamento/Importazione Media",
+    'LAN_IMA_M_03' => "Categorie Media",
+    'LAN_IMA_M_04' => "Crea Categoria",
+    'LAN_IMA_M_05' => "Avatar",
+    'LAN_IMA_001' => "La modifica non è consentita.",
+    'LAN_IMA_002' => "Memoria insufficiente per ruotare l'immagine",
+    'LAN_IMA_003' => "Ruotata",
+    'LAN_IMA_004' => "Ridimensionamento",
+    'IMALAN_1' => "Abilita visualizzazione immagini",
+    'IMALAN_2' => "Visualizza le immagini; questa opzione si applicherà a tutto il sito (commenti, chatbox ecc.) per le immagini caricate usando il bbcode [img]",
+    'IMALAN_3' => "Metodo di ridimensionamento",
+    'IMALAN_4' => "Metodo usato per ridimensionare le immagini, libreria GD1/2 o ImageMagick",
+    'IMALAN_5' => "Percorso di ImageMagick (se selezionato)",
+    'IMALAN_6' => "Percorso completo dell'utility Convert di ImageMagick",
+    'IMALAN_7' => "Impostazioni Immagine",
+    'IMALAN_8' => "Aggiorna Impostazioni Immagine",
+    'IMALAN_178' => "Cartella Avatar (selezionabile dall'utente)",
+    'IMALAN_179' => "Cartella Avatar (privata)",
+    'IMALAN_182' => "Converti in jpeg durante l'importazione",
+    'IMALAN_184' => "Dimensioni Predefinite Immagine",
+    'IMALAN_186' => "Inserisci del testo per filtrare i risultati",
+];

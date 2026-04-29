@@ -1,12 +1,12 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Admin log related
 
-define("LAN_AL_LINKWD_00", "Messaggio di Linkword");
-define("LAN_AL_LINKWD_01", "Linkword aggiunto");
-define("LAN_AL_LINKWD_02", "Linkword modificato");
-define("LAN_AL_LINKWD_03", "Linkword cancellato");
-define("LAN_AL_LINKWD_04", "Linkword opzioni aggiornate");
-define("LAN_AL_LINKWD_05", "Aggiornamento versione LinkWords");
+return [
+    'LAN_AL_LINKWD_00' => "Messaggio relativo alle Linkword",
+    'LAN_AL_LINKWD_01' => "Linkword aggiunta",
+    'LAN_AL_LINKWD_02' => "Linkword modificata",
+    'LAN_AL_LINKWD_03' => "Linkword eliminata",
+    'LAN_AL_LINKWD_04' => "Opzioni Linkword aggiornate",
+    'LAN_AL_LINKWD_05' => "Aggiornamento versione Linkwords",
+];

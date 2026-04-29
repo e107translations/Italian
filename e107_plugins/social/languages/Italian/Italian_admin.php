@@ -3,58 +3,60 @@
 + ----------------------------------------------------------------------------+
 |     e107 website system - 
 |     social plugin
-
 +----------------------------------------------------------------------------+
 */
-define("LAN_SOCIAL_ADMIN_00", "Applicazioni");
-define("LAN_SOCIAL_ADMIN_01", "Pagine");
-define("LAN_SOCIAL_ADMIN_02", "Iscriversi/Autenticarsi a mezzo Social");
-define("LAN_SOCIAL_ADMIN_03", "Iscrizione/Login");
-define("LAN_SOCIAL_ADMIN_04", "Provider");
-define("LAN_SOCIAL_ADMIN_05", "Key/ID");
-define("LAN_SOCIAL_ADMIN_06", "Segreta");
-define("LAN_SOCIAL_ADMIN_07", "Permetti agli utenti di iscriversi/autenticarsi a mezzo dei loro account social media. Se si abilita questa opzione sarà consentita l'iscrizione / login anche se il sistema di registrazione utente di base di cui sopra è disattivato.");
-define("LAN_SOCIAL_ADMIN_10", "Ottinei la chiave dal fornitore");
-define("LAN_SOCIAL_ADMIN_11", "Tuo");
-define("LAN_SOCIAL_ADMIN_12", "pagina");
-define("LAN_SOCIAL_ADMIN_13", "Utilizzato da alcuni temi per fornire un link al tuo");
-define("LAN_SOCIAL_ADMIN_14", "Pulsanti di Condivisione");
-define("LAN_SOCIAL_ADMIN_15", "Commenti Facebook");
-define("LAN_SOCIAL_ADMIN_16", "Menu Facebook");
-define("LAN_SOCIAL_ADMIN_17", "Menu Twitter");
-define("LAN_SOCIAL_ADMIN_18", "Limite");
-define("LAN_SOCIAL_ADMIN_19", "Template");
-define("LAN_SOCIAL_ADMIN_20", "Azione");
-define("LAN_SOCIAL_ADMIN_21", "Testo durante il caricamento");
-define("LAN_SOCIAL_ADMIN_22", "Larghezza");
-define("LAN_SOCIAL_ADMIN_23", "Altezza");
-define("LAN_SOCIAL_ADMIN_24", "Modalità Display");
-define("LAN_SOCIAL_ADMIN_25", "Normale");
-define("LAN_SOCIAL_ADMIN_26", "Dropdown");
-define("LAN_SOCIAL_ADMIN_27", "Disabilitato");
-define("LAN_SOCIAL_ADMIN_28", "Escludendo il simbolo # .");
-define("LAN_SOCIAL_ADMIN_29", "Numero di commenti da visualizzare.");
-define("LAN_SOCIAL_ADMIN_30", "Caricamento...");
-define("LAN_SOCIAL_ADMIN_31", "Larghezza in px");
-define("LAN_SOCIAL_ADMIN_32", "Raccomandato");
-define("LAN_SOCIAL_ADMIN_33", "Altezza in px");
-define("LAN_SOCIAL_ADMIN_34", "Numero di tweets da visualizzare.");
-define("LAN_SOCIAL_ADMIN_35", "Chiaro");
-define("LAN_SOCIAL_ADMIN_36", "Scuro");
-define("LAN_SOCIAL_ADMIN_37", "Open Graph Meta");
-define("LAN_SOCIAL_ADMIN_38", "Scopo");
-define("LAN_SOCIAL_ADMIN_39", "Providers");
-define("LAN_SOCIAL_ADMIN_40", "Aggiorna nome utente visualizzato");
-define("LAN_SOCIAL_ADMIN_41", "Aggiorna Avatar utente");
-define("LAN_SOCIAL_ADMIN_42", "Immagine Personalizzata");
-define("LAN_SOCIAL_ADMIN_43", "Un [aggiornamento del database] è richiesto per continuare ad utilizzare questo plugin");
-define("LAN_SOCIAL_ADMIN_44", "Aggiungi nuovo Provider");
-define("LAN_SOCIAL_ADMIN_45", "Questi provider di accesso social sono attualmente configurati.\nSe l'interruttore principale [b]Registrazione/Accesso social[/b] è attivato, ciascun provider in questa tabella che è anche attivato può essere utilizzato per la registrazione e l'accesso dell'utente. Se svuoti i campi di un provider qui e li salvi, si sposterà nella sezione [b]Aggiungi nuovo provider[/b].");
-define("LAN_SOCIAL_ADMIN_46", "Questi sono i provider di accesso social disponibili, che non sono stati configurati. Dopo aver configurato e salvato un provider qui, questo passerà alla sezione [b]Configurato[/b].");
-define("LAN_SOCIAL_ADMIN_47", "Provider configurati non funzionanti");
-define("LAN_SOCIAL_ADMIN_48", "Questi provider di accesso social sono stati configurati in passato ma non dispongono più di un adattatore in grado di supportarli.[br]Ciò potrebbe essere dovuto al fatto che non esistono più o sono stati modificati o sostituiti da un provider diverso.");
-define("LAN_SOCIAL_ADMIN_49", "Pagina di Test");
-define("LAN_SOCIAL_ADMIN_50", "Abilita o disabilita la pagina di test dell'accesso social");
-define("LAN_SOCIAL_ADMIN_08", "Nota: Nella maggior parte dei casi sarà necessario ottenere un ID e una chiave segreta da uno dei fornitori. \nFare clic sui link blu a destra per configurare. \n \n[b]Puoi testare [/b]la configurazione con il seguente URL:");
-define("LAN_SOCIAL_ADMIN_09", "Il tuo URL di ritorno é:");
-define("LAN_SOCIAL_ADMIN_51", "Social Login System");
+
+return [
+    'LAN_SOCIAL_ADMIN_00' => "Applicazioni",
+    'LAN_SOCIAL_ADMIN_01' => "Pagine",
+    'LAN_SOCIAL_ADMIN_02' => "Provider di Accesso Configurati",
+    'LAN_SOCIAL_ADMIN_03' => "Registrazione/Accesso",
+    'LAN_SOCIAL_ADMIN_04' => "Provider",
+    'LAN_SOCIAL_ADMIN_05' => "Chiave/ID",
+    'LAN_SOCIAL_ADMIN_06' => "Segreto",
+    'LAN_SOCIAL_ADMIN_07' => "Consente agli utenti di registrarsi/accedere con i propri account dei social media. Se abilitata, questa opzione permetterà comunque agli utenti di registrarsi/accedere anche se il sistema di registrazione utente principale sopra è disabilitato.",
+    'LAN_SOCIAL_ADMIN_10' => "Ottieni una chiave dal provider",
+    'LAN_SOCIAL_ADMIN_11' => "La tua",
+    'LAN_SOCIAL_ADMIN_12' => "pagina",
+    'LAN_SOCIAL_ADMIN_13' => "Utilizzato da alcuni temi per fornire un link al tuo",
+    'LAN_SOCIAL_ADMIN_14' => "Pulsanti di Condivisione",
+    'LAN_SOCIAL_ADMIN_15' => "Commenti Facebook",
+    'LAN_SOCIAL_ADMIN_16' => "Menu Facebook",
+    'LAN_SOCIAL_ADMIN_17' => "Menu Twitter",
+    'LAN_SOCIAL_ADMIN_18' => "Limite",
+    'LAN_SOCIAL_ADMIN_19' => "Tema",
+    'LAN_SOCIAL_ADMIN_20' => "Azione",
+    'LAN_SOCIAL_ADMIN_21' => "Testo durante il caricamento",
+    'LAN_SOCIAL_ADMIN_22' => "Larghezza",
+    'LAN_SOCIAL_ADMIN_23' => "Altezza",
+    'LAN_SOCIAL_ADMIN_24' => "Modalità di Visualizzazione",
+    'LAN_SOCIAL_ADMIN_25' => "Normale",
+    'LAN_SOCIAL_ADMIN_26' => "Dropdown",
+    'LAN_SOCIAL_ADMIN_27' => "Disabilitato",
+    'LAN_SOCIAL_ADMIN_28' => "Escluso il simbolo #.",
+    'LAN_SOCIAL_ADMIN_29' => "Numero di commenti da visualizzare.",
+    'LAN_SOCIAL_ADMIN_30' => "Caricamento in corso...",
+    'LAN_SOCIAL_ADMIN_31' => "Larghezza in px",
+    'LAN_SOCIAL_ADMIN_32' => "Raccomanda",
+    'LAN_SOCIAL_ADMIN_33' => "Altezza in px",
+    'LAN_SOCIAL_ADMIN_34' => "Numero di tweet da visualizzare.",
+    'LAN_SOCIAL_ADMIN_35' => "Chiaro",
+    'LAN_SOCIAL_ADMIN_36' => "Scuro",
+    'LAN_SOCIAL_ADMIN_37' => "Open Graph Meta",
+    'LAN_SOCIAL_ADMIN_38' => "Ambito (Scope)",
+    'LAN_SOCIAL_ADMIN_39' => "Provider",
+    'LAN_SOCIAL_ADMIN_40' => "Aggiorna Nome Visualizzato Utente",
+    'LAN_SOCIAL_ADMIN_41' => "Aggiorna Avatar Utente",
+    'LAN_SOCIAL_ADMIN_42' => "Immagine Personalizzata",
+    'LAN_SOCIAL_ADMIN_43' => "È richiesto un [aggiornamento del database] per continuare a utilizzare questo plugin.",
+    'LAN_SOCIAL_ADMIN_44' => "Aggiungi Nuovo Provider",
+    'LAN_SOCIAL_ADMIN_45' => "Questi provider di accesso social sono attualmente configurati.\nSe l'interruttore principale [b]Registrazione/Accesso Social[/b] è attivato, ogni provider in questa tabella che è anch'esso attivato può essere utilizzato per la registrazione e l'accesso dell'utente. Se svuoti i campi di un provider qui e salvi, questo verrà spostato nella sezione [b]Aggiungi Nuovo Provider[/b].",
+    'LAN_SOCIAL_ADMIN_46' => "Questi sono i provider di accesso social disponibili che non sono stati configurati. Una volta configurato e salvato un provider qui, verrà spostato nella sezione [b]Configurati[/b].",
+    'LAN_SOCIAL_ADMIN_47' => "Provider Configurati Non Funzionanti",
+    'LAN_SOCIAL_ADMIN_48' => "Questi provider di accesso social sono stati configurati in passato ma non hanno più un adattatore che possa supportarli.[br]Ciò potrebbe essere dovuto al fatto che non esistono più o sono stati sostituiti da un provider diverso.",
+    'LAN_SOCIAL_ADMIN_49' => "Pagina di Test",
+    'LAN_SOCIAL_ADMIN_50' => "Abilita o disabilita la pagina di test dell'accesso social",
+    'LAN_SOCIAL_ADMIN_08' => "Nota: nella maggior parte dei casi, sarà necessario ottenere un ID applicazione e una chiave segreta dai provider di accesso social.\nSe il nome di un provider è un link, quel link dovrebbe portarti alla documentazione di configurazione dell'applicazione di accesso.\n\nPuoi testare la tua configurazione con il seguente URL dopo aver abilitato l'opzione [b]Pagina di Test[/b]:",
+    'LAN_SOCIAL_ADMIN_09' => "Il tuo URL di callback è:",
+    'LAN_SOCIAL_ADMIN_51' => "Sistema di Accesso Social",
+];

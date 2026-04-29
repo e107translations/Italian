@@ -1,12 +1,22 @@
 <?php
+/*
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
+|
+|     $Source: /cvs_backup/e107_0.8/e107_languages/English/lan_user_select.php,v $
+|     $Revision$
+|     $Date$
+|     $Author$
++----------------------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// DEPRECATED - SUBJECT TO REMOVAL
 
-define("US_LAN_1", "Selezionare utente");
-define("US_LAN_2", "Selezionare utente classe");
-define("US_LAN_3", "Tutti gli utenti");
-define("US_LAN_4", "Trovare il nome utente");
-define("US_LAN_5", "Utenti trovati");
-define("US_LAN_6", "Ricerca");
+return [
+    'US_LAN_1' => "Seleziona utente",
+    'US_LAN_2' => "Seleziona classe utente",
+    'US_LAN_3' => "Tutti gli utenti",
+    'US_LAN_4' => "Trova nome utente",
+    'US_LAN_5' => "Utente(i) trovato(i)",
+    'US_LAN_6' => "Cerca",
+];

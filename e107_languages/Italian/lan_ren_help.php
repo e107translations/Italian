@@ -1,76 +1,74 @@
 <?php
-/*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2015/09/01 09:33:53
-|
-|        $Author: admin $
-+---------------------------------------------------------------+
-*/
-define("LANHELP_1", "Nero");
-define("LANHELP_2", "Blu");
-define("LANHELP_3", "Marrone");
-define("LANHELP_4", "Ciano");
-define("LANHELP_5", "Blu scuro");
-define("LANHELP_6", "Rosso scuro");
-define("LANHELP_7", "Verde");
-define("LANHELP_8", "Indaco");
-define("LANHELP_9", "Olivastro");
-define("LANHELP_10", "Arancione");
-define("LANHELP_11", "Rosso");
-define("LANHELP_12", "Viola");
-define("LANHELP_13", "Bianco");
-define("LANHELP_14", "Giallo");
-define("LANHELP_15", "Minuscolo");
-define("LANHELP_16", "Piccolo");
-define("LANHELP_17", "Normale");
-define("LANHELP_18", "Grande");
-define("LANHELP_19", "Più grande");
-define("LANHELP_20", "Massiccia");
-define("LANHELP_21", "Fare clic per aprire la finestra dei colori...");
-define("LANHELP_22", "Fare clic per aprire la finestra delle dimensioni...");
-define("LANHELP_23", "Inserire link: \n [link]http://mysite.com[/link] o [link=http://yoursite.com]Visita il mio sito Web [/link]");
-define("LANHELP_24", "Grassetto testo: \n [b] questo testo è grassetto [/b] ',' font-weight: bold; Larghezza: 20px");
-define("LANHELP_25", "Corsivo testo: \n [i] questo testo è corsivo [/i] ',' font-style: italic; Larghezza: 20px");
-define("LANHELP_26", "Sottolineatura testo: \n [u] questo testo è sottolineato [/u] ',' text-decoration: underline; Larghezza: 20px");
-define("LANHELP_27", "Inserire image:\n[img]mypicture.jpg[/img]");
-define("LANHELP_28", "Allinea al centro: \n [center] questo testo sarà centrato [/center]");
-define("LANHELP_29", "Allinea a sinistra: \n [left] questo testo rimane allineato [/ left]");
-define("LANHELP_30", "Allinea a destra: \n [right] questo testo sarà proprio allineato [/ right]");
-define("LANHELP_31", "Blockquote testo: [blockquote] questo testo sarà blockquoted (rientrato) [/blockquote]");
-define("LANHELP_32", "Codice - testo preformattato: [code] \$foo = bah; [/ code]");
-define("LANHELP_33", "HTML - rimuove linebreaks dal testo: [html] [/html]");
-define("LANHELP_34", "[newpage] o [newpage = title] inserire tag newpage, articolo si divide in più pagine");
-define("LANHELP_35", "url del collegamento ipertestuale");
-define("LANHELP_36", "Non ordinato: [elenco] line1 * line2 * line3 [/list] ordinato: [lista = type] line1 * line2 * line3 [/ list]");
-define("LANHELP_37", "Inserisci immagine da e107_images/newspost_images/directory");
-define("LANHELP_38", "link all'immagine completa verrà generato");
-define("LANHELP_39", "Inserire link per il download dall'area download esistenti");
-define("LANHELP_40", "Ci sono attualmente esistenti download");
-define("LANHELP_41", "Dimensione del carattere...");
-define("LANHELP_42", "Seleziona immagine...");
-define("LANHELP_43", "Selezionare Scarica File...");
-define("LANHELP_44", "Cliccare per aprire/chiudere finestra di dialogo emoticon...");
-define("LANHELP_45", "Inserisci immagine da Media Manager");
-define("LANHELP_46", "* Nessun file trovato:");
-define("LANHELP_47", "Inserire flash: [flash = larghezza, altezza] http://www.example.com/file.swf [/flash]");
-define("LANHELP_48", "YouTube video: [youtube = piccoli | piccolo | medium | grande | enorme | larghezza, altezza] 6kYjxJmk0wc [/youtube]");
-define("LANHELP_49", "Paragrafo: [p = nome della classe] paragrafo testo [/p]");
-define("LANHELP_50", "Rubrica: Per H2 [h] voce testo / [h] o [h = 2] voce testo [/h]");
-define("LANHELP_51", "Disattivare le righe nuove HTML per testo racchiuso: [nobr] testo [/nobr]");
-define("LANHELP_52", "Nuova linea (HTML): [br]");
-define("LANHELP_53", "Giustificare allineare: \n [giustificare] questo testo sarà giustificato [/ giustifica]");
-define("LANHELP_54", "Blocco di codice HTML (tag div): [blocco] il contenuto [/block]");
-define("LANHELP_55", "Formato");
-define("LANHELP_56", "Inserisci una tabella");
-define("LANHELP_57", "Intestazione");
-define("LANHELP_58", "Blocca");
-define("LANHELP_59", "Quota");
-define("LANHELP_60", "Codice Blocco");
-define("LANHELP_61", "Codice in linea");
-define("LANHELP_62", "Paragrafo");
-define("LANHELP_63", "Inserisci un'immagine dal Manager Multimediale");
-define("LANHELP_64", "Inserisci un file dal Manager Multimediale");
-define("LANHELP_65", "Volume");
+/**
+ * Copyright (C) e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ * $Id$
+ * * BBcode language file
+ * */
+
+return [
+    'LANHELP_1' => "Nero",
+    'LANHELP_2' => "Blu",
+    'LANHELP_3' => "Marrone",
+    'LANHELP_4' => "Ciano",
+    'LANHELP_5' => "Blu Scuro",
+    'LANHELP_6' => "Rosso Scuro",
+    'LANHELP_7' => "Verde",
+    'LANHELP_8' => "Indaco",
+    'LANHELP_9' => "Oliva",
+    'LANHELP_10' => "Arancione",
+    'LANHELP_11' => "Rosso",
+    'LANHELP_12' => "Viola",
+    'LANHELP_13' => "Bianco",
+    'LANHELP_14' => "Giallo",
+    'LANHELP_15' => "Minuscolo",
+    'LANHELP_16' => "Piccolo",
+    'LANHELP_17' => "Normale",
+    'LANHELP_18' => "Grande",
+    'LANHELP_19' => "Più grande",
+    'LANHELP_20' => "Massiccio",
+    'LANHELP_21' => "Clicca per aprire la finestra dei colori ...",
+    'LANHELP_22' => "Clicca per aprire la finestra delle dimensioni ...",
+    'LANHELP_23' => "Inserisci link:\\n[link]https://miosito.com[/link] oppure [link=https://tuosito.com]Visita il mio sito[/link]",
+    'LANHELP_24' => "Testo in grassetto:\\n[b]Questo testo sarà in grassetto[/b]",
+    'LANHELP_25' => "Testo in corsivo:\\n[i]Questo testo sarà in corsivo[/i]",
+    'LANHELP_26' => "Testo sottolineato:\\n[u]Questo testo sarà sottolineato[/u]",
+    'LANHELP_27' => "Inserisci immagine:\\n[img]miaimmagine.jpg[/img]",
+    'LANHELP_28' => "Allineamento centrato:\\n[center]Questo testo sarà centrato[/center]",
+    'LANHELP_29' => "Allineamento a sinistra:\\n[left]Questo testo sarà allineato a sinistra[/left]",
+    'LANHELP_30' => "Allineamento a destra:\\n[right]Questo testo sarà allineato a destra[/right]",
+    'LANHELP_31' => "Testo blockquote: [blockquote]Questo testo sarà citato (rientrato)[/blockquote]",
+    'LANHELP_32' => "Codice - testo preformattato: [code]\$foo = bah;[/code]",
+    'LANHELP_33' => "HTML - rimuove le interruzioni di riga dal testo: [html]&lt;table&gt;&lt;tr&gt;&lt;td&gt; ecc[/html]",
+    'LANHELP_34' => "[newpage] o [newpage=titolo] Inserisce il tag nuova pagina, divide l'articolo in più pagine",
+    'LANHELP_35' => "url collegamento ipertestuale",
+    'LANHELP_36' => "Non ordinato: [list]riga1*riga2*riga3[/list] Ordinato: [list=tipo]riga1*riga2*riga3[/list]",
+    'LANHELP_37' => "Inserisci immagine dalla directory e107_images/newspost_images/",
+    'LANHELP_38' => "verrà generato un collegamento all'immagine a dimensione intera",
+    'LANHELP_39' => "Inserisci link di download dai download esistenti",
+    'LANHELP_40' => "Al momento non ci sono download esistenti",
+    'LANHELP_41' => "Dimensione carattere...",
+    'LANHELP_42' => "Seleziona Immagine...",
+    'LANHELP_43' => "Seleziona File di Download...",
+    'LANHELP_44' => "Clicca per aprire/chiudere la finestra delle emoticon ...",
+    'LANHELP_45' => "Inserisci immagine dal Media-Manager",
+    'LANHELP_46' => "* Nessun file trovato in:",
+    'LANHELP_47' => "Inserisci flash: [flash=larghezza,altezza]https://www.esempio.com/file.swf[/flash]",
+    'LANHELP_48' => "Video YouTube: [youtube=tiny | small | medium | big | huge | larghezza,altezza]6kYjxJmk0wc[/youtube]",
+    'LANHELP_49' => "Paragrafo: [p=nome classe]Testo del paragrafo[/p]",
+    'LANHELP_50' => "Titolo: per H2 [h]Testo titolo[/h] o [h=2]Testo titolo[/h]",
+    'LANHELP_51' => "Disabilita le nuove linee HTML per il testo racchiuso: [nobr]testo[/nobr]",
+    'LANHELP_52' => "Nuova riga (HTML): [br]",
+    'LANHELP_53' => "Allineamento giustificato:\\n[justify]Questo testo sarà giustificato[/justify]",
+    'LANHELP_54' => "Blocco HTML (tag div): [block]Il tuo contenuto[/block]",
+    'LANHELP_55' => "Formato",
+    'LANHELP_56' => "Inserisci una tabella",
+    'LANHELP_57' => "Titolo",
+    'LANHELP_58' => "Blocco",
+    'LANHELP_59' => "Citazione",
+    'LANHELP_60' => "Blocco di Codice",
+    'LANHELP_61' => "Codice Inline",
+    'LANHELP_62' => "Paragrafo",
+    'LANHELP_63' => "Inserisci un'Immagine dal Media Manager",
+    'LANHELP_64' => "Inserisci un file dal Media-Manager",
+    'LANHELP_65' => "Dimensione",
+];

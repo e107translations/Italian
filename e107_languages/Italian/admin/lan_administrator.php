@@ -1,29 +1,30 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 16:08:31
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
 */
-define("ADMSLAN_6", "è l'amministratore del sito principale e non può essere eliminato.");
-define("ADMSLAN_13", "Amministratori esistenti");
-define("ADMSLAN_16", "Nome admin");
-define("ADMSLAN_18", "Autorizzazioni");
-define("ADMSLAN_21", "Modificare le autorizzazioni di amministratore");
-define("ADMSLAN_25", "Upload / gestione dei file");
-define("ADMSLAN_27", "Supervisionare le categorie di link");
-define("ADMSLAN_41", "Creare e modificare menu personalizzati");
-define("ADMSLAN_42", "Post Commenti");
-define("ADMSLAN_52", "Amministratore di aggiornamento");
-define("ADMSLAN_56", "Amministratore del sito");
-define("ADMSLAN_58", "Amministratore del sito principale");
-define("ADMSLAN_59", "Rimuovere lo Status di Admin");
-define("ADMSLAN_61", "Amministratore eliminato");
-define("ADMSLAN_62", "Gestore Plugin");
-define("ADMSLAN_71", "Clicca qui per visualizzare i privilegi");
-define("ADMSLAN_72", "ID admin:.[x] nome: [y] nuove autorizzazioni:");
-define("ADMSLAN_73", "ID admin:.[x] nome: - [y]");
+
+//define("ADMSLAN_0", "New user/admin entry created for"); - no references found
+//define("ADMSLAN_1", "now has admin status."); - no references found
+
+//define("ADMSLAN_3", "is the main site administrator and cannot be edited.");
+//define("ADMSLAN_4", "Continue");//LAN_CONTINUE
+//define("ADMSLAN_5", "Error!"); - global admin LAN_ERROR
+
+return [
+    'ADMSLAN_6' => "è l'amministratore principale del sito e non può essere eliminato.",
+    'ADMSLAN_13' => "Amministratori Esistenti",
+    'ADMSLAN_16' => "Nome Amministratore",
+    'ADMSLAN_18' => "Permessi",
+    'ADMSLAN_21' => "Modifica permessi amministratore",
+    'ADMSLAN_25' => "Carica/gestisci file",
+    'ADMSLAN_27' => "Supervisiona categorie di link",
+    'ADMSLAN_41' => "Crea/modifica menu personalizzati",
+    'ADMSLAN_42' => "Pubblica recensioni",
+    'ADMSLAN_52' => "Aggiorna amministratore",
+    'ADMSLAN_56' => "Amministratore del Sito",
+    'ADMSLAN_58' => "Amministratore Principale del Sito",
+    'ADMSLAN_59' => "Rimuovi Stato Admin",
+];

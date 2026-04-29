@@ -1,77 +1,79 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 16:16:49
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
 */
-define("LAN_CRON_M_02", "Aggiornamento");
-define("LAN_CRON_2", "Funzione");
-define("LAN_CRON_3", "Scheda");
-define("LAN_CRON_4", "Ultimo-Esegui");
-define("LAN_CRON_01_1", "Email di prova");
-define("LAN_CRON_01_2", "Invia una email di prova [EML].");
-define("LAN_CRON_01_3", "Consigliato per testare il sistema di programmazione.");
-define("LAN_CRON_02_1", "Coda di posta elettronica");
-define("LAN_CRON_02_2", "Coda di posta elettronica di processo.");
-define("LAN_CRON_03_1", "Controllo di rimbalzo di posta");
-define("LAN_CRON_03_2", "Cerca email bounce.");
-define("LAN_CRON_04_1", "Divieto Retrigger Check");
-define("LAN_CRON_04_2", "Processo retriggers di rimbalzo.");
-define("LAN_CRON_04_3", "Necessaria solo se la riattivazione dei divieti abilitati.");
-define("LAN_CRON_05_1", "Backup del database");
-define("LAN_CRON_05_2", "Backup del database di sistema di");
-define("LAN_CRON_06_1", "Trigger del Processo di Ban");
-define("LAN_CRON_6", "Non poteva importare Prefs");
-define("LAN_CRON_7", "Non poteva importare le impostazioni di temporizzazione");
-define("LAN_CRON_8", "Impostazioni di temporizzazione importati per");
-define("LAN_CRON_9", "[x] minuti e [y] secondi fa.");
-define("LAN_CRON_10", "[y] secondi fa.");
-define("LAN_CRON_11", "Crons attivo");
-define("LAN_CRON_12", "Ultimo aggiornamento di cron");
-define("LAN_CRON_13", "Si prega di assicurarsi che il cron. php è eseguibile.");
-define("LAN_CRON_14", "Si prega di /cron.php CHMOD a 755.");
-define("LAN_CRON_15", "Utilizzare il seguente comando Cron");
-define("LAN_CRON_16", "Utilizzando il pannello di controllo del server (es. cPanel, DirectAdmin, Plesk ecc.) si prega di creare un crontab per eseguire questo comando sul server ogni minuto.");
-define("LAN_CRON_20_1", "Verifica aggiornamento e107");
-define("LAN_CRON_20_2", "Verifica e107.org per gli aggiornamenti di base");
-define("LAN_CRON_20_3", "Consigliato per mantenere il sistema aggiornato.");
-define("LAN_CRON_20_4", "Aggiornare questo repository Git");
-define("LAN_CRON_20_5", "Aggiornare l'installazione di e107 con i file più recenti da github.");
-define("LAN_CRON_20_6", "Consigliato solo per gli sviluppatori.");
-define("LAN_CRON_20_8", "Può causare instabilità del sito!");
-define("LAN_CRON_30", "Ogni minuto");
-define("LAN_CRON_31", "Ogni minuto");
-define("LAN_CRON_32", "Ogni 5 minuti");
-define("LAN_CRON_33", "Ogni 10 minuti");
-define("LAN_CRON_34", "Ogni 15 minuti");
-define("LAN_CRON_35", "Ogni 30 minuti");
-define("LAN_CRON_36", "Ogni ora");
-define("LAN_CRON_37", "Ogni altra ora");
-define("LAN_CRON_38", "Ogni 3 ore");
-define("LAN_CRON_39", "Ogni 6 ore");
-define("LAN_CRON_40", "Ogni giorno");
-define("LAN_CRON_41", "Ogni mese");
-define("LAN_CRON_42", "Ogni giorno della settimana");
-define("LAN_CRON_50", "Minute (s):");
-define("LAN_CRON_51", "Ora (e):");
-define("LAN_CRON_52", "Negli ultimi giorni:");
-define("LAN_CRON_53", "Mesi:");
-define("LAN_CRON_54", "Giorno(i) della Settimana:");
-define("LAN_CRON_55", "Bckup del Database Fallito");
-define("LAN_CRON_56", "Backup del Database Completo");
-define("LAN_CRON_60", "Vai a cPanel");
-define("LAN_CRON_61", "Genera una nuova cron password");
-define("LAN_CRON_62", "Esegui la funzione config[b][x][/b]");
-define("LAN_CRON_63", "La funzione Config [b][x][/b] Non Trovata.");
-define("LAN_CRON_64", "Un amministratore può automatizzare le attività utilizzando Task Schedule e107. [Br] Nella scheda Gestione, è possibile modificare, eliminare ed eseguire compiti. [Br] Quando si modifica un compito si possono settare minuti, ore, giorni, mese o giorno della settimana in cui si desidera eseguire le attività. Utilizzare * per eseguire per ciascun periodo. Utilizzare la proprietà Active su Abilitato Task [br] Nota:.. Si consiglia di non eliminare i processi standard di [br]");
-define("LAN_CRON_BACKUP", "Backup");
-define("LAN_CRON_LOGGING", "Registrazione");
-define("LAN_CRON_RUNNING", "In Esecuzione");
-define("LAN_CRON_65", "Aggiorna il Repository Git  dei Template");
-define("LAN_CRON_66", "Non ho trovato un Repository Git");
-define("LAN_CRON_67", "Non ho trovato nella cartella del template il Git Repository");
+
+return [
+    'PAGE_NAME'	=>  "Attività Pianificate (Cron)",
+    'LAN_CRON_M_02' => "Aggiorna",
+    'LAN_CRON_2' => "Funzione",
+    'LAN_CRON_3' => "Tab",
+    'LAN_CRON_4' => "Ultima esecuzione",
+    'LAN_CRON_01_1' => "Test Email",
+    'LAN_CRON_01_2' => "Invia un'email di test a [eml].",
+    'LAN_CRON_01_3' => "Consigliato per testare il sistema di pianificazione.",
+    'LAN_CRON_02_1' => "Coda Mail",
+    'LAN_CRON_02_2' => "Elabora la coda della posta.",
+    'LAN_CRON_03_1' => "Controllo Email Rimbalzate",
+    'LAN_CRON_03_2' => "Controlla le email non consegnate (bounced).",
+    'LAN_CRON_04_1' => "Controllo Riesecuzione Ban",
+    'LAN_CRON_04_2' => "Elabora i trigger di rimbalzo dei ban.",
+    'LAN_CRON_04_3' => "Necessario solo se la riattivazione dei ban è abilitata.",
+    'LAN_CRON_05_1' => "Backup del Database",
+    'LAN_CRON_05_2' => "Esegui il backup del database di sistema in",
+    'LAN_CRON_06_1' => "Elabora Trigger Ban",
+    'LAN_CRON_6' => "Impossibile importare le preferenze",
+    'LAN_CRON_7' => "Impossibile importare le impostazioni temporali",
+    'LAN_CRON_8' => "Impostazioni temporali importate per",
+    'LAN_CRON_9' => "[x] minuti e [y] secondi fa.",
+    'LAN_CRON_10' => "[y] secondi fa.",
+    'LAN_CRON_11' => "Cron Attivi",
+    'LAN_CRON_12' => "Ultimo aggiornamento cron",
+    'LAN_CRON_13' => "Assicurati che cron.php sia eseguibile.",
+    'LAN_CRON_14' => "Imposta i permessi (CHMOD) di /cron.php a 755.",
+    'LAN_CRON_15' => "Usa il seguente comando Cron",
+    'LAN_CRON_16' => "Usando il pannello di controllo del tuo server (es. cPanel, DirectAdmin, Plesk ecc.) crea un crontab per eseguire questo comando ogni minuto.",
+    'LAN_CRON_20_1' => "Controlla aggiornamenti e107",
+    'LAN_CRON_20_2' => "Controlla e107.org per aggiornamenti del Core",
+    'LAN_CRON_20_3' => "Consigliato per mantenere il sistema aggiornato.",
+    'LAN_CRON_20_4' => "Aggiorna questo repository Git",
+    'LAN_CRON_20_5' => "Aggiorna questa installazione di e107 con gli ultimi file da GitHub.",
+    'LAN_CRON_20_6' => "Consigliato solo per sviluppatori.",
+    'LAN_CRON_20_8' => "Potrebbe causare instabilità al sito!",
+    'LAN_CRON_30' => "Ogni minuto",
+    'LAN_CRON_31' => "Ogni due minuti",
+    'LAN_CRON_32' => "Ogni 5 minuti",
+    'LAN_CRON_33' => "Ogni 10 minuti",
+    'LAN_CRON_34' => "Ogni 15 minuti",
+    'LAN_CRON_35' => "Ogni 30 minuti",
+    'LAN_CRON_36' => "Ogni ora",
+    'LAN_CRON_37' => "Ogni due ore",
+    'LAN_CRON_38' => "Ogni 3 ore",
+    'LAN_CRON_39' => "Ogni 6 ore",
+    'LAN_CRON_40' => "Ogni giorno",
+    'LAN_CRON_41' => "Ogni mese",
+    'LAN_CRON_42' => "Ogni giorno feriale",
+    'LAN_CRON_50' => "Minuto(i):",
+    'LAN_CRON_51' => "Ora(e):",
+    'LAN_CRON_52' => "Giorno(i):",
+    'LAN_CRON_53' => "Mese(i):",
+    'LAN_CRON_54' => "Giorno della settimana:",
+    'LAN_CRON_55' => "Backup del database fallito",
+    'LAN_CRON_56' => "Backup del database completato",
+    'LAN_CRON_60' => "Vai al cPanel",
+    'LAN_CRON_61' => "Genera nuovo token cron",
+    'LAN_CRON_62' => "Esecuzione funzione di configurazione [b][x][/b]",
+    'LAN_CRON_63' => "Funzione di configurazione [b][x][/b] NON trovata.",
+    'LAN_CRON_64' => "Un amministratore può automatizzare le attività utilizzando e107 Schedule Tasks. [br] Nella scheda Gestione, puoi modificare, eliminare ed eseguire le attività. [br][br] Quando modifichi un'attività puoi impostare minuti, ore, giorni, mesi o il giorno della settimana. Usa * per eseguire in ogni periodo. Usa la proprietà Attivo per abilitare l'attività.[br][br] Nota: Si consiglia di non eliminare i lavori standard.[br]",
+    'LAN_CRON_BACKUP' => "Backup",
+    'LAN_CRON_LOGGING' => "Log",
+    'LAN_CRON_RUNNING' => "In esecuzione",
+    'LAN_CRON_65' => "Aggiorna repository git del tema",
+    'LAN_CRON_66' => "Nessun repository git trovato",
+    'LAN_CRON_67' => "Nessun repository git trovato nella cartella del tema",
+];

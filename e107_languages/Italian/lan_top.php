@@ -1,20 +1,29 @@
 <?php
+/*
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
+|
+|     $Source: /cvs_backup/e107_0.8/e107_languages/English/lan_top.php,v $
+|     $Revision$
+|     $Date$
+|     $Author$
++----------------------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
 
-define("TOP_LAN_0", "Forum Top poster");
-define("TOP_LAN_1", "Nome utente");
-define("TOP_LAN_2", "Post");
-define("TOP_LAN_3", "Commento di top poster");
-define("TOP_LAN_5", "Chatbox top poster");
-define("TOP_LAN_6", "Valutazione del sito");
-define("LAN_1", "Thread");
-define("LAN_2", "Poster");
-define("LAN_3", "Visualizzazioni");
-define("LAN_4", "Risposte");
-define("LAN_5", "Lastpost");
-define("LAN_6", "Discussioni");
-define("LAN_7", "Discussioni più attive");
-define("LAN_8", "Top poster");
+return [
+    'TOP_LAN_0' => "Migliori Autori Forum",
+    'TOP_LAN_1' => "Nome Utente",
+    'TOP_LAN_2' => "Post",
+    'TOP_LAN_3' => "Migliori Autori Commenti",
+    'TOP_LAN_5' => "Migliori Autori Chatbox",
+    'TOP_LAN_6' => "Valutazione Sito",
+    'LAN_1' => "Discussione",
+    'LAN_2' => "Autore",
+    'LAN_3' => "Visite",
+    'LAN_4' => "Risposte",
+    'LAN_5' => "Ultimo post",
+    'LAN_6' => "Discussioni",
+    'LAN_7' => "Discussioni più Attive",
+    'LAN_8' => "Migliori Autori",
+];

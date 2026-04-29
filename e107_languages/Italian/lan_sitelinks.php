@@ -1,8 +1,16 @@
 <?php
+/*
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * English language file - for site links 
+ *
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
 
-define("LAN_SITELINKS_183", "Menu principale");
-define("LAN_SITELINKS_502", "Area Admin");
+return [
+    'LAN_SITELINKS_183' => "Menu Principale",
+];

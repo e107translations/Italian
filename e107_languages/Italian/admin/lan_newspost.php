@@ -1,139 +1,145 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 23:37:27
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
 */
-define("NWSLAN_4", "News - Notizie esistenti");
-define("NWSLAN_6", "Categoria");
-define("NWSLAN_13", "Corpo");
-define("NWSLAN_14", "Esteso");
-define("NWSLAN_18", "Sono consentiti i commenti essere inviato a questa notizia");
-define("NWSLAN_19", "Attivazione");
-define("NWSLAN_21", "Attivare tra");
-define("NWSLAN_24", "Anteprima nuovo");
-define("NWSLAN_25", "News di aggiornamento nel database");
-define("NWSLAN_26", "Pubblicare notizie al database");
-define("NWSLAN_27", "Anteprima");
-define("NWSLAN_29", "Notizie - Aggiungi nuovo elemento");
-define("NWSLAN_29a", "Notizie - aggiornamento esistente elemento");
-define("NWSLAN_31", "Notizia");
-define("NWSLAN_32", "cancellato");
-define("NWSLAN_33", "Categoria News");
-define("NWSLAN_34", "Elemento di notizie presentate");
-define("NWSLAN_35", "News categoria salvato");
-define("NWSLAN_36", "News categoria aggiornato");
-define("NWSLAN_37", "Sei sicuro di che voler eliminare questa categoria?");
-define("NWSLAN_38", "Sei sicuro di che voler eliminare questo elemento notizie presentate?");
-define("NWSLAN_39", "Sei sicuro di che voler eliminare questa notizia?");
-define("NWSLAN_43", "Nessun elemento di novità");
-define("NWSLAN_44", "Notizie prima pagina");
-define("NWSLAN_45", "Creare la notizia");
-define("NWSLAN_46", "Categorie");
-define("NWSLAN_46a", "Notizie - categorie");
-define("NWSLAN_47", "Notizie presentate");
-define("NWSLAN_48", "Opzioni di notizie");
-define("NWSLAN_49", "Inserite");
-define("NWSLAN_51", "Categorie di News esistenti");
-define("NWSLAN_52", "Nome della categoria");
-define("NWSLAN_53", "Icona di categoria");
-define("NWSLAN_54", "Guarda le immagini");
-define("NWSLAN_55", "Aggiornamento News categoria");
-define("NWSLAN_56", "Creare la categoria News");
-define("NWSLAN_57", "Elemento");
-define("NWSLAN_58", "Inserisci");
-define("NWSLAN_59", "Nessun notizie presentate");
-define("NWSLAN_63", "Ricerca newsposts");
-define("NWSLAN_66", "Caricare");
-define("NWSLAN_67", "Immagine/Video");
-define("NWSLAN_69", "Caricare un'immagine o un file per l'utilizzo nella notizia");
-define("NWSLAN_72", "Visualizza solo la notizia tra determinate date");
-define("NWSLAN_74", "Scegli come e dove è pubblicato la notizia");
-define("NWSLAN_75", "Predefinito - post alla pagina anteriore");
-define("NWSLAN_76", "Titolo solo - post alla pagina anteriore");
-define("NWSLAN_77", "Post di altri menu news");
-define("NWSLAN_83", "Esteso post news");
-define("NWSLAN_84", "Scegliere quali i visitatori potranno vedere la notizia");
-define("NWSLAN_86", "Menu del piè di pagina di categoria News");
-define("NWSLAN_87", "Colonne di categoria News");
-define("NWSLAN_88", "Limite di visualizzazione predefinita per pagina");
-define("NWSLAN_90", "Preferenze di notizie");
-define("NWSLAN_100", "Abilitare il caricamento delle immagini sulla pagina inviare News");
-define("NWSLAN_101", "Ridimensionamento automatico dell'immagine inviato");
-define("NWSLAN_102", "larghezza in pixel o lasciare vuoto per disabilitare.");
-define("NWSLAN_103", "ri-post");
-define("NWSLAN_104", "da");
-define("NWSLAN_105", "Casella di controllo per aggiornare data timbro di notizia ora corrente");
-define("NWSLAN_106", "Forse letta da inviare-News:");
-define("NWSLAN_107", "Attivare editor WYSIWYG sulla pagina Invia-News.");
-define("NWSLAN_108", "il");
-define("NWSLAN_111", "Visualizza data nuova intestazione");
-define("NWSLAN_112", "Se questa casella è spuntata, una scatola contenente la data verrà visualizzata sopra gli articoli di notizie ha pubblicati un nuovo giorno, utile per distinguere i messaggi in giorni diversi");
-define("NWSLAN_113", "Usa modello non standard per il layout di notizie");
-define("NWSLAN_114", "Se utilizzi il tema ha un modello di layout di notizie, utilizzare questa invece il layout generico");
-define("NWSLAN_115", "Limite di archivio");
-define("NWSLAN_116", "Prima aggiornare le preferenze con la visualizzazione modificata per impostazione di pagina, quindi aggiornare nuovamente dopo aver impostato la preferenza di archivio notizie. (0 è ONU-attivato)");
-define("NWSLAN_117", "Impostare il titolo per l'archivio delle news");
-define("NWSLAN_120", "Testo da visualizzare nella parte superiore di inviare notizie");
-define("NWSLAN_121", "Nulla trovati per %s");
-define("NWSLAN_123", "Pubblicato");
-define("NWSLAN_127", "Modello predefinito");
-define("NWSLAN_128", "Impostare una stringa da utilizzare nell'URL di pagine di notizie. Questo funzionerà solo corretto. htaccess regole e <a href='%s'>config eURL</a><br>Risolto URL basato sul valore corrente:");
-define("LAN_NEWS_28", "Appiccicoso");
-define("LAN_NEWS_29", "Selezionare se la notizia sarà appiccicoso");
-define("LAN_NEWS_30", "Se selezionato, notizia apparirà sopra tutti gli altri");
-define("LAN_NEWS_32", "Data timbro");
-define("LAN_NEWS_33", "Impostare l'indicatore di data per l'elemento corrente di notizie");
-define("LAN_NEWS_37", "Un URL per riga)");
-define("LAN_NEWS_49", "Tipo di rendering");
-define("LAN_NEWS_51", "Modifica dell'autore notizia può essere effettuata:");
-define("LAN_NEWS_52", "Informazioni generali");
-define("LAN_NEWS_53", "Opzioni avanzate");
-define("LAN_NEWS_55", "Manutenzione");
-define("LAN_NEWS_57", "Procedere");
-define("LAN_NEWS_59", "Manutenzione di notizie");
-define("LAN_NEWS_60", "Commento totale");
-define("LAN_NEWS_61", "Eliminare anche i commenti non consentiti");
-define("LAN_NEWS_62", "Errore di accesso al database, o nessun elemento di novità trovato");
-define("LAN_NEWS_63", "Creare la categoria");
-define("LAN_NEWS_64", "Vecchio presentato");
-define("LAN_NEWS_65", "Si prega di scegliere stringa SEF URL univoca per questa categoria");
-define("LAN_NEWS_67", "Chiudere");
-define("LAN_NEWS_68", "Elemento inoltrato");
-define("LAN_NEWS_69", "Area predefinita");
-define("LAN_NEWS_70", "Area predefinita - titolo");
-define("LAN_NEWS_71", "Area predefinita - titolo/riepilogo");
-define("LAN_NEWS_72", "Barra Laterale - Altre news");
-define("LAN_NEWS_73", "Barra Laterale- Altre News2");
-define("LAN_NEWS_74", "Carosello");
-define("LAN_NEWS_75", "Featurebox");
-define("LAN_NEWS_88", "Determina come dovrebbe apparire la pagina delle news predefinito.");
-define("LAN_NEWS_89", "Notificare questi servizi quando si creare/aggiornare le notizie.");
-define("LAN_NEWS_90", "Uno per riga.");
-define("LAN_NEWS_91", "Limite di visualizzazione elenco per pagina");
-define("LAN_NEWS_92", "es. News.php?all o news.php?cat.1 o news.php?tag=xxx");
-define("LAN_NEWS_93", "Elenco-visualizzare il contenuto");
-define("LAN_NEWS_94", "Gli elementi assegnati a questi modelli verranno visualizzati nell'elenco.");
-define("LAN_NEWS_95", "Un'altra notizia sta usando il SEF URL: [x]");
-define("LAN_NEWS_96", "Approva");
-define("LAN_NEWS_97", "Menù Griglia News");
-define("LAN_NEWS_98", "Servizi Ping");
-define("LAN_NEWS_99", "Si accettano solo immagini più grandi di");
-define("LAN_NEWS_100", "Tutte le taglie");
-define("LAN_NEWS_101", "Invia News");
-define("LAN_NEWS_102", "Apri in una nuova tabella");
-define("LAN_NEWS_103", "Notifica per Email");
-define("LAN_NEWS_104", "Attivare una notifica via email quando si invia questo modulo.");
-define("LAN_NEWS_105", "Notifica Email attivato!");
-define("LAN_NEWS_106", "Gli articoli delle News devono includere 'tutti'  per le notifiche email di lavoro");
-define("LAN_NEWS_107", "Controlla lo stato del Ping");
-define("LAN_NEWS_108", "L'URL Personalizzato é diverso dal Titolo della notizia");
-define("LAN_NEWS_109", "Attivare una notifica via email quando si invia questo modulo.");
-define("LAN_NEWS_110", "Scadenza Cache News");
-define("LAN_NEWS_111", "Tempo in minuti. Si applica solo quando cache di sistema è attivata.");
-define("LAN_NEWS_112", "Seleziona il formato dell'URL. Conteggio record (ad es. pagina=20, pagina=40, pagina=60 ecc.) o numero di pagina (ad es. pagina=1, pagina=2, pagina=3 ecc.). Attenzione: se modificati, alcuni URL delle news dovranno essere reindicizzati dai motori di ricerca.");
+
+// define("NWSLAN_1", "News story deleted.");
+// define("NWSLAN_2", "Please tick the confirm box to delete this news item.");
+// define("NWSLAN_3", "No news items yet.");
+
+return [
+    'NWSLAN_4' => "News - News Esistenti",
+    'NWSLAN_6' => "Categoria",
+    'NWSLAN_13' => "Corpo",
+    'NWSLAN_14' => "Esteso",
+    'NWSLAN_18' => "Permetti di pubblicare commenti a questa notizia",
+    'NWSLAN_19' => "Attivazione",
+    'NWSLAN_21' => "Attiva tra",
+    'NWSLAN_24' => "Anteprima di nuovo",
+    'NWSLAN_25' => "Aggiorna news nel database",
+    'NWSLAN_26' => "Pubblica news nel database",
+    'NWSLAN_27' => "Anteprima",
+    'NWSLAN_29' => "News - Aggiungi Nuovo Elemento",
+    'NWSLAN_29a' => "News - Aggiorna Elemento Esistente",
+    'NWSLAN_31' => "Notizia",
+    'NWSLAN_32' => "eliminata",
+    'NWSLAN_33' => "Categoria News",
+    'NWSLAN_34' => "Notizia inviata",
+    'NWSLAN_35' => "Categoria News Salvata",
+    'NWSLAN_36' => "Categoria News Aggiornata",
+    'NWSLAN_37' => "Sei sicuro di voler eliminare questa categoria?",
+    'NWSLAN_38' => "Sei sicuro di voler eliminare questa notizia inviata?",
+    'NWSLAN_39' => "Sei sicuro di voler eliminare questa notizia?",
+    'NWSLAN_43' => "Nessuna notizia",
+    'NWSLAN_44' => "Pagina Principale News",
+    'NWSLAN_45' => "Crea Notizia",
+    'NWSLAN_46' => "Categorie",
+    'NWSLAN_46a' => "News - Categorie",
+    'NWSLAN_47' => "News Inviate",
+    'NWSLAN_48' => "Opzioni News",
+    'NWSLAN_49' => "Inviato da",
+    'NWSLAN_51' => "Categorie News Esistenti",
+    'NWSLAN_52' => "Nome Categoria",
+    'NWSLAN_53' => "Icona Categoria",
+    'NWSLAN_54' => "Visualizza Immagini",
+    'NWSLAN_55' => "Aggiorna Categoria News",
+    'NWSLAN_56' => "Crea Categoria News",
+    'NWSLAN_57' => "Elemento",
+    'NWSLAN_58' => "Pubblica",
+    'NWSLAN_59' => "Nessuna news inviata",
+    'NWSLAN_63' => "Cerca tra i post",
+    'NWSLAN_66' => "Carica",
+    'NWSLAN_67' => "Immagine/Video",
+    'NWSLAN_69' => "Carica un'immagine o un file da usare nella notizia",
+    'NWSLAN_72' => "Mostra la notizia solo tra determinate date",
+    'NWSLAN_74' => "Seleziona come e dove viene pubblicata la notizia",
+    'NWSLAN_75' => "Predefinito - pubblica in home page",
+    'NWSLAN_76' => "Solo titolo - pubblica in home page",
+    'NWSLAN_77' => "Pubblica in altro menu news",
+    'NWSLAN_83' => "Post news esteso",
+    'NWSLAN_84' => "Scegli quali visitatori vedranno la notizia",
+    'NWSLAN_86' => "Menu a piè di pagina categoria news",
+    'NWSLAN_87' => "Colonne categoria news",
+    'NWSLAN_88' => "Limite visualizzazione predefinita per pagina",
+    'NWSLAN_90' => "Preferenze News",
+    'NWSLAN_100' => "Abilita il caricamento immagini nella pagina Invia News",
+    'NWSLAN_101' => "Ridimensionamento automatico dell'immagine inviata",
+    'NWSLAN_102' => "larghezza in pixel o lascia vuoto per disabilitare.",
+    'NWSLAN_103' => "ri-pubblica",
+    'NWSLAN_104' => "da",
+    'NWSLAN_105' => "Spunta la casella per aggiornare il timestamp della notizia all'ora corrente",
+    'NWSLAN_106' => "Invia-News può essere effettuato da:",
+    'NWSLAN_107' => "Abilita l'editor WYSIWYG nella pagina Invia-News.",
+    'NWSLAN_108' => "il",
+    'NWSLAN_111' => "Mostra nuova intestazione data",
+    'NWSLAN_112' => "Se questa casella è spuntata, un riquadro contenente la data verrà visualizzato sopra le notizie pubblicate in un nuovo giorno, utile per distinguere i post di giorni diversi",
+    'NWSLAN_113' => "Usa template non standard per il layout delle news",
+    'NWSLAN_114' => "se il tema che stai usando ha un template per il layout delle news, usa quello invece del layout generico",
+    'NWSLAN_115' => "Limite archivio",
+    'NWSLAN_116' => "Aggiorna prima le preferenze con l'impostazione di visualizzazione per pagina modificata, poi aggiorna di nuovo dopo aver impostato la preferenza dell'archivio news. (0 è disattivato)",
+    'NWSLAN_117' => "Imposta il titolo per l'archivio news",
+    'NWSLAN_120' => "Testo da mostrare all'inizio di Invia News",
+    'NWSLAN_121' => "Nulla trovato per %s",
+    'NWSLAN_123' => "Inviato",
+    'NWSLAN_127' => "Template predefinito",
+    'NWSLAN_128' => "Imposta una stringa da usare nell'URL delle pagine news. Funzionerà solo con regole .htaccess appropriate e <a href='%s'>configurazione eURL</a><br />URL risolto basato sul valore attuale:",
+    'LAN_NEWS_28' => "Sticky (In evidenza)",
+    'LAN_NEWS_29' => "Seleziona se la notizia sarà in evidenza",
+    'LAN_NEWS_30' => "Se selezionato, la notizia apparirà sopra tutte le altre",
+    'LAN_NEWS_32' => "Timestamp data",
+    'LAN_NEWS_33' => "Imposta il timestamp per la notizia corrente",
+    'LAN_NEWS_37' => "Un URL per riga)",
+    'LAN_NEWS_49' => "Tipo di rendering",
+    'LAN_NEWS_51' => "La modifica dell'autore della notizia può essere effettuata da:",
+    'LAN_NEWS_52' => "Informazioni Generali",
+    'LAN_NEWS_53' => "Opzioni Avanzate",
+    'LAN_NEWS_55' => "Manutenzione",
+    'LAN_NEWS_57' => "Procedi",
+    'LAN_NEWS_59' => "Manutenzione News",
+    'LAN_NEWS_60' => "Totale Commenti",
+    'LAN_NEWS_61' => "Elimina anche i commenti non consentiti",
+    'LAN_NEWS_62' => "Errore di accesso al database, o nessuna notizia trovata",
+    'LAN_NEWS_63' => "Crea Categoria",
+    'LAN_NEWS_64' => "Vecchi Inviati",
+    'LAN_NEWS_65' => "Per favore scegli una stringa URL SEF unica per questa categoria",
+    'LAN_NEWS_67' => "Chiudi",
+    'LAN_NEWS_68' => "Elemento Inviato",
+    'LAN_NEWS_69' => "Area Predefinita",
+    'LAN_NEWS_70' => "Area Predefinita - Titolo",
+    'LAN_NEWS_71' => "Area Predefinita - Titolo/Riassunto",
+    'LAN_NEWS_72' => "Sidebar - Altre news",
+    'LAN_NEWS_73' => "Sidebar - Altre news 2",
+    'LAN_NEWS_74' => "Carousel",
+    'LAN_NEWS_75' => "Featurebox",
+    'LAN_NEWS_88' => "Determina come dovrebbe apparire la pagina news predefinita.",
+    'LAN_NEWS_89' => "Notifica questi servizi quando crei/aggiorni notizie.",
+    'LAN_NEWS_90' => "Uno per riga.",
+    'LAN_NEWS_91' => "Limite visualizzazione lista per pagina",
+    'LAN_NEWS_92' => "es. news.php?all o news.php?cat.1 o news.php?tag=xxx",
+    'LAN_NEWS_93' => "Contenuto visualizzazione lista",
+    'LAN_NEWS_94' => "Gli elementi assegnati a questi template saranno visualizzati nella lista.",
+    'LAN_NEWS_95' => "Un'altra notizia sta usando l'URL SEF: [x]",
+    'LAN_NEWS_96' => "Approva",
+    'LAN_NEWS_97' => "Menu Griglia News",
+    'LAN_NEWS_98' => "Servizi di Ping",
+    'LAN_NEWS_99' => "Accetta solo immagini più grandi di",
+    'LAN_NEWS_100' => "Qualsiasi dimensione",
+    'LAN_NEWS_101' => "Invia News",
+    'LAN_NEWS_102' => "Apri in una nuova scheda",
+    'LAN_NEWS_103' => "Notifica via email",
+    'LAN_NEWS_104' => "Attiva una notifica via email quando invii questo modulo.",
+    'LAN_NEWS_105' => "Notifica email attivata!",
+    'LAN_NEWS_106' => "La visibilità della notizia deve includere 'tutti' affinché le notifiche email funzionino.",
+    'LAN_NEWS_107' => "Controllo dello stato del Ping",
+    'LAN_NEWS_108' => "L'URL SEF è diverso dal titolo della tua notizia.",
+    'LAN_NEWS_109' => "Attiva una notifica via email quando invii questo modulo.",
+    'LAN_NEWS_110' => "Timeout Cache News",
+    'LAN_NEWS_111' => "Tempo in minuti. Si applica solo quando la cache di sistema è abilitata.",
+    'LAN_NEWS_112' => "Seleziona il formato URL. O conteggio record (es. page=20, page=40, page=60 ecc.) o numero pagina (es. page=1, page=2, page=3 ecc.). Attenzione: Se modificati, alcuni URL delle news dovranno essere re-indicizzati dai motori di ricerca.",
+    'LAN_NEWS_113' => "Limita solo ai post scritti da se stessi",
+    'LAN_NEWS_114' => "Abilita questa preferenza per impedire ai membri del gruppo di visualizzare e modificare i post scritti da altri amministratori.",
+];
+

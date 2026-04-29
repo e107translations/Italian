@@ -1,46 +1,48 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2022/04/12 22:56:07
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * e107 website system
+ *
+ * Copyright (C) 2008-2025 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Plugin - Newsletter 
+ *
 */
 
-define("NLLAN_04", "Il newsletter plugin è stato installato con successo. Per configurare, tornare alla pagina principale admin e cliccare su \'Newsletter\' nella sezione plugin.");
-define("NLLAN_05", "Nessuna newsletter ancora definita");
-define("NLLAN_07", "Abbonati");
-define("NLLAN_10", "Newsletters esistente");
-define("NLLAN_11", "Nessun problema di newsletter ancora.");
-define("NLLAN_12", "Problema");
-define("NLLAN_13", "[ID principale] Oggetto/titolo");
-define("NLLAN_14", "Spedita?");
-define("NLLAN_17", "Non inviati - Clicca per inviare");
-define("NLLAN_18", "Sei sicuro che vuoi questo problema di posta agli abbonati?");
-define("NLLAN_19", "Sei sicuro di che voler eliminare questo numero della newsletter?");
-define("NLLAN_20", "Problemi esistenti");
-define("NLLAN_23", "Intestazione");
-define("NLLAN_24", "Piè di pagina");
-define("NLLAN_30", "Newsletter");
-define("NLLAN_31", "Oggetto / titolo");
-define("NLLAN_32", "Numero di emissione");
-define("NLLAN_33", "Testo");
-define("NLLAN_36", "Numero della Newsletter di aggiornamento");
-define("NLLAN_37", "Creare Newsletter edizione");
-define("NLLAN_39", "Newsletter edizione salvato nel database - per l'invio, fare clic il \'Release Issue\' pulsante nel menu opzioni.");
-define("NLLAN_40", "Mailout aggiunto alla coda di invio delle email - questione inviata a [x] abbonati.");
-define("NLLAN_41", "Non abbonati trovati - e-mail cancellata");
-define("NLLAN_44", "Prima pagina newsletter");
-define("NLLAN_45", "Creare Newsletter");
-define("NLLAN_46", "Creare Mailing");
-define("NLLAN_47", "Opzioni newsletter");
-define("NLLAN_54", "L'invio di");
-define("NLLAN_56", "Newsletter ID non disponibile");
-define("NLLAN_62", "Utente è vietato! (o non completamente firmato fino)");
-define("NLLAN_63", "Totale utenti iscritti");
-define("NLLAN_64", "Tornare a frontpage Newsletter");
-define("NLLAN_65", "Gli abbonati Panoramica newsletter ID");
-define("NLLAN_66", "Vostra lista di abbonati lettera di notizie ha stato disinfettato.");
+return [
+    'NLLAN_04' => "Il plugin newsletter è stato installato con successo. Per configurarlo, torna alla pagina principale di amministrazione e clicca su \"Newsletter\" nella sezione plugin.",
+    'NLLAN_05' => "Nessuna newsletter ancora definita",
+    'NLLAN_07' => "Iscritti",
+    'NLLAN_10' => "Newsletter Esistenti",
+    'NLLAN_11' => "Nessuna uscita della newsletter ancora presente.",
+    'NLLAN_12' => "Uscita",
+    'NLLAN_13' => "[ ID Superiore ] Oggetto/Titolo",
+    'NLLAN_14' => "Inviata per email?",
+    'NLLAN_17' => "Non inviata - clicca per inviare",
+    'NLLAN_18' => "Sei sicuro di voler inviare questa uscita agli iscritti?",
+    'NLLAN_19' => "Sei sicuro di voler eliminare questa uscita della newsletter?",
+    'NLLAN_20' => "Uscite Esistenti",
+    'NLLAN_23' => "Intestazione",
+    'NLLAN_24' => "Piè di pagina",
+    'NLLAN_30' => "Newsletter",
+    'NLLAN_31' => "Oggetto / Titolo",
+    'NLLAN_32' => "Numero Uscita",
+    'NLLAN_33' => "Testo",
+    'NLLAN_36' => "Aggiorna Uscita Newsletter",
+    'NLLAN_37' => "Crea Uscita Newsletter",
+    'NLLAN_39' => "Uscita della newsletter salvata nel database - per inviarla, clicca sul pulsante \"Rilascia Uscita\" nel menu Opzioni.",
+    'NLLAN_40' => "Invio aggiunto alla coda di invio - uscita inviata a [x] iscritto/i.",
+    'NLLAN_41' => "Nessun iscritto trovato - invio email annullato",
+    'NLLAN_44' => "Pagina Principale Newsletter",
+    'NLLAN_45' => "Crea Newsletter",
+    'NLLAN_46' => "Crea Invio",
+    'NLLAN_47' => "Opzioni Newsletter",
+    'NLLAN_54' => "Invio in corso",
+    'NLLAN_56' => "ID Newsletter non disponibile",
+    'NLLAN_62' => "L'utente è bandito! (o non è completamente registrato)",
+    'NLLAN_63' => "Totale iscritti",
+    'NLLAN_64' => "Torna alla pagina principale Newsletter",
+    'NLLAN_65' => "Panoramica iscritti ID newsletter",
+    'NLLAN_66' => "La tua lista di iscritti alla newsletter è stata ripulita.",
+];

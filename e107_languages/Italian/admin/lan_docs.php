@@ -1,11 +1,15 @@
 <?php
+/*
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("LAN_DOCS", "Documenti di sistema");
-define("LAN_DOCS_SECTIONS", "Sezioni");
-define("LAN_DOCS_GOTOP", "Vai all'inizio");
-define("LAN_DOCS_ANSWER", "Risposta");
-define("LAN_DOCS_QUESTION", "Domanda");
+return [
+    'LAN_DOCS' => "Documentazione di Sistema",
+    'LAN_DOCS_SECTIONS' => "Sezioni",
+    'LAN_DOCS_GOTOP' => "Vai su",
+    'LAN_DOCS_ANSWER' => "Risposta",
+    'LAN_DOCS_QUESTION' => "Domanda",
+];

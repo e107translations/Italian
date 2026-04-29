@@ -1,9 +1,8 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("FOR_SCH_LAN_2", "Seleziona forum");
-define("FOR_SCH_LAN_4", "Intero post");
-define("FOR_SCH_LAN_5", "Come parte del thread");
+return [
+    'FORLAN_121' => "Cerca nel Forum",
+    'FORLAN_122' => "Tutti i forum",
+    'FORLAN_123' => "Cerca solo nel titolo della discussione",
+    'FORLAN_124' => "Risultati trovati nel Forum",
+];

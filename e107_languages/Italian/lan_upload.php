@@ -1,45 +1,47 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 12:44:08
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
+
++----------------------------------------------------------------------------+
 */
-define("PAGE_NAME", "Caricare");
-define("LAN_UL_001", "Indirizzo email non valido");
-define("LAN_UL_002", "Non si dispone delle autorizzazioni corrette per caricare i file su questo server.");
-define("LAN_UL_020", "Errore");
-define("LAN_UL_021", "Carica errore");
-define("LAN_UL_022", "Possono variare per tipo di file");
-define("LAN_UL_023", "Tipo");
-define("LAN_UL_024", "Max dimensioni");
-define("LAN_UL_025", "Upload non ammessi");
-define("LAN_UL_032", "È necessario selezionare una categoria");
-define("LAN_UL_033", "È necessario immettere un indirizzo email valido");
-define("LAN_UL_034", "È necessario specificare il nome del file");
-define("LAN_UL_035", "È necessario immettere una descrizione");
-define("LAN_UL_036", "È necessario specificare il file da caricare");
-define("LAN_UL_037", "È necessario specificare una categoria");
-define("LAN_61", "Il tuo nome:");
-define("LAN_112", "Indirizzo email:");
-define("LAN_144", "URL del sito Web:");
-define("LAN_402", "È necessario essere un membro registrato per caricare i file su questo server.");
-define("LAN_404", "Grazie. Il caricamento sarà esaminato da un amministratore e inviato al sito, se del caso.");
-define("LAN_406", "Si prega di notare");
-define("LAN_407", "Qualsiasi altri tipi di file caricati verranno immediatamente eliminati.");
-define("LAN_408", "Ha sottolineato");
-define("LAN_409", "Nome del file.");
-define("LAN_410", "Versione");
-define("LAN_411", "File");
-define("LAN_413", "Descrizione");
-define("LAN_414", "Demo di lavoro");
-define("LAN_415", "Immettere l'URL al sito dove è possibile visualizzare demo");
-define("LAN_418", "Dimensione file massima assoluta:");
-define("LAN_419", "Tipi di file consentiti");
-define("LAN_420", "i campi sono obbligatori");
-define("LAN_UL_039", "Invia e Carica");
-define("LAN_UL_040", "Carica il File");
+
+return [
+    'PAGE_NAME' => "Upload",
+    'LAN_UL_001' => "Indirizzo email non valido",
+    'LAN_UL_002' => "Non hai i permessi corretti per caricare file su questo server.",
+    'LAN_UL_020' => "Errore",
+    'LAN_UL_021' => "Fallimento Caricamento",
+    'LAN_UL_022' => "Può variare in base al tipo di file",
+    'LAN_UL_023' => "Tipo",
+    'LAN_UL_024' => "Dimensione Massima",
+    'LAN_UL_025' => "Caricamenti non consentiti",
+    'LAN_UL_026' => "",
+    'LAN_UL_027' => "",
+    'LAN_UL_032' => "Devi selezionare una categoria",
+    'LAN_UL_033' => "Devi inserire un indirizzo email valido",
+    'LAN_UL_034' => "Devi specificare il nome del file",
+    'LAN_UL_035' => "Devi inserire una descrizione",
+    'LAN_UL_036' => "Devi specificare il file da caricare",
+    'LAN_UL_037' => "Devi specificare una categoria",
+    'LAN_UL_038' => "",
+    'LAN_61' => "Tuo Nome:",
+    'LAN_112' => "Indirizzo Email:",
+    'LAN_144' => "URL del sito:",
+    'LAN_402' => "Devi essere un membro registrato per caricare file su questo server.",
+    'LAN_404' => "Grazie. Il tuo caricamento sarà revisionato da un amministratore e pubblicato sul sito se appropriato.",
+    'LAN_406' => "Nota bene",
+    'LAN_407' => "Qualsiasi altro tipo di file caricato verrà eliminato istantaneamente.",
+    'LAN_408' => "Sottolineato",
+    'LAN_409' => "Nome del file",
+    'LAN_410' => "Versione",
+    'LAN_411' => "File",
+    'LAN_413' => "Descrizione",
+    'LAN_414' => "Demo funzionante",
+    'LAN_415' => "inserisci l'URL del sito dove è possibile visionare la demo",
+    'LAN_418' => "Dimensione massima assoluta del file:",
+    'LAN_419' => "Tipi di file consentiti",
+    'LAN_420' => "i campi sono obbligatori",
+    'LAN_UL_039' => "Invia e Carica",
+    'LAN_UL_040' => "Carica File",
+];

@@ -1,32 +1,31 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 12:34:55
++ ----------------------------------------------------------------------------+
+| 
+|     e107 website system
+|     Copyright (C) 2008-2016 e107 Inc (e107.org)
+|     Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
 |
-|        $Author: webmaster $
-+---------------------------------------------------------------+
++ ----------------------------------------------------------------------------+
 */
 
-define("RATELAN_0", "Voto");
-define("RATELAN_1", "Voti");
-define("RATELAN_2", "Come giudichi questo elemento?");
-define("RATELAN_3", "Grazie per il voto!");
-define("RATELAN_4", "Non valutato");
-define("RATELAN_5", "Vota questo:");
-define("RATELAN_6", "Effettua il login per votare questo.");
-define("RATELAN_7", "Mi Piace");
-define("RATELAN_8", "Non mi piace più");
-define("RATELAN_9", "Hai già votato");
-define("RATELAN_10", "Non è presente nessun ID per la valutazione");
-define("RATELAN_11", "Valutazione non riuscita");
-define("RATELAN_POOR", "Mediocre");
-define("RATELAN_FAIR", "Discreto");
-define("RATELAN_GOOD", "Buono");
-define("RATELAN_VERYGOOD", "Molto buono");
-define("RATELAN_EXCELLENT", "Eccellente");
 
-
-?>
+return [
+    'RATELAN_0' => "Voto",
+    'RATELAN_1' => "Voti",
+    'RATELAN_2' => "Come valuti questo elemento?",
+    'RATELAN_3' => "Grazie per aver votato!",
+    'RATELAN_4' => "Non valutato",
+    'RATELAN_5' => "Valuta questo:",
+    'RATELAN_6' => "Per favore effettua l'accesso per valutare.",
+    'RATELAN_7' => "Mi piace",
+    'RATELAN_8' => "Non mi piace",
+    'RATELAN_9' => "Hai già votato",
+    'RATELAN_10' => "Non c'è l'ID dell'elemento nella valutazione",
+    'RATELAN_11' => "Valutazione fallita",
+    'RATELAN_POOR' => "Scarso",
+    'RATELAN_FAIR' => "Mediocre",
+    'RATELAN_GOOD' => "Buono",
+    'RATELAN_VERYGOOD' => "Molto Buono",
+    'RATELAN_EXCELLENT' => "Eccellente",
+];

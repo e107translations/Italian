@@ -1,10 +1,11 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+// Messaggi di log amministratore
+//-------------------
 
-define("LAN_AL_GSMAP_01", "Importare i sitelink");
-define("LAN_AL_GSMAP_02", "Mappa del sito link cancellato");
-define("LAN_AL_GSMAP_03", "Mappa del sito link aggiunto");
-define("LAN_AL_GSMAP_04", "Mappa del sito link aggiornato");
+return [
+    'LAN_AL_GSMAP_01' => "Importazione link del sito",
+    'LAN_AL_GSMAP_02' => "Link sitemap eliminato",
+    'LAN_AL_GSMAP_03' => "Link sitemap aggiunto",
+    'LAN_AL_GSMAP_04' => "Link sitemap aggiornato",
+];

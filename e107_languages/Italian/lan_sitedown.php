@@ -1,9 +1,17 @@
 <?php
+/*
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
+|
+|     $Source: /cvs_backup/e107_0.8/e107_languages/English/lan_sitedown.php,v $
+|     $Revision$
+|     $Date$
+|     $Author$
++----------------------------------------------------------------------------+
+*/
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("PAGE_NAME", "Sito temporaneamente chiuso");
-define("LAN_SITEDOWN_00", "è temporaneamente chiuso");
-define("LAN_SITEDOWN_01", "Abbiamo temporaneamente chiuso il sito per alcune operazioni indispensabili di manutenzione. Non ci vorrà troppo tempo - si prega controllare indietro presto, ci scusiamo per l'inconveniente.");
+return [
+    'PAGE_NAME' => "Sito temporaneamente chiuso",
+    'LAN_SITEDOWN_00' => "è temporaneamente chiuso",
+    'LAN_SITEDOWN_01' => "Abbiamo temporaneamente chiuso il sito per manutenzione essenziale. Non dovrebbe volerci molto - ti preghiamo di tornare presto. Ci scusiamo per l'inconveniente.",
+];

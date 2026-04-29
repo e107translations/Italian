@@ -1,95 +1,118 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 12:49:18
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * e107 website system
+ *
+ * Language file - user-related (many generic definitions)
 */
-define("LAN_USER_01", "Nome visualizzato");
-define("LAN_USER_02", "Nome di login");
-define("LAN_USER_03", "Vero nome");
-define("LAN_USER_04", "Titolo personalizzato");
-define("LAN_USER_06", "Fotografia");
-define("LAN_USER_07", "Avatar");
-define("LAN_USER_09", "Firma");
-define("LAN_USER_10", "Nascondi e-mail");
-define("LAN_USER_12", "Classe utente");
-define("LAN_USER_13", "ID");
-define("LAN_USER_14", "Data di registrazione");
-define("LAN_USER_15", "Ultima visita");
-define("LAN_USER_16", "Visita corrente");
-define("LAN_USER_18", "Indirizzo IP");
-define("LAN_USER_19", "Divieto di");
-define("LAN_USER_20", "Prefs");
-define("LAN_USER_21", "Visite");
-define("LAN_USER_22", "Admin");
-define("LAN_USER_23", "Perms");
-define("LAN_USER_24", "Modifica della password");
-define("LAN_USER_31", "Amministratore del sito principale");
-define("LAN_USER_32", "Amministratore del sito");
-define("LAN_USER_33", "Nessuna informazione");
-define("LAN_USER_34", "fa");
-define("LAN_USER_35", "[nascoste di richiesta]");
-define("LAN_USER_36", "Clicca qui per Vista utente Commenti");
-define("LAN_USER_37", "Clicca qui per Visualizza i messaggi nel Forum");
-define("LAN_USER_38", "Clicca qui per aggiornare le informazioni");
-define("LAN_USER_39", "Clicca qui per modificare le informazioni dell'utente");
-define("LAN_USER_40", "membri precedenti");
-define("LAN_USER_41", "membro successivo");
-define("LAN_USER_42", "nessuna foto");
-define("LAN_USER_43", "eliminare foto");
-define("LAN_USER_44", "Varie");
-define("LAN_USER_45", "DESC");
-define("LAN_USER_46", "ASC");
-define("LAN_USER_49", "Non sono disponibili informazioni per l'utente come non sono registrati presso");
-define("LAN_USER_50", "Profilo membri");
-define("LAN_USER_51", "Che non è un utente valido.");
-define("LAN_USER_52", "Membri registrati");
-define("LAN_USER_53", "Ancora non iscritti.");
-define("LAN_USER_54", "Livello");
-define("LAN_USER_55", "Non avete accesso a visualizzare questa pagina.");
-define("LAN_USER_56", "Membri registrati:");
-define("LAN_USER_57", "Ordine:");
-define("LAN_USER_58", "Membri");
-define("LAN_USER_59", "E ' entrato");
-define("LAN_USER_60", "Indirizzo email:");
-define("LAN_USER_62", "Invia messaggio privato");
-define("LAN_USER_63", "Vero nome:");
-define("LAN_USER_64", "Statistiche del sito");
-define("LAN_USER_65", "Ultima visita");
-define("LAN_USER_66", "Visite al sito dal registrazione");
-define("LAN_USER_67", "Chatbox post");
-define("LAN_USER_68", "Commento Pubblicato");
-define("LAN_USER_69", "Messaggi nel forum");
-define("LAN_USER_71", "Firma:");
-define("LAN_USER_72", "Avatar:");
-define("LAN_USER_73", "scelta di contenuto/mailing list");
-define("LAN_USER_74", "Titolo personalizzato");
-define("LAN_USER_75", "Il tuo [x] è necessario");
-define("LAN_USER_76", "Sottoscritto");
-define("LAN_USER_77", "La password deve essere almeno [x] caratteri.");
-define("LAN_USER_78", "Min.");
-define("LAN_USER_79", "i caratteri.");
-define("LAN_USER_80", "il nome visualizzato sul sito");
-define("LAN_USER_81", "Nome utente:");
-define("LAN_USER_82", "il nome si utilizza per effettuare il login al sito");
-define("LAN_USER_83", "Nascondi indirizzo email?:");
-define("LAN_USER_84", "Ciò impedirà il tuo indirizzo email venga visualizzato sul sito");
-define("LAN_USER_85", "Se si desidera modificare il nome utente, è necessario chiedere un amministratore del sito");
-define("LAN_USER_86", "Dimensione massima avatar è [x] - [y] pixel");
-define("LAN_USER_87", "Autenticati per valutare questo utente");
-define("LAN_XUP_ERRM_01", "Registrazione  fallita. Questa funzionalità è disattivata.");
-define("LAN_XUP_ERRM_02", "Registrazione fallita. Fornitore di hosting errato.");
-define("LAN_XUP_ERRM_03", "Accesso fallito. Fornitore di hosting errato");
-define("LAN_XUP_ERRM_04", "Registrazione fallita. Il nome utente risulta già registrato");
-define("LAN_XUP_ERRM_05", "Registrazione fallita. L'Utente è già registrato. Utilizzata il login di accesso");
-define("LAN_XUP_ERRM_06", "Accesso fallito! Non è  stata rilevato un indirizzo di posta elettronica.Non è possibile proseguire la registrazione senza indicare un account di posta.");
-define("LAN_XUP_ERRM_07", "Socialnetwork login tester");
-define("LAN_XUP_ERRM_08", "Per cortesia disconnettiti da e107 prima di testare la procedura di registrazione e login del nuovo utente");
-define("LAN_XUP_ERRM_10", "Registrazione / Login test con [x]");
-define("LAN_XUP_ERRM_11", "Connesso:");
-define("LAN_XUP_ERRM_12", "Prova il logout");
+
+return [
+    'LAN_USER_01' => "Nome visualizzato",
+    'LAN_USER_02' => "Nome di login",
+    'LAN_USER_03' => "Nome reale",
+    'LAN_USER_04' => "Titolo personalizzato",
+    'LAN_USER_06' => "Fotografia",
+    'LAN_USER_07' => "Avatar",
+    'LAN_USER_09' => "Firma",
+    'LAN_USER_10' => "Nascondi email",
+    'LAN_USER_12' => "Classe utente",
+    'LAN_USER_13' => "ID",
+    'LAN_USER_14' => "Data di iscrizione",
+    'LAN_USER_15' => "Ultima visita",
+    'LAN_USER_16' => "Visita attuale",
+    'LAN_USER_18' => "Indirizzo IP",
+    'LAN_USER_19' => "Ban",
+    'LAN_USER_20' => "Preferenze",
+    'LAN_USER_21' => "Visite",
+    'LAN_USER_22' => "Admin",
+    'LAN_USER_23' => "Permessi",
+    'LAN_USER_24' => "Cambio password",
+    'LAN_USER_31' => "Amministratore principale del sito",
+    'LAN_USER_32' => "Amministratore del sito",
+    'LAN_USER_33' => "nessuna informazione",
+    'LAN_USER_34' => "fa",
+    'LAN_USER_35' => "[nascosto su richiesta]",
+    'LAN_USER_36' => "Clicca qui per visualizzare i commenti dell'utente",
+    'LAN_USER_37' => "Clicca qui per visualizzare i messaggi del forum",
+    'LAN_USER_38' => "Clicca qui per aggiornare le tue informazioni",
+    'LAN_USER_39' => "Clicca qui per modificare le informazioni di questo utente",
+    'LAN_USER_40' => "membro precedente",
+    'LAN_USER_41' => "membro successivo",
+    'LAN_USER_42' => "nessuna foto",
+    'LAN_USER_43' => "elimina foto",
+    'LAN_USER_44' => "Varie",
+    'LAN_USER_45' => "DESC",
+    'LAN_USER_46' => "ASC",
+    'LAN_USER_49' => "Non ci sono informazioni per quell'utente poiché non è registrato su",
+    'LAN_USER_50' => "Profilo Membro",
+    'LAN_USER_51' => "Utente non valido.",
+    'LAN_USER_52' => "Membri registrati",
+    'LAN_USER_53' => "Ancora nessun membro registrato.",
+    'LAN_USER_54' => "Livello",
+    'LAN_USER_55' => "Non hai i permessi per visualizzare questa pagina.",
+    'LAN_USER_56' => "Membri registrati:",
+    'LAN_USER_57' => "Ordine:",
+    'LAN_USER_58' => "Membro",
+    'LAN_USER_59' => "Iscritto",
+    'LAN_USER_60' => "Indirizzo Email:",
+    'LAN_USER_62' => "Invia Messaggio Privato",
+    'LAN_USER_63' => "Nome Reale:",
+    'LAN_USER_64' => "Statistiche del sito",
+    'LAN_USER_65' => "Ultima visita",
+    'LAN_USER_66' => "Visite al sito dalla registrazione",
+    'LAN_USER_67' => "Messaggi Chatbox",
+    'LAN_USER_68' => "Commenti pubblicati",
+    'LAN_USER_69' => "Messaggi del forum",
+    'LAN_USER_71' => "Firma:",
+    'LAN_USER_72' => "Avatar:",
+    'LAN_USER_73' => "scelta di Contenuti/Mailing-list",
+    'LAN_USER_74' => "Titolo personalizzato",
+    'LAN_USER_75' => "Il tuo [x] è richiesto",
+    'LAN_USER_76' => "Iscritto a",
+    'LAN_USER_77' => "La tua password deve essere lunga almeno [x] caratteri.",
+    'LAN_USER_78' => "Min.",
+    'LAN_USER_79' => "caratt.",
+    'LAN_USER_80' => "il nome visualizzato sul sito",
+    'LAN_USER_81' => "Nome utente:",
+    'LAN_USER_82' => "il nome che usi per accedere al sito",
+    'LAN_USER_83' => "Nascondere indirizzo email?:",
+    'LAN_USER_84' => "Questo impedirà la visualizzazione del tuo indirizzo email sul sito",
+    'LAN_USER_85' => "Se desideri cambiare il tuo nome utente, devi chiederlo a un amministratore del sito",
+    'LAN_USER_86' => "La dimensione massima dell'avatar è [x] x [y] pixel",
+    'LAN_USER_87' => "Accedi per valutare questo utente!",
+    'LAN_XUP_ERRM_01' => "Registrazione fallita! Questa funzione è disabilitata.",
+    'LAN_XUP_ERRM_02' => "Registrazione fallita! Provider errato.",
+    'LAN_XUP_ERRM_03' => "Accesso fallito! Provider errato.",
+    'LAN_XUP_ERRM_04' => "Registrazione fallita! Utente già autenticato.",
+    'LAN_XUP_ERRM_05' => "Registrazione fallita! L'utente esiste già. Per favore, usa il 'login'.",
+    'LAN_XUP_ERRM_06' => "Registrazione fallita! Impossibile accedere all'email dell'utente - la registrazione senza email è impossibile.",
+    'LAN_XUP_ERRM_07' => "Tester Social Login",
+    'LAN_XUP_ERRM_08' => "Per favore, esci da e107 prima di testare la procedura di login/registrazione utente.",
+    'LAN_XUP_ERRM_10' => "Test registrazione/login con [x]",
+    'LAN_XUP_ERRM_11' => "Autenticato come:",
+    'LAN_XUP_ERRM_12' => "Test logout",
+
+    // Error handling
+    'USER_ERR_01' => "Valore mancante",
+    'USER_ERR_02' => "Valore imprevisto",
+    'USER_ERR_03' => "Il valore contiene caratteri non validi",
+    'USER_ERR_04' => "Valore troppo corto",
+    'USER_ERR_05' => "Valore troppo lungo",
+    'USER_ERR_06' => "Valore duplicato",
+    'USER_ERR_07' => "Valore non consentito",
+    'USER_ERR_08' => "Inserimento disabilitato",
+    'USER_ERR_09' => "Parola non valida",
+    'USER_ERR_10' => "I campi password sono diversi",
+    'USER_ERR_11' => "Indirizzo email bannato",
+    'USER_ERR_12' => "Formato non valido per l'indirizzo email",
+    'USER_ERR_13' => "Errore dati",
+    'USER_ERR_14' => "Utente bannato",
+    'USER_ERR_15' => "Il nome utente e il nome visualizzato non possono essere diversi",
+    'USER_ERR_16' => "Errore software",
+    'USER_ERR_17' => "Valore troppo basso",
+    'USER_ERR_18' => "Valore troppo alto",
+    'USER_ERR_19' => "Errore generale",
+    'USER_ERR_20' => "Immagine troppo larga",
+    'USER_ERR_21' => "Immagine troppo alta",
+    'USER_ERR_22' => "Errore non specificato",
+    'USER_ERR_23' => "Valore non consentito (corrispondenza esatta)",
+];

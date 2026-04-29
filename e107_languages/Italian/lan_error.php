@@ -1,62 +1,39 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 12:21:11
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
++ ----------------------------------------------------------------------------+
+|     e107 website system - Language File.
++----------------------------------------------------------------------------+
 */
-define("PAGE_NAME", "Errore");
-define("LAN_ERROR_TITLE", "Accidenti");
-define("LAN_ERROR_1", "Errore 401 - autenticazione non riuscita");
-define("LAN_ERROR_2", "L'URL che hai richiesto richiede un nome utente corretto e la password. Hai inserito una nome utente/password errata oppure il tuo browser non supporta questa funzionalità.");
-define("LAN_ERROR_3", "Se pensi che questa pagina di errore è stata indicata per errore, siete pregati di informare l'amministratore della pagina di riferimento.");
-define("LAN_ERROR_4", "Errore 403 - accesso vietato");
-define("LAN_ERROR_5", "Non è consentito per recuperare l'URL o il link che hai richiesto.");
-define("LAN_ERROR_6", "Se pensi che questa pagina di errore è stata indicata per errore, siete pregati di informare l'amministratore della pagina di riferimento.");
-define("LAN_ERROR_7", "Errore 404 - documento non trovato");
-define("LAN_ERROR_9", "Se pensi che questo messaggio di errore è stato indicato per errore, siete pregati di informare l'amministratore della pagina di riferimento.");
-define("LAN_ERROR_10", "Errore 500 - intestazione contraffatta");
-define("LAN_ERROR_11", "Il server ha rilevato un errore interno o errata e non è riuscito a completare la richiesta");
-define("LAN_ERROR_12", "Se pensi che questa pagina di errore è stata indicata per errore, siete pregati di informare l'amministratore della pagina di riferimento.");
-define("LAN_ERROR_13", "Errore - Unknown");
-define("LAN_ERROR_14", "Il server ha rilevato un errore");
-define("LAN_ERROR_15", "Se pensi che questa pagina di errore è stata indicata per errore, siete pregati di informare l'amministratore della pagina di riferimento.");
-define("LAN_ERROR_16", "Il tentativo non riuscito di accedere");
-define("LAN_ERROR_17", "è stato registrato.");
-define("LAN_ERROR_18", "A quanto pare, vi siete riferiti qui di");
-define("LAN_ERROR_19", "Purtroppo, c'è un link obsoleto a quell'indirizzo.");
-define("LAN_ERROR_20", "Clicca qui per andare alla home page di questo sito");
-define("LAN_ERROR_21", "L'URL richiesto non potrebbe essere trovato su questo server. Il link che hai seguito è probabilmente obsoleto.");
-define("LAN_ERROR_22", "Clicca qui per andare alla pagina di ricerca di questo sito");
-define("LAN_ERROR_23", "Il tentativo di accesso");
-define("LAN_ERROR_24", "era infruttuoso.");
-define("LAN_ERROR_25", "[1]: Impossibile leggere le impostazioni di base dal database - Core impostazioni esiste ma non può essere deserializzate. Tentando di ripristinare backup core...");
-define("LAN_ERROR_26", "[2]: Impossibile leggere le impostazioni di base dal database - impostazioni di base inesistente.");
-define("LAN_ERROR_27", "[3]: core impostazioni salvate - backup fatto attivo.");
-define("LAN_ERROR_28", "[4]: nessun backup core trovato. Verificare che il database contenuto valido.");
-define("LAN_ERROR_29", "[5]: uno o più campi sono stati lasciati in bianco. Si prega di inviare nuovamente il modulo e riempire i campi richiesti.");
-define("LAN_ERROR_30", "[6]: Impossibile formare una valida connessione a mySQL. Si prega di controllare che il tuo e107_config.php contiene le informazioni corrette.");
-define("LAN_ERROR_31", "[7]: mySQL è in esecuzione ma database [x] non poteva essere connesso a.<br>Si prega di controllare esiste e che il file di configurazione contiene le informazioni corrette.");
-define("LAN_ERROR_32", "Per completare l'aggiornamento, è possibile copiare il testo seguente nel file e107_config.php:");
-define("LAN_ERROR_33", "Errore di elaborazione! Normalmente, reindirizza alla home page.");
-define("LAN_ERROR_34", "Errore sconosciuto! Hai visto questo, siete pregati di informare l'amministratore del sito:");
-define("LAN_ERROR_35", "Errore 400 - richiesta non valida");
-define("LAN_ERROR_36", "C'è un errore di formattazione della pagina web che si sta tentando di accedere.");
-define("LAN_ERROR_37", "Icona di errore");
-define("LAN_ERROR_38", "Ci dispiace, ma il sito è disponibile a causa di un errore temporaneo");
-define("LAN_ERROR_39", "Riprova tra qualche minuto");
-define("LAN_ERROR_40", "Se il problema persiste, contattare l'amministratore del sito");
-define("LAN_ERROR_41", "L'errore segnalato è:");
-define("LAN_ERROR_42", "Ulteriori informazioni sull'errore:");
-define("LAN_ERROR_43", "Sito temporaneamente non disponibile");
-define("LAN_ERROR_44", "Logo del sito");
-define("LAN_ERROR_45", "Cosa si può fare ora?");
-define("LAN_ERROR_46", "Controlla il Log per i dettagli");
-define("LAN_ERROR_47", "Errore di Validazione: il titolo delle News non può essere vuoto!");
-define("LAN_ERROR_48", "Errore di Validazione: il Valore dell'URL amichevole delle News è richiesto e il campo non può essere vuoto!");
-define("LAN_ERROR_49", "Errore di Validazione: il Valore dell'URL amichevole delle news è un campo univoco - quello attuale è già in uso! per cortesia scegli un altro valore per l'URL");
-define("LAN_ERROR_50", "Errore di Validazione: La categoria delle news non può essere vuoto!");
+
+return [
+    'PAGE_NAME' => "Errore",
+    'LAN_ERROR_TITLE' => "Oops!",
+    'LAN_ERROR_1' => "Errore 401 - Autenticazione Fallita",
+    'LAN_ERROR_2' => "L'URL richiesto richiede un nome utente e una password. O hai inserito dati errati, o il tuo browser non supporta questa funzione.",
+    'LAN_ERROR_3' => "Per favore informa l'amministratore della pagina di provenienza se ritieni che questa pagina di errore sia stata mostrata per sbaglio.",
+    'LAN_ERROR_4' => "Errore 403 - Accesso negato",
+    'LAN_ERROR_5' => "Non sei autorizzato a recuperare il documento o la pagina richiesta.",
+    'LAN_ERROR_7' => "Errore 404 - Documento Non Trovato",
+    'LAN_ERROR_10' => "Errore 500 - Errore interno del server",
+    'LAN_ERROR_11' => "Il server ha riscontrato un errore interno o una errata configurazione e non è stato in grado di completare la richiesta",
+    'LAN_ERROR_13' => "Errore - Sconosciuto",
+    'LAN_ERROR_14' => "Il server ha riscontrato un errore",
+    'LAN_ERROR_16' => "Il tuo tentativo fallito di accedere a",
+    'LAN_ERROR_31' => "Impossibile connettersi al database [x].<br />Per favore controlla che esista e che il tuo file di configurazione contenga le informazioni corrette.",
+    'LAN_ERROR_32' => "Per completare l'aggiornamento, copia il seguente testo nel tuo file e107_config.php:",
+    'LAN_ERROR_33' => "Errore di elaborazione! Normalmente verresti reindirizzato alla home page.",
+    'LAN_ERROR_34' => "Errore sconosciuto! Per favore informa l'amministratore del sito di aver visto questo:",
+    'LAN_ERROR_35' => "Errore 400 - Richiesta Errata",
+    'LAN_ERROR_36' => "C'è un errore di formattazione nell'URL che stai cercando di accedere.",
+    'LAN_ERROR_37' => "Icona Errore",
+    'LAN_ERROR_38' => "Spiacenti, il sito non è disponibile a causa di un guasto temporaneo",
+    'LAN_ERROR_39' => "Per favore riprova tra qualche minuto",
+    'LAN_ERROR_40' => "Se il problema persiste, contatta l'amministratore del sito",
+    'LAN_ERROR_41' => "L'errore riportato è:",
+    'LAN_ERROR_42' => "Informazioni aggiuntive sull'errore:",
+    'LAN_ERROR_43' => "Sito temporaneamente non disponibile",
+    'LAN_ERROR_44' => "Logo del sito",
+    'LAN_ERROR_45' => "Cosa puoi fare ora?",
+    'LAN_ERROR_46' => "Controlla i log per i dettagli.",
+    'LAN_ERROR_47' => "Errore di validazione: il titolo della News non può essere vuoto!",
+];

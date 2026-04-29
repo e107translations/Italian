@@ -1,258 +1,262 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/07 23:16:45
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
-*/
-define("CORE_DATE_ORDER", "DMY");
-define("LAN_MAILOUT_01", "Da Nome");
-define("LAN_MAILOUT_02", "Da E-mail");
-define("LAN_MAILOUT_03", "A");
-define("LAN_MAILOUT_04", "CC");
-define("LAN_MAILOUT_05", "BCC");
-define("LAN_MAILOUT_06", "Oggetto");
-define("LAN_MAILOUT_07", "Allegato");
-define("LAN_MAILOUT_08", "Inviare Email");
-define("LAN_MAILOUT_09", "Inviare il formato");
-define("LAN_MAILOUT_10", "Utente iscritto");
-define("LAN_MAILOUT_11", "Inserire variabili");
-define("LAN_MAILOUT_12", "Tutti gli utenti");
-define("LAN_MAILOUT_13", "Tutti gli utenti non verificati");
-define("LAN_MAILOUT_14", "Nome visualizzato");
-define("LAN_MAILOUT_15", "Mail in uscita");
-define("LAN_MAILOUT_16", "Nome utente");
-define("LAN_MAILOUT_17", "Link signup");
-define("LAN_MAILOUT_18", "ID utente");
-define("LAN_MAILOUT_19", "Nessun indirizzo e-mail di destinazione specificato");
-define("LAN_MAILOUT_20", "Sendmail-percorso");
-define("LAN_MAILOUT_21", "Voci di e-mail di massa");
-define("LAN_MAILOUT_22", "Attualmente non sono presenti voci salvate");
-define("LAN_MAILOUT_23", "Classe Utente:");
-define("LAN_MAILOUT_24", "email(s) sono pronti per essere inviati");
-define("LAN_MAILOUT_25", "Controlli di mailing di massa");
-define("LAN_MAILOUT_26", "Mailing di massa di sospendere ogni");
-define("LAN_MAILOUT_27", "e-mail per");
-define("LAN_MAILOUT_28", "Salvare le modifiche");
-define("LAN_MAILOUT_29", "secondi");
-define("LAN_MAILOUT_30", "Utilizzato principalmente con SMTP keepalive. Una pausa di più di 30 secondi può causare il browser per timeout");
-define("LAN_MAILOUT_31", "Elaborazione E-mail rimbalzato");
-define("LAN_MAILOUT_33", "Server posta in arrivo");
-define("LAN_MAILOUT_34", "Account (nome utente)");
-define("LAN_MAILOUT_36", "Eliminare messaggi rimbalzato dopo aver controllato");
-define("LAN_MAILOUT_37", "Procedere");
-define("LAN_MAILOUT_38", "Annulla");
-define("LAN_MAILOUT_39", "Invio tramite e-mail");
-define("LAN_MAILOUT_41", "prima di inviare posta elettronica da questa pagina.");
-define("LAN_MAILOUT_43", "Nome utente");
-define("LAN_MAILOUT_44", "Login utente");
-define("LAN_MAILOUT_45", "E-mail utente");
-define("LAN_MAILOUT_46", "Utente-Match");
-define("LAN_MAILOUT_47", "contiene");
-define("LAN_MAILOUT_48", "è uguale a");
-define("LAN_MAILOUT_51", "Oggetto");
-define("LAN_MAILOUT_52", "Ultimo mod");
-define("LAN_MAILOUT_53", "Amminstratori");
-define("LAN_MAILOUT_54", "Auto");
-define("LAN_MAILOUT_55", "Classe Utente");
-define("LAN_MAILOUT_56", "Ultima visita (gg-mm-aa)");
-define("LAN_MAILOUT_57", "Inviare e-mail di massa SMTP in blocchi");
-define("LAN_MAILOUT_67", "L'email potrebbe non essere inviato. Si prega di rivedere le impostazioni SMTP, o selezionare un altro metodo di spedizione e riprovare.");
-define("LAN_MAILOUT_68", "Utenti registrati");
-define("LAN_MAILOUT_69", "partite, dopo");
-define("LAN_MAILOUT_70", "duplicati spogliati.");
-define("LAN_MAILOUT_71", "Totale email per inviare");
-define("LAN_MAILOUT_72", "Registrazione mailing");
-define("LAN_MAILOUT_73", "Nessuna registrazione");
-define("LAN_MAILOUT_74", "Solo registrazione (non inviare)");
-define("LAN_MAILOUT_75", "Registro e invia");
-define("LAN_MAILOUT_76", "Includere informazioni e-mail nel registro");
-define("LAN_MAILOUT_77", "Fonti di indirizzo di posta elettronica");
-define("LAN_MAILOUT_78", "Status di mailing");
-define("LAN_MAILOUT_79", "Nessuna mailing per visualizzare");
-define("LAN_MAILOUT_81", "L'email è stato inviato correttamente, si prega di controllare la posta in arrivo.");
-define("LAN_MAILOUT_82", "Mail inviate");
-define("LAN_MAILOUT_83", "Mail per andare");
-define("LAN_MAILOUT_84", "ID di posta");
-define("LAN_MAILOUT_85", "Mittente");
-define("LAN_MAILOUT_86", "Inviare nuovamente");
-define("LAN_MAILOUT_87", "Server SMTP");
-define("LAN_MAILOUT_88", "Nome utente SMTP");
-define("LAN_MAILOUT_89", "Password SMTP");
-define("LAN_MAILOUT_90", "Caratteristiche di SMTP");
-define("LAN_MAILOUT_91", "POP prima di SMTP");
-define("LAN_MAILOUT_92", "SSL");
-define("LAN_MAILOUT_93", "TLS");
-define("LAN_MAILOUT_94", "(Utilizzare SSL per gmail/googlemail)");
-define("LAN_MAILOUT_95", "Utilizzare VERP per mailing di massa");
-define("LAN_MAILOUT_97", "Mailer risultati");
-define("LAN_MAILOUT_98", "Voci orfane");
-define("LAN_MAILOUT_99", "Confermare la riprova mailing");
-define("LAN_MAILOUT_100", "Messaggio");
-define("LAN_MAILOUT_101", "Dettaglio di e-mail");
-define("LAN_MAILOUT_102", "Dettaglio di mailing");
-define("LAN_MAILOUT_103", "Risultati dei tentativi di inviare");
-define("LAN_MAILOUT_104", "Nessun tentativo di inviare, o errore di salvataggio risultato");
-define("LAN_MAILOUT_105", "Dettagli di fino a 10 errori");
-define("LAN_MAILOUT_106", "L'email potrebbe non essere inviato. Sembra che il server non è correttamente configurato per inviare e-mail, si prega di riprovare utilizzando SMTP, o contattare i padroni di casa e chiedere loro di controllare loro sendmail / impostazioni server di posta elettronica.");
-define("LAN_MAILOUT_107", "presso");
-define("LAN_MAILOUT_108", "Risultato");
-define("LAN_MAILOUT_109", "Visualizza dettaglio");
-define("LAN_MAILOUT_110", "Invia e-mail di prova");
-define("LAN_MAILOUT_111", "Titolo di e-mail (non inviato)");
-define("LAN_MAILOUT_112", "Invia e-mail di prova per");
-define("LAN_MAILOUT_113", "Email di prova da");
-define("LAN_MAILOUT_114", "Si tratta di una email di prova, sembra che le impostazioni email funzionano bene! [br] [br] Per quanto riguarda [br] dal sistema e107.");
-define("LAN_MAILOUT_115", "Metodo di invio");
-define("LAN_MAILOUT_116", "Se non siete sicuri, lasciare come php");
-define("LAN_MAILOUT_117", "completare");
-define("LAN_MAILOUT_118", "Fare clic su procedere ' per iniziare a inviare messaggi di posta elettronica. Fare clic su Annulla per interrompere l'esecuzione. Una volta completata, selezionare un'altra pagina. Cal non inviati messaggi di posta elettronica essere visualizzato tramite la schermata di 'Stato mailing'");
-define("LAN_MAILOUT_119", "Solo, registrazione con errori");
-define("LAN_MAILOUT_120", "Tipo di account");
-define("LAN_MAILOUT_121", "POP3 Standard");
-define("LAN_MAILOUT_122", "POP3, TLS disabilitato");
-define("LAN_MAILOUT_123", "POP3 con TLS");
-define("LAN_MAILOUT_124", "IMAP");
-define("LAN_MAILOUT_125", "Solo testo");
-define("LAN_MAILOUT_126", "Testo e HTML");
-define("LAN_MAILOUT_127", "Includere il tema");
-define("LAN_MAILOUT_128", "Invia errore");
-define("LAN_MAILOUT_129", "Data di scadenza");
-define("LAN_MAILOUT_130", "Data di creazione");
-define("LAN_MAILOUT_131", "L'invio ha iniziato");
-define("LAN_MAILOUT_132", "L'invio completo");
-define("LAN_MAILOUT_134", "Priorità");
-define("LAN_MAILOUT_136", "Stato Posta in uscita");
-define("LAN_MAILOUT_137", "Posta Ref");
-define("LAN_MAILOUT_138", "Stato di e-mail");
-define("LAN_MAILOUT_139", "Data attivo");
-define("LAN_MAILOUT_140", "Posta elettronica del destinatario");
-define("LAN_MAILOUT_141", "Nome del destinatario");
-define("LAN_MAILOUT_142", "ID utente destinatario");
-define("LAN_MAILOUT_143", "Destinatario Rif.");
-define("LAN_MAILOUT_144", "Rimbalzato");
-define("LAN_MAILOUT_145", "Nuova email salvate");
-define("LAN_MAILOUT_146", "Errore salvataggio e-mail");
-define("LAN_MAILOUT_147", "E-mail di aggiornamento");
-define("LAN_MAILOUT_148", "Valori dell'utente");
-define("LAN_MAILOUT_149", "Email mittente");
-define("LAN_MAILOUT_150", "Nome mittente");
-define("LAN_MAILOUT_151", "Copiare");
-define("LAN_MAILOUT_152", "Copia nascosta a");
-define("LAN_MAILOUT_153", "Allegati");
-define("LAN_MAILOUT_154", "Inviare il formato");
-define("LAN_MAILOUT_155", "Selettori");
-define("LAN_MAILOUT_156", "Numero massimo di messaggi di posta elettronica da inviare per tick di pianificazione");
-define("LAN_MAILOUT_157", "Valore dipenderà da una serie di fattori, tra cui come spesso viene attivato il processo di pianificazione coda mail e il tasso al quale l'ISP accetterà la posta in uscita. Zero a cancellare la coda ogni volta");
-define("LAN_MAILOUT_158", "Invia ora");
-define("LAN_MAILOUT_159", "Tenere e-mail");
-define("LAN_MAILOUT_160", "Annulla Invia");
-define("LAN_MAILOUT_161", "IMPORTANTE! Sembra che questo file non esiste");
-define("LAN_MAILOUT_162", "IMPORTANTE! Hai bisogno di rendere questo file eseguibile");
-define("LAN_MAILOUT_163", "Modifica/Invia Mail");
-define("LAN_MAILOUT_164", "Informazioni e-mail non trovati");
-define("LAN_MAILOUT_165", "Confermare eliminare la seguente e-mail archiviate, compresi eventuali record destinatario");
-define("LAN_MAILOUT_166", "Rif posta l'eliminazione di errore generale: [x]");
-define("LAN_MAILOUT_167", "Rif contenuto dei errore eliminazione posta:  [x]");
-define("LAN_MAILOUT_168", "Rif di posta contenuto eliminato:  [x]");
-define("LAN_MAILOUT_169", "Rif di errore eliminazione posta destinatari:  [x]");
-define("LAN_MAILOUT_170", "Cancellate - NUM--destinatari per ref posta:  [x]");
-define("LAN_MAILOUT_171", "Conferma eliminazione di e-mail");
-define("LAN_MAILOUT_172", "Tipo/stato di posta elettronica");
-define("LAN_MAILOUT_173", "Destinatari");
-define("LAN_MAILOUT_174", "Sicurezza controllo esito negativo:  [x] [z]");
-define("LAN_MAILOUT_175", "Prima di");
-define("LAN_MAILOUT_176", "Uguale a");
-define("LAN_MAILOUT_177", "Dopo");
-define("LAN_MAILOUT_178", "Visitare il sito di ultima");
-define("LAN_MAILOUT_179", "Conferma invio e-mail");
-define("LAN_MAILOUT_180", "Criteri di selezione:");
-define("LAN_MAILOUT_181", "Visualizza destinatari");
-define("LAN_MAILOUT_182", "Tabelle di database ordinata");
-define("LAN_MAILOUT_183", "Errore del database rassetto");
-define("LAN_MAILOUT_184", "Database di riordinato");
-define("LAN_MAILOUT_185", "Aggiunto alla coda di invio email");
-define("LAN_MAILOUT_186", "Rif posta messa di errore generale:  [x] in attesa");
-define("LAN_MAILOUT_187", "Email  [x] messo in attesa");
-define("LAN_MAILOUT_188", "Errore generale invio Rif posta:  [x]");
-define("LAN_MAILOUT_189", "Test indirizzo");
-define("LAN_MAILOUT_190", "Creare/Invia Mail");
-define("LAN_MAILOUT_191", "Email salvate");
-define("LAN_MAILOUT_192", "Completato mailing");
-define("LAN_MAILOUT_193", "Mailing in sospeso");
-define("LAN_MAILOUT_194", "Tenuto mailing");
-define("LAN_MAILOUT_200", "Nessun oggetto specificato");
-define("LAN_MAILOUT_201", "Dati significativi per e-mail");
-define("LAN_MAILOUT_202", "Nessun testo nel corpo dell'e-mail");
-define("LAN_MAILOUT_203", "Nessun nome di mittente specificato");
-define("LAN_MAILOUT_204", "Nessun indirizzo di posta elettronica mittente specificato");
-define("LAN_MAILOUT_205", "Errore di formato di invio e-mail");
-define("LAN_MAILOUT_206", "Posta elettronica non valido ID ( [x]) specificato");
-define("LAN_MAILOUT_207", "Errore di caricamento del modello");
-define("LAN_MAILOUT_208", "Errore di conversione di modello");
-define("LAN_MAILOUT_211", "Inviato");
-define("LAN_MAILOUT_212", "Non riuscita");
-define("LAN_MAILOUT_213", "Rimbalzato");
-define("LAN_MAILOUT_214", "Per inviare");
-define("LAN_MAILOUT_215", "Salvato");
-define("LAN_MAILOUT_216", "Codice errore");
-define("LAN_MAILOUT_217", "Tenuto");
-define("LAN_MAILOUT_218", "Annullato");
-define("LAN_MAILOUT_219", "Parziale");
-define("LAN_MAILOUT_220", "E-mail ID  [x] annullato");
-define("LAN_MAILOUT_221", "E-mail di cancellazione errore con ID  [x]");
-define("LAN_MAILOUT_222", "Formato di posta elettronica predefinito");
-define("LAN_MAILOUT_223", "(Utilizzato per alcuni messaggi di posta elettronica generato dal sistema)");
-define("LAN_MAILOUT_224", "Immagini Inc.");
-define("LAN_MAILOUT_225", "Includere immagini nella e-mail");
-define("LAN_MAILOUT_226", " [x] record orfani di destinatari rimosso");
-define("LAN_MAILOUT_227", "Eliminato:  [x] records da  [y]");
-define("LAN_MAILOUT_228", " [x] anomalie in mail_content corrette; records:  [y]");
-define("LAN_MAILOUT_229", "E-mail ID -  [x] mettere in attesa");
-define("LAN_MAILOUT_230", "Errore della E-mail con ID  [x] in attesa");
-define("LAN_MAILOUT_231", "Email rimbalzate - Metodo di elaborazione");
-define("LAN_MAILOUT_232", "Nessuno");
-define("LAN_MAILOUT_233", "Script di auto-processo");
-define("LAN_MAILOUT_234", "Account di posta elettronica");
-define("LAN_MAILOUT_235", "(Il server deve inoltrare o eseguire il 'pipe' dall'indirizzo di posta elettronica sopra per il percorso dello script di cui sopra).");
-define("LAN_MAILOUT_236", "Ultimo rimbalzo elaborato");
-define("LAN_MAILOUT_237", "Contatori di riepilogo aggiornati su [x] email");
-define("LAN_MAILOUT_238", "Inizio orario per l'invio");
-define("LAN_MAILOUT_239", "Fine orario per l'invio");
-define("LAN_MAILOUT_240", "Informatemi quando è completata l'esecuzione");
-define("LAN_MAILOUT_241", "(Questo è in aggiunta allo standard e107 notificare opzioni)");
-define("LAN_MAILOUT_242", "Opzioni aggiuntive (solo durante l'invio)");
-define("LAN_MAILOUT_243", "Notificare");
-define("LAN_MAILOUT_244", "Email inviata:");
-define("LAN_MAILOUT_245", "Controllare automaticamente rimbalzi");
-define("LAN_MAILOUT_246", "Se selezionata, sarà necessario attivare l'attività nell'utilità di pianificazione");
-define("LAN_MAILOUT_247", "E-mail informazioni:");
-define("LAN_MAILOUT_248", "Stato di completamento:");
-define("LAN_MAILOUT_249", "Inviare i risultati:");
-define("LAN_MAILOUT_250", "---Fine della notifica--");
-define("LAN_MAILOUT_251", "Copia e modifica");
-define("LAN_MAILOUT_252", "Fa vari controlli di coerenza sui dati, corregge i conteggi, consente di eliminare i dati temporanei");
-define("LAN_MAILOUT_253", "Nessun destinatario trovato - verifica di danneggiamento del database");
-define("LAN_MAILOUT_254", "Visualizzazione e-mail basato su modelli");
-define("LAN_MAILOUT_255", "Basato su modelli E-mail, ID:");
-define("LAN_MAILOUT_256", "Ritorno");
-define("LAN_MAILOUT_257", "Modello generato");
-define("LAN_MAILOUT_259", "Nessun indirizzo email mittente selezionato in Preferenze");
-define("LAN_SEND", "Invia");
-define("LAN_HOLD", "Tenere premuto");
-define("LAN_MAILOUT_260", "Tipo di utente");
-define("LAN_MAILOUT_261", "Porta SMTP");
-define("LAN_MAILOUT_262", "Anteprima Template");
-define("LAN_MAILOUT_263", "Destinatari Totali");
-define("LAN_MAILOUT_264", "Includi Media");
-define("LAN_MAILOUT_265", "In Sopeso");
-define("LAN_MAILOUT_266", "Max Attiva");
-define("LAN_MAILOUT_267", "Generare Chiave Privata/Pubblica");
-define("LAN_MAILOUT_268", "Soltanto Modalità Sviluppatore");
-define("LAN_MAILOUT_269", "Invia Dopo");
-define("LAN_MAILOUT_270", "Test Connession SMTP");
-define("LAN_MAILOUT_271", "Autenticazione fallita con nome utente ([x]) e password ([y]):");
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ */
+
+// TODO - LANS - MAJOR LAN REWRITE NEEDED 
+
+
+return [
+    'CORE_DATE_ORDER' => "dmy",
+    'LAN_MAILOUT_01' => "Nome Mittente",
+    'LAN_MAILOUT_02' => "Email Mittente",
+    'LAN_MAILOUT_03' => "A",
+    'LAN_MAILOUT_04' => "Cc",
+    'LAN_MAILOUT_05' => "Bcc",
+    'LAN_MAILOUT_06' => "Oggetto",
+    'LAN_MAILOUT_07' => "Allegato",
+    'LAN_MAILOUT_08' => "Invia Email",
+    'LAN_MAILOUT_09' => "Formato di invio",
+    'LAN_MAILOUT_10' => "Utente Iscritto",
+    'LAN_MAILOUT_11' => "Inserisci Variabili",
+    'LAN_MAILOUT_12' => "Tutti gli Utenti",
+    'LAN_MAILOUT_13' => "Tutti gli Utenti non verificati",
+    'LAN_MAILOUT_14' => "Nome Visualizzato",
+    'LAN_MAILOUT_15' => "Mailout",
+    'LAN_MAILOUT_16' => "Username",
+    'LAN_MAILOUT_17' => "Link di registrazione",
+    'LAN_MAILOUT_18' => "ID Utente",
+    'LAN_MAILOUT_19' => "Nessun indirizzo email di destinazione specificato",
+    'LAN_MAILOUT_20' => "Percorso Sendmail",
+    'LAN_MAILOUT_21' => "Voci invio di massa",
+    'LAN_MAILOUT_22' => "Al momento non ci sono voci salvate",
+    'LAN_MAILOUT_23' => "classe utente:",
+    'LAN_MAILOUT_24' => "email sono pronte per essere inviate",
+    'LAN_MAILOUT_25' => "Controlli invio di massa",
+    'LAN_MAILOUT_26' => "Metti in pausa l'invio di massa ogni",
+    'LAN_MAILOUT_27' => "email per",
+    'LAN_MAILOUT_28' => "Salva Modifiche",
+    'LAN_MAILOUT_29' => "secondi",
+    'LAN_MAILOUT_30' => "Usato principalmente con SMTP keepalive. Una pausa superiore a 30 secondi può causare il timeout del browser",
+    'LAN_MAILOUT_31' => "Elaborazione Email Rimbalzate",
+    'LAN_MAILOUT_33' => "Server di posta in entrata",
+    'LAN_MAILOUT_34' => "Nome Account (utente)",
+    'LAN_MAILOUT_36' => "Elimina le email rimbalzate dopo il controllo",
+    'LAN_MAILOUT_37' => "Procedi",
+    'LAN_MAILOUT_38' => "Annulla",
+    'LAN_MAILOUT_39' => "Invio in corso",
+    'LAN_MAILOUT_41' => "prima di inviare posta da questa pagina.",
+    'LAN_MAILOUT_43' => "Username",
+    'LAN_MAILOUT_44' => "Login Utente",
+    'LAN_MAILOUT_45' => "Email Utente",
+    'LAN_MAILOUT_46' => "Corrispondenza Utente",
+    'LAN_MAILOUT_47' => "contiene",
+    'LAN_MAILOUT_48' => "è uguale a",
+    'LAN_MAILOUT_51' => "Oggetto",
+    'LAN_MAILOUT_52' => "Ultima mod",
+    'LAN_MAILOUT_53' => "Admin",
+    'LAN_MAILOUT_54' => "Se stesso",
+    'LAN_MAILOUT_55' => "Classe Utente",
+    'LAN_MAILOUT_56' => "Ultima Visita",
+    'LAN_MAILOUT_57' => "Invia email SMTP di massa a blocchi",
+    'LAN_MAILOUT_67' => "L'email non può essere inviata. Controlla le impostazioni SMTP o seleziona un altro metodo di invio e riprova.",
+    'LAN_MAILOUT_68' => "Utenti Registrati",
+    'LAN_MAILOUT_69' => "corrispondenze, dopo",
+    'LAN_MAILOUT_70' => "duplicati rimossi.",
+    'LAN_MAILOUT_71' => "Totale email da inviare",
+    'LAN_MAILOUT_72' => "Log dell'invio (Mailshot)",
+    'LAN_MAILOUT_73' => "Nessun log",
+    'LAN_MAILOUT_74' => "Solo log (nessun invio)",
+    'LAN_MAILOUT_75' => "Log e invio",
+    'LAN_MAILOUT_76' => "Includi info email nel log",
+    'LAN_MAILOUT_77' => "Sorgenti indirizzi email",
+    'LAN_MAILOUT_78' => "Stato Mailshot",
+    'LAN_MAILOUT_79' => "Nessun mailshot da visualizzare",
+    'LAN_MAILOUT_81' => "L'email è stata inviata con successo, controlla la tua casella di posta.",
+    'LAN_MAILOUT_82' => "Email inviate",
+    'LAN_MAILOUT_83' => "Email rimanenti",
+    'LAN_MAILOUT_84' => "ID Mail",
+    'LAN_MAILOUT_85' => "Mittente originale",
+    'LAN_MAILOUT_86' => "Invia di nuovo",
+    'LAN_MAILOUT_87' => "Server SMTP",
+    'LAN_MAILOUT_88' => "Username SMTP",
+    'LAN_MAILOUT_89' => "Password SMTP",
+    'LAN_MAILOUT_90' => "Funzionalità SMTP",
+    'LAN_MAILOUT_91' => "POP prima di SMTP",
+    'LAN_MAILOUT_92' => "SSL",
+    'LAN_MAILOUT_93' => "TLS",
+    'LAN_MAILOUT_94' => "(Usa SSL per gmail/googlemail)",
+    'LAN_MAILOUT_95' => "Usa VERP per invii di massa",
+    'LAN_MAILOUT_97' => "Risultati Mailer",
+    'LAN_MAILOUT_98' => "Voci orfane",
+    'LAN_MAILOUT_99' => "Conferma riprova mailshot",
+    'LAN_MAILOUT_100' => "Messaggio",
+    'LAN_MAILOUT_101' => "Dettaglio Email",
+    'LAN_MAILOUT_102' => "Dettaglio del mailshot",
+    'LAN_MAILOUT_103' => "Risultati dei tentativi di invio",
+    'LAN_MAILOUT_104' => "Nessun tentativo di invio, o errore nel salvataggio del risultato",
+    'LAN_MAILOUT_105' => "Dettagli di un massimo di 10 fallimenti",
+    'LAN_MAILOUT_106' => "L'email non può essere inviata. Sembra che il tuo server non sia configurato correttamente per inviare email, riprova usando SMTP o contatta il tuo host per controllare le impostazioni di sendmail/server email.",
+    'LAN_MAILOUT_107' => "alle",
+    'LAN_MAILOUT_108' => "Risultato",
+    'LAN_MAILOUT_109' => "Mostra dettaglio",
+    'LAN_MAILOUT_110' => "Invia email di test",
+    'LAN_MAILOUT_111' => "Titolo Email (non inviato)",
+    'LAN_MAILOUT_112' => "Invia email di test a",
+    'LAN_MAILOUT_113' => "Email di test da",
+    'LAN_MAILOUT_114' => "Questa è un'email di test, sembra che le tue impostazioni email funzionino correttamente! [br][br] Cordiali saluti [br] dal sistema e107.",
+    'LAN_MAILOUT_115' => "Metodo Bulk Emailing",
+    'LAN_MAILOUT_116' => "Se non sei sicuro, lascia php",
+    'LAN_MAILOUT_117' => "completato",
+    'LAN_MAILOUT_118' => "Clicca su 'procedi' per iniziare l'invio. Clicca su 'annulla' per fermare l'operazione. Una volta completato, seleziona un'altra pagina. Le email non inviate possono essere visualizzate nella schermata 'Stato Mailshot'",
+    'LAN_MAILOUT_119' => "Solo log, con errori",
+    'LAN_MAILOUT_120' => "Tipo account",
+    'LAN_MAILOUT_121' => "POP3 Standard",
+    'LAN_MAILOUT_122' => "POP3, TLS disabilitato",
+    'LAN_MAILOUT_123' => "POP3 con TLS",
+    'LAN_MAILOUT_124' => "IMAP",
+    'LAN_MAILOUT_125' => "Solo testo",
+    'LAN_MAILOUT_126' => "Testo e HTML",
+    'LAN_MAILOUT_127' => "Includi tema",
+    'LAN_MAILOUT_128' => "Errore Invio",
+    'LAN_MAILOUT_129' => "Data Scadenza",
+    'LAN_MAILOUT_130' => "Data Creazione",
+    'LAN_MAILOUT_131' => "Invio Iniziato",
+    'LAN_MAILOUT_132' => "Invio Completato",
+    'LAN_MAILOUT_134' => "Priorità",
+    'LAN_MAILOUT_136' => "Stato Mailout",
+    'LAN_MAILOUT_137' => "Rif. Mail",
+    'LAN_MAILOUT_138' => "Stato email",
+    'LAN_MAILOUT_139' => "Data attivazione",
+    'LAN_MAILOUT_140' => "Email Destinatario",
+    'LAN_MAILOUT_141' => "Nome Destinatario",
+    'LAN_MAILOUT_142' => "ID Utente Destinatario",
+    'LAN_MAILOUT_143' => "Rif. destinatario",
+    'LAN_MAILOUT_144' => "Rimbalzata (Bounced)",
+    'LAN_MAILOUT_145' => "Nuova email salvata",
+    'LAN_MAILOUT_146' => "Errore nel salvataggio dell'email",
+    'LAN_MAILOUT_147' => "Email aggiornata",
+    'LAN_MAILOUT_148' => "Valori utente",
+    'LAN_MAILOUT_149' => "Email Mittente",
+    'LAN_MAILOUT_150' => "Nome Mittente",
+    'LAN_MAILOUT_151' => "Copia a",
+    'LAN_MAILOUT_152' => "Copia nascosta a",
+    'LAN_MAILOUT_153' => "Allegati",
+    'LAN_MAILOUT_154' => "Formato Invio",
+    'LAN_MAILOUT_155' => "Selettori",
+    'LAN_MAILOUT_156' => "Numero massimo di email da inviare per ogni ciclo dello scheduler",
+    'LAN_MAILOUT_157' => "Il valore dipenderà da vari fattori, inclusa la frequenza con cui viene attivato il job dello scheduler e il tasso di accettazione della posta in uscita del tuo ISP. Zero per svuotare la coda ogni volta",
+    'LAN_MAILOUT_158' => "Invia ora",
+    'LAN_MAILOUT_159' => "Sospendi email",
+    'LAN_MAILOUT_160' => "Annulla invio",
+    'LAN_MAILOUT_161' => "IMPORTANTE! Questo file sembra non esistere",
+    'LAN_MAILOUT_162' => "IMPORTANTE! Devi rendere questo file eseguibile",
+    'LAN_MAILOUT_163' => "Modifica/Invia Mail",
+    'LAN_MAILOUT_164' => "Informazioni email non trovate",
+    'LAN_MAILOUT_165' => "Conferma l'eliminazione della seguente email memorizzata, inclusi i record dei destinatari",
+    'LAN_MAILOUT_166' => "Errore generale durante l'eliminazione del rif. mail: [x]",
+    'LAN_MAILOUT_167' => "Errore durante l'eliminazione del contenuto mail rif: [x]",
+    'LAN_MAILOUT_168' => "Contenuto mail eliminato rif: [x]",
+    'LAN_MAILOUT_169' => "Errore durante l'eliminazione dei destinatari mail rif: [x]",
+    'LAN_MAILOUT_170' => "Eliminati [y] destinatari per il rif. mail: [x]",
+    'LAN_MAILOUT_171' => "Conferma eliminazione email",
+    'LAN_MAILOUT_172' => "Tipo Mail/Stato",
+    'LAN_MAILOUT_173' => "Destinatari",
+    'LAN_MAILOUT_174' => "Controllo sicurezza fallito: [x] [z]",
+    'LAN_MAILOUT_175' => "Prima di",
+    'LAN_MAILOUT_176' => "Uguale a",
+    'LAN_MAILOUT_177' => "Dopo",
+    'LAN_MAILOUT_178' => "Ultima visita al sito",
+    'LAN_MAILOUT_179' => "Conferma invio email",
+    'LAN_MAILOUT_180' => "Criteri di selezione:",
+    'LAN_MAILOUT_181' => "Mostra destinatari",
+    'LAN_MAILOUT_182' => "Ottimizza tabelle database",
+    'LAN_MAILOUT_183' => "Errore durante l'ottimizzazione del database",
+    'LAN_MAILOUT_184' => "Database ottimizzato",
+    'LAN_MAILOUT_185' => "Email aggiunte alla coda di invio",
+    'LAN_MAILOUT_186' => "Errore generale durante la sospensione del rif. mail: [x]",
+    'LAN_MAILOUT_187' => "Email [x] messa in attesa",
+    'LAN_MAILOUT_188' => "Errore generale durante l'invio del rif. mail: [x]",
+    'LAN_MAILOUT_189' => "Indirizzo di test",
+    'LAN_MAILOUT_190' => "Crea/Invia Mail",
+    'LAN_MAILOUT_191' => "Email salvate",
+    'LAN_MAILOUT_192' => "Mailshot Completati",
+    'LAN_MAILOUT_193' => "Mailshot In Sospeso",
+    'LAN_MAILOUT_194' => "Mailshot In Attesa",
+    'LAN_MAILOUT_200' => "Nessun oggetto specificato",
+    'LAN_MAILOUT_201' => "Nessun dato significativo per l'email",
+    'LAN_MAILOUT_202' => "Nessun testo nel corpo dell'email",
+    'LAN_MAILOUT_203' => "Nessun nome mittente specificato",
+    'LAN_MAILOUT_204' => "Nessun indirizzo email mittente specificato",
+    'LAN_MAILOUT_205' => "Errore nel formato di invio email",
+    'LAN_MAILOUT_206' => "ID mail non valido ([x]) specificato",
+    'LAN_MAILOUT_207' => "Errore caricamento template",
+    'LAN_MAILOUT_208' => "Errore conversione template",
+    'LAN_MAILOUT_211' => "Inviato",
+    'LAN_MAILOUT_212' => "Fallito",
+    'LAN_MAILOUT_213' => "Rimbalzato",
+    'LAN_MAILOUT_214' => "Da inviare",
+    'LAN_MAILOUT_215' => "Salvato",
+    'LAN_MAILOUT_216' => "Errore codice",
+    'LAN_MAILOUT_217' => "In attesa",
+    'LAN_MAILOUT_218' => "Annullato",
+    'LAN_MAILOUT_219' => "Parziale",
+    'LAN_MAILOUT_220' => "Email ID [x] annullata",
+    'LAN_MAILOUT_221' => "Errore durante l'annullamento dell'email con ID [x]",
+    'LAN_MAILOUT_222' => "Formato email predefinito",
+    'LAN_MAILOUT_223' => "(Usato per alcune email generate dal sistema)",
+    'LAN_MAILOUT_224' => "Inc. Immagini",
+    'LAN_MAILOUT_225' => "Includi immagini nell'email",
+    'LAN_MAILOUT_226' => "[x] record destinatari orfani rimossi",
+    'LAN_MAILOUT_227' => "Eliminati [x] record da [y]",
+    'LAN_MAILOUT_228' => "[x] anomalie in mail_content corrette; record: [y]",
+    'LAN_MAILOUT_229' => "Email ID [x] messa in attesa",
+    'LAN_MAILOUT_230' => "Errore durante la sospensione dell'email con ID [x]",
+    'LAN_MAILOUT_231' => "Email rimbalzate - Metodo di elaborazione",
+    'LAN_MAILOUT_232' => "Nessuno",
+    'LAN_MAILOUT_233' => "Script auto-elaborazione",
+    'LAN_MAILOUT_234' => "Account di posta",
+    'LAN_MAILOUT_235' => "(Il tuo server deve inoltrare o inviare tramite 'pipe' dall'indirizzo email sopra al percorso dello script sopra.)",
+    'LAN_MAILOUT_236' => "Ultimo Rimbalzo Elaborato",
+    'LAN_MAILOUT_237' => "Contatori riassuntivi aggiornati su [x] email",
+    'LAN_MAILOUT_238' => "Orario minimo per l'invio",
+    'LAN_MAILOUT_239' => "Orario massimo per l'invio",
+    'LAN_MAILOUT_240' => "Avvisami quando l'esecuzione è completata",
+    'LAN_MAILOUT_241' => "(Questo si aggiunge alle opzioni di notifica standard di e107)",
+    'LAN_MAILOUT_242' => "Opzioni aggiuntive (solo durante l'invio)",
+    'LAN_MAILOUT_243' => "Notifica",
+    'LAN_MAILOUT_244' => "Email inviata:",
+    'LAN_MAILOUT_245' => "Controlla i rimbalzi automaticamente",
+    'LAN_MAILOUT_246' => "Se selezionato, dovrai attivare l'attività nello scheduler",
+    'LAN_MAILOUT_247' => "Informazioni email:",
+    'LAN_MAILOUT_248' => "Stato completamento:",
+    'LAN_MAILOUT_249' => "Risultati invio:",
+    'LAN_MAILOUT_250' => "--- Fine notifica ---",
+    'LAN_MAILOUT_251' => "Copia e modifica",
+    'LAN_MAILOUT_252' => "Esegue vari controlli di coerenza sui dati, corregge i conteggi, elimina i dati temporanei",
+    'LAN_MAILOUT_253' => "Nessun destinatario trovato - controlla se il database è corrotto",
+    'LAN_MAILOUT_254' => "Visualizza email con template",
+    'LAN_MAILOUT_255' => "Email con template, ID:",
+    'LAN_MAILOUT_256' => "Ritorna",
+    'LAN_MAILOUT_257' => "Template generato",
+    'LAN_MAILOUT_259' => "Nessuna 'sorgente indirizzo email' selezionata nelle Preferenze",
+    'LAN_SEND' => "Invia",
+    'LAN_HOLD' => "Sospendi",
+    'LAN_MAILOUT_260' => "Tipo-Utente",
+    'LAN_MAILOUT_261' => "Porta SMTP",
+    'LAN_MAILOUT_262' => "Anteprima Template",
+    'LAN_MAILOUT_263' => "Totale Destinatari",
+    'LAN_MAILOUT_264' => "Incorpora Media",
+    'LAN_MAILOUT_265' => "In sospeso",
+    'LAN_MAILOUT_266' => "Max Attivi",
+    'LAN_MAILOUT_267' => "Genera chiavi Pubbliche/Private",
+    'LAN_MAILOUT_268' => "Solo Modalità Sviluppatore",
+    'LAN_MAILOUT_269' => "Invia più tardi",
+    'LAN_MAILOUT_270' => "Test Connessione SMTP",
+    'LAN_MAILOUT_271' => "Autenticazione fallita con username ([x]) e password ([y]):",
+];

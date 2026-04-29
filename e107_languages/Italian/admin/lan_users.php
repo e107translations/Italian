@@ -1,223 +1,226 @@
 <?php
 /*
-+---------------------------------------------------------------+
-|        e107 website content management system Italian Language File
-|        Released under the terms and conditions of the
-|        GNU General Public License (http://gnu.org).
-|        Last Modified: 2017/04/08 00:04:26
-|
-|        $Author: webmaster $
-+---------------------------------------------------------------+
+ * e107 website system
+ *
+ * Copyright (C) 2008-2017 e107 Inc (e107.org)
+ * Released under the terms and conditions of the
+ * GNU General Public License (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Language file - user admin
+ *
+ *
 */
-define("USRLAN_1", "Opzioni salvate.");
-define("USRLAN_3", "ora elencati un amministratore - impostare autorizzazioni si prega di raggiungere la");
-define("USRLAN_4", "Pagina amministratore");
-define("USRLAN_5", "Non è possibile rimuovere lo stato di admin del sito principale admin");
-define("USRLAN_6", "ha avuto rimosso lo stato di amministratore.");
-define("USRLAN_7", "Si non può vietare l'amministratore del sito principale");
-define("USRLAN_8", "Utente bannato.");
-define("USRLAN_9", "Utente unbanned.");
-define("USRLAN_10", "Utente cancellato.");
-define("USRLAN_11", "Elimina annullato.");
-define("USRLAN_12", "Non è possibile eliminare l'amministratore del sito principale.");
-define("USRLAN_13", "Si prega di confermare che desideri eliminare questo membro");
-define("USRLAN_16", "Conferma eliminazione");
-define("USRLAN_17", "Conferma eliminazione utente");
-define("USRLAN_30", "Divieto di");
-define("USRLAN_32", "Attivare");
-define("USRLAN_33", "Sblocca");
-define("USRLAN_34", "Rimuovere lo status di admin");
-define("USRLAN_35", "Fare admin");
-define("USRLAN_36", "Classe set");
-define("USRLAN_44", "Consentire ai membri di caricare un avatar?");
-define("USRLAN_47", "Larghezza massima avatar (in pixel)");
-define("USRLAN_48", "valore predefinito è 120");
-define("USRLAN_49", "Altezza massima avatar (in pixel)");
-define("USRLAN_50", "valore predefinito è 100");
-define("USRLAN_51", "Opzioni di aggiornamento");
-define("USRLAN_52", "Opzioni per i membri");
-define("USRLAN_53", "Consentire ai membri di caricare una foto?");
-define("USRLAN_54", "Clicca qui per eliminare tutti gli utenti non attivati");
-define("USRLAN_55", "Prugna secca");
-define("USRLAN_56", "Cancellato");
-define("USRLAN_57", "Eliminazione degli utenti non attivati");
-define("USRLAN_58", "upload di file sono disattivate nel php. ini");
-define("USRLAN_59", "Aggiunta rapida utente");
-define("USRLAN_60", "Aggiungi utente");
-define("USRLAN_61", "Nome visualizzato");
-define("USRLAN_63", "Digitare nuovamente la Password");
-define("USRLAN_64", "Indirizzo di posta elettronica");
-define("USRLAN_65", "Quel nome non può essere accettato come valido, si prega di scegliere un nome visualizzato diverso");
-define("USRLAN_66", "Quel nome esiste già nel database, si prega di scegliere un nome visualizzato diverso");
-define("USRLAN_67", "Le due password non corrispondono");
-define("USRLAN_68", "Hai lasciato vuoto il campo o i campi richiesti");
-define("USRLAN_69", "Che non sembra essere un indirizzo email valido");
-define("USRLAN_78", "Nome utente");
-define("USRLAN_79", "Stato");
-define("USRLAN_80", "Info");
-define("USRLAN_84", "Ci sono");
-define("USRLAN_85", "Gli utenti che non hanno attivato il loro account - clicca qui sotto per eliminare.");
-define("USRLAN_86", "Utente verificato");
-define("USRLAN_87", "Impostazioni utente aggiornate");
-define("USRLAN_88", "Classi utente aggiornate");
-define("USRLAN_90", "Ricerca / Aggiorna");
-define("USRLAN_91", "Classe");
-define("USRLAN_92", "Caratteri non validi nel nome utente");
-define("USRLAN_93", "Eliminare utenti non verificati");
-define("USRLAN_94", "Eliminare registrazioni se non verificato dopo questo lasso di tempo - lasciare vuoto per non utilizzare questa opzione<br />Questa opzione viene ignorata se sono registrazioni utente admin moderato");
-define("USRLAN_95", "minuti");
-define("USRLAN_112", "Reinvia Email");
-define("USRLAN_113", "Dati di registrazione");
-define("USRLAN_114", "Caro");
-define("USRLAN_115", "Grazie per la tua registrazione.");
-define("USRLAN_116", "Si prega di confermare che si desidera inviare una email di conferma a:");
-define("USRLAN_117", "Fare clic sul pulsante qui sotto per verificare la seguente email:");
-define("USRLAN_118", "Email di prova");
-define("USRLAN_119", "Prova [x]");
-define("USRLAN_120", "Set di classi");
-define("USRLAN_121", "Mailing");
-define("USRLAN_122", "Benvenuti");
-define("USRLAN_123", "La registrazione è stata ricevuta e creata.");
-define("USRLAN_124", "Il tuo account è attualmente contrassegnato come essere inattivi, per attivare il tuo account, visitare il seguente link");
-define("USRLAN_125", "Da");
-define("USRLAN_126", "Consentire agli utenti di utenti di tasso");
-define("USRLAN_127", "Consentire i commenti nel profilo utente");
-define("USRLAN_128", "Username (nome utente)");
-define("USRLAN_129", "Vero nome");
-define("USRLAN_130", "Abilitare il rilevamento utente online");
-define("USRLAN_131", "È necessario attivare questa opzione per utilizzare utente online opzioni, come online.php, menu online e forum online info di rilevamento");
-define("USRLAN_133", "Utente di forza per aggiornare le impostazioni");
-define("USRLAN_134", "Abilitando questa opzione automaticamente invierà all'utente per le impostazioni utente se un utente necessari campo non viene compilato.");
-define("USRLAN_135", "Nessun indirizzo IP trovato in informazioni di utente; IP non è vietato");
-define("USRLAN_136", "Più utenti trovati con indirizzo IP {IP}; IP non è vietato.");
-define("USRLAN_137", "Indirizzo IP degli utenti di {IP} vietato.");
-define("USRLAN_138", "Utenti non verificati");
-define("USRLAN_139", "Il tuo account è stato activated.\n\nYou può visitare {SITEURL} e accedere al sito utilizzando le informazioni di accesso che hai fornito.");
-define("USRLAN_140", "Email di attivazione inviato nuovamente al");
-define("USRLAN_141", "Non è riuscito a inviare nuovamente l'e-mail di attivazione a");
-define("USRLAN_142", "con il seguente link di attivazione");
-define("USRLAN_143", "Rimbalzi: Cerca");
-define("USRLAN_144", "Rispedisci Email di conferma a tutti");
-define("USRLAN_145", "Rimbalzato utenti");
-define("USRLAN_146", "Informazioni sui membri è disponibile per");
-define("USRLAN_147", "Indirizzo e-mail è già utilizzato da un utente escluso");
-define("USRLAN_148", "Indirizzo e-mail è vietato");
-define("USRLAN_149", "Eliminare i messaggi e-mail selezionate");
-define("USRLAN_150", "Eliminare tutte le e-mail");
-define("USRLAN_151", "Deselezionare il rimbalzo, richiedono l'attivazione");
-define("USRLAN_152", "Rimbalzo chiaro e attiva");
-define("USRLAN_153", "Eliminare i messaggi e-mail non-rimbalzo");
-define("USRLAN_154", "Chiaro e-mail per controllato");
-define("USRLAN_155", "Totale [w] email trovate. [x] eliminati tramite le opzioni.[br][y] utenti contrassegnati come 'rimbalzati' (su [z] email)");
-define("USRLAN_156", "Indirizzo e-mail è già in uso");
-define("USRLAN_161", "Utente ID [x] nome [y] bloccato");
-define("USRLAN_162", "Utente ID [x] nome [y] sbloccato");
-define("USRLAN_164", "IUtente ID [x] nome  [y] ([z]) reso amministratore");
-define("USRLAN_165", "Utente ID [x] nome [y] revocato da amministratore");
-define("USRLAN_166", "Utente ID [x] nome [y] approvato");
-define("USRLAN_167", "Email di convalida ID [x] rispedita a [y] a [z]");
-define("USRLAN_169", "Totale [x] email rimbalzate eliminate");
-define("USRLAN_170", "Nome utente casuale");
-define("USRLAN_171", "Password casuale");
-define("USRLAN_172", "Account utente è stato creato con il seguente:");
-define("USRLAN_179", "Utente bannato:");
-define("USRLAN_180", "Indirizzo IP {IP} appare sulla lista bianca; IP non bloccato");
-define("USRLAN_181", "Scegliere l'opzione per lo stato di utente e l'invio di email di conferma all'utente");
-define("USRLAN_182", "Caratteri non validi nel nome di accesso");
-define("USRLAN_183", "Quel nome utente già in uso");
-define("USRLAN_184", "Lunghezza del nome di accesso di fuori dei limiti");
-define("USRLAN_185", "Un account utente è stato creato per voi a {SITEURL} con l'account di accesso seguenti:<br><br><b>Nome utente:</b> {LOGINNAME}<br /><b>Password:</b> {PASSWORD}<br /><b>Link di attivazione:</b> {ACTIVATION_LINK}<br /><br />");
-define("USRLAN_186", "Si prega visitare il sito appena possibile e login, quindi modificare la password tramite il \'Settings\' opzione.<br /><br />Allo stesso tempo, è anche possibile modificare altre impostazioni.<br /><br />Si noti che la password non può essere recuperata se lo perdi.");
-define("USRLAN_187", "Accesso al sito Web:");
-define("USRLAN_188", "Email inviata con successo");
-define("USRLAN_189", "Errore durante l'invio di e-mail");
-define("USRLAN_190", "Nuovo periodo di prova di utente (giorni)");
-define("USRLAN_191", "Amministratore può imporre restrizioni durante questo periodo, in alcune zone");
-define("USRLAN_193", "Nulla è cambiato - non salvato");
-define("USRLAN_194", "Firma può essere modificato da");
-define("USRLAN_195", "Ultimo Post");
-define("USRLAN_198", "Nome del campo");
-define("USRLAN_199", "Funzionamento");
-define("USRLAN_200", "Valore");
-define("USRLAN_201", "Numero di commenti");
-define("USRLAN_202", "Numero di visite al sito");
-define("USRLAN_203", "Numero di membri di giorni");
-define("USRLAN_204", "Nucleo");
-define("USRLAN_206", "Calcolo corrente");
-define("USRLAN_207", "Tipo");
-define("USRLAN_208", "Nome di rango");
-define("USRLAN_209", "Soglia inferiore");
-define("USRLAN_210", "Prefisso di lang");
-define("USRLAN_211", "Immagine di rango");
-define("USRLAN_212", "Rank Utente");
-define("USRLAN_214", "Aggiungere nuovo rango");
-define("USRLAN_216", "-Seleziona immagine-");
-define("USRLAN_219", "Più di 30 giorni");
-define("LAN_MAINADMIN", "Amministratore principale");
-define("LAN_NOTVERIFIED", "Non verificato");
-define("LAN_BANNED", "Vietato");
-define("LAN_BOUNCED", "Rimbalzato");
-define("LAN_UI_1_HOUR", "1 ora");
-define("LAN_UI_3_HOURS", "3 ore");
-define("LAN_UI_6_HOURS", "6 ore");
-define("LAN_UI_12_HOURS", "12 ore");
-define("LAN_UI_24_HOURS", "24 ore");
-define("LAN_UI_48_HOURS", "48 ore");
-define("LAN_UI_3_DAYS", "3 giorni");
-define("USRLAN_220", "Tutti le Classi Utente");
-define("USRLAN_221", "Modificare admin perms");
-define("USRLAN_222", "Stai per eliminare [x] ([y]) con ID #[z]. Sei sicuro?");
-define("USRLAN_223", "Utente non trovato.");
-define("USRLAN_224", "Email inviata a:");
-define("USRLAN_225", "Impossibile inviare e-mail a:");
-define("USRLAN_226", "Non si dispone di autorizzazioni sufficienti per eseguire questa operazione.");
-define("USRLAN_227", "Errore sconosciuto. Azione non riuscita.");
-define("USRLAN_228", "Si sta per rendere User #[b] [x] [/b]: [b] [y] [/b] ([z]) un amministratore [b] [/b].");
-define("USRLAN_229", "Impostare le autorizzazioni e fare clic su [b] Aggiorna [/ b] di procedere o [b] Back [/ b] per interrompere l'operazione.");
-define("USRLAN_230", "Amministratore di aggiornamento [x] ([y])");
-define("USRLAN_231", "Autorizzazioni insufficienti, operazione interrotta.");
-define("USRLAN_232", "Chiave di attivazione mancante.");
-define("USRLAN_233", "Valido");
-define("USRLAN_234", "Non valido");
-define("USRLAN_235", "Utente deve ora verificare.");
-define("USRLAN_236", "Azione non riuscita.");
-define("USRLAN_237", "Nome utente e nome visualizzato non può essere diversi (basato sulla configurazione del sito). Visualizzare nome insieme a [b] [/b] [x].");
-define("USRLAN_238", "Il tuo attuale stato è [b] attivo [/b]");
-define("USRLAN_239", "Stato di notifica e utente");
-define("USRLAN_240", "Attivare, non notificare");
-define("USRLAN_241", "Attivare, notificare (password)");
-define("USRLAN_242", "Richiede l'attivazione, notificare (password e attivazione link)");
-define("USRLAN_243", "Impostare le autorizzazioni");
-define("USRLAN_244", "Violazione della sicurezza (autorizzazioni insufficienti) - L'amministratore [x] ([y], [z]) ha tentato di rimuovere lo stato di amministratore da [u] ([v], [w])");
-define("USRLAN_245", "Violazione della sicurezza (autorizzazioni insufficienti) - L'amministratore [x] ([y], [z]) ha tentato di rendere [u] ([v], [w]) amministratore di sistema");
-define("USRLAN_246", "(Non necessario)");
-define("USRLAN_247", "Noi");
-define("USRLAN_248", "Noi");
-define("USRLAN_249", "Noi");
-define("USRLAN_250", "Noi");
-define("USRLAN_251", "Lasciare vuoto per non cambiare nulla.");
-define("USRLAN_252", "Reinvia la mail di attivazione per gli utenti non ancora attivati.");
-define("USRLAN_253", "Più vecchio di");
-define("USRLAN_254", "Resetta tutte le password");
-define("USRLAN_255", "Notifica utente");
-define("USRLAN_256", "Caro");
-define("USRLAN_257", "Consenti ai membri di eliminare il proprio account?");
-define("UCSLAN_1", "L'invio di e-mail di notifica a");
-define("UCSLAN_2", "Privilegi di aggiornamento");
-define("UCSLAN_4", "I privilegi sono stati aggiornati al");
-define("UCSLAN_5", "È ora possibile accedere per le seguenti aree");
-define("UCSLAN_6", "Classe set per utente");
-define("UCSLAN_7", "Set di classi");
-define("UCSLAN_9", "Corsi di aggiornamento.");
-define("UCSLAN_10", "Distinti saluti,");
-define("UCSLAN_11", "L'appartenenza alla classe per l'ID utente [x] è cambiata in [y]");
-define("UCSLAN_12", "Privilegi di membro solo");
-define("USFLAN_1", "Impossibile trovare il poster indirizzo IP - nessuna informazione è disponibile.");
-define("USFLAN_3", "Messaggi inviati dall'indirizzo IP");
-define("USFLAN_4", "Host");
-define("USFLAN_5", "Clicca qui per trasferire l'indirizzo IP alla pagina admin divieto");
-define("USFLAN_6", "ID utente");
-define("USFLAN_7", "Informazioni utente");
-define("USRLAN_AS_1", "Login come [x]");
-define("USRLAN_AS_2", "Logout da [account x]");
-define("USRLAN_AS_3", "Si è già connessi un altro account utente. Si prega di logout prima.");
+
+return [
+    'USRLAN_1' => "Opzioni Salvate.",
+    'USRLAN_3' => "ora elencato come Amministratore - per impostare i permessi vai alla",
+    'USRLAN_4' => "pagina Amministratore",
+    'USRLAN_5' => "Non puoi rimuovere lo stato di admin dell'amministratore principale del sito",
+    'USRLAN_6' => "ha avuto lo stato di Amministratore rimosso.",
+    'USRLAN_7' => "Non puoi bannare l'amministratore principale del sito",
+    'USRLAN_8' => "Utente bannato.",
+    'USRLAN_9' => "Utente sbannato.",
+    'USRLAN_10' => "Utente eliminato.",
+    'USRLAN_11' => "Eliminazione annullata.",
+    'USRLAN_12' => "Non puoi eliminare l'amministratore principale del sito.",
+    'USRLAN_13' => "Per favore conferma di voler eliminare questo membro",
+    'USRLAN_16' => "Conferma Eliminazione",
+    'USRLAN_17' => "Conferma Eliminazione Utente",
+    'USRLAN_30' => "Banna",
+    'USRLAN_32' => "Attiva",
+    'USRLAN_33' => "Sbanna",
+    'USRLAN_34' => "Rimuovi stato admin",
+    'USRLAN_35' => "Rendi admin",
+    'USRLAN_36' => "Imposta Classe",
+    'USRLAN_44' => "Permettere ai membri di caricare un avatar?",
+    'USRLAN_47' => "Larghezza massima avatar (in pixel)",
+    'USRLAN_48' => "predefinito è 120",
+    'USRLAN_49' => "Altezza massima avatar (in pixel)",
+    'USRLAN_50' => "predefinito è 100",
+    'USRLAN_51' => "Aggiorna Opzioni",
+    'USRLAN_52' => "Opzioni Membro",
+    'USRLAN_53' => "Permettere ai membri di caricare una fotografia?",
+    'USRLAN_54' => "Clicca qui per eliminare tutti gli utenti non attivati",
+    'USRLAN_55' => "Pulisci (Prune)",
+    'USRLAN_56' => "Eliminati",
+    'USRLAN_57' => "Eliminazione membri non attivati ...",
+    'USRLAN_58' => "i caricamenti file sono disabilitati in php.ini",
+    'USRLAN_59' => "Aggiunta rapida utente",
+    'USRLAN_60' => "Aggiungi utente",
+    'USRLAN_61' => "Nome visualizzato",
+    'USRLAN_63' => "Reinserisci Password",
+    'USRLAN_64' => "Indirizzo Email",
+    'USRLAN_65' => "Quel nome visualizzato non può essere accettato come valido, per favore scegline uno diverso",
+    'USRLAN_66' => "Quel nome visualizzato esiste già nel database, per favore scegline uno diverso",
+    'USRLAN_67' => "Le due password non corrispondono",
+    'USRLAN_68' => "Hai lasciato vuoti i campi richiesti",
+    'USRLAN_69' => "Questo non sembra essere un indirizzo email valido",
+    'USRLAN_78' => "Nome Utente",
+    'USRLAN_79' => "Stato",
+    'USRLAN_80' => "Info",
+    'USRLAN_84' => "Ci sono",
+    'USRLAN_85' => "utenti che non hanno attivato il loro account - clicca sotto per eliminare.",
+    'USRLAN_86' => "Utente verificato",
+    'USRLAN_87' => "Impostazioni utente aggiornate",
+    'USRLAN_88' => "Classi utente aggiornate",
+    'USRLAN_90' => "Cerca/Aggiorna",
+    'USRLAN_91' => "Classe",
+    'USRLAN_92' => "Caratteri non validi nel nome utente",
+    'USRLAN_93' => "Elimina utenti non verificati",
+    'USRLAN_94' => "Elimina registrazioni se non verificate dopo questo lasso di tempo - lascia vuoto per non usare questa opzione <br />Questa opzione viene ignorata se le registrazioni utenti sono moderate dall'admin",
+    'USRLAN_95' => "minuti",
+    'USRLAN_112' => "Reinvia Email",
+    'USRLAN_113' => "Dettagli registrazione per",
+    'USRLAN_114' => "Caro",
+    'USRLAN_115' => "Grazie per la tua registrazione.",
+    'USRLAN_116' => "Per favore conferma di voler reinviare un'email di conferma a:",
+    'USRLAN_117' => "Clicca il pulsante sotto per testare la seguente email:",
+    'USRLAN_118' => "Email di Test",
+    'USRLAN_119' => "Test [x]",
+    'USRLAN_120' => "Imposta Classi",
+    'USRLAN_121' => "Mailing",
+    'USRLAN_122' => "Benvenuto su",
+    'USRLAN_123' => "La tua registrazione è stata ricevuta e creata.",
+    'USRLAN_124' => "Il tuo account è attualmente contrassegnato come inattivo, per attivare il tuo account per favore vai al seguente link",
+    'USRLAN_125' => "Da",
+    'USRLAN_126' => "Permetti agli utenti di valutare gli utenti",
+    'USRLAN_127' => "Permetti commenti nel profilo utente",
+    'USRLAN_128' => "Nome utente (nome login)",
+    'USRLAN_129' => "Nome Reale",
+    'USRLAN_130' => "Abilita tracciamento utenti online",
+    'USRLAN_131' => "Devi abilitare questa opzione per usare le opzioni di tracciamento utenti online, come online.php, info forum online e menu online",
+    'USRLAN_133' => "Forza l'utente ad aggiornare le impostazioni",
+    'USRLAN_134' => "Abilitando questa opzione l'utente verrà inviato automaticamente alle sue impostazioni utente se un campo richiesto non è compilato.",
+    'USRLAN_135' => "Nessun indirizzo IP trovato nelle info dell'utente; IP non bannato",
+    'USRLAN_136' => "Trovati più utenti con l'indirizzo IP {IP}; IP non bannato.",
+    'USRLAN_137' => "Indirizzo IP utente {IP} bannato.",
+    'USRLAN_138' => "Utenti non verificati",
+    'USRLAN_139' => "Il tuo account è stato attivato.\\n\\nPuoi visitare {SITEURL} e accedere al sito usando le informazioni di login che hai fornito.",
+    'USRLAN_140' => "Email di attivazione reinviata a",
+    'USRLAN_141' => "Impossibile reinviare l'email di attivazione a",
+    'USRLAN_142' => "con il seguente link di attivazione",
+    'USRLAN_143' => "Controlla Email Rimbalzate",
+    'USRLAN_144' => "Reinvia Email di Conferma a Tutti",
+    'USRLAN_145' => "Utenti rimbalzati",
+    'USRLAN_146' => "Le informazioni sui membri sono disponibili per",
+    'USRLAN_147' => "L'indirizzo email è già usato da un utente bannato",
+    'USRLAN_148' => "L'indirizzo email è bannato",
+    'USRLAN_149' => "Elimina email selezionate",
+    'USRLAN_150' => "Elimina tutte le email",
+    'USRLAN_151' => "Pulisci rimbalzo, richiedi Attivazione",
+    'USRLAN_152' => "Pulisci rimbalzo e Attiva",
+    'USRLAN_153' => "Elimina email non rimbalzate",
+    'USRLAN_154' => "Pulisci email per selezionati",
+    'USRLAN_155' => "Totale [w] email trovate. [x] eliminate tramite opzioni.[br][y] utenti contrassegnati come 'rimbalzati' (su [z] email)",
+    'USRLAN_156' => "L'indirizzo email è già in uso",
+    'USRLAN_161' => "Utente ID [x] nome [y] bannato",
+    'USRLAN_162' => "Utente ID [x] nome [y] sbannato",
+    'USRLAN_164' => "Utente ID [x] nome [y] ([z]) reso admin",
+    'USRLAN_165' => "Utente ID [x] nome [y] stato admin revocato",
+    'USRLAN_166' => "Utente ID [x] nome [y] approvato",
+    'USRLAN_167' => "Email di validazione ID [x] reinviata a [y] presso [z]",
+    'USRLAN_169' => "Totale [x] email rimbalzate eliminate",
+    'USRLAN_171' => "Password casuale",
+    'USRLAN_172' => "L'account utente è stato creato con i seguenti dati:",
+    'USRLAN_179' => "Utente bannato:",
+    'USRLAN_180' => "L'indirizzo IP {IP} appare nella whitelist; IP non bannato.",
+    'USRLAN_181' => "Scegli l'opzione per lo stato utente e l'invio dell'email di conferma all'utente",
+    'USRLAN_182' => "Caratteri non validi nel nome login",
+    'USRLAN_183' => "Quel nome login è già in uso",
+    'USRLAN_184' => "Lunghezza del nome login fuori dai limiti",
+    'USRLAN_185' => "Un account utente è stato creato per te su {SITEURL} con i seguenti dati di accesso:<br /><br /><b>Nome Login:</b> {LOGINNAME}<br /><b>Password:</b> {PASSWORD}<br/><b>Link di attivazione:</b> {ACTIVATION_LINK}<br /><br />",
+    'USRLAN_186' => "Per favore vai sul sito il prima possibile e accedi, quindi cambia la tua password usando l'opzione \\\"Impostazioni\\\".<br /><br />Puoi anche cambiare altre impostazioni allo stesso tempo.<br /><br />Nota che la tua password non può essere recuperata se la perdi.",
+    'USRLAN_187' => "Accesso al sito web:",
+    'USRLAN_188' => "Email inviata con successo",
+    'USRLAN_189' => "Errore nell'invio dell'email",
+    'USRLAN_190' => "Periodo di prova nuovo utente (giorni)",
+    'USRLAN_191' => "L'amministratore può imporre restrizioni durante questo periodo in alcune aree",
+    'USRLAN_193' => "Nulla è cambiato - non salvato",
+    'USRLAN_194' => "La firma può essere modificata da",
+    'USRLAN_195' => "Ultimo Post",
+    'USRLAN_198' => "Nome Campo",
+    'USRLAN_199' => "Operazione",
+    'USRLAN_200' => "Valore",
+    'USRLAN_201' => "Numero di commenti",
+    'USRLAN_202' => "Numero di visite al sito",
+    'USRLAN_203' => "Numero di giorni da membro",
+    'USRLAN_204' => "Core",
+    'USRLAN_206' => "Calcolo Corrente",
+    'USRLAN_207' => "Tipo",
+    'USRLAN_208' => "Nome Grado",
+    'USRLAN_209' => "Soglia Inferiore",
+    'USRLAN_210' => "Prefisso Lingua",
+    'USRLAN_211' => "Immagine Grado",
+    'USRLAN_212' => "Grado Utente",
+    'USRLAN_214' => "Aggiungi Nuovo Grado",
+    'USRLAN_216' => "--seleziona immagine--",
+    'USRLAN_219' => "Più vecchio di 30 giorni",
+    'LAN_MAINADMIN' => "Admin Principale",
+    'LAN_NOTVERIFIED' => "Non Verificato",
+    'LAN_BANNED' => "Bannato",
+    'LAN_BOUNCED' => "Rimbalzato",
+    'LAN_UI_1_HOUR' => "1 ora",
+    'LAN_UI_3_HOURS' => "3 ore",
+    'LAN_UI_6_HOURS' => "6 ore",
+    'LAN_UI_12_HOURS' => "12 ore",
+    'LAN_UI_24_HOURS' => "24 ore",
+    'LAN_UI_48_HOURS' => "48 ore",
+    'LAN_UI_3_DAYS' => "3 giorni",
+    'USRLAN_220' => "Tutte le Classi Utente",
+    'USRLAN_221' => "Modifica permessi admin",
+    'USRLAN_222' => "Stai per eliminare [x] ([y]) con ID #[z]. Sei sicuro?",
+    'USRLAN_223' => "Utente non trovato.",
+    'USRLAN_224' => "Email inviata a:",
+    'USRLAN_225' => "Impossibile inviare email a:",
+    'USRLAN_226' => "Non hai permessi sufficienti per farlo.",
+    'USRLAN_227' => "Errore sconosciuto. Azione fallita.",
+    'USRLAN_228' => "Stai per rendere l'Utente #[b][x][/b] : [b][y][/b] ([z]) un [b]amministratore[/b].",
+    'USRLAN_229' => "Imposta i permessi e clicca [b]Aggiorna[/b] per procedere o [b]Indietro[/b] per annullare.",
+    'USRLAN_230' => "Aggiorna amministratore [x] ([y])",
+    'USRLAN_231' => "Permessi insufficienti, operazione interrotta.",
+    'USRLAN_232' => "Chiave di attivazione mancante.",
+    'USRLAN_233' => "Valido",
+    'USRLAN_234' => "Non valido",
+    'USRLAN_235' => "L'utente ora deve verificare.",
+    'USRLAN_236' => "Azione fallita.",
+    'USRLAN_237' => "Nome utente e nome visualizzato non possono essere diversi (in base alla configurazione del sito). Nome visualizzato impostato su [b][x][/b].",
+    'USRLAN_238' => "Il tuo stato attuale è [b]Attivo[/b]",
+    'USRLAN_239' => "Notifica e stato utente",
+    'USRLAN_240' => "Attiva, Non Notificare",
+    'USRLAN_241' => "Attiva, Notifica (password)",
+    'USRLAN_242' => "Richiedi Attivazione, Notifica (password e link di attivazione)",
+    'USRLAN_243' => "Imposta Permessi",
+    'USRLAN_244' => "Violazione di sicurezza (permessi insufficienti) - L'Amministratore [x] ([y], [z]) ha provato a rimuovere lo stato di admin da [u] ([v], [w])",
+    'USRLAN_245' => "Violazione di sicurezza (permessi insufficienti) - L'Amministratore [x] ([y], [z]) ha provato a rendere [u] ([v], [w]) admin di sistema",
+    'USRLAN_246' => "(Non richiesto)",
+    'USRLAN_247' => "Noi",
+    'USRLAN_248' => "Noi",
+    'USRLAN_249' => "Noi",
+    'USRLAN_250' => "Noi",
+    'USRLAN_251' => "Lascia vuoto per nessuna modifica",
+    'USRLAN_252' => "Reinvia email di attivazione account agli utenti non attivati.",
+    'USRLAN_253' => "Più vecchio di",
+    'USRLAN_254' => "Resetta tutte le password",
+    'USRLAN_255' => "Notifica Utente",
+    'USRLAN_256' => "Caro",
+    'USRLAN_257' => "Permettere ai membri di eliminare il proprio account?",
+    'UCSLAN_1' => "Invio email di notifica a",
+    'UCSLAN_2' => "Privilegi Aggiornati",
+    'UCSLAN_4' => "I tuoi privilegi sono stati aggiornati su",
+    'UCSLAN_5' => "Ora hai accesso alle seguenti aree",
+    'UCSLAN_6' => "Imposta classe per l'utente",
+    'UCSLAN_7' => "Imposta Classi",
+    'UCSLAN_9' => "Classi Aggiornate.",
+    'UCSLAN_10' => "Cordiali saluti,",
+    'UCSLAN_11' => "Appartenenza alla classe per l'ID utente [x] cambiata in [y]",
+    'UCSLAN_12' => "Solo privilegi membro",
+    'USFLAN_1' => "Impossibile trovare l'indirizzo IP dell'autore - nessuna informazione disponibile.",
+    'USFLAN_3' => "Messaggi inviati dall'indirizzo IP",
+    'USFLAN_4' => "Host",
+    'USFLAN_5' => "Clicca qui per trasferire l'indirizzo IP alla pagina ban dell'admin",
+    'USFLAN_6' => "ID Utente",
+    'USFLAN_7' => "Informazioni Utente",
+    'USRLAN_AS_1' => "Accedi come [x]",
+    'USRLAN_AS_2' => "Esci dall'account di [x]",
+    'USRLAN_AS_3' => "Hai già effettuato l'accesso come un altro account utente. Per favore esci prima.",
+];

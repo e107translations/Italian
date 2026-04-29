@@ -1,37 +1,36 @@
 <?php
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
+return [
+    'NFPM_LAN_1' => "Discussione",
+    'NFPM_LAN_2' => "Autore",
+    'NFPM_LAN_3' => "Visualizzazioni",
+    'NFPM_LAN_4' => "Risposte",
+    'NFPM_LAN_5' => "Ultimo post",
+    'NFPM_LAN_6' => "Discussioni",
+    'NFPM_LAN_7' => "da",
 
-define("NFPM_LAN_1", "Thread");
-define("NFPM_LAN_2", "Poster");
-define("NFPM_LAN_3", "Visualizzazioni");
-define("NFPM_LAN_4", "Risposte");
-define("NFPM_LAN_5", "Lastpost");
-define("NFPM_LAN_6", "Discussioni");
-define("NFPM_LAN_7", "da");
-define("NFPM_L1", "Questo plugin consente di visualizzare un elenco di nuovi messaggi nel forum sulla vostra prima pagina");
-define("NFPM_L2", "Ultimi messaggi del Forum");
-define("NFPM_L3", "Per configurare per favore clicca sul link nella sezione plugin di admin prima pagina");
-define("NFPM_L4", "Attivare in quale zona?");
-define("NFPM_L5", "Inattivo");
-define("NFPM_L6", "Parte superiore della pagina");
-define("NFPM_L7", "Fondo pagina");
-define("NFPM_L8", "Didascalia");
-define("NFPM_L9", "Numero di nuovi messaggi da visualizzare?");
-define("NFPM_L10", "Visualizzare all'interno di strato di scorrimento?");
-define("NFPM_L11", "Strato di altezza");
-define("NFPM_L12", "Nuova configurazione di post del Forum");
-define("NFPM_L13", "Nuove impostazioni Forum Post aggiornate.");
-define("NFPM_L14", "Visualizza ultimi messaggi del forum?");
-define("NFPM_L15", "Per impostazione predefinita, vengono visualizzati gli ultimi argomenti.");
-define("NFPM_L16", "[utente cancellato]");
-define("NFPM_L17", "Nuovi messaggi sul Thread popolare");
-define("NFPM_L18", "Nuovi post");
-define("NFPM_L19", "No nuovi messaggi sul Thread popolare");
-define("NFPM_L20", "Nessun nuovo post");
-define("NFPM_L21", "Thread Sticky");
-define("NFPM_L22", "Chiuso il Thread Sticky");
-define("NFPM_L23", "Annuncio");
-define("NFPM_L24", "Discussione chiusa");
+    'NFPM_L1' => "Questo plugin mostra un elenco degli ultimi messaggi del forum sulla tua home page",
+    'NFPM_L2' => "Ultimi Messaggi del Forum",
+    'NFPM_L3' => "Per configurare, clicca sul link nella sezione plugin della pagina principale di amministrazione",
+    'NFPM_L4' => "Attivare in quale area?",
+    'NFPM_L5' => "Inattivo",
+    'NFPM_L6' => "Inizio pagina",
+    'NFPM_L7' => "Fine pagina",
+    'NFPM_L8' => "Didascalia",
+    'NFPM_L9' => "Numero di nuovi messaggi da visualizzare?",
+    'NFPM_L10' => "Visualizzare all'interno di un'area a scorrimento (scrolling layer)?",
+    'NFPM_L11' => "Altezza dell'area",
+    'NFPM_L12' => "Configurazione Nuovi Messaggi del Forum",
+    'NFPM_L13' => "Impostazioni Nuovi Messaggi del Forum aggiornate.",
+    'NFPM_L14' => "Visualizzare gli ultimi messaggi del forum?",
+    'NFPM_L15' => "Per impostazione predefinita, vengono mostrati gli argomenti più recenti.",
+    'NFPM_L16' => "[utente eliminato]",
+    'NFPM_L17' => "Nuovi messaggi in discussioni popolari",
+    'NFPM_L18' => "Nuovi messaggi",
+    'NFPM_L19' => "Nessun nuovo messaggio in discussioni popolari",
+    'NFPM_L20' => "Nessun nuovo messaggio",
+    'NFPM_L21' => "Discussione in rilievo",
+    'NFPM_L22' => "Discussione in rilievo chiusa",
+    'NFPM_L23' => "Annuncio",
+    'NFPM_L24' => "Discussione chiusa",
+];

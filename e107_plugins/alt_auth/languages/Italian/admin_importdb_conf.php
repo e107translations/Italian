@@ -1,12 +1,12 @@
 <?php
+/*
+ * e107 website system
+ * Traduzione Italiana
+ */
 
-// Bing-Translated Language file 
-// Generated for e107 v2.x by the Multi-Language Plugin
-// https://github.com/e107inc/multilan
-
-define("IMPORTDB_LAN_9", "Metodo di password:");
-define("IMPORTDB_LAN_10", "Configurare il tipo di password di database importato");
-define("IMPORTDB_LAN_11", "Questa opzione deve essere utilizzato quando aver importato qualche altro sistema basato sull'utente in E107. 
-							Esso consente di accettare le password codificate nel formato non standard selezionato. 
-							Password di ogni utente di s viene convertito in formato E107 quando accedono.");
-define("LAN_AUTHENTICATE_HELP", "Questo metodo di autenticazione deve essere usato <i>solo</i> quando aver importato un database utente in E107, e la password è in un formato incompatibile. La password originale è leggere dal database locale e convalidata rispetto al formato di archiviazione del sistema originale. Se si verifica, sua convertito nel formato corrente di E107-compatibile e memorizzati nel database. Dopo un po' è solitamente possibile disattivare il plugin di alt-auth, poiché utenti attivi avrà tutte le password memorizzate in un formato compatibile.");
+return [
+    'IMPORTDB_LAN_9' => "Metodo Password:",
+    'IMPORTDB_LAN_10' => "Configura il tipo di password del database importato",
+    'IMPORTDB_LAN_11' => "Questa opzione deve essere utilizzata quando è stato importato un altro sistema basato su utenti in e107. Consente di accettare password codificate nel formato non standard selezionato. La password di ogni utente viene convertita nel formato e107 al momento dell'accesso.",
+    'LAN_AUTHENTICATE_HELP' => "Questo metodo di autenticazione deve essere utilizzato <i>solo</i> quando è stato importato un database utenti in e107 e la password è in un formato incompatibile. La password originale viene letta dal database locale e convalidata rispetto al formato di archiviazione del sistema originale. Se verificata, viene convertita nel formato compatibile con e107 corrente e memorizzata nel database.",
+];
