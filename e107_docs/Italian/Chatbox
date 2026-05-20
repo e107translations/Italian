@@ -1,0 +1,13 @@
+Q>	A cosa serve la sezione Sostituisci Link?
+A>	Puoi convertire qualsiasi link inserito nella tua chatbox in un altro testo o in un'immagine.
+Questo evita che la tua chatbox trabocchi di lunghi indirizzi di siti web.
+Per usare un'immagine, spunta Sostituisci Link e nella casella sottostante inserisci &lt;img src='path_to_your_image' alt='' />, ora tutti i link inseriti saranno convertiti nell'immagine che hai inserito.
+Q>	A cosa serve il Wordwrap?
+A>	Se qualcuno inserisse una parola molto lunga nella tua chatbox, potrebbe alterare il layout del tuo sito.
+Se dovessi inserire 40 nella casella Wordwrap, tutte le parole più lunghe di 40 caratteri verrebbero mandate a capo in modo che la colonna non venga estesa.
+Potrebbe essere necessario modificare questo valore in base al tema che stai utilizzando e alla larghezza della colonna in cui si trova la tua chatbox.
+
+Q>	Il mio sito è per tutte le età, eppure qualcuno continua a dire parolacce nella chatbox - come posso fermarlo?
+A>	Vai nella schermata delle Preferenze nella tua sezione amministrativa e trova le opzioni di Protezione dei minori.
+Qui puoi aggiungere un elenco di parole che verranno sostituite da una parola o una frase a tua scelta, ad esempio CENSORED!
+Ora ogni volta che quella parola viene riscontrata sul tuo sito, verrà sostituita con il testo che hai inserito.

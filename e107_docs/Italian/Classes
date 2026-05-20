@@ -1,0 +1,12 @@
+Q>	Cosa sono queste classi utente che continuo a vedere? A cosa servono?
+A>	Le classi utente limitano l'accesso a determinate aree o funzioni del tuo sito.
+Se definisci una classe e poi vi aggiungi determinati utenti, puoi scegliere di rendere visibili le cose solo agli utenti di quella classe.
+Ad esempio, c'è una classe già creata per impostazione predefinita quando installi e107 chiamata PRIVATEFORUM.
+Aggiungendo utenti a questa classe e poi creando un forum sotto quella classe, farai sì che solo gli utenti in quella classe possano accedere a quel forum.
+Puoi limitare altre aree e funzioni in base alla classe, come notizie, link, download, ecc.
+Q>	Cosa fa il campo 'class parent'?
+A>	Nella versione 2.x, puoi impostare una 'gerarchia delle classi', in cui gli utenti di una determinata classe hanno anche i diritti della classe genitore.
+Se non desideri questo, imposta semplicemente il genitore su 'Everyone'
+Q>	Voglio che i nuovi utenti inizino con l'iscrizione a determinate classi.
+A>	Ora puoi impostare l'appartenenza iniziale alla classe tramite il menu 'Userclass'.
+Puoi anche ordinare se questa iscrizione è effettiva immediatamente al momento della registrazione o se viene aggiunta quando la loro iscrizione viene verificata.

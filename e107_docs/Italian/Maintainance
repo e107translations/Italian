@@ -1,0 +1,5 @@
+Q> A cosa serve questa sezione?
+A> Ti permette di mettere il sito offline per manutenzione, rendendolo accessibile solo all'amministratore.
+
+Q> Mi sono disconnesso durante la manutenzione, come rientro?
+A> Accedi direttamente tramite l'URL /e107_admin/admin.php.

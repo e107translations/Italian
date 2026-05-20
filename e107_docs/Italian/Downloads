@@ -1,0 +1,6 @@
+Q>	Cos'è un download parent?
+A>	Questo ti consente di raggruppare i tuoi download in diverse categorie.
+Q>	Voglio aggiungere un download ma il file non appare nell'elenco - perché?
+A>	Solo i file nella cartella e107_files/downloads appaiono nell'elenco a discesa.
+Copia il file in questa cartella e apparirà. Lo stesso vale per le immagini;
+devono trovarsi nella cartella e107_files/downloadimages.

@@ -1,0 +1,5 @@
+Q> Ho errori MySQL dopo delle modifiche, che faccio?
+A> Il core potrebbe essersi corrotto. Usa il file resetcore.php per ripristinarlo.
+
+Q> Ho dimenticato la password admin, come accedo?
+A> Devi reimpostarla manualmente tramite il database (es. phpMyAdmin), impostando la password a 4cb9c8a8048fd02294477fcb1a41191a (ovvero 'changeme').

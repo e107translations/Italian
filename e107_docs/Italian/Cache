@@ -1,0 +1,10 @@
+Q>	A cosa serve questa sezione?
+A>	Impostare lo Stato della Cache su attivato salverà determinate aree del tuo sito nel tuo database.
+Questo riduce le chiamate a MySQL e velocizza notevolmente il tuo sito.
+Q>	Ho apportato alcune modifiche al tema che sto utilizzando ma non sono cambiate - è perché è memorizzato in cache?
+A>	Molto probabilmente. Quando cambi i temi la cache viene svuotata, ma la modifica del codice nel tuo file theme.php non svuoterà la cache.
+Imposta lo Stato della Cache su disattivato finché non hai finito.
+
+Q>	Posso salvare la cache su file nell'hard disk?
+A>	Sì.
+Assicurati solo che la tua cartella e107_files/cache sia scrivibile (chmod 777). E poi clicca sull'opzione nella pagina della cache.

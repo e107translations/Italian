@@ -1,0 +1,20 @@
+Q>	Come faccio a cambiare i temi?
+A>	C'è una sezione nella tua pagina Preferences che ti consente di cambiare il tema del tuo sito. Per favore visualizza l'anteprima del tema prima, poiché alcuni temi più vecchi non sono più compatibili e potrebbero rendere inutilizzabile il tuo sito se applicati.
+
+Q>	Cos'è il COPPA?
+A>	Il Children's Online Privacy Protection Act del 1998. È una regola universalmente utilizzata che protegge i minori di età pari o inferiore a 13 anni. Assicura che nessuna informazione sui minori venga utilizzata dall''Operator' (ovvero tu) per scopi diversi dal mantenimento del sito web. Per maggiori informazioni, consulta https://www.ftc.gov/business-guidance/resources/complying-coppa-frequently-asked-questions.
+
+Q>	Cos'è la flood protection?
+A>	Impedisce che il tuo sito venga inondato da chiamate HTTP, il che potrebbe rendere il tuo sito irraggiungibile.
+
+Q>	Dovrei usare i Cookie o le Sessioni per tracciare i miei utenti?
+A>	È una tua scelta, se il tuo sito funziona correttamente con i cookie (l'impostazione predefinita) allora lascialo così. Se preferisci utilizzare le sessioni PHP, usa pure quelle (un gestore di sessioni personalizzato viene utilizzato da e107 per memorizzare e gestire le sessioni).
+
+Q>	Perché dovrei avviare il mio sito in standards mode?
+A>	Se stai sviluppando un tema e riscontri problemi nel farlo visualizzare correttamente in Firefox/Mozilla e IE, prova a spuntare questa casella. IE verrà quindi eseguito in modalità standard e utilizzerà il box model corretto.
+
+Q>  Cosa si intende con PLAINTEXT?
+A>  Una stringa di testo che viene visualizzata con un unico valore per ciascun attributo del testo.
+
+Q>  Cosa si intende con CHAP?
+A>  Il Challenge-Handshake Authentication Protocol (CHAP) autentica un utente o un host di rete presso un'entità di autenticazione. Tale entità può essere, ad esempio, un fornitore di servizi Internet.

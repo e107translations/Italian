@@ -1,0 +1,17 @@
+Q>	Ho definito un nuovo banner dall'area amministrativa ma non viene visualizzato - perché?
+A>	Il tema che stai utilizzando deve sapere che deve mostrare un banner.
+Apri il file theme.php del tema e assicurati di avere {BANNER} o {BANNER=yourcampaignname} nella sezione $HEADER.
+Q>	Voglio un set di banner in un'area e un set diverso in un'altra area - come si fa?
+A>	Puoi raggruppare i tuoi banner sotto delle 'campagne', e poi configurare il tuo tema per mostrare i banner di determinate campagne.
+Ad esempio, se avessi due campagne chiamate cam_1 e cam_2, inserendo {BANNER=cam1} in un'area della tua sezione $HEADER nel file theme.php verranno mostrati solo i banner di cam_1, e inserendo {BANNER=cam_2} in un'altra area verranno mostrati solo i banner di cam_2.
+Inserendo {BANNER} (senza nome della campagna) nel tuo file theme.php verranno mostrati banner casuali da tutte le campagne.
+Q>	A cosa servono il login del cliente e la password del cliente?
+A>	Puoi definire un login e una password per i clienti dei tuoi banner, i quali potranno poi usarli per accedere alle informazioni sulle prestazioni dei loro banner andando su http://yoursite.com/banner.php e inserendo il nome e la pass.
+Q>	Come posso avere un banner di tipo 'tower' in una voce di menu?
+A>	Prima devi definire la campagna per i banner di tipo tower (questo li terrà separati dai banner di tipo bar) ...
+	1. Vai nella tua area amministrativa e clicca su banners.
+	2. Inserisci i tuoi banner di tipo tower, assicurati di usare un nuovo nome per la campagna, ad esempio 'towers'.
+	3. Ora vai nella tua area Menus, e attiva il Banner_menu in una delle tue aree di menu.
+	4. Clicca sul link 'Configure' nella voce di menu.
+	5. Inserisci il titolo della didascalia (per impostazione predefinita è 'Advertisement'), e inserisci il nome della campagna che hai definito prima.
+	6. Esci dalla tua area amministrativa e vedrai i tuoi banner di tipo tower nell'area a cui li hai assegnati.

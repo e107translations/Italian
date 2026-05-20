@@ -1,0 +1,13 @@
+Q>	Cos'è il BBCode?
+A>	Un BBCode è una scorciatoia per un tag HTML, ad esempio inserendo &#91;b] I am bold text!
+&#91;/b] in una qualsiasi delle tue caselle di testo amministrative farà apparire in grassetto il testo all'interno di &#91;b] e &#91;/b], quindi [b]I am bold text![/b] apparirà sullo schermo.
+Q>	Ma a cosa serve?
+A>	Ti fa risparmiare tempo durante l'inserimento dei tag HTML.
+Puoi usare i normali tag HTML nelle tue caselle di inserimento testo, ma l'uso del BBCode velocizzerà davvero molto l'inserimento del testo.
+Q>	Quando clicco su uno dei pulsanti BBCode per inserire il codice, questo viene inserito alla fine del mio testo e non dove si trova il cursore - perché?
+A>	C'è un bug in Internet Explorer che può causare il suo blocco se e107 tenta di inserire il codice nella posizione del cursore, quindi, per motivi di compatibilità, il codice viene inserito alla fine del testo.
+Q>	Quali BBCode posso usare?
+A>	Passa il puntatore del mouse sopra una qualsiasi delle caselle dei bbcode;
+vedrai apparire una breve spiegazione appena sopra i pulsanti.
+Ci sono anche codici per i link &#91;url] &#91;/url] ed email &#91;email] &#91;/email], anche se, di nuovo, usare i normali tag HTML va bene lo stesso.
+Tutti gli indirizzi web e gli indirizzi email inseriti vengono automaticamente trasformati in collegamenti ipertestuali cliccabili.

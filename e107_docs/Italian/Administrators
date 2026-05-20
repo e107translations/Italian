@@ -1,0 +1,8 @@
+Q>	Cosa sono i permessi?
+A>	Questi ti consentono di assegnare agli amministratori diversi livelli di accesso alla sezione amministrativa.
+Ad esempio, potresti voler consentire a un determinato amministratore solo l'invio di notizie; usando i permessi puoi farlo.
+Ci sono alcune funzioni amministrative che sono accessibili solo all'amministratore principale del sito, questo per motivi di sicurezza.
+Q>	Voglio far diventare amministratore un membro già registrato - come si fa?
+A>	Clicca su Users nella tua sezione amministrativa e cerca il membro registrato, quindi clicca su Make Admin.
+Dovresti poi andare immediatamente nella sezione Administrators e impostare i suoi permessi.
+In questo modo puoi anche revocare lo stato di amministratore a qualcuno.
