@@ -1,0 +1,60 @@
+<?php
+/*
+ * Copyright (C) 2008-2025 e107 Inc (e107.org), Licensed under GNU GPL (http://www.gnu.org/licenses/gpl.txt)
+ *
+ * Admin Language File
+ *
+*/
+
+
+return [
+    'CUSLAN_1' => "Panoramica",
+    'CUSLAN_2' => "Titolo della pagina",
+    'CUSLAN_3' => "Elementi per pagina",
+    'CUSLAN_4' => "Campi personalizzati",
+    'CUSLAN_5' => "(Nuovo libro)",
+    'CUSLAN_9' => "Testo",
+    'CUSLAN_12' => "Crea Pagina/Menu",
+    'CUSLAN_29' => "Elenca le pagine se non è selezionata alcuna pagina",
+    'CUSLAN_30' => "Tempo di scadenza del cookie (in secondi)",
+    'CUSLAN_31' => "Crea menu",
+    'CUSLAN_48' => "Elenco pagine",
+    'CUSLAN_49' => "Elenco menu",
+    'CUSLAN_50' => "Elenca Libri/Capitoli",
+    'CUSLAN_51' => "Aggiungi Libro/Capitolo",
+    'CUSLAN_52' => "Libro",
+    'CUSLAN_53' => "Titolo del Libro o del Capitolo",
+    'CUSLAN_55' => "Può essere modificato da",
+    'CUSLAN_56' => "Genitore (Parent)",
+    'CUSLAN_57' => "Scegli un URL SEF univoco per questa voce.",
+    'CUSLAN_58' => "Visualizza le pagine in questo capitolo",
+    'CUSLAN_59' => "Pagina",
+    'CUSLAN_60' => "Opzioni pagina",
+    'CUSLAN_61' => "Menu",
+    'CUSLAN_62' => "Opzioni menu",
+    'CUSLAN_63' => "Libro/Capitolo",
+    'CUSLAN_64' => "Nome del menu",
+    'CUSLAN_65' => "Titolo del menu",
+    'CUSLAN_66' => "Corpo del menu",
+    'CUSLAN_67' => "Modello (Template) del menu",
+    'CUSLAN_68' => "Testo del pulsante personalizzato",
+    'CUSLAN_69' => "URL del pulsante personalizzato",
+    'CUSLAN_70' => "Icona/Glifo del menu",
+    'CUSLAN_71' => "Immagine/Video del menu",
+    'CUSLAN_72' => "Modello elenco Libri/Capitoli",
+    'CUSLAN_73' => "Menu creato",
+    'CUSLAN_74' => "Menu aggiornato",
+    'CUSLAN_75' => "Rilevato ID menu mancante:",
+    'CUSLAN_76' => "Menu con percorso #",
+    'CUSLAN_77' => "eliminato",
+    'CUSLAN_78' => "Impossibile eliminare il menu con il percorso",
+    'CUSLAN_79' => "È necessario inserire il titolo di una pagina o il nome di un menu.",
+    'CUSLAN_80' => "Sottotitolo",
+    'CUSLAN_81' => "Meta immagine (Meta image)",
+    'CUSLAN_82' => "Opzionale. Utilizzata dai social media durante la condivisione di questa pagina.",
+    'CUSLAN_83' => "Verrà elencato nel Gestore Menu sotto questo nome o potrà essere richiamato utilizzando {CMENU=nome} nel tuo tema. Deve contenere solo caratteri ASCII e solo lettere minuscole.",
+    'CUSLAN_84' => "Dicitura/Didascalia visualizzata sull'elemento del menu.",
+    'CUSLAN_85' => "Lascia vuoto per utilizzare il valore predefinito",
+    'CUSLAN_86' => "Lascia vuoto per utilizzare la pagina corrispondente",
+    'CUSLAN_87' => "Conteggio pagine",
+];

@@ -36,4 +36,9 @@ return [
     'LAN_NEWS_462' => "Nessuna notizia per il mese specificato",
     'LAN_NEWS_100' => "Il",
     'LAN_NEWS_307' => "Totale post in questa categoria:",
+    'LAN_NEWS_463' => "Non ci sono notizie per la categoria specificata - torna a controllare presto.",
+    'LAN_NEWS_464' => "Nessuna notizia per il giorno specificato",
+    'LAN_NEWS_300' => "Il",
+    'LAN_NEWS_308' => "Forse stavi cercando una delle notizie qui sotto?",
+    'LAN_NEWS_309' => "Tag",
 ];

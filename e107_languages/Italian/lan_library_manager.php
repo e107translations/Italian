@@ -17,4 +17,11 @@ return [
     'LAN_LIBRARY_MANAGER_11' => "non supportata",
     'LAN_LIBRARY_MANAGER_13' => "Libreria",
     'LAN_LIBRARY_MANAGER_21' => "Fornitore",
+    'LAN_LIBRARY_MANAGER_25' => "Librerie di terze parti",
+    'LAN_LIBRARY_MANAGER_27' => "Nome di sistema (Machine name): [x]",
+    'LAN_LIBRARY_MANAGER_28' => "Percorso della libreria: [x]",
+    'LAN_LIBRARY_MANAGER_29' => "Percorso della libreria",
+    'LAN_LIBRARY_MANAGER_30' => "Impostazioni CDN",
+    'LAN_LIBRARY_MANAGER_31' => "Usa CDN per le librerie del core",
+    'LAN_LIBRARY_MANAGER_32' => "Fornitore CDN (CDN provider)",
 ];

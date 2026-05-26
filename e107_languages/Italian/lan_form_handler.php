@@ -19,4 +19,6 @@ return [
     'LAN_EFORM_012' => "Campo multi-lingua",
     'LAN_EFORM_013' => "vai alla lista",
     'LAN_EFORM_014' => "creane un altro",
+    'LAN_EFORM_015' => "modifica corrente",
+    'LAN_EFORM_016' => "Dopo l'invio:",
 ];

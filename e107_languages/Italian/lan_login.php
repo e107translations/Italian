@@ -36,4 +36,7 @@ return [
     'LAN_LOGIN_32' => "Stai visualizzando questo messaggio perché sei attualmente loggato come Amministratore Principale.",
     'LAN_LOGIN_33' => "[Torna alla homepage]",
     'LAN_LOGIN_34' => "La registrazione dell'utente e/o l'accesso sono attualmente disabilitati.",
+    'LAN_LOGIN_35' => "[Abilitalo]",
+    'LAN_LOGIN_36' => "Le email inviate a [x] stanno tornando indietro. Verifica che il tuo indirizzo email sia corretto].",
+    'LAN_LOGIN_37' => "Il tuo account non è ancora stato attivato da un amministratore del sito.",
 ];

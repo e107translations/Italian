@@ -27,4 +27,9 @@ return [
     'ADMSLAN_56' => "Amministratore del Sito",
     'ADMSLAN_58' => "Amministratore Principale del Sito",
     'ADMSLAN_59' => "Rimuovi Stato Admin",
+    'ADMSLAN_61' => "Amministratore eliminato",
+    'ADMSLAN_62' => "Gestore dei plugin",
+    'ADMSLAN_71' => "Fai clic qui per mostrare i privilegi",
+    'ADMSLAN_72' => "ID Amministratore: [x] nome: [y] nuovi permessi:",
+    'ADMSLAN_73' => "ID Amministratore: [x] nome: [y]",
 ];

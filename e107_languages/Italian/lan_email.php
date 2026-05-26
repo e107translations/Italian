@@ -22,4 +22,10 @@ return [
     'LAN_EMAIL_15' => "Nome utente:",
     'LAN_EMAIL_106' => "Questo non sembra un indirizzo email valido",
     'LAN_EMAIL_185' => "Invia Articolo",
+    'LAN_EMAIL_186' => "Invia notizia",
+    'LAN_EMAIL_187' => "Indirizzo email a cui inviare",
+    'LAN_EMAIL_188' => "Ho pensato che potesse interessarti questa notizia da",
+    'LAN_EMAIL_189' => "Ho pensato che potesse interessarti questo articolo da",
+    'LAN_EMAIL_190' => "Inserisci il codice visibile",
+    'LAN_SOCIAL_LINK_CHK' => "Dai un'occhiata a questo link:",
 ];

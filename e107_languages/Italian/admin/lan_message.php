@@ -6,7 +6,7 @@
  *
  */
 
-/* file modificato ma destinato alla cancellazione
+/* file modificato ma destinato alla cancellazione */
 return [
     'MESSLAN_1' => "Messaggi ricevuti",
     'MESSLAN_2' => "Elimina messaggio",
@@ -22,5 +22,3 @@ return [
     'MESSLAN_12' => "Messaggio",
     'MESSLAN_13' => "Link",
 ];
-*/
-

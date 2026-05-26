@@ -34,4 +34,9 @@ return [
     'SEALAN_41' => "Pagina Principale",
     'SEALAN_43' => "Modifica impostazioni ricerca per",
     'SEALAN_44' => "Classe utente autorizzata a cercare in questa area",
+    'SEALAN_45' => "Numero di risultati visualizzati per pagina",
+    'SEALAN_46' => "Numero di caratteri nel riassunto del risultato di ricerca",
+    'SEALAN_47' => "Trova solo parole intere:",
+    'SEALAN_48' => "Questa impostazione si applica solo quando il metodo di ordinamento della ricerca è PHP. Se il tuo sito include lingue ideografiche come il cinese e il giapponese, devi impostarlo su disattivato.",
+    'SEALAN_49' => "Se il tuo sito include lingue ideografiche, come il cinese e il giapponese, devi utilizzare il metodo di ordinamento PHP.",
 ];
