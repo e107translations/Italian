@@ -34,17 +34,17 @@ return [
     'CRELAN_19' => "Supporto PDF UTF-8",
 
     // Dev team
-    'CRELAN_20' => "", // asperon
-    'CRELAN_21' => "Sempre una pressione... ehm... un piacere!", // CaMer0n
-    'CRELAN_22' => "\"MTVhNjMyZDgxN2QwM2Q3ZTI<br />5ODM2NDU3YWI0ZjM1NGILJT<br />yarrrrrr! wtf matey!\"", // jalist
-    'CRELAN_23' => "", // lisa
-    'CRELAN_24' => "", // McFly
-    'CRELAN_25' => "", // que
-    'CRELAN_26' => "", // streaky
-    'CRELAN_27' => "\"Cosa? Niente tè?? 0_0\"", // SweetAs
-    'CRELAN_28' => "", // MrPete
-    'CRELAN_29' => "In alto e avanti!", // SecretR
-    'CRELAN_30' => "", // steved
+    'CRELAN_20' => ", // asperon",
+    'CRELAN_21' => "Sempre una pressione... ehm... un piacere!", // CaMer0n",
+    'CRELAN_22' => "\"MTVhNjMyZDgxN2QwM2Q3ZTI<br />5ODM2NDU3YWI0ZjM1NGILJT<br />yarrrrrr! wtf matey!\"", // jalist",
+    'CRELAN_23' => ", // lisa",
+    'CRELAN_24' => ", // McFly",
+    'CRELAN_25' => ", // que",
+    'CRELAN_26' => ", // streaky",
+    'CRELAN_27' => "\"Cosa? Niente tè?? 0_0\"", // SweetAs",
+    'CRELAN_28' => ", // MrPete",
+    'CRELAN_29' => "In alto e avanti!", // SecretR",
+    'CRELAN_30' => ", // steved",
     'CRELAN_31' => "",
     'CRELAN_32' => "",
 ];

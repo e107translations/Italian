@@ -28,7 +28,7 @@ return [
     'MENLAN_24' => "Sposta in cima",
     'MENLAN_25' => "Azione...",
     'MENLAN_26' => "Questo menu sarà [b]MOSTRATO[/b] solo sulle seguenti pagine",
-    'MENLAN_27' => "Questo menu sarà [b_NASCOSTO[/b] solo sulle seguenti pagine",
+    'MENLAN_27' => "Questo menu sarà [b]NASCOSTO[/b] solo sulle seguenti pagine",
     'MENLAN_28' => "Inserisci una pagina per riga; inserisci una parte dell'URL sufficiente a distinguerla correttamente. Se hai bisogno che la fine dell'URL corrisponda esattamente, usa un ! alla fine del nome della pagina. Ad esempio: [b]page.php?1![/b]",
     'MENLAN_30' => "Per vedere le aree del menu e le loro posizioni per i layout personalizzati, seleziona qui il layout personalizzato.",
     'MENLAN_31' => "Layout Predefinito",

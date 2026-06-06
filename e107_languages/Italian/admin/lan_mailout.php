@@ -113,7 +113,7 @@ return [
     'LAN_MAILOUT_115' => "Metodo Bulk Emailing",
     'LAN_MAILOUT_116' => "Se non sei sicuro, lascia php",
     'LAN_MAILOUT_117' => "completato",
-    'LAN_MAILOUT_118' => "Clicca su 'procedi' per iniziare l'invio. Clicca su 'annulla' per fermare l'operazione. Una volta completato, seleziona un'altra pagina. Le email non inviate possono essere visualizzate nella schermata 'Stato Mailshot'",
+    'LAN_MAILOUT_118' => "Clicca su 'procedi' per iniziare l'invio. Clicca su 'annulla' per fermare l'operazione. Una volta completato, seleziona un'altra pagina. Le email non inviate possono essere visualizzate nella schermata 'Stato Mailshot",
     'LAN_MAILOUT_119' => "Solo log, con errori",
     'LAN_MAILOUT_120' => "Tipo account",
     'LAN_MAILOUT_121' => "POP3 Standard",

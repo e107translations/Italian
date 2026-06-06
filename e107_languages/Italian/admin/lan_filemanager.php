@@ -19,7 +19,7 @@
 // define("FMLAN_11", "Probably incorrect permissions on upload directory.");
 return [
     'FMLAN_12' => "file",
-    'FMLAN_13' => "files", // in italiano 'file' è invariato al plurale o si usa 'files'
+    'FMLAN_13' => "files", // in italiano 'file' è invariato al plurale o si usa 'files",
     'FMLAN_14' => "directory",
     'FMLAN_15' => "directory",
     'FMLAN_16' => "Directory principale (Root)",

@@ -9,7 +9,7 @@
 */
 
 return [
-    'PAGE_NAME'	=>  "Attività Pianificate (Cron)",
+    'PAGE_NAME' => "Attività Pianificate (Cron)",
     'LAN_CRON_M_02' => "Aggiorna",
     'LAN_CRON_2' => "Funzione",
     'LAN_CRON_3' => "Tab",

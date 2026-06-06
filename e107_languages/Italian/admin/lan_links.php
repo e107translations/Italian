@@ -24,22 +24,22 @@
 // define("LCLAN_18", "Link Button / Icon");
 
 return [
-    'LCLAN_19' => "Tipo di apertura link", //
-    'LCLAN_20' => "Apre nella stessa finestra", //
-    'LCLAN_23' => "Apre in una nuova finestra", //
-    'LCLAN_24' => "Apre in una mini-finestra 600x400", //
-    'LCLAN_78' => "Mostra descrizione come suggerimento (Screen-Tip)", //
-    'LCLAN_79' => "La descrizione verrà mostrata quando il mouse passa sopra il link", //
-    'LCLAN_80' => "Attiva sotto-menu espandibili", //
-    'LCLAN_81' => "I sotto-menu verranno visualizzati solo dopo aver cliccato sul link genitore (Il link genitore è disabilitato)", //
-    'LCLAN_105' => "Funzione", //
-    'LCLAN_106' => "Proprietà di", //
-    'LCLAN_107' => "Abilita per sovrascrivere l'URL con un URL Search-Engine-Friendly (SEF) creato dinamicamente", //
-    'LCLAN_108' => "Alcune selezioni sono state omesse - non puoi impostare un link come sotto-link di un suo stesso sotto-link.", //
-    'LCLAN_109' => "Scegli un genitore", //
-    'LCLAN_110' => "Scegli un modulo generatore", //
-    'LCLAN_111' => "Dati del modulo generatore non validi", //
-    'LCLAN_112' => "1 - Principale", //
+    'LCLAN_19' => "Tipo di apertura link", //",
+    'LCLAN_20' => "Apre nella stessa finestra", //",
+    'LCLAN_23' => "Apre in una nuova finestra", //",
+    'LCLAN_24' => "Apre in una mini-finestra 600x400", //",
+    'LCLAN_78' => "Mostra descrizione come suggerimento (Screen-Tip)", //",
+    'LCLAN_79' => "La descrizione verrà mostrata quando il mouse passa sopra il link", //",
+    'LCLAN_80' => "Attiva sotto-menu espandibili", //",
+    'LCLAN_81' => "I sotto-menu verranno visualizzati solo dopo aver cliccato sul link genitore (Il link genitore è disabilitato)", //",
+    'LCLAN_105' => "Funzione", //",
+    'LCLAN_106' => "Proprietà di", //",
+    'LCLAN_107' => "Abilita per sovrascrivere l'URL con un URL Search-Engine-Friendly (SEF) creato dinamicamente", //",
+    'LCLAN_108' => "Alcune selezioni sono state omesse - non puoi impostare un link come sotto-link di un suo stesso sotto-link.", //",
+    'LCLAN_109' => "Scegli un genitore", //",
+    'LCLAN_110' => "Scegli un modulo generatore", //",
+    'LCLAN_111' => "Dati del modulo generatore non validi", //",
+    'LCLAN_112' => "1 - Principale", //",
     'LCLAN_113' => "2 - Sidebar",
     'LCLAN_114' => "3 - Piè di pagina (Footer)",
     'LCLAN_115' => "Alt",

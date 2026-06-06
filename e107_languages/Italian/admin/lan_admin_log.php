@@ -31,7 +31,7 @@ return [
     'RL_LAN_029' => "Filtro tipo di evento",
     'RL_LAN_030' => "Log di amministrazione",
     'RL_LAN_031' => "Azioni di controllo utente da registrare",
-    'RL_LAN_032' => "Pri", // Priorità (Abbreviazione)
+    'RL_LAN_032' => "Pri", // Priorità (Abbreviazione)",
     'RL_LAN_033' => "Ulteriori informazioni",
     'RL_LAN_044' => "Eventi di log da visualizzare per pagina",
     'RL_LAN_045' => "Elimina gli eventi del log di amministrazione più vecchi di",
