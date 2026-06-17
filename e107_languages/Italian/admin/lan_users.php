@@ -136,7 +136,7 @@ return [
     'USRLAN_189' => "Errore nell'invio dell'email",
     'USRLAN_190' => "Periodo di prova nuovo utente (giorni)",
     'USRLAN_191' => "L'amministratore può imporre restrizioni durante questo periodo in alcune aree",
-    'USRLAN_192' => ", // Lasciata vuota come l'originale 'USRLAN_171' => "Password casuale",
+    'USRLAN_192' => "", // Lasciata vuota come l'originale 
     'USRLAN_193' => "Nulla è cambiato - non salvato",
     'USRLAN_194' => "La firma può essere modificata da",
     'USRLAN_195' => "Ultimo Post",
